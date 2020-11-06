@@ -71,7 +71,7 @@ def plot_correlation(scores, plotdir):
         # plot
         ax[i].plot(quality_scores, prism_scores, 'o', label='original data')
         ax[i].plot(quality_scores, intercept + slope*quality_scores, 'r', label='fitted line')
-        ax[i].set_title(label='{0}: $R^2=${1}'.format(quality, str(r_value**2)))
+        ax[i].set_title(label='{0}: $R^2=${1}'.format(quality, str(round(r_value**2,6))))
     handles, labels = ax[i].get_legend_handles_labels()
     fig.legend(handles, labels, loc='upper right')
     fig.text(0.5, 0.03, 'Median Human Annotator Score', ha='center', fontsize=12)
