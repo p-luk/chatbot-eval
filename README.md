@@ -5,23 +5,7 @@ Natural language processing project applying automatic machine translation metho
 PRISM is available at: https://github.com/thompsonb/prism
 
 
-## Table of Contents
-
-- `baseline_preprocess.py` usage
-- baseline data format
-
-#### `baseline_preprocess.py` usage
-
-Usage: `baseline_preprocess.py url outputdir`
-
-url is the web url to json-format file. Here we use two datasets for baseline metrics:
-  1. https://shikib.com/pc_usr_data.json
-  2. https://shikib.com/tc_usr_data.json
-
-outputdir is the output file directory (tab-separated format). Example usage: `baseline_preprocess.py -u https://shikib.com/pc_usr_data.json -o ./pc_usr_data.tsv`  
-
-
-#### baseline data format
+### baseline data format
 
 Because PRISM accepts untokenized input, we use tab-separated value (TSV) format to store examples.
 Attributes:
@@ -36,7 +20,20 @@ Attributes:
   * `uses_knowledge`: list of 3 human-annotated scores (0-1)
   * `overall`: list of 3 human-annotated scores (1-5)
 For more context on scores, refer to https://www.aclweb.org/anthology/2020.acl-main.64.pdf.
-Note: PRISM does not utilize context or fact. 
+
+Note: PRISM does not utilize context or fact. For example usage or to reproduce results  of the following, see `baseline.sh`.
+
+
+
+#### `baseline_preprocess.py` usage
+
+Usage: `baseline_preprocess.py url outputdir`
+
+url is the web url to json-format file. outputdir is the output file directory (tab-separated format). Here we use two datasets for baseline metrics:
+  1. https://shikib.com/pc_usr_data.json
+  2. https://shikib.com/tc_usr_data.json
+
 
 #### `baseline_scores.py`
-Usage: datadir outputdir plotdir
+Usage: `datadir outputdir plotdir heatmapdir`
+datadir refers to output from `baseline_preprocess`. outputdir writes tsv-format file equivalent to the processed data file, with the exception of an additional column for PRISM scores. plotdir saves scatterplot correlations and p-values using Pearson's correlation. 
