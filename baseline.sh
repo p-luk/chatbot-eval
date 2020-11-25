@@ -7,6 +7,6 @@ baseline_preprocess.py -u https://shikib.com/tc_usr_data.json -o ./tc_usr_data.t
 
 export MODEL_DIR=../prism/m39v1/
 # score and plot
-python baseline_scores.py --datadir ./pc_usr_data.tsv --outputdir ./pc_usr_scores --plotdir ./figures/pc_usr_plots.png --heatmapdir ./figures/pc_usr_heatmap.png
-python baseline_scores.py --datadir ./tc_usr_data.tsv --outputdir ./tc_usr_scores --plotdir ./figures/tc_usr_plots.png --heatmapdir ./figures/tc_usr_heatmap.png
+python baseline_scores.py --datadir ./pc_usr_data.tsv --outputdir ./pc_usr_scores --plotdir ./figures/pc_usr_plots.png --heatmapdir ./figures/pc_usr_heatmap.png --ridgeparamsdir ./pc_usr_ridgeparams --contextplotdir ./pc_usr_contextplots.png
+python baseline_scores.py --datadir ./tc_usr_data.tsv --outputdir ./tc_usr_scores --plotdir ./figures/tc_usr_plots.png --heatmapdir ./figures/tc_usr_heatmap.png --ridgeparamsdir ./tc_usr_ridgeparams --contextplotdir ./tc_usr_contextplots.png
 

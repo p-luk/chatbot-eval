@@ -11,6 +11,10 @@ import pandas as pd
 import statistics
 import csv
 import seaborn as sns
+import numpy as np
+from sklearn.linear_model import Ridge, RidgeCV
+from sklearn.metrics import mean_squared_error
+from sklearn.model_selection import train_test_split
 
 def create_arg_parser():
     """Creates and returns the ArgumentParser object."""
@@ -20,16 +24,24 @@ def create_arg_parser():
     parser.add_argument('-o','--outputdir', type=str, help='Path to output to write scores.')
     parser.add_argument('-p','--plotdir', type=str, help='Path to output to write plots.')
     parser.add_argument('-m', '--heatmapdir', type=str, help='Path to output to write heatmap of human annotations.')
+    parser.add_argument('-r', '--ridgeparamsdir', type=str, help='Path to output to write results of Ridge regression.')
+    parser.add_argument('-c', '--contextplotdir', type=str, help='Path to output to write plots using last line of context.')
     return parser
 
-def get_scores(datadir, outputdir):
+def get_scores(datadir, outputdir=None, ref='ref'):
     """
     Uses PRISM to score examples read from datadir. See README.md for proper data format
     
     Keyword arguments:
     datadir -- string directory to fetch data (tsv)
-    outputdir -- string directory path to save output
+    outputdir -- optional string directory path to save output
+    ref -- optional string denoting reference string. either 'ref' or 'context_last'
     """
+    # check ref argument validity
+    if ref not in ['ref', 'context_last']:
+        raise ValueError("ref must be 'ref' or 'context_last'")
+    
+    # get scores
     prism_model = prism.Prism(model_dir=os.environ['MODEL_DIR'], lang='en')
     scores = []
     with open(datadir, 'r') as f:
@@ -37,29 +49,33 @@ def get_scores(datadir, outputdir):
         header = next(data)
         header.append('prism_score')
         scores.append(header)
-        ind = {'ref':(header.index('ref')), 'cand':(header.index('cand')), 'understandable':(header.index('understandable'))}
+        ind = {'context':(header.index('context')), 'ref':(header.index('ref')), 'cand':(header.index('cand')), 'understandable':(header.index('understandable'))}
         for row in data:
-            ref = row[ind['ref']]
+            if ref == 'ref':
+                ref = row[ind['ref']]
+            elif ref == 'context_last':
+                ref = row[ind['context']].split('\n')[-3] # context ends in '\n\n'
             cand = row[ind['cand']]
             prism_score = prism_model.score(cand=[cand], ref=[ref])
             scores.append(row + [str(prism_score)])
-    with open(outputdir, 'w') as f:
-        dw = csv.writer(f, delimiter='\t')
-        dw.writerows(scores)
+    if outputdir is not None:
+        with open(outputdir, 'w') as f:
+            dw = csv.writer(f, delimiter='\t')
+            dw.writerows(scores)
     return pd.DataFrame(scores[1:],columns=scores[0])
 
 def median_annotation(x):
     """Returns median value from list. Applied to Series."""
     return statistics.median(json.loads(x))
 
-def plot_correlation(scores, plotdir, heatmapdir):
+def plot_correlation(scores, plotdir, heatmapdir=None):
     """
     plots correlation between human annotation and PRISM scores
     
     Keyword arguments:
     scores -- list of examples and scores
     plotdir -- string directory path to save plots
-    heatmapdir -- string directory path to save plots
+    heatmapdir -- string directory path to save plot, optional
     """
     prism_scores = scores['prism_score'].astype(float)
     human_annotations = ['understandable', 'natural', 'maintains_context', 'engaging','uses_knowledge','overall']
@@ -88,7 +104,16 @@ def plot_correlation(scores, plotdir, heatmapdir):
     plt.savefig(plotdir)
     plt.close()
     
-    # construct heatmap
+    # plot heatmap
+    if heatmapdir is not None:
+        plot_heatmap(median_annotations, heatmapdir)
+    return(median_annotations)
+
+def plot_heatmap(median_annotations, heatmapdir):
+    """
+    plots heatmap - correlation  between human annotations
+    heatmapdir -- string directory path to save plots
+    """
     plt.figure()
     ax = sns.heatmap(median_annotations.corr(), annot=True)
     bottom, top = ax.get_ylim()
@@ -97,18 +122,48 @@ def plot_correlation(scores, plotdir, heatmapdir):
     plt.savefig(heatmapdir)
     plt.close()
 
+def ridge_reg(median_annotations, ridgeparamsdir):
+    """
+    Trains Ridge model from sklearn.linear_model.
+    Formula: overall ~ understandable + natural + maintains_context + interesting + uses_knowledge
+    median_annotations -- list of human annotations from USR dataset; aggregated by median
+    ridgeparamsdir -- output directory. text file containing parameters and scores of best model from cross-validation
+    """
+    # shuffle data and split train/test
+    X = median_annotations.loc[:, median_annotations.columns != 'overall'].to_numpy()   # y = overall in last column
+    y = median_annotations[['overall']].to_numpy()
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=42)
+    # ridge regression with cross validation
+    clf_cv = RidgeCV().fit(X_train,y_train)
+    with open(ridgeparamsdir, 'w') as f:
+        f.write("Alpha = " +  str(clf_cv.alpha_) + "\n")   # best alpha from cross-validation
+        clf_res = Ridge(alpha = clf_cv.alpha_, normalize = True)
+        clf_res.fit(X_train, y_train)
+        mse = mean_squared_error(y_test, clf_res.predict(X_test))
+        f.write("Mean Squared Error = " +  str(mse) + "\n")
+        clf_res.fit(X,y)
+        f.write('\t'.join(median_annotations.columns) + '\n')
+        f.write('\t'.join([str(i) for i in clf_res.coef_]) + '\n')
+
+
 def main():
-    print("Entered main ... ")
+    print("Entered main... ")
     arg_parser = create_arg_parser()
     try:
         options = arg_parser.parse_args()
     except ArgumentError():
-        print('baseline_scores.py -d <datadir> -o <outputdir> -p <plotdir> -h <heatmapdir>')
+        print('baseline_scores.py -d <datadir> -o <outputdir> -p <plotdir> -m <heatmapdir> -r <ridgeparamsdir>')
     print(options)
-    print('Getting scores ... ')
-    scores = get_scores(datadir=options.datadir, outputdir=options.outputdir)
+    print('Getting scores... ')
+    scores = get_scores(datadir=options.datadir, outputdir=options.outputdir, ref='ref')
     print('Getting correlations...')
-    plot_correlation(scores=scores, plotdir=options.plotdir, heatmapdir=options.heatmapdir)
+    median_annotations = plot_correlation(scores=scores, plotdir=options.plotdir, heatmapdir=options.heatmapdir)
+    print('Running Ridge regression...')
+    ridge_reg(median_annotations=median_annotations, ridgeparamsdir=options.ridgeparamsdir)
+    print('Getting scores using context...')
+    context_scores = get_scores(datadir=options.datadir, outputdir=None, ref='context_last')
+    print('Getting correlations using context...')
+    plot_correlation(scores=context_scores, plotdir=options.contextplotdir, heatmapdir=None)
 
 if __name__ == '__main__':
     main()
