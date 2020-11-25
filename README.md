@@ -29,11 +29,19 @@ Note: PRISM does not utilize context or fact. For example usage or to reproduce 
 
 Usage: `baseline_preprocess.py url outputdir`
 
-url is the web url to json-format file. outputdir is the output file directory (tab-separated format). Here we use two datasets for baseline metrics:
+--url: web url to json-format file
+--outputdir is the output file directory (tab-separated format). Here we use two datasets for baseline metrics:
   1. https://shikib.com/pc_usr_data.json
   2. https://shikib.com/tc_usr_data.json
 
 
 #### `baseline_scores.py`
-Usage: `datadir outputdir plotdir heatmapdir`
-datadir refers to output from `baseline_preprocess`. outputdir writes tsv-format file equivalent to the processed data file, with the exception of an additional column for PRISM scores. plotdir saves scatterplot correlations and p-values using Pearson's correlation. 
+
+Usage: `datadir outputdir plotdir heatmapdir ridgeparamsdir contextplotdir`
+
+--datadir: directory to save output from `baseline_preprocess`
+--outputdir: writes tsv-format file equivalent to the processed data file, with the exception of an additional column for PRISM scores
+--plotdir: saves scatterplot correlations and p-values using Pearson's correlation. 
+--heatmapdir: saves heatmap of correlations between median annotations
+--ridgeparamsdir: text file of results from fitting Ridge regression on annotation data. Includes optimal alpha value from cross-validation, MSE, and coefficients of features
+--contextplotdir: plots identical to --plotdir, but using the last line of context rather than ref. 
