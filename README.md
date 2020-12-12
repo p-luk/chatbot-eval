@@ -3,11 +3,12 @@
 Natural language processing project applying automatic machine translation methods such as PRISM to evaluate and improve conversational agents.
 
 PRISM is available at: https://github.com/thompsonb/prism
+BERTScore is available at: https://github.com/Tiiiger/bert_score
 
 
 ### baseline data format
 
-Because PRISM accepts untokenized input, we use tab-separated value (TSV) format to store examples.
+Because PRISM and BERTScore are embedding-based models, they accept untokenized input. We use tab-separated value (TSV) format to store examples.
 Attributes:
   * `context`
   * `fact`
@@ -23,8 +24,6 @@ For more context on scores, refer to https://www.aclweb.org/anthology/2020.acl-m
 
 Note: PRISM does not utilize context or fact. For example usage or to reproduce results  of the following, see `baseline.sh`.
 
-
-
 #### `baseline_preprocess.py` usage
 
 Usage: `baseline_preprocess.py url outputdir`
@@ -37,11 +36,12 @@ Usage: `baseline_preprocess.py url outputdir`
 
 #### `baseline_scores.py`
 
-Usage: `datadir outputdir plotdir heatmapdir ridgeparamsdir contextplotdir`
+Usage: `model ref datadir outputdir plotdir heatmapdir ridgeparamsdir`
 
+--model: one of 'prism' or 'bert_score'
+--ref: one of 'ref', 'context_last', or 'empty'. 'ref' uses the intended reference. context_last uses the last sentence of the context, which should intuitively correlate well with the 'uses_context' annotation score. 'empty' is used to evaluate the unconditional probability computed by PRISM.
 --datadir: directory to save output from `baseline_preprocess`
 --outputdir: writes tsv-format file equivalent to the processed data file, with the exception of an additional column for PRISM scores
 --plotdir: saves scatterplot correlations and p-values using Pearson's correlation. 
 --heatmapdir: saves heatmap of correlations between median annotations
 --ridgeparamsdir: text file of results from fitting Ridge regression on annotation data. Includes optimal alpha value from cross-validation, MSE, and coefficients of features
---contextplotdir: plots identical to --plotdir, but using the last line of context rather than ref. 

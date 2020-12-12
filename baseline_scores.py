@@ -3,8 +3,11 @@
 import sys
 import argparse
 import os
+import warnings
 import json
 import prism
+import transformers
+import bert_score
 from scipy import stats
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -16,6 +19,8 @@ from sklearn.linear_model import Ridge, RidgeCV
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 
+__all__ = ['prism', 'bertscore']
+
 def create_arg_parser():
     """Creates and returns the ArgumentParser object."""
 
@@ -25,24 +30,32 @@ def create_arg_parser():
     parser.add_argument('-p','--plotdir', type=str, help='Path to output to write plots.')
     parser.add_argument('-m', '--heatmapdir', type=str, help='Path to output to write heatmap of human annotations.')
     parser.add_argument('-r', '--ridgeparamsdir', type=str, help='Path to output to write results of Ridge regression.')
-    parser.add_argument('-c', '--contextplotdir', type=str, help='Path to output to write plots using last line of context.')
+    parser.add_argument('--ref', type=str, help='Reference to use: ref, context_last, null.')
+    parser.add_argument('--model', type=str, help='Model to use. Implemented for prism, bert_score.')
     return parser
 
-def get_scores(datadir, outputdir=None, ref='ref'):
+def get_scores(modelname, datadir, outputdir=None, ref='ref'):
     """
-    Uses PRISM to score examples read from datadir. See README.md for proper data format
+    Uses specified model to score examples read from datadir. See README.md for proper data format
     
     Keyword arguments:
+    model -- model to use
     datadir -- string directory to fetch data (tsv)
     outputdir -- optional string directory path to save output
     ref -- optional string denoting reference string. either 'ref' or 'context_last'
     """
     # check ref argument validity
-    if ref not in ['ref', 'context_last']:
-        raise ValueError("ref must be 'ref' or 'context_last'")
-    
+    if ref not in ['ref', 'context_last', 'empty']:
+        raise ValueError("ref must be 'ref' or 'context_last' or 'empty'.")
+    if modelname not in ['prism', 'bert_score']:
+        raise ValueError("model not listed")
     # get scores
-    prism_model = prism.Prism(model_dir=os.environ['MODEL_DIR'], lang='en')
+    if modelname == 'prism':
+        model = prism.Prism(model_dir=os.environ['MODEL_DIR'], lang='en')
+    elif modelname == 'bert_score':
+        pass # no model directory
+    else:
+        warnings.warn('Model not listed.')
     scores = []
     with open(datadir, 'r') as f:
         data = csv.reader(f, delimiter="\t", quotechar='"')
@@ -51,13 +64,21 @@ def get_scores(datadir, outputdir=None, ref='ref'):
         scores.append(header)
         ind = {'context':(header.index('context')), 'ref':(header.index('ref')), 'cand':(header.index('cand')), 'understandable':(header.index('understandable'))}
         for row in data:
+            # determine model inputs
             if ref == 'ref':
                 ref = row[ind['ref']]
             elif ref == 'context_last':
                 ref = row[ind['context']].split('\n')[-3] # context ends in '\n\n'
+            elif ref == 'empty':
+                ref = ""
             cand = row[ind['cand']]
-            prism_score = prism_model.score(cand=[cand], ref=[ref])
-            scores.append(row + [str(prism_score)])
+            # determine model
+            if modelname == 'prism':
+                score = model.score(cand=[cand], ref=[ref])
+            elif modelname == 'bert_score':
+                p, r, f1 = bert_score.score(cands=[cand], refs=[ref], lang='en', verbose=True)
+                score = f1.mean().item()
+            scores.append(row + [str(score)])
     if outputdir is not None:
         with open(outputdir, 'w') as f:
             dw = csv.writer(f, delimiter='\t')
@@ -152,18 +173,17 @@ def main():
     try:
         options = arg_parser.parse_args()
     except ArgumentError():
-        print('baseline_scores.py -d <datadir> -o <outputdir> -p <plotdir> -m <heatmapdir> -r <ridgeparamsdir>')
+        print('baseline_scores.py --model <model> --ref <ref> -d <datadir> -o <outputdir> -p <plotdir> -m <heatmapdir> -r <ridgeparamsdir>')
     print(options)
     print('Getting scores... ')
-    scores = get_scores(datadir=options.datadir, outputdir=options.outputdir, ref='ref')
-    print('Getting correlations...')
-    median_annotations = plot_correlation(scores=scores, plotdir=options.plotdir, heatmapdir=options.heatmapdir)
-    print('Running Ridge regression...')
-    ridge_reg(median_annotations=median_annotations, ridgeparamsdir=options.ridgeparamsdir)
-    print('Getting scores using context...')
-    context_scores = get_scores(datadir=options.datadir, outputdir=None, ref='context_last')
-    print('Getting correlations using context...')
-    plot_correlation(scores=context_scores, plotdir=options.contextplotdir, heatmapdir=None)
+    scores = get_scores(modelname=options.model, datadir=options.datadir, outputdir=options.outputdir, ref=options.ref)
+    print(scores.head())
+    if options.plotdir is not None:
+        print('Getting correlations...')
+        median_annotations = plot_correlation(scores=scores, plotdir=options.plotdir, heatmapdir=options.heatmapdir)
+    if options.ridgeparamsdir is not None:
+        print('Running Ridge regression...')
+        ridge_reg(median_annotations=median_annotations, ridgeparamsdir=options.ridgeparamsdir)
 
 if __name__ == '__main__':
     main()
