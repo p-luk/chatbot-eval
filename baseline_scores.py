@@ -110,15 +110,15 @@ def plot_correlation(scores, plotdir, heatmapdir=None):
         # compute correlation
         quality_scores = scores[quality].apply(median_annotation).astype(float)
         median_annotations[quality] = quality_scores
-        slope, intercept, r_value, p_value, std_err = stats.linregress(quality_scores, prism_scores)
+        slope, intercept, r_value, p_value, std_err = stats.linregress(prism_scores, quality_scores)
         # plot
-        ax[i].plot(quality_scores, prism_scores, 'o', label='original data')
-        ax[i].plot(quality_scores, intercept + slope*quality_scores, 'r', label='fitted line')
+        ax[i].plot(prism_scores, quality_scores, 'o', label='original data')
+        ax[i].plot(prism_scores, intercept + slope*prism_scores, 'r', label='fitted line')
         ax[i].set_title(label='{0}: $R^2=${1}\n p={2}'.format(quality, str(round(r_value**2,6)), str(round(p_value,6))))
     handles, labels = ax[i].get_legend_handles_labels()
     fig.legend(handles, labels, loc='upper right')
-    fig.text(0.5, 0.00, 'Median Human Annotator Score', ha='center', fontsize=12)
-    fig.text(0.02, 0.5, 'PRISM Score', va='center', rotation='vertical', fontsize=12)
+    fig.text(0.5, 0.00, 'PRISM Score', ha='center', fontsize=12)
+    fig.text(0.02, 0.5, 'Median Human Annotator Score', va='center', rotation='vertical', fontsize=12)
     plt.suptitle('PRISM vs. Median Human Annotator Score Correlation', y=1.05)
     fig.tight_layout()
 
