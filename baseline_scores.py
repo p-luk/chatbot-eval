@@ -81,9 +81,9 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
                 p, r, f1 = bert_score.score(cands=[cand], refs=[ref], lang='en', verbose=True)
                 score = f1.mean().item()
             elif modelname == 'roberta_ft':
-                p, r, f1 = bert_score.score(cands=[cand], refs=[ref], lang='en', model_type='../Chatbot_evaluation/models/roberta_ft', num_layers=10)
+                p, r, f1 = bert_score.score(cands=[cand], refs=[ref], lang='en', verbose=True, model_type='../Chatbot_evaluation/models/roberta_ft', num_layers=10)
                 score = f1.mean().item()
-        scores.append(row + [str(score)])
+            scores.append(row + [str(score)])
     if outputdir is not None:
         with open(outputdir, 'w') as f:
             dw = csv.writer(f, delimiter='\t')
