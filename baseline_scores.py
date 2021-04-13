@@ -19,7 +19,7 @@ from sklearn.linear_model import Ridge, RidgeCV
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 
-__all__ = ['prism', 'bertscore']
+__all__ = ['prism', 'bert_score', 'roberta_ft']
 
 def create_arg_parser():
     """Creates and returns the ArgumentParser object."""
@@ -31,7 +31,7 @@ def create_arg_parser():
     parser.add_argument('-m', '--heatmapdir', type=str, help='Path to output to write heatmap of human annotations.')
     parser.add_argument('-r', '--ridgeparamsdir', type=str, help='Path to output to write results of Ridge regression.')
     parser.add_argument('--ref', type=str, help='Reference to use: ref, context_last, null.')
-    parser.add_argument('--model', type=str, help='Model to use. Implemented for prism, bert_score.')
+    parser.add_argument('--model', type=str, help='Model to use. Implemented for prism, bert_score, roberta_ft.')
     return parser
 
 def get_scores(modelname, datadir, outputdir=None, ref='ref'):
@@ -47,12 +47,14 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
     # check ref argument validity
     if ref not in ['ref', 'context_last', 'empty']:
         raise ValueError("ref must be 'ref' or 'context_last' or 'empty'.")
-    if modelname not in ['prism', 'bert_score']:
+    if modelname not in ['prism', 'bert_score', 'roberta_ft']:
         raise ValueError("model not listed")
     # get scores
     if modelname == 'prism':
         model = prism.Prism(model_dir=os.environ['MODEL_DIR'], lang='en')
     elif modelname == 'bert_score':
+        pass # no model directory
+    elif modelname == 'roberta_ft':
         pass # no model directory
     else:
         warnings.warn('Model not listed.')
@@ -78,7 +80,10 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
             elif modelname == 'bert_score':
                 p, r, f1 = bert_score.score(cands=[cand], refs=[ref], lang='en', verbose=True)
                 score = f1.mean().item()
-            scores.append(row + [str(score)])
+            elif modelname == 'roberta_ft':
+                p, r, f1 = bert_score.score(cands=[cand], refs=[ref], lang='en', model_type='../Chatbot_evaluation/models/roberta_ft', num_layers=10)
+                score = f1.mean().item()
+        scores.append(row + [str(score)])
     if outputdir is not None:
         with open(outputdir, 'w') as f:
             dw = csv.writer(f, delimiter='\t')

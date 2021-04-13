@@ -1,0 +1,10 @@
+context	fact	ref	cand	model	understandable	natural	maintains_context	engaging	uses_knowledge	overall	prism_score
+"hi , i produce rap music for artists , i mostly like rap music .
+hi , i also like rap music . mostly somalian rap .
+yeah , my cat likes rap music too , his name is charlie
+i got a cat named ziggy when i moved to the united states . he likes reggae music .
+looks like my cat and your cat should introduce themselves"	"your persona: i was born in somalia.
+your persona: now i live in the united states.
+your persona: i was forced to marry when i was a.
+your persona: my aunt helped me escape when i was of."	we should have them meet at a cat park so they can have a rap battle .	"good idea ! i've only recently moved to the united states , so i don't know many people . neither does my cat .
+"	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 2, 3]	[1, 1, 1]	[5, 5, 5]	0.7980895042419434
