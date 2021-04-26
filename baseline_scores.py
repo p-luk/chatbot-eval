@@ -62,18 +62,17 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
     with open(datadir, 'r') as f:
         data = csv.reader(f, delimiter="\t", quotechar='"')
         header = next(data)
-        header.append('prism_score')
+        header.append('score')
         scores.append(header)
-        ind = {'context':(header.index('context')), 'ref':(header.index('ref')), 'cand':(header.index('cand')), 'understandable':(header.index('understandable'))}
         for row in data:
             # determine model inputs
             if ref == 'ref':
-                ref = row[ind['ref']]
+                ref = row[header.index('context')]
             elif ref == 'context_last':
-                ref = row[ind['context']].split('\n')[-3] # context ends in '\n\n'
+                ref = row[header.index('context')].split('\n')[-3] # context ends in '\n\n'
             elif ref == 'empty':
                 ref = ""
-            cand = row[ind['cand']]
+            cand = row[header.index('cand')]
             # determine model
             if modelname == 'prism':
                 score = model.score(cand=[cand], ref=[ref])
@@ -92,37 +91,43 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
 
 def median_annotation(x):
     """Returns median value from list. Applied to Series."""
-    return statistics.median(json.loads(x))
+    scores = x[1:-1].split(", ")
+    scores = [int(s) for s in scores if s.isdigit()]
+    if len(scores) < 1:
+        return None
+    else:
+        return statistics.median(scores)
 
 def plot_correlation(scores, plotdir, heatmapdir=None):
     """
-    plots correlation between human annotation and PRISM scores
+    plots correlation between human annotation and evaluation scores
     
     Keyword arguments:
     scores -- list of examples and scores
     plotdir -- string directory path to save plots
     heatmapdir -- string directory path to save plot, optional
     """
-    prism_scores = scores['prism_score'].astype(float)
-    human_annotations = ['understandable', 'natural', 'maintains_context', 'engaging','uses_knowledge','overall']
+    evaluation_scores = scores['score'].astype(float)
+    header = list(scores.columns)
+    human_annotations = header[header.index('model')+1:-1] # human annotations follow 'model'. last column is the evaluation metric score
     median_annotations = pd.DataFrame()
 
     # construct correlation plot
     plt.figure()
-    fig, ax = plt.subplots(2,3, figsize=(12,8))
+    fig, ax = plt.subplots(3,3, figsize=(12,12))
     ax = ax.flatten()
     for i,quality in enumerate(human_annotations):
         # compute correlation
         quality_scores = scores[quality].apply(median_annotation).astype(float)
         median_annotations[quality] = quality_scores
-        slope, intercept, r_value, p_value, std_err = stats.linregress(prism_scores, quality_scores)
+        slope, intercept, r_value, p_value, std_err = stats.linregress(evaluation_scores, quality_scores)
         # plot
-        ax[i].plot(prism_scores, quality_scores, 'o', label='original data')
-        ax[i].plot(prism_scores, intercept + slope*prism_scores, 'r', label='fitted line')
+        ax[i].plot(evaluation_scores, quality_scores, 'o', label='original data')
+        ax[i].plot(evaluation_scores, intercept + slope*evaluation_scores, 'r', label='fitted line')
         ax[i].set_title(label='{0}: $R^2=${1}\n p={2}'.format(quality, str(round(r_value**2,6)), str(round(p_value,6))))
     handles, labels = ax[i].get_legend_handles_labels()
     fig.legend(handles, labels, loc='upper right')
-    fig.text(0.5, 0.00, 'PRISM Score', ha='center', fontsize=12)
+    fig.text(0.5, 0.00, 'Automatic Evaluation Metric Score', ha='center', fontsize=12)
     fig.text(0.02, 0.5, 'Median Human Annotator Score', va='center', rotation='vertical', fontsize=12)
     plt.suptitle('PRISM vs. Median Human Annotator Score Correlation', y=1.05)
     fig.tight_layout()
@@ -170,10 +175,9 @@ def ridge_reg(median_annotations, ridgeparamsdir):
         clf_res.fit(X,y)
         f.write('\t'.join(median_annotations.columns) + '\n')
         f.write('\t'.join([str(i) for i in clf_res.coef_]) + '\n')
-
-
+    
 def main():
-    print("Entered main... ")
+    print("Entered main...")
     arg_parser = create_arg_parser()
     try:
         options = arg_parser.parse_args()
@@ -182,7 +186,6 @@ def main():
     print(options)
     print('Getting scores... ')
     scores = get_scores(modelname=options.model, datadir=options.datadir, outputdir=options.outputdir, ref=options.ref)
-    print(scores.head())
     if options.plotdir is not None:
         print('Getting correlations...')
         median_annotations = plot_correlation(scores=scores, plotdir=options.plotdir, heatmapdir=options.heatmapdir)

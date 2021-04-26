@@ -1,12 +1,35 @@
 #!/bin/bash
 
 
-# process datasets
-python baseline_preprocess.py -u https://shikib.com/pc_usr_data.json -o ./pc_usr_data.tsv
-baseline_preprocess.py -u https://shikib.com/tc_usr_data.json -o ./tc_usr_data.tsv
+# preprocess datasets
+python baseline_preprocess.py -u http://shikib.com/tc_usr_data.json -d usr -o ./tc_usr_data.tsv
+python baseline_preprocess.py -u http://shikib.com/pc_usr_data.json -d usr -o ./pc_usr_data.tsv
+python baseline_preprocess.py -u http://dialog.speech.cs.cmu.edu:9993/static_data.json -d static_data -o ./static_data.tsv
 
-export MODEL_DIR=../prism/m39v1/
-# score and plot
-python baseline_scores.py --datadir ./pc_usr_data.tsv --outputdir ./pc_usr_scores --plotdir ./figures/pc_usr_plots.png --heatmapdir ./figures/pc_usr_heatmap.png --ridgeparamsdir ./pc_usr_ridgeparams --contextplotdir ./pc_usr_contextplots.png
-python baseline_scores.py --datadir ./tc_usr_data.tsv --outputdir ./tc_usr_scores --plotdir ./figures/tc_usr_plots.png --heatmapdir ./figures/tc_usr_heatmap.png --ridgeparamsdir ./tc_usr_ridgeparams --contextplotdir ./tc_usr_contextplots.png
+# you may need to modify these to point to the correct directories
+export MPLCONFIGDIR=/gridapps/bighomes/js11531/labshare/pl1703/prism-eval
+export PYTHONPATH=$PYTHONPATH:/gridapps/bighomes/js11531/labshare/pl1703/prism
+
+# set model directories
+export MODEL_DIR=prism/m39v1/ # for PRISM
+export MODEL_DIR=../../Chatbot_evaluation/models/roberta_ft # for finetuned roberta
+
+# example usage
+# PRISM with reference on Topical Chat dataset
+python ./chatbot-eval/baseline_scores.py \
+    --model prism \
+    --ref ref \
+    --datadir ./chatbot-eval/tc_usr_data.tsv \
+    --outputdir ./chatbot-eval/tc_usr_prism_scores \
+    --plotdir ./chatbot-eval/figures/tc_usr_prism_plots.png \
+    --heatmapdir ./chatbot-eval/figures/pc_usr_heatmap.png \
+    --ridgeparamsdir ./chatbot-eval/pc_usr_ridgeparams
+
+# PRISM with reference on the static dataset
+python ./chatbot-eval/baseline_scores.py \
+    --model prism \
+    --ref ref \
+    --datadir ./chatbot-eval/static_data.tsv \
+    --outputdir ./chatbot-eval/static_prism_scores \
+    --plotdir ./chatbot-eval/figures/static_prism_plots.png
 
