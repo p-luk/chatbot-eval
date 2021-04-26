@@ -30,7 +30,7 @@ def create_arg_parser():
     parser.add_argument('-p','--plotdir', type=str, help='Path to output to write plots.')
     parser.add_argument('-m', '--heatmapdir', type=str, help='Path to output to write heatmap of human annotations.')
     parser.add_argument('-r', '--ridgeparamsdir', type=str, help='Path to output to write results of Ridge regression.')
-    parser.add_argument('--ref', type=str, help='Reference to use: ref, context_last, null.')
+    parser.add_argument('--ref', type=str, help='Reference to use: ref, context_last, empty.')
     parser.add_argument('--model', type=str, help='Model to use. Implemented for prism, bert_score, roberta_ft.')
     return parser
 
