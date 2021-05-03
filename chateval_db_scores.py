@@ -57,18 +57,16 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
     data = pd.read_csv(datadir, sep='\t')
     # determine model inputs
     if ref == 'ref':
-        ref = data.reference_text.to_list()
+        ref = data['reference_text'].astype(str).to_list()
     elif ref == 'context_last':
-        ref = data.prompt_text.to_list()
+        ref = data['prompt_text'].astype(str).to_list()
     elif ref == 'empty':
-        ref = [''] * len(data.candidate_text.to_list())
-    cand = data.candidate_text.to_list()
-    # enforce string format
-    ref = [str(x) for x in ref]
-    cand = [str(x) for x in cand]
+        ref = [''] * len(data['candidate_text'])
+        print('ref: ', ref[:5])
+    cand = data['candidate_text'].astype(str).to_list()
     # determine model
     if modelname == 'prism':
-        score = model.score(cand=cand, ref=ref)
+        score = [model.score([cand[i]], [ref[i]]) for i in range(len(cand))]
     elif modelname == 'bert_score':
         p, r, score = bert_score.score(cands=cand, refs=ref, lang='en', verbose=True)
     elif modelname == 'roberta_ft':
@@ -84,16 +82,19 @@ def plot_correlation(scores, plotdir):
     plots correlation between human annotation and evaluation scores
     
     Keyword arguments:
-    scores -- list of examples and scores
+    scores -- dataframe of examples and scores
     plotdir -- string directory path to save plots
     """
-    evaluation_scores = scores['score'].astype(float)
-    win_ratio = scores['win_ratio'].astype(float)
+    scores.dropna(subset=['score', 'win_ratio'], inplace=True)
+    evaluation_scores = np.array(scores['score'], dtype=float)
+    win_ratio = np.array(scores['win_ratio'], dtype=float)
+    print(scores[['score', 'win_ratio']].describe())
     # construct correlation plot
     plt.figure()
     fig, ax = plt.subplots(1,1, figsize=(12,12))
     # compute correlation
     slope, intercept, r_value, p_value, std_err = stats.linregress(evaluation_scores, win_ratio)
+    print('linregress: \n', stats.linregress(evaluation_scores, win_ratio))
     # plot
     ax.plot(evaluation_scores, win_ratio, 'o', label='original data')
     ax.plot(evaluation_scores, intercept + slope*evaluation_scores, 'r', label='fitted line')

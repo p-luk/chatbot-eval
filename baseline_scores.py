@@ -47,7 +47,7 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
     # check ref argument validity
     if ref not in ['ref', 'context_last', 'empty']:
         raise ValueError("ref must be 'ref' or 'context_last' or 'empty'.")
-    if modelname not in ['prism', 'bert_score', 'roberta_ft']:
+    if modelname not in __all__:
         raise ValueError("model not listed")
     # get scores
     if modelname == 'prism':
