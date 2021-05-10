@@ -9,6 +9,8 @@ import getopt
 import os
 import csv
 
+__datasets__ = ['usr', 'static_data', 'fed']
+
 def create_arg_parser():
     """Creates and returns the ArgumentParser object."""
 
@@ -74,6 +76,38 @@ def json_preprocess_static_data(url, outputdir):
                     example[str.lower(col).replace(' ', '_')] = line[col] 
             dw.writerow(example)
 
+def json_preprocess_fed_data(url, outputdir):
+    """
+    Fetch fed json data and transform to tab-separated value format
+
+    Keyword arguments:
+    url -- url to location to fetch data
+    outputdir -- path to save tsv output
+    """
+    data = json.loads(requests.get(url).text)
+    delimiter='\t'
+
+    header = ['context', 'response', 'system', 'Interesting', 'Engaging', 'Specific', 'Relevant', 'Correct', 'Semantically appropriate', 'Understandable', 'Fluent', 'Overall']
+    normalized_header = ['context', 'cand', 'model', 'Interesting', 'Engaging', 'Specific', 'Relevant', 'Correct', 'Semantically appropriate', 'Understandable', 'Fluent', 'Overall']
+
+    with open(outputdir, 'w') as f:
+        dw = csv.DictWriter(f, fieldnames=[str.lower(col).replace(' ', '_') for col in normalized_header], delimiter=delimiter)
+        dw.writeheader()
+        for line in data:
+            example = {}
+            for col in header:
+                if col == 'response':
+                    print(line.keys())
+                    print(line[col].split(':')[-1])
+                    example['cand'] = line[col].split(':')[-1]
+                elif col == 'context':
+                    example['context'] = line[col].replace('"','').strip()
+                elif col == 'system':
+                    example['model'] = line[col].replace('"', '').strip()
+                else:
+                    example[str.lower(col).replace(' ', '_')] = line['annotations'][col]
+            dw.writerow(example)
+
 def main():
     print("entered main")
     arg_parser = create_arg_parser()
@@ -86,7 +120,8 @@ def main():
         json_preprocess_usr(url=options.url, outputdir=options.outputdir)
     elif options.dataset == 'static_data': 
         json_preprocess_static_data(url=options.url, outputdir=options.outputdir)
-
+    elif options.dataset == 'fed':
+        json_preprocess_fed_data(url=options.url, outputdir=options.outputdir)
 if __name__ == '__main__':
     main()
     sys.exit(0)

@@ -18,8 +18,9 @@ import numpy as np
 from sklearn.linear_model import Ridge, RidgeCV
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
+import datasets
 
-__all__ = ['prism', 'bert_score', 'roberta_ft']
+__models__ = ['prism', 'bert_score', 'roberta_ft', 'bleu', 'bleurt', 'fed']
 
 def create_arg_parser():
     """Creates and returns the ArgumentParser object."""
@@ -47,7 +48,7 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
     # check ref argument validity
     if ref not in ['ref', 'context_last', 'empty']:
         raise ValueError("ref must be 'ref' or 'context_last' or 'empty'.")
-    if modelname not in __all__:
+    if modelname not in __models__:
         raise ValueError("model not listed")
     # get scores
     if modelname == 'prism':
@@ -56,38 +57,42 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
         pass # no model directory
     elif modelname == 'roberta_ft':
         pass # no model directory
+    elif modelname == 'bleu':
+        model = datasets.load_metric("sacrebleu")
+    elif modelname == 'bleurt':
+        model = datasets.load_metric('bleurt', 'bleurt-large-512')
     else:
         warnings.warn('Model not listed.')
-    scores = []
-    with open(datadir, 'r') as f:
-        data = csv.reader(f, delimiter="\t", quotechar='"')
-        header = next(data)
-        header.append('score')
-        scores.append(header)
-        for row in data:
-            # determine model inputs
-            if ref == 'ref':
-                ref = row[header.index('context')]
-            elif ref == 'context_last':
-                ref = row[header.index('context')].split('\n')[-3] # context ends in '\n\n'
-            elif ref == 'empty':
-                ref = ""
-            cand = row[header.index('cand')]
-            # determine model
-            if modelname == 'prism':
-                score = model.score(cand=[cand], ref=[ref])
-            elif modelname == 'bert_score':
-                p, r, f1 = bert_score.score(cands=[cand], refs=[ref], lang='en', verbose=True)
-                score = f1.mean().item()
-            elif modelname == 'roberta_ft':
-                p, r, f1 = bert_score.score(cands=[cand], refs=[ref], lang='en', verbose=True, model_type='../Chatbot_evaluation/models/roberta_ft', num_layers=10)
-                score = f1.mean().item()
-            scores.append(row + [str(score)])
+
+    # read in data
+    data = pd.read_csv(datadir, sep='\t')
+    # determine model inputs
+    if ref == 'ref':
+        ref = data['ref'].astype(str).to_list()
+    elif ref == 'context_last':
+        ref = data['context'].apply(lambda x: str(x).split('\n')[-1]).to_list()
+    elif ref == 'empty':
+        ref = [''] * len(data['cand'])
+    cand = data['cand'].astype(str).to_list()
+    # determine model
+    if modelname == 'prism':
+        score = [model.score([c], [r]) for c, r in zip(cand, ref)]
+    elif modelname == 'bert_score':
+        p, r, score = bert_score.score(cands=cand, refs=ref, lang='en', verbose=True)
+    elif modelname == 'roberta_ft':
+        p, r, score = bert_score.score(cands=cand, refs=ref, lang='en', verbose=True, model_type='../Chatbot_evaluation/models/roberta_ft', num_layers=10)
+    elif modelname == 'bleu':
+        bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand, ref)]
+        score = [x['bp'] for x in bs]
+    elif modelname == 'bleurt':
+        preds = model.compute(predictions=cand, references=ref)
+        score = preds['scores']
+    data['score'] = score
+    # write scores to output
     if outputdir is not None:
-        with open(outputdir, 'w') as f:
-            dw = csv.writer(f, delimiter='\t')
-            dw.writerows(scores)
-    return pd.DataFrame(scores[1:],columns=scores[0])
+        data.to_csv(outputdir, sep='\t')
+    return data
+
 
 def median_annotation(x):
     """Returns median value from list. Applied to Series."""
@@ -125,6 +130,7 @@ def plot_correlation(scores, plotdir, heatmapdir=None):
         ax[i].plot(evaluation_scores, quality_scores, 'o', label='original data')
         ax[i].plot(evaluation_scores, intercept + slope*evaluation_scores, 'r', label='fitted line')
         ax[i].set_title(label='{0}: $R^2=${1}\n p={2}'.format(quality, str(round(r_value**2,6)), str(round(p_value,6))))
+        print('{0}: $R^2=${1}\n p={2}'.format(quality, str(round(r_value**2,6)), str(round(p_value,6))))
     handles, labels = ax[i].get_legend_handles_labels()
     fig.legend(handles, labels, loc='upper right')
     fig.text(0.5, 0.00, 'Automatic Evaluation Metric Score', ha='center', fontsize=12)

@@ -15,8 +15,9 @@ import statistics
 import csv
 import seaborn as sns
 import numpy as np
+import datasets
 
-__all__ = ['prism', 'bert_score', 'roberta_ft']
+__models__ = ['prism', 'bert_score', 'roberta_ft', 'bleu', 'bleurt', 'fed']
 
 def create_arg_parser():
     """Creates and returns the ArgumentParser object."""
@@ -42,7 +43,7 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
     # check ref argument validity
     if ref not in ['ref', 'context_last', 'empty']:
         raise ValueError("ref must be 'ref' or 'context_last' or 'empty'.")
-    if modelname not in __all__:
+    if modelname not in __models__:
         raise ValueError("model not listed")
     # get scores
     if modelname == 'prism':
@@ -51,6 +52,10 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
         pass # no model directory
     elif modelname == 'roberta_ft':
         pass # no model directory
+    elif modelname == 'bleu':
+        model = datasets.load_metric("sacrebleu")
+    elif modelname == 'bleurt':
+        model = datasets.load_metric('bleurt', 'bleurt-large-512')
     else:
         warnings.warn('Model not listed.')
     # read in data
@@ -62,15 +67,20 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
         ref = data['prompt_text'].astype(str).to_list()
     elif ref == 'empty':
         ref = [''] * len(data['candidate_text'])
-        print('ref: ', ref[:5])
     cand = data['candidate_text'].astype(str).to_list()
     # determine model
     if modelname == 'prism':
-        score = [model.score([cand[i]], [ref[i]]) for i in range(len(cand))]
+        score = [model.score([c], [r]) for c, r in zip(cand, ref)]
     elif modelname == 'bert_score':
         p, r, score = bert_score.score(cands=cand, refs=ref, lang='en', verbose=True)
     elif modelname == 'roberta_ft':
         p, r, score = bert_score.score(cands=cand, refs=ref, lang='en', verbose=True, model_type='../Chatbot_evaluation/models/roberta_ft', num_layers=10)
+    elif modelname == 'bleu':
+        bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand, ref)]
+        score = [x['bp'] for x in bs]
+    elif modelname == 'bleurt':
+        preds = model.compute(predictions=cand, references=ref)
+        score = preds['scores']
     data['score'] = score
     # write scores to output
     if outputdir is not None:
@@ -88,13 +98,11 @@ def plot_correlation(scores, plotdir):
     scores.dropna(subset=['score', 'win_ratio'], inplace=True)
     evaluation_scores = np.array(scores['score'], dtype=float)
     win_ratio = np.array(scores['win_ratio'], dtype=float)
-    print(scores[['score', 'win_ratio']].describe())
     # construct correlation plot
     plt.figure()
     fig, ax = plt.subplots(1,1, figsize=(12,12))
     # compute correlation
     slope, intercept, r_value, p_value, std_err = stats.linregress(evaluation_scores, win_ratio)
-    print('linregress: \n', stats.linregress(evaluation_scores, win_ratio))
     # plot
     ax.plot(evaluation_scores, win_ratio, 'o', label='original data')
     ax.plot(evaluation_scores, intercept + slope*evaluation_scores, 'r', label='fitted line')
