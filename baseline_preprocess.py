@@ -76,7 +76,7 @@ def json_preprocess_static_data(url, outputdir):
                     example[str.lower(col).replace(' ', '_')] = line[col] 
             dw.writerow(example)
 
-def json_preprocess_fed_data(url, outputdir):
+def json_preprocess_fed_referenced_data(url, outputdir):
     """
     Fetch fed json data and transform to tab-separated value format
 
@@ -94,19 +94,50 @@ def json_preprocess_fed_data(url, outputdir):
         dw = csv.DictWriter(f, fieldnames=[str.lower(col).replace(' ', '_') for col in normalized_header], delimiter=delimiter)
         dw.writeheader()
         for line in data:
-            example = {}
-            for col in header:
-                if col == 'response':
-                    print(line.keys())
-                    print(line[col].split(':')[-1])
-                    example['cand'] = line[col].split(':')[-1]
-                elif col == 'context':
-                    example['context'] = line[col].replace('"','').strip()
-                elif col == 'system':
-                    example['model'] = line[col].replace('"', '').strip()
-                else:
-                    example[str.lower(col).replace(' ', '_')] = line['annotations'][col]
-            dw.writerow(example)
+            if 'response' in line.keys(): # filter examples without system response
+                example = {}
+                for col in header:
+                    if col == 'response':
+                        example['cand'] = line[col].split(':')[-1]
+                    elif col == 'context':
+                        example['context'] = line[col].replace('"','').strip()
+                    elif col == 'system':
+                        example['model'] = line[col].replace('"', '').strip()
+                    else:
+                        example[str.lower(col).replace(' ', '_')] = line['annotations'][col]
+                dw.writerow(example)
+            else:
+                pass
+
+def json_preprocess_fed_unreferenced_data(url, outputdir):
+    """
+    Fetch fed json data and transform to tab-separated value format
+
+    Keyword arguments:
+    url -- url to location to fetch data
+    outputdir -- path to save tsv output
+    """
+    data = json.loads(requests.get(url).text)
+    delimiter='\t'
+
+    header = ['context', 'system', 'Coherent', 'Error recovery', 'Consistent', 'Diverse', 'Depth', 'Likeable', 'Understanding', 'Flexible', 'Informative', 'Inquisitive', 'Overall']
+    normalized_header = ['context', 'model', 'Coherent', 'Error recovery', 'Consistent', 'Diverse', 'Depth', 'Likeable', 'Understanding', 'Flexible', 'Informative', 'Inquisitive', 'Overall']
+
+    with open(outputdir, 'w') as f:
+        dw = csv.DictWriter(f, fieldnames=[str.lower(col).replace(' ', '_') for col in normalized_header], delimiter=delimiter)
+        dw.writeheader()
+        for line in data:
+            if 'response' not in line.keys():
+                example = {}
+                for col in header:
+                    if col == 'context':
+                        example['context'] = line[col].replace('"','').strip()
+                    elif col == 'system':
+                        example['model'] = line[col].replace('"', '').strip()
+                    else:
+                        example[str.lower(col).replace(' ', '_')] = line['annotations'][col]
+                dw.writerow(example)
+
 
 def main():
     print("entered main")
@@ -120,8 +151,11 @@ def main():
         json_preprocess_usr(url=options.url, outputdir=options.outputdir)
     elif options.dataset == 'static_data': 
         json_preprocess_static_data(url=options.url, outputdir=options.outputdir)
-    elif options.dataset == 'fed':
-        json_preprocess_fed_data(url=options.url, outputdir=options.outputdir)
+    elif options.dataset == 'fed_referenced':
+        json_preprocess_fed_referenced_data(url=options.url, outputdir=options.outputdir)
+    elif options.dataset == 'fed_unreferenced':
+        json_preprocess_fed_unreferenced_data(url=options.url, outputdir=options.outputdir)
+
 if __name__ == '__main__':
     main()
     sys.exit(0)
