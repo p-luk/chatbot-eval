@@ -9,8 +9,6 @@ import getopt
 import os
 import csv
 
-__datasets__ = ['usr', 'static_data', 'fed']
-
 def create_arg_parser():
     """Creates and returns the ArgumentParser object."""
 
@@ -22,35 +20,38 @@ def create_arg_parser():
 
 def json_preprocess_usr(url, outputdir):
     """
-    Fetch Topical Chat/Persona Chat json data and transform to tab-separated value format
+    Fetch json data and transform to tab-separated value format
 
     Keyword arguments:
-    url -- url to Topical Chat or Persona Chat location to fetch data
+    url -- location to fetch json data
     outputdir -- path to save tsv output
     """
     data = json.loads(requests.get(url).text)
     delimiter='\t'
-    
-    header = ['context', 'fact', 'cand', 'model', 'Understandable', 'Natural', 'Maintains Context', 'Engaging', 'Uses Knowledge', 'Overall']
+    header = ['context', 'fact', 'ref', 'cand', 'model', 'Understandable', 'Natural', 'Maintains Context', 'Engaging', 'Uses Knowledge', 'Overall']
     with open(outputdir, 'w') as f:
         dw = csv.DictWriter(f, fieldnames=[str.lower(col).replace(' ', '_') for col in header], delimiter=delimiter)
         dw.writeheader()
         for context_fact in data:
             for response in context_fact['responses']:
-                example = {}
-                for col in header:
-                    if col == 'cand':
-                        example[col] = response['response']
-                    elif col in ('context', 'fact'):
-                        example[col] = context_fact[col].replace('"','').strip()
-                    else:
-                        example[str.lower(col).replace(' ', '_')] = response[col] 
-                dw.writerow(example)
+                if response['model'] == 'Original Ground Truth':
+                    ref = response['response']
+                else:
+                    example = {}
+                    for col in header:
+                        if col == 'ref':
+                            example[col] = ref.replace('"','').strip()
+                        elif col == 'cand':
+                            example[col] = response['response']
+                        elif col in ('context', 'fact'):
+                            example[col] = context_fact[col].replace('"','').strip()
+                        else:
+                            example[str.lower(col).replace(' ', '_')] = response[col] 
+                    dw.writerow(example)
 
 def json_preprocess_static_data(url, outputdir):
     """
     Fetch static_data json data and transform to tab-separated value format
-
     Keyword arguments:
     url -- url to location to fetch data
     outputdir -- path to save tsv output
@@ -79,7 +80,6 @@ def json_preprocess_static_data(url, outputdir):
 def json_preprocess_fed_referenced_data(url, outputdir):
     """
     Fetch fed json data and transform to tab-separated value format
-
     Keyword arguments:
     url -- url to location to fetch data
     outputdir -- path to save tsv output
@@ -112,7 +112,6 @@ def json_preprocess_fed_referenced_data(url, outputdir):
 def json_preprocess_fed_unreferenced_data(url, outputdir):
     """
     Fetch fed json data and transform to tab-separated value format
-
     Keyword arguments:
     url -- url to location to fetch data
     outputdir -- path to save tsv output
@@ -159,3 +158,4 @@ def main():
 if __name__ == '__main__':
     main()
     sys.exit(0)
+
