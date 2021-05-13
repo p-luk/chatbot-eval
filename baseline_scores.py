@@ -46,8 +46,8 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
     ref -- optional string denoting reference string. either 'ref' or 'context_last'
     """
     # check ref argument validity
-    if ref not in ['ref', 'context_last', 'empty']:
-        raise ValueError("ref must be 'ref' or 'context_last' or 'empty'.")
+    if ref not in ['ref', 'context_last', 'empty', 'multi_avg', 'multi_max']:
+        raise ValueError("ref must be 'ref' or 'context_last' or 'empty' or 'multi_avg' or 'multi_max.")
     if modelname not in __models__:
         raise ValueError("model not listed")
     # get scores
@@ -68,40 +68,69 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
     data = pd.read_csv(datadir, sep='\t')
     # determine model inputs
     if ref == 'ref':
-        ref = data['ref'].astype(str).to_list()
+        ref_list = data['ref'].astype(str).to_list()
     elif ref == 'context_last':
-        ref = data['context'].apply(lambda x: str(x).split('\n')[-1]).to_list()
+        ref_list = data['context'].apply(lambda x: str(x).split('\n')[-1]).to_list()
     elif ref == 'empty':
-        ref = [''] * len(data['cand'])
-    cand = data['cand'].astype(str).to_list()
-    # determine model
+        ref_list = [''] * len(data['cand'])
+    cand_list = data['cand'].astype(str).to_list()
+
+    # determine model and calculate scores
+    score = []
     if modelname == 'prism':
-        score = [model.score([c], [r]) for c, r in zip(cand, ref)]
+        if ref == 'multi_avg' or ref == 'multi_max':
+            # ref
+            ref_list = data['ref'].astype(str).to_list()
+            ref_score = [model.score([c], [r]) for c, r in zip(cand_list, ref_list)]
+            # context_last
+            ref_list = data['context'].apply(lambda x: str(x).split('\n')[-1]).to_list()
+            context_score = [model.score([c], [r]) for c, r in zip(cand_list, ref_list)]
+            # empty
+            ref_list = [''] * len(data['cand'])
+            empty_score = [model.score([c], [r]) for c, r in zip(cand_list, ref_list)]
+        else:
+            score = [model.score([c], [r]) for c, r in zip(cand_list, ref_list)]
+
     elif modelname == 'bert_score':
-        p, r, score = bert_score.score(cands=cand, refs=ref, lang='en', verbose=True)
+        p, r, score = bert_score.score(cands=cand_list, refs=ref_list, lang='en', verbose=True)
     elif modelname == 'roberta_ft':
-        p, r, score = bert_score.score(cands=cand, refs=ref, lang='en', verbose=True, model_type='../Chatbot_evaluation/models/roberta_ft', num_layers=10)
+        p, r, score = bert_score.score(cands=cand_list, refs=ref_list, lang='en', verbose=True, model_type='../Chatbot_evaluation/models/roberta_ft', num_layers=10)
     elif modelname == 'bleu':
-        bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand, ref)]
+        bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand_list, ref_list)]
         score = [x['bp'] for x in bs]
     elif modelname == 'bleurt':
-        preds = model.compute(predictions=cand, references=ref)
+        preds = model.compute(predictions=cand_list, references=ref_list)
         score = preds['scores']
-    data['score'] = score
+    else:
+        raise ValueError("Model not listed")
+
+    # add scores to dataframe
+    if ref == 'multi_avg' or ref == 'multi_max':
+        data['ref_score'] = ref_score
+        data['context_score'] = context_score
+        data['empty_score'] = empty_score
+        if ref == 'multi_avg':
+            data['score'] = data[['ref_score', 'context_score', 'empty_score']].mean(axis=1)
+        elif ref == 'multi_max':
+            data['score'] = data[['ref_score', 'context_score', 'empty_score']].max(axis=1)
+    else:
+        data['score'] = score
     # write scores to output
     if outputdir is not None:
         data.to_csv(outputdir, sep='\t')
     return data
 
-
 def median_annotation(x):
     """Returns median value from list. Applied to Series."""
-    scores = x[1:-1].split(", ")
-    scores = [int(s) for s in scores if s.isdigit()]
-    if len(scores) < 1:
-        return None
-    else:
-        return statistics.median(scores)
+    try: # if x is a list
+        scores = x[1:-1].split(", ")
+        scores = [int(s) for s in scores if s.isdigit()]
+        if len(scores) < 1:
+            return None
+        else:
+            return statistics.median(scores)
+    except: # if x is a number
+        return x
 
 def plot_correlation(scores, plotdir, heatmapdir=None):
     """
@@ -129,8 +158,8 @@ def plot_correlation(scores, plotdir, heatmapdir=None):
         # plot
         ax[i].plot(evaluation_scores, quality_scores, 'o', label='original data')
         ax[i].plot(evaluation_scores, intercept + slope*evaluation_scores, 'r', label='fitted line')
-        ax[i].set_title(label='{0}: $R^2=${1}\n p={2}'.format(quality, str(round(r_value**2,6)), str(round(p_value,6))))
-        print('{0}: $R^2=${1}\n p={2}'.format(quality, str(round(r_value**2,6)), str(round(p_value,6))))
+        ax[i].set_title(label='{0}: $R=${1}\n p={2}'.format(quality, str(round(r_value,6)), str(round(p_value,6))))
+        print('{0}: $R=${1}\n p={2}'.format(quality, str(round(r_value,6)), str(round(p_value,6))))
     handles, labels = ax[i].get_legend_handles_labels()
     fig.legend(handles, labels, loc='upper right')
     fig.text(0.5, 0.00, 'Automatic Evaluation Metric Score', ha='center', fontsize=12)

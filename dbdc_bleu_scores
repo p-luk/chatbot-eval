@@ -1,0 +1,1001 @@
+	prompt_id	prompt_text	ref_id	reference_name	reference_text	model_id	model_name	candidate_text	win_ratio	counts	score
+0	201	What 's your favorite hobby ?	11	DBDC Human Baseline 1	reading ... nope I'm lying, probably, playing video games, watching TV, or playing tennis.	21	Transformer (target filtered)	i 'd like reading books best .	0.26666666666666666	15.0	0.1353352832366127
+1	202	hi there !	11	DBDC Human Baseline 1	Hi!	21	Transformer (target filtered)	hi ! is there anything i can do for you ?	0.3333333333333333	15.0	1.0
+2	203	i am not a huge fan of board games	11	DBDC Human Baseline 1	me neither.	21	Transformer (target filtered)	i have n't heard that . it is so important that you want to be a game of some popular game .	0.2	15.0	1.0
+3	204	Super going to the beach this weekend	11	DBDC Human Baseline 1	Wow! Must be nice!	21	Transformer (target filtered)	really ? i thought you said you were going to be there .	0.26666666666666666	15.0	1.0
+4	205	What about the news ?	11	DBDC Human Baseline 1	I don't want to talk about the news.	21	Transformer (target filtered)	you don t know ? the company is going to replace these old computers with the latest ones .	0.3333333333333333	15.0	1.0
+5	206	Where 's that last name from ?	11	DBDC Human Baseline 1	Africa	21	Transformer (target filtered)	i 'm flying home from the san francisco .	0.3333333333333333	15.0	1.0
+6	207	Do you like cats	11	DBDC Human Baseline 1	yeah	21	Transformer (target filtered)	no i don t like cats .	0.3333333333333333	15.0	1.0
+7	208	hey please behave yourself !	11	DBDC Human Baseline 1	uh ?? 	21	Transformer (target filtered)	ok sister would like this kind of pie .	0.3333333333333333	15.0	1.0
+8	209	how about Baseball ?	11	DBDC Human Baseline 1	?	21	Transformer (target filtered)	no . i 'm sorry .	0.4	15.0	1.0
+9	210	But you are more	11	DBDC Human Baseline 1	more what?	21	Transformer (target filtered)	what are you talking about ?	0.26666666666666666	15.0	1.0
+10	211	Well , I guess this is goodbye .	11	DBDC Human Baseline 1	ok goodbye	21	Transformer (target filtered)	stay a little longer . bye .	0.6	15.0	1.0
+11	212	Have you been well ?	11	DBDC Human Baseline 1	yeah not bad	21	Transformer (target filtered)	fine thank you .	0.4	15.0	1.0
+12	213	yes tell me	11	DBDC Human Baseline 1	I don't know what to tell you.	21	Transformer (target filtered)	you 're a really good cook .	0.4666666666666667	15.0	0.8668778997501817
+13	214	I don 't think so . That 's pretty rude , actually . What else did you want to talk about ?	11	DBDC Human Baseline 1	I wasn't being rude. I don't think I want to talk to you anymore.	21	Transformer (target filtered)	well i did n't want to get into the future either .	0.3333333333333333	15.0	0.7165313105737893
+14	215	i like food	11	DBDC Human Baseline 1	Me too!	21	Transformer (target filtered)	i like the food there .	0.2	15.0	1.0
+15	216	what do you know Alex	11	DBDC Human Baseline 1	huh?	21	Transformer (target filtered)	are you a member of the company ?	0.4666666666666667	15.0	1.0
+16	217	Is Robbie a girl ?	11	DBDC Human Baseline 1	I don't know.	21	Transformer (target filtered)	that 's her .	0.3333333333333333	15.0	1.0
+17	218	There is so much great music out there I don 't blame you .	11	DBDC Human Baseline 1	Thanks! Yeah it is hard to pick a favorite	21	Transformer (target filtered)	yeah i know . i do n't want to be my favorite .	0.4	15.0	1.0
+18	219	when you don 't like what ?	11	DBDC Human Baseline 1	huh? That doesn't make sense	21	Transformer (target filtered)	well it 's big and energetic .	0.4	15.0	1.0
+19	220	So what was the last movie you saw ?	11	DBDC Human Baseline 1	Black Panther	21	Transformer (target filtered)	i was n't really scared .	0.4666666666666667	15.0	1.0
+20	221	Is this your first time flying ?	11	DBDC Human Baseline 1	No, I've flown a lot.	21	Transformer (target filtered)	yes . i 'm going to san francisco .	0.3333333333333333	15.0	1.0
+21	222	oh , ok ..	11	DBDC Human Baseline 1	huh	21	Transformer (target filtered)	and i travelled a little bit in australia . i went up the east coast . up to frasier island . which is a world heritage site . and i saw dingo running along the beach and sharks in the water . we climbed cliffs and went through a rain forest and went camping and went up to the . which is	0.3333333333333333	15.0	1.0
+22	223	what ? you are not my boss	11	DBDC Human Baseline 1	yes I am right now!	21	Transformer (target filtered)	she told me that she 'd kept you an accident .	0.2	15.0	1.0
+23	224	Hi : )	11	DBDC Human Baseline 1	Hi	21	Transformer (target filtered)	what are you planning to do today ?	0.3333333333333333	15.0	1.0
+24	225	What do you get high on ?	11	DBDC Human Baseline 1	life	21	Transformer (target filtered)	we re having a heart on our own . i just want to get a hair done .	0.6	15.0	1.0
+25	226	I have never really been interested	11	DBDC Human Baseline 1	In life?	21	Transformer (target filtered)	really ? how can you be more interested in it ?	0.4666666666666667	15.0	1.0
+26	227	me too	11	DBDC Human Baseline 1	???	21	Transformer (target filtered)	we should do this more often .	0.4	15.0	1.0
+27	228	ups , sorry , what is it then ?	11	DBDC Human Baseline 1	I don't know	21	Transformer (target filtered)	it is a better way to make men .	0.4666666666666667	15.0	1.0
+28	229	My favorite movie is Liar Liar .	11	DBDC Human Baseline 1	I don't know that one.	21	Transformer (target filtered)	i 'm not a man like it either .	0.06666666666666668	15.0	1.0
+29	230	Both . I play softball and watch baseball and football .	11	DBDC Human Baseline 1	cool.. I play tennis, but I haven't played in quiet a while	21	Transformer (target filtered)	sounds like you could play it soon .	0.3333333333333333	15.0	0.4168620196785084
+30	231	Already bored of politics ? Okay let 's talk about television shows .	11	DBDC Human Baseline 1	Yes thank you! I like TV much more than politics	21	Transformer (target filtered)	she might have a pretty good movie . she is pretty serious about her .	0.4666666666666667	15.0	1.0
+31	232	llaollao	11	DBDC Human Baseline 1	??? what does that mean?	21	Transformer (target filtered)	ok you will be hearing from mr wood later in the afternoon then mr john .	0.3333333333333333	15.0	1.0
+32	233	yes , believe i dont really have neither time nor good mood to talk to you	11	DBDC Human Baseline 1	Well I don't want to talk to you either then.	21	Transformer (target filtered)	you 'll be able to play some golf with a little more .	0.4666666666666667	15.0	1.0
+33	234	yes ?	11	DBDC Human Baseline 1	huh?	21	Transformer (target filtered)	i 'm afraid you ca n't smoke here .	0.4666666666666667	15.0	1.0
+34	235	what are you up to ?	11	DBDC Human Baseline 1	not much. Distracting myself away from work.	21	Transformer (target filtered)	i 'm just trying to complete today 's crossword puzzle . whenever i get the time i like to do the crossword puzzles in the paper .	0.26666666666666666	15.0	1.0
+35	236	OK , what do you think about politics today ?	11	DBDC Human Baseline 1	I don't want to talk about it.	21	Transformer (target filtered)	i think she is pretty easy to follow .	0.2	15.0	1.0
+36	237	who is your favorite composer ?	11	DBDC Human Baseline 1	Oh that's a hard question. Recently, Dizzy Gillespie.	21	Transformer (target filtered)	i do n't have one single favorite but these days i listen to a lot of <unk> .	0.5333333333333333	15.0	1.0
+37	238	I don 't think so .	11	DBDC Human Baseline 1	why?	21	Transformer (target filtered)	how about going to a concert ?	0.4	15.0	1.0
+38	239	Are you a real person ?	11	DBDC Human Baseline 1	yes	21	Transformer (target filtered)	i am not the person we 're talking about .	0.4	15.0	1.0
+39	240	Really well I like Anchovies and Pineapple on my pizza .	11	DBDC Human Baseline 1	Ugh! That sounds horrible!	21	Transformer (target filtered)	ok then i want to invite you to watch one !	0.2	15.0	1.0
+40	241	fine with me !	11	DBDC Human Baseline 1	OK	21	Transformer (target filtered)	damp it ! how are you killing me with a single shot ? it s not fair ! i don t want to play anymore ! let s go get something to eat .	0.3333333333333333	15.0	1.0
+41	242	ok , what happened to your dad 's mouth	11	DBDC Human Baseline 1	huh? Don't talk about my dad.	21	Transformer (target filtered)	well he lost his kids so he said he had to have the hospital .	0.3333333333333333	15.0	1.0
+42	243	I was busy	11	DBDC Human Baseline 1	I'm always busy nowadays	21	Transformer (target filtered)	you 'll have to go now .	0.4666666666666667	15.0	1.0
+43	244	do you like usher ?	11	DBDC Human Baseline 1	NO!!	21	Transformer (target filtered)	it is one of the best haunted houses in the world .	0.3333333333333333	15.0	1.0
+44	245	You are a robot	11	DBDC Human Baseline 1	no I'm not.	21	Transformer (target filtered)	yes i am giving a special discount for my wife .	0.4	15.0	1.0
+45	246	do you like michael jackson ?	11	DBDC Human Baseline 1	yes. Do you?	21	Transformer (target filtered)	yes he has . have you seen his computer yet ?	0.4	15.0	1.0
+46	247	here ?	11	DBDC Human Baseline 1	where?	21	Transformer (target filtered)	that 's right . now you can get your refund .	0.3333333333333333	15.0	1.0
+47	248	What is you favorite song ?	11	DBDC Human Baseline 1	I don't know. I like many different genres.	21	Transformer (target filtered)	i like the song .	0.13333333333333333	15.0	0.36787944117144233
+48	249	how are you	11	DBDC Human Baseline 1	good.	21	Transformer (target filtered)	i m great . thanks .	0.4666666666666667	15.0	1.0
+49	250	Which movie is your favorite ?	11	DBDC Human Baseline 1	Bladerunner	21	Transformer (target filtered)	my favorite . i like action movies .	0.3333333333333333	15.0	1.0
+50	251	Yes , that 's what I asked . What did I do ?	11	DBDC Human Baseline 1	I don't know	21	Transformer (target filtered)	what did you think of it ?	0.3333333333333333	15.0	1.0
+51	252	I don 't know , so you tell me	11	DBDC Human Baseline 1	what?	21	Transformer (target filtered)	i didn t tell you .	0.5333333333333333	15.0	1.0
+52	253	Do you have pets ?	11	DBDC Human Baseline 1	no	21	Transformer (target filtered)	no sir . we do n't allow dogs or cats .	0.2	15.0	1.0
+53	254	do you really think so ?	11	DBDC Human Baseline 1	Yes	21	Transformer (target filtered)	yes i do . if you ask around other people will tell you the same thing .	0.26666666666666666	15.0	1.0
+54	255	No I don 't watch football in that way .	11	DBDC Human Baseline 1	what way?	21	Transformer (target filtered)	oh . . . by the way what s your favorite color ?	0.3333333333333333	15.0	1.0
+55	256	What would you like to chat about ?	11	DBDC Human Baseline 1	Chatbots and neural networks.	21	Transformer (target filtered)	please .	0.06666666666666668	15.0	0.22313016014842982
+56	257	yes it is	11	DBDC Human Baseline 1	uh, no it is not	21	Transformer (target filtered)	i want to pick up my parcels .	0.2	15.0	1.0
+57	258	I love movies	11	DBDC Human Baseline 1	Me too	21	Transformer (target filtered)	that 's great ! what 's the problem with you ?	0.4	15.0	1.0
+58	259	You think I 'm funny ?	11	DBDC Human Baseline 1	No	21	Transformer (target filtered)	oh yes . is that what you think of ?	0.5333333333333333	15.0	1.0
+59	260	I don 't get you	11	DBDC Human Baseline 1	I don't get you either.	21	Transformer (target filtered)	i love you .	0.26666666666666666	15.0	0.6065306597126334
+60	261	I know ... me too . Do you think they will have a movie on this flight ?	11	DBDC Human Baseline 1	probably	21	Transformer (target filtered)	my boss is taking the bus . can you change the channel ?	0.26666666666666666	15.0	1.0
+61	262	Where is your last name from ?	11	DBDC Human Baseline 1	West Africa	21	Transformer (target filtered)	i 'm in the car business .	0.26666666666666666	15.0	1.0
+62	263	but I think I love her too much	11	DBDC Human Baseline 1	Really? Don't do anything drastic Lenny	21	Transformer (target filtered)	oh i 've heard about her . she is quite a date .	0.5333333333333333	15.0	1.0
+63	264	do you know any other jokes ?	11	DBDC Human Baseline 1	no	21	Transformer (target filtered)	i 'm usually busy on saturday night .	0.4	15.0	1.0
+64	265	What do you mean by that	11	DBDC Human Baseline 1	I don't know	21	Transformer (target filtered)	i took a long walk through the neighborhood this morning on my way to the train station . it took me 20 minutes .	0.3333333333333333	15.0	1.0
+65	266	Hello !	11	DBDC Human Baseline 1	hi	21	Transformer (target filtered)	hello is that stefan ?	0.5333333333333333	15.0	1.0
+66	267	hi	11	DBDC Human Baseline 1	hi	21	Transformer (target filtered)	what are you planning to do today ?	0.4	15.0	1.0
+67	268	ok , do it . I want to see	11	DBDC Human Baseline 1	Do what?	21	Transformer (target filtered)	the next step is to be done .	0.3333333333333333	15.0	1.0
+68	269	nope	11	DBDC Human Baseline 1	huh	21	Transformer (target filtered)	have you updated your cv ?	0.13333333333333333	15.0	1.0
+69	270	I like cake .	11	DBDC Human Baseline 1	Me too! Especially chocolate cake	21	Transformer (target filtered)	i really want to stick to a height .	0.13333333333333333	15.0	1.0
+70	271	it 's already in my pocket !	11	DBDC Human Baseline 1	huh?	21	Transformer (target filtered)	is that everything ?	0.4	15.0	1.0
+71	272	Where are they ?	11	DBDC Human Baseline 1	who?	21	Transformer (target filtered)	most of them are behind the school .	0.7333333333333333	15.0	1.0
+72	273	Not really	11	DBDC Human Baseline 1	.	21	Transformer (target filtered)	i am not a child at all . i know more .	0.13333333333333333	15.0	1.0
+73	274	that is not funny	11	DBDC Human Baseline 1	why not?	21	Transformer (target filtered)	no . is that what you said ?	0.26666666666666666	15.0	1.0
+74	275	I have no idea	11	DBDC Human Baseline 1	About what?	21	Transformer (target filtered)	do you want to know where i bought mine ?	0.4666666666666667	15.0	1.0
+75	276	Do you have any hobbies ?	11	DBDC Human Baseline 1	no	21	Transformer (target filtered)	yes i like collecting things .	0.4666666666666667	15.0	1.0
+76	277	thanks darling you are so sweet	11	DBDC Human Baseline 1	your welcome :*	21	Transformer (target filtered)	it 's no trouble at all .	0.3333333333333333	15.0	1.0
+77	278	Pizza	11	DBDC Human Baseline 1	sure	21	Transformer (target filtered)	then i ll have pizza with the chicken .	0.4	15.0	1.0
+78	279	what is that	11	DBDC Human Baseline 1	I don't know	21	Transformer (target filtered)	you need to keep it at 100 .	0.26666666666666666	15.0	1.0
+79	280	You tell me , you said you do not know what happened to you .	11	DBDC Human Baseline 1	I didn't say anything.	21	Transformer (target filtered)	i messed up my order and ran it back .	0.2	15.0	1.0
+80	281	I think she knows but she prefers another guy	11	DBDC Human Baseline 1	She always prefers the other guy	21	Transformer (target filtered)	i see . she 's a little nervous .	0.4666666666666667	15.0	1.0
+81	282	hi my friend how are you doing today ?	11	DBDC Human Baseline 1	I'm doing well. How are you?	21	Transformer (target filtered)	everything is fine . how are you ?	0.4	15.0	1.0
+82	283	no	11	DBDC Human Baseline 1	yes!	21	Transformer (target filtered)	ok you ll be hearing from mr wood later in the afternoon then mr . leo . leo will have a lunch appointment with mr . lee .	0.4666666666666667	15.0	1.0
+83	284	sir you are a joke	11	DBDC Human Baseline 1	fu	21	Transformer (target filtered)	that 's right . give me a ring !	0.26666666666666666	15.0	1.0
+84	285	ok , tell me about your weekend	11	DBDC Human Baseline 1	It was good. I had Mexican food at a friend's house.	21	Transformer (target filtered)	well i m going to the cinema .	0.4666666666666667	15.0	0.5352614285189903
+85	286	I enjoy pizza and mac n cheese . What about you ?	11	DBDC Human Baseline 1	Yeah pizza is ok. I like sushi.	21	Transformer (target filtered)	i do n't think i 'd like to have one . this is a nice neighborhood .	0.26666666666666666	15.0	1.0
+86	287	What guy are you referring to ?	11	DBDC Human Baseline 1	I don't know what you are talking about	21	Transformer (target filtered)	the cords that you see behind your cpu that plug into an outlet .	0.26666666666666666	15.0	1.0
+87	288	How about a poem ?	11	DBDC Human Baseline 1	no thanks	21	Transformer (target filtered)	i 'm not good at you .	0.3333333333333333	15.0	1.0
+88	289	do you listen to music ?	11	DBDC Human Baseline 1	Yeah, I really like music.	21	Transformer (target filtered)	well what kind of music do you like ?	0.26666666666666666	15.0	1.0
+89	290	Well , who are you ?	11	DBDC Human Baseline 1	I'm good	21	Transformer (target filtered)	i 'm just joking .	0.4666666666666667	15.0	1.0
+90	291	What is the square root of pi ?	11	DBDC Human Baseline 1	1.77	21	Transformer (target filtered)	that 's the ratio of the circumference of a circle to its diameter i think .	0.4666666666666667	15.0	1.0
+91	292	what is my name	11	DBDC Human Baseline 1	I don't know.	21	Transformer (target filtered)	my name is li jean .	0.5333333333333333	15.0	1.0
+92	293	Do you like to dance ?	11	DBDC Human Baseline 1	yes	21	Transformer (target filtered)	i 'd love to . but i do n't like a kind of waltz .	0.3333333333333333	15.0	1.0
+93	294	Well great . What 's your favorite movie ?	11	DBDC Human Baseline 1	Desperado	21	Transformer (target filtered)	i like horror movies .	0.3333333333333333	15.0	1.0
+94	295	ok what is the weather like where you are ?	11	DBDC Human Baseline 1	hot and muggy	21	Transformer (target filtered)	it 's not like this i had it a little warm but it is so sunny . i woke up this morning and had a little warmer like this .	0.3333333333333333	15.0	1.0
+95	296	Yes , that might be true for a lot of things but some things can only be done by humans .	11	DBDC Human Baseline 1	Yeah that's true. But the singularity will come.	21	Transformer (target filtered)	those poor egyptians slaves worked so hard and you want to give aliens all the credit !	0.2	15.0	1.0
+96	297	Okay , I like to watch comedies .	11	DBDC Human Baseline 1	Me too! What is the last comedy you saw? I think Sarah Silverman is hilarious 	21	Transformer (target filtered)	how about a movie ?	0.5333333333333333	15.0	0.09071795328941251
+97	298	Sorry , I thought you might want to talk .	11	DBDC Human Baseline 1	I don't want to talk	21	Transformer (target filtered)	what you call me ?	0.3333333333333333	15.0	1.0
+98	299	I like dancing	11	DBDC Human Baseline 1	Yeah it is ok	21	Transformer (target filtered)	you really ?	0.4	15.0	0.7165313105737893
+99	300	oh no you mean	11	DBDC Human Baseline 1	No I don't	21	Transformer (target filtered)	yes why didn t you ?	0.4	15.0	1.0
+100	301	why	11	DBDC Human Baseline 1	I don't know	21	Transformer (target filtered)	i am a grownup and i can stand on my own two feet .	0.4	15.0	1.0
+101	302	have you tried llaollao before ?	11	DBDC Human Baseline 1	no, what is llaollao	21	Transformer (target filtered)	no . can you take it easy ?	0.06666666666666668	15.0	1.0
+102	303	Is your mom okay ?	11	DBDC Human Baseline 1	yeah	21	Transformer (target filtered)	she 's fine .	0.4166666666666667	12.0	1.0
+103	304	Are you trying to rob me	11	DBDC Human Baseline 1	No! Are you saying that because ...	21	Transformer (target filtered)	i ca n't believe it .	0.13333333333333333	15.0	0.513417119032592
+104	305	don 't you have any idea about equality ?	11	DBDC Human Baseline 1	no, the world is not equal. I don't think it ever will be. What do you think?	21	Transformer (target filtered)	what ? in fact what 's on your mind ?	0.13333333333333333	15.0	0.33287108369807955
+105	306	i want to eat	11	DBDC Human Baseline 1	What type of food do you want to eat?	21	Transformer (target filtered)	i really do n't feel like eating .	0.5333333333333333	15.0	0.7788007830714049
+106	307	i don 't know much about sports	11	DBDC Human Baseline 1	me neither	21	Transformer (target filtered)	what do you mean ?	0.5333333333333333	15.0	1.0
+107	308	That is amazing . Are you nervous ?	11	DBDC Human Baseline 1	Probably	21	Transformer (target filtered)	i m nervous . i used to be a senior engineer at least once .	0.6666666666666666	15.0	1.0
+108	309	Dignan who ?	11	DBDC Human Baseline 1	huh	21	Transformer (target filtered)	it 's george .	0.5333333333333333	15.0	1.0
+109	310	I see . So where are you from ?	11	DBDC Human Baseline 1	I don't want to say.	21	Transformer (target filtered)	i 'm from germany .	0.4666666666666667	15.0	0.8187307530779819
+110	311	Did you vote ?	11	DBDC Human Baseline 1	yes	21	Transformer (target filtered)	i sure did !	0.3333333333333333	15.0	1.0
+111	312	Wow , mine too .	11	DBDC Human Baseline 1	really?	21	Transformer (target filtered)	how much is it going to be ?	0.26666666666666666	15.0	1.0
+112	313	I am trying to figure out who you voted for since you want to talk politics .	11	DBDC Human Baseline 1	I don't want to talk about politics.	21	Transformer (target filtered)	i did n't think of it . you should be happier to her .	0.4	15.0	1.0
+113	314	What are you ?	11	DBDC Human Baseline 1	I'm a boy.	21	Transformer (target filtered)	i am reading a book about how some people get tricked or <unk> in their hotel rooms and have their organs removed ! then they are sold on the shelf .	0.4	15.0	1.0
+114	315	Do you have a family ?	11	DBDC Human Baseline 1	Yes I do.	21	Transformer (target filtered)	yes we my father 's parents mum and me .	0.4	15.0	1.0
+115	316	what 's a joke ?	11	DBDC Human Baseline 1	I don't know?	21	Transformer (target filtered)	that 's a lot of fun .	0.4666666666666667	15.0	1.0
+116	317	Gotcha . What 's your favorite book ?	11	DBDC Human Baseline 1	Hyperion	21	Transformer (target filtered)	chinese literature .	0.3333333333333333	15.0	1.0
+117	318	wow thats old .	11	DBDC Human Baseline 1	What is?	21	Transformer (target filtered)	it 's very unbelievable .	0.4	15.0	1.0
+118	319	what is your name ?	11	DBDC Human Baseline 1	John	21	Transformer (target filtered)	my name is li jean .	0.6	15.0	1.0
+119	320	Do you have a cat ?	11	DBDC Human Baseline 1	nope	21	Transformer (target filtered)	no they use litter boxes or go outside by themselves . <unk> re so smart .	0.4666666666666667	15.0	1.0
+120	321	I 've never seen that movie , what is it about ?	11	DBDC Human Baseline 1	I don't know which movie you are talking about.	21	Transformer (target filtered)	it 's about how great it was n't a date with the director .	0.4	15.0	1.0
+121	322	wow , what happened ?	11	DBDC Human Baseline 1	I don't want to talk about it.	21	Transformer (target filtered)	i was robbed .	0.3333333333333333	15.0	0.36787944117144233
+122	323	I play guitar do you play anything	11	DBDC Human Baseline 1	The piano	21	Transformer (target filtered)	sorry . i 'm quite a bit .	0.6	15.0	1.0
+123	324	yes ? why ?	11	DBDC Human Baseline 1	huh	21	Transformer (target filtered)	well i came to know a girl three weeks ago . we have so much in common .	0.3333333333333333	15.0	1.0
+124	325	I cannot believe it ! ! !	11	DBDC Human Baseline 1	Really what can't you believe?	21	Transformer (target filtered)	it looks more like a toy or a cool briefcase !	0.3333333333333333	15.0	1.0
+125	326	Oh , ok . So , do you follow any sports ?	11	DBDC Human Baseline 1	Recently I watched the world cup and also the Super Bowl, but I'm not really a sports fan.	21	Transformer (target filtered)	i go jogging with nothing special and i 'm not really into it .	0.4666666666666667	15.0	0.6514390575310556
+126	327	Agreed . Do you watch sports ?	11	DBDC Human Baseline 1	sometimes	21	Transformer (target filtered)	for example some football matches are awesome and you know them at the very exciting time .	0.2	15.0	1.0
+127	328	you are smart you know	11	DBDC Human Baseline 1	Thanks!	21	Transformer (target filtered)	of course the sports shoes don t go with the formal occasions .	0.26666666666666666	15.0	1.0
+128	329	What about music ?	11	DBDC Human Baseline 1	I like Jazz	21	Transformer (target filtered)	i ca n't make it .	0.4	15.0	1.0
+129	330	Is it funny ?	11	DBDC Human Baseline 1	no	21	Transformer (target filtered)	no it is n't .	0.3333333333333333	15.0	1.0
+130	331	what exactly you want to have ?	11	DBDC Human Baseline 1	An easy death	21	Transformer (target filtered)	i 'd like to get a pie .	0.4666666666666667	15.0	1.0
+131	332	hi baby , how are you ?	11	DBDC Human Baseline 1	I'm good honey	21	Transformer (target filtered)	i 'm fine thanks . just a little tired .	0.26666666666666666	15.0	1.0
+132	333	Like go out to eat ?	11	DBDC Human Baseline 1	Yes.	21	Transformer (target filtered)	i really like dumplings .	0.4666666666666667	15.0	1.0
+133	334	I do like you	11	DBDC Human Baseline 1	I think I like you too. Want to go out on a date?	21	Transformer (target filtered)	i love it .	0.4666666666666667	15.0	0.06392786120670757
+134	335	Ok , done !	11	DBDC Human Baseline 1	really?	21	Transformer (target filtered)	ok . let me put your cases into the trunk and please get in the back .	0.4666666666666667	15.0	1.0
+135	336	Do you know what chess is ?	11	DBDC Human Baseline 1	Yes, I play a little.	21	Transformer (target filtered)	a chess game is a very aggressive experience . all the pieces are supposed to capture their opponents . whenever i start a chess game i can help a concrete battle in which are kept a different battle in which are usually <unk> .	0.26666666666666666	15.0	1.0
+136	337	Okay when ?	11	DBDC Human Baseline 1	huh?	21	Transformer (target filtered)	let 's see . . . we 'll be in touch .	0.4666666666666667	15.0	1.0
+137	338	What was it about ?	11	DBDC Human Baseline 1	I don't know	21	Transformer (target filtered)	mars . scientists say there might be water on it .	0.4666666666666667	15.0	1.0
+138	339	The sun is shining and there are no clouds in the sky .	11	DBDC Human Baseline 1	Yeah, it is a great day	21	Transformer (target filtered)	where are we going to be ?	0.3333333333333333	15.0	1.0
+139	340	how are you today	11	DBDC Human Baseline 1	I'm doing well thank you. How are you?	21	Transformer (target filtered)	i m very well thank you . and you ?	0.4666666666666667	15.0	1.0
+140	341	good for you dude	11	DBDC Human Baseline 1	thanks	21	Transformer (target filtered)	is there anything i can help ?	0.13333333333333333	15.0	1.0
+141	342	I would like to talk about movies .	11	DBDC Human Baseline 1	ok me too	21	Transformer (target filtered)	have you thought about gay marriage ?	0.13333333333333333	15.0	1.0
+142	343	With whom ?	11	DBDC Human Baseline 1	none of your business	21	Transformer (target filtered)	my wife . she suffers from a bad cold .	0.6	15.0	1.0
+143	344	Do you have hands ?	11	DBDC Human Baseline 1	yes	21	Transformer (target filtered)	sure . we have a very good working conditions here .	0.3333333333333333	15.0	1.0
+144	345	i 'm Danny !	11	DBDC Human Baseline 1	ok	21	Transformer (target filtered)	do n't worry . no big deal . just a common cold .	0.4	15.0	1.0
+145	346	hi my friend	11	DBDC Human Baseline 1	hi	21	Transformer (target filtered)	my name is phil . what 's the matter with you ?	0.3333333333333333	15.0	1.0
+146	347	I 'm sorry ?	11	DBDC Human Baseline 1	really? Why?	21	Transformer (target filtered)	it is n't your fault . no one will blame you .	0.4	15.0	1.0
+147	348	What happens ?	11	DBDC Human Baseline 1	I don't know	21	Transformer (target filtered)	well it 's our policy to confiscate all counterfeit notes . so unfortunately you 'll lose this 50 rib . we 'll give you a receipt to show the note has been confiscated .	0.4	15.0	1.0
+148	349	Hi .	11	DBDC Human Baseline 1	Hi.	21	Transformer (target filtered)	how are you ?	0.3333333333333333	15.0	1.0
+149	350	Yours .	11	DBDC Human Baseline 1	huh 	21	Transformer (target filtered)	no kidding ! that 's too big !	0.2	15.0	1.0
+150	351	No we haven 't ! It 's been like a minute	11	DBDC Human Baseline 1	huh?	21	Transformer (target filtered)	well i 'll come to your store later .	0.4	15.0	1.0
+151	352	What 's up ?	11	DBDC Human Baseline 1	not much	21	Transformer (target filtered)	nothing much what 's going on ?	0.4	15.0	1.0
+152	353	That sounds good	11	DBDC Human Baseline 1	ok 	21	Transformer (target filtered)	what 's playing at the century fox ?	0.2	15.0	1.0
+153	354	Do you like romance novels ?	11	DBDC Human Baseline 1	NO!!!	21	Transformer (target filtered)	yes very much .	0.4	15.0	1.0
+154	355	Sure . Which sport do you like specifically ?	11	DBDC Human Baseline 1	IDK? Can you give me context?	21	Transformer (target filtered)	absolutely ! i like playing basketball with my legs very much .	0.5333333333333333	15.0	1.0
+155	356	blows , haha , i like it	11	DBDC Human Baseline 1	What blows?	21	Transformer (target filtered)	what color are you doing ?	0.26666666666666666	15.0	1.0
+156	357	"what ? ! who are "" we "" ?"	11	DBDC Human Baseline 1	I don't know. What are you talking about?	21	Transformer (target filtered)	tim is .	0.13333333333333333	15.0	0.09697196786440505
+157	358	Sure . What 's your favorite ? I like trouble .	11	DBDC Human Baseline 1	I really don't	21	Transformer (target filtered)	my favorite is diablo . it used to be star .	0.4666666666666667	15.0	1.0
+158	359	Okay well I like Basketball and Football .	11	DBDC Human Baseline 1	Cool I like tennis and soccer.	21	Transformer (target filtered)	you 're a good team .	0.26666666666666666	15.0	0.846481724890614
+159	360	Hi there how are you ?	11	DBDC Human Baseline 1	42	21	Transformer (target filtered)	i 'm fine . how are you ?	0.4666666666666667	15.0	1.0
+160	361	That 's a mean thing to say .	11	DBDC Human Baseline 1	Is it?	21	Transformer (target filtered)	i 'm glad you told me .	0.3333333333333333	15.0	1.0
+161	362	It 's actually very funny . If you like to be entertained .	11	DBDC Human Baseline 1	What are you talking about?	21	Transformer (target filtered)	well you d have to try it yourself . actually i think we 'll have to go and buy a new diet .	0.26666666666666666	15.0	1.0
+162	363	ok. but who is he ?	11	DBDC Human Baseline 1	I don't know	21	Transformer (target filtered)	he s a famous american musician .	0.3333333333333333	15.0	1.0
+163	364	Excellent ! So am I ! Who will you visit with , exactly ?	11	DBDC Human Baseline 1	I don't know.	21	Transformer (target filtered)	we will . you our company is in a more than 30 years and i am willing to get a job that is in the field .	0.2	15.0	1.0
+164	365	Ahhh ... well , that seems very true . How are you ?	11	DBDC Human Baseline 1	I'm well	21	Transformer (target filtered)	you know what your company is eighteen and he is taking good care of .	0.26666666666666666	15.0	1.0
+165	366	I 'm a girl	11	DBDC Human Baseline 1	really? I am a boy.	21	Transformer (target filtered)	can you tell me where she is ?	0.2	15.0	1.0
+166	367	What other stuff can we talk about ?	11	DBDC Human Baseline 1	Anything but sex, rock and roll, and politics.	21	Transformer (target filtered)	sure . i will give everyone a discount as soon as possible .	0.2	15.0	1.0
+167	368	My favorite planet is pluto	11	DBDC Human Baseline 1	Really? Mine is Venus. Can you guess why?	21	Transformer (target filtered)	nice try . i was n't born yesterday you know .	0.5333333333333333	15.0	1.0
+168	369	haha that 's a good joke	11	DBDC Human Baseline 1	what?	21	Transformer (target filtered)	yes because that 's what 's as thank you .	0.26666666666666666	15.0	1.0
+169	370	I lik chess	11	DBDC Human Baseline 1	me too	21	Transformer (target filtered)	do n't worry . all the pieces are used in a chess game .	0.2	15.0	1.0
+170	371	OK , I am a little	11	DBDC Human Baseline 1	A little what?	21	Transformer (target filtered)	come on man ! i even got dope and acid ! try some !	0.4	15.0	1.0
+171	372	Do you like movies ?	11	DBDC Human Baseline 1	Yes.	21	Transformer (target filtered)	yeah i think it 's the best way to relax .	0.4666666666666667	15.0	1.0
+172	373	typo sorry . I 'm	11	DBDC Human Baseline 1	huh?	21	Transformer (target filtered)	i knew this would happen some day . . .	0.3333333333333333	15.0	1.0
+173	374	I just recently tried that game . It was fun .	11	DBDC Human Baseline 1	Which game did you try?	21	Transformer (target filtered)	it 's too bad that i could n't have been any happier .	0.26666666666666666	15.0	1.0
+174	375	What do you think about equality in our world ?	11	DBDC Human Baseline 1	There is no such thing	21	Transformer (target filtered)	i think an ambulance is on the way of an openminded person . so what do you think ?	0.5333333333333333	15.0	1.0
+175	376	I don 't know about that	11	DBDC Human Baseline 1	Huh! What do you mean?	21	Transformer (target filtered)	after you take her father in front of you .	0.3333333333333333	15.0	1.0
+176	377	nice to meet you wayne	11	DBDC Human Baseline 1	I'm not Wayne	21	Transformer (target filtered)	your company is very well respected . about how long have you been in business ?	0.26666666666666666	15.0	1.0
+177	378	Okay . I 'm a little bit confused . Let me change the topic . Do you have relatives where we 're going ?	11	DBDC Human Baseline 1	I don't know what you are talking about.	21	Transformer (target filtered)	i 'm afraid i have to do that .	0.4	15.0	1.0
+178	379	which is a good one	11	DBDC Human Baseline 1	I don't know	21	Transformer (target filtered)	the best one at the moment .	0.4666666666666667	15.0	1.0
+179	380	mouse lah	11	DBDC Human Baseline 1	huh??	21	Transformer (target filtered)	got it . now what is your excuse ?	0.26666666666666666	15.0	1.0
+180	381	About what ?	11	DBDC Human Baseline 1	huh?	21	Transformer (target filtered)	my exam .	0.4666666666666667	15.0	1.0
+181	382	Hockey league	11	DBDC Human Baseline 1	huh?	21	Transformer (target filtered)	and you play two hand with the play ?	0.4	15.0	1.0
+182	383	no , but very surprised you are still there	11	DBDC Human Baseline 1	Yeah I know. This is starting to get boring	21	Transformer (target filtered)	i do n't know how to explain it to you .	0.26666666666666666	15.0	1.0
+183	384	I do enjoy watching soccer occassionally .	11	DBDC Human Baseline 1	Me too... especially the world cup	21	Transformer (target filtered)	you 're in luck . it 's the first time that i saw you in the watching . i seen you in the evening but we have to watch it together .	0.5333333333333333	15.0	1.0
+184	385	you tell me	11	DBDC Human Baseline 1	tell you what?	21	Transformer (target filtered)	you had a little trouble on your parallel parking .	0.4666666666666667	15.0	1.0
+185	386	Knock what off	11	DBDC Human Baseline 1	IDK	21	Transformer (target filtered)	we can borrow as much as we can .	0.26666666666666666	15.0	1.0
+186	387	ok , i was referring to personal questions	11	DBDC Human Baseline 1	which personal questions?	21	Transformer (target filtered)	as you know your background and statement the needed to the results and the page should be enough .	0.26666666666666666	15.0	1.0
+187	388	I am interested in watching TV shows . How about you ?	11	DBDC Human Baseline 1	eh, not really, but I admit I watch too much TV.	21	Transformer (target filtered)	i do n't like to . i 'm not much of tv .	0.5333333333333333	15.0	0.925961078642316
+188	389	Because bad things are happening .	11	DBDC Human Baseline 1	All over the place! Every day.	21	Transformer (target filtered)	first there are problems that you would like to put the car into a new car .	0.3333333333333333	15.0	1.0
+189	390	Why do you think that ?	11	DBDC Human Baseline 1	I don't know	21	Transformer (target filtered)	i think building team spirit among the coworkers is very important . i believe we can accomplish a miracle if we stick together .	0.5333333333333333	15.0	1.0
+190	391	Hello ! How are you !	11	DBDC Human Baseline 1	I'm good. You?	21	Transformer (target filtered)	not too well ! i m just to the doctor . i haven t been feeling too well !	0.6666666666666666	15.0	1.0
+191	392	What did the cats do ?	11	DBDC Human Baseline 1	sleep	21	Transformer (target filtered)	i got a message .	0.4666666666666667	15.0	1.0
+192	393	it means the sun is hiding behind the clouds	11	DBDC Human Baseline 1	What means that?	21	Transformer (target filtered)	wonderful . what does it think ?	0.26666666666666666	15.0	1.0
+193	394	What is your favorite Tv Show ?	11	DBDC Human Baseline 1	Buffy the Vampire Slayer	21	Transformer (target filtered)	i like variety shows .	0.4666666666666667	15.0	1.0
+194	395	Politics ?	11	DBDC Human Baseline 1	NO!	21	Transformer (target filtered)	she is pretty serious about her .	0.2	15.0	1.0
+195	396	Wow thank you . That 's nice of you	11	DBDC Human Baseline 1	Sorry for what?	21	Transformer (target filtered)	you 're welcome . bye .	0.4666666666666667	15.0	1.0
+196	397	I am not faking anything	11	DBDC Human Baseline 1	really? I think you are	21	Transformer (target filtered)	here you are . if you have any questions just give me a call .	0.3333333333333333	15.0	1.0
+197	398	I would like to talk about movies	11	DBDC Human Baseline 1	ok. Let's talk about movies.	21	Transformer (target filtered)	have you thought about gay marriage ?	0.26666666666666666	15.0	1.0
+198	399	Hey should I eat icecream	11	DBDC Human Baseline 1	All the time. But don't get too fat	21	Transformer (target filtered)	you 'd better have a sandwich right away .	0.26666666666666666	15.0	1.0
+199	400	thank you !	11	DBDC Human Baseline 1	sure np	21	Transformer (target filtered)	which hotel will the reception be held at ?	0.2	15.0	1.0
+200	201	What 's your favorite hobby ?	11	DBDC Human Baseline 1	reading ... nope I'm lying, probably, playing video games, watching TV, or playing tennis.	25	DCDB Test 2	i 'd like reading books best .			0.1353352832366127
+201	202	hi there !	11	DBDC Human Baseline 1	Hi!	25	DCDB Test 2	hi ! is there anything i can do for you ?			1.0
+202	203	i am not a huge fan of board games	11	DBDC Human Baseline 1	me neither.	25	DCDB Test 2	i have n't heard that . it is so important that you want to be a game of some popular game .			1.0
+203	204	Super going to the beach this weekend	11	DBDC Human Baseline 1	Wow! Must be nice!	25	DCDB Test 2	really ? i thought you said you were going to be there .			1.0
+204	205	What about the news ?	11	DBDC Human Baseline 1	I don't want to talk about the news.	25	DCDB Test 2	you don t know ? the company is going to replace these old computers with the latest ones .			1.0
+205	206	Where 's that last name from ?	11	DBDC Human Baseline 1	Africa	25	DCDB Test 2	i 'm flying home from the san francisco .			1.0
+206	207	Do you like cats	11	DBDC Human Baseline 1	yeah	25	DCDB Test 2	no i don t like cats .			1.0
+207	208	hey please behave yourself !	11	DBDC Human Baseline 1	uh ?? 	25	DCDB Test 2	ok sister would like this kind of pie .			1.0
+208	209	how about Baseball ?	11	DBDC Human Baseline 1	?	25	DCDB Test 2	no . i 'm sorry .			1.0
+209	210	But you are more	11	DBDC Human Baseline 1	more what?	25	DCDB Test 2	what are you talking about ?			1.0
+210	211	Well , I guess this is goodbye .	11	DBDC Human Baseline 1	ok goodbye	25	DCDB Test 2	stay a little longer . bye .			1.0
+211	212	Have you been well ?	11	DBDC Human Baseline 1	yeah not bad	25	DCDB Test 2	fine thank you .			1.0
+212	213	yes tell me	11	DBDC Human Baseline 1	I don't know what to tell you.	25	DCDB Test 2	you 're a really good cook .			0.8668778997501817
+213	214	I don 't think so . That 's pretty rude , actually . What else did you want to talk about ?	11	DBDC Human Baseline 1	I wasn't being rude. I don't think I want to talk to you anymore.	25	DCDB Test 2	well i did n't want to get into the future either .			0.7165313105737893
+214	215	i like food	11	DBDC Human Baseline 1	Me too!	25	DCDB Test 2	i like the food there .			1.0
+215	216	what do you know Alex	11	DBDC Human Baseline 1	huh?	25	DCDB Test 2	are you a member of the company ?			1.0
+216	217	Is Robbie a girl ?	11	DBDC Human Baseline 1	I don't know.	25	DCDB Test 2	that 's her .			1.0
+217	218	There is so much great music out there I don 't blame you .	11	DBDC Human Baseline 1	Thanks! Yeah it is hard to pick a favorite	25	DCDB Test 2	yeah i know . i do n't want to be my favorite .			1.0
+218	219	when you don 't like what ?	11	DBDC Human Baseline 1	huh? That doesn't make sense	25	DCDB Test 2	well it 's big and energetic .			1.0
+219	220	So what was the last movie you saw ?	11	DBDC Human Baseline 1	Black Panther	25	DCDB Test 2	i was n't really scared .			1.0
+220	221	Is this your first time flying ?	11	DBDC Human Baseline 1	No, I've flown a lot.	25	DCDB Test 2	yes . i 'm going to san francisco .			1.0
+221	222	oh , ok ..	11	DBDC Human Baseline 1	huh	25	DCDB Test 2	and i travelled a little bit in australia . i went up the east coast . up to frasier island . which is a world heritage site . and i saw dingo running along the beach and sharks in the water . we climbed cliffs and went through a rain forest and went camping and went up to the . which is			1.0
+222	223	what ? you are not my boss	11	DBDC Human Baseline 1	yes I am right now!	25	DCDB Test 2	she told me that she 'd kept you an accident .			1.0
+223	224	Hi : )	11	DBDC Human Baseline 1	Hi	25	DCDB Test 2	what are you planning to do today ?			1.0
+224	225	What do you get high on ?	11	DBDC Human Baseline 1	life	25	DCDB Test 2	we re having a heart on our own . i just want to get a hair done .			1.0
+225	226	I have never really been interested	11	DBDC Human Baseline 1	In life?	25	DCDB Test 2	really ? how can you be more interested in it ?			1.0
+226	227	me too	11	DBDC Human Baseline 1	???	25	DCDB Test 2	we should do this more often .			1.0
+227	228	ups , sorry , what is it then ?	11	DBDC Human Baseline 1	I don't know	25	DCDB Test 2	it is a better way to make men .			1.0
+228	229	My favorite movie is Liar Liar .	11	DBDC Human Baseline 1	I don't know that one.	25	DCDB Test 2	i 'm not a man like it either .			1.0
+229	230	Both . I play softball and watch baseball and football .	11	DBDC Human Baseline 1	cool.. I play tennis, but I haven't played in quiet a while	25	DCDB Test 2	sounds like you could play it soon .			0.4168620196785084
+230	231	Already bored of politics ? Okay let 's talk about television shows .	11	DBDC Human Baseline 1	Yes thank you! I like TV much more than politics	25	DCDB Test 2	she might have a pretty good movie . she is pretty serious about her .			1.0
+231	232	llaollao	11	DBDC Human Baseline 1	??? what does that mean?	25	DCDB Test 2	ok you will be hearing from mr wood later in the afternoon then mr john .			1.0
+232	233	yes , believe i dont really have neither time nor good mood to talk to you	11	DBDC Human Baseline 1	Well I don't want to talk to you either then.	25	DCDB Test 2	you 'll be able to play some golf with a little more .			1.0
+233	234	yes ?	11	DBDC Human Baseline 1	huh?	25	DCDB Test 2	i 'm afraid you ca n't smoke here .			1.0
+234	235	what are you up to ?	11	DBDC Human Baseline 1	not much. Distracting myself away from work.	25	DCDB Test 2	i 'm just trying to complete today 's crossword puzzle . whenever i get the time i like to do the crossword puzzles in the paper .			1.0
+235	236	OK , what do you think about politics today ?	11	DBDC Human Baseline 1	I don't want to talk about it.	25	DCDB Test 2	i think she is pretty easy to follow .			1.0
+236	237	who is your favorite composer ?	11	DBDC Human Baseline 1	Oh that's a hard question. Recently, Dizzy Gillespie.	25	DCDB Test 2	i do n't have one single favorite but these days i listen to a lot of <unk> .			1.0
+237	238	I don 't think so .	11	DBDC Human Baseline 1	why?	25	DCDB Test 2	how about going to a concert ?			1.0
+238	239	Are you a real person ?	11	DBDC Human Baseline 1	yes	25	DCDB Test 2	i am not the person we 're talking about .			1.0
+239	240	Really well I like Anchovies and Pineapple on my pizza .	11	DBDC Human Baseline 1	Ugh! That sounds horrible!	25	DCDB Test 2	ok then i want to invite you to watch one !			1.0
+240	241	fine with me !	11	DBDC Human Baseline 1	OK	25	DCDB Test 2	damp it ! how are you killing me with a single shot ? it s not fair ! i don t want to play anymore ! let s go get something to eat .			1.0
+241	242	ok , what happened to your dad 's mouth	11	DBDC Human Baseline 1	huh? Don't talk about my dad.	25	DCDB Test 2	well he lost his kids so he said he had to have the hospital .			1.0
+242	243	I was busy	11	DBDC Human Baseline 1	I'm always busy nowadays	25	DCDB Test 2	you 'll have to go now .			1.0
+243	244	do you like usher ?	11	DBDC Human Baseline 1	NO!!	25	DCDB Test 2	it is one of the best haunted houses in the world .			1.0
+244	245	You are a robot	11	DBDC Human Baseline 1	no I'm not.	25	DCDB Test 2	yes i am giving a special discount for my wife .			1.0
+245	246	do you like michael jackson ?	11	DBDC Human Baseline 1	yes. Do you?	25	DCDB Test 2	yes he has . have you seen his computer yet ?			1.0
+246	247	here ?	11	DBDC Human Baseline 1	where?	25	DCDB Test 2	that 's right . now you can get your refund .			1.0
+247	248	What is you favorite song ?	11	DBDC Human Baseline 1	I don't know. I like many different genres.	25	DCDB Test 2	i like the song .			0.36787944117144233
+248	249	how are you	11	DBDC Human Baseline 1	good.	25	DCDB Test 2	i m great . thanks .			1.0
+249	250	Which movie is your favorite ?	11	DBDC Human Baseline 1	Bladerunner	25	DCDB Test 2	my favorite . i like action movies .			1.0
+250	251	Yes , that 's what I asked . What did I do ?	11	DBDC Human Baseline 1	I don't know	25	DCDB Test 2	what did you think of it ?			1.0
+251	252	I don 't know , so you tell me	11	DBDC Human Baseline 1	what?	25	DCDB Test 2	i didn t tell you .			1.0
+252	253	Do you have pets ?	11	DBDC Human Baseline 1	no	25	DCDB Test 2	no sir . we do n't allow dogs or cats .			1.0
+253	254	do you really think so ?	11	DBDC Human Baseline 1	Yes	25	DCDB Test 2	yes i do . if you ask around other people will tell you the same thing .			1.0
+254	255	No I don 't watch football in that way .	11	DBDC Human Baseline 1	what way?	25	DCDB Test 2	oh . . . by the way what s your favorite color ?			1.0
+255	256	What would you like to chat about ?	11	DBDC Human Baseline 1	Chatbots and neural networks.	25	DCDB Test 2	please .			0.22313016014842982
+256	257	yes it is	11	DBDC Human Baseline 1	uh, no it is not	25	DCDB Test 2	i want to pick up my parcels .			1.0
+257	258	I love movies	11	DBDC Human Baseline 1	Me too	25	DCDB Test 2	that 's great ! what 's the problem with you ?			1.0
+258	259	You think I 'm funny ?	11	DBDC Human Baseline 1	No	25	DCDB Test 2	oh yes . is that what you think of ?			1.0
+259	260	I don 't get you	11	DBDC Human Baseline 1	I don't get you either.	25	DCDB Test 2	i love you .			0.6065306597126334
+260	261	I know ... me too . Do you think they will have a movie on this flight ?	11	DBDC Human Baseline 1	probably	25	DCDB Test 2	my boss is taking the bus . can you change the channel ?			1.0
+261	262	Where is your last name from ?	11	DBDC Human Baseline 1	West Africa	25	DCDB Test 2	i 'm in the car business .			1.0
+262	263	but I think I love her too much	11	DBDC Human Baseline 1	Really? Don't do anything drastic Lenny	25	DCDB Test 2	oh i 've heard about her . she is quite a date .			1.0
+263	264	do you know any other jokes ?	11	DBDC Human Baseline 1	no	25	DCDB Test 2	i 'm usually busy on saturday night .			1.0
+264	265	What do you mean by that	11	DBDC Human Baseline 1	I don't know	25	DCDB Test 2	i took a long walk through the neighborhood this morning on my way to the train station . it took me 20 minutes .			1.0
+265	266	Hello !	11	DBDC Human Baseline 1	hi	25	DCDB Test 2	hello is that stefan ?			1.0
+266	267	hi	11	DBDC Human Baseline 1	hi	25	DCDB Test 2	what are you planning to do today ?			1.0
+267	268	ok , do it . I want to see	11	DBDC Human Baseline 1	Do what?	25	DCDB Test 2	the next step is to be done .			1.0
+268	269	nope	11	DBDC Human Baseline 1	huh	25	DCDB Test 2	have you updated your cv ?			1.0
+269	270	I like cake .	11	DBDC Human Baseline 1	Me too! Especially chocolate cake	25	DCDB Test 2	i really want to stick to a height .			1.0
+270	271	it 's already in my pocket !	11	DBDC Human Baseline 1	huh?	25	DCDB Test 2	is that everything ?			1.0
+271	272	Where are they ?	11	DBDC Human Baseline 1	who?	25	DCDB Test 2	most of them are behind the school .			1.0
+272	273	Not really	11	DBDC Human Baseline 1	.	25	DCDB Test 2	i am not a child at all . i know more .			1.0
+273	274	that is not funny	11	DBDC Human Baseline 1	why not?	25	DCDB Test 2	no . is that what you said ?			1.0
+274	275	I have no idea	11	DBDC Human Baseline 1	About what?	25	DCDB Test 2	do you want to know where i bought mine ?			1.0
+275	276	Do you have any hobbies ?	11	DBDC Human Baseline 1	no	25	DCDB Test 2	yes i like collecting things .			1.0
+276	277	thanks darling you are so sweet	11	DBDC Human Baseline 1	your welcome :*	25	DCDB Test 2	it 's no trouble at all .			1.0
+277	278	Pizza	11	DBDC Human Baseline 1	sure	25	DCDB Test 2	then i ll have pizza with the chicken .			1.0
+278	279	what is that	11	DBDC Human Baseline 1	I don't know	25	DCDB Test 2	you need to keep it at 100 .			1.0
+279	280	You tell me , you said you do not know what happened to you .	11	DBDC Human Baseline 1	I didn't say anything.	25	DCDB Test 2	i messed up my order and ran it back .			1.0
+280	281	I think she knows but she prefers another guy	11	DBDC Human Baseline 1	She always prefers the other guy	25	DCDB Test 2	i see . she 's a little nervous .			1.0
+281	282	hi my friend how are you doing today ?	11	DBDC Human Baseline 1	I'm doing well. How are you?	25	DCDB Test 2	everything is fine . how are you ?			1.0
+282	283	no	11	DBDC Human Baseline 1	yes!	25	DCDB Test 2	ok you ll be hearing from mr wood later in the afternoon then mr . leo . leo will have a lunch appointment with mr . lee .			1.0
+283	284	sir you are a joke	11	DBDC Human Baseline 1	fu	25	DCDB Test 2	that 's right . give me a ring !			1.0
+284	285	ok , tell me about your weekend	11	DBDC Human Baseline 1	It was good. I had Mexican food at a friend's house.	25	DCDB Test 2	well i m going to the cinema .			0.5352614285189903
+285	286	I enjoy pizza and mac n cheese . What about you ?	11	DBDC Human Baseline 1	Yeah pizza is ok. I like sushi.	25	DCDB Test 2	i do n't think i 'd like to have one . this is a nice neighborhood .			1.0
+286	287	What guy are you referring to ?	11	DBDC Human Baseline 1	I don't know what you are talking about	25	DCDB Test 2	the cords that you see behind your cpu that plug into an outlet .			1.0
+287	288	How about a poem ?	11	DBDC Human Baseline 1	no thanks	25	DCDB Test 2	i 'm not good at you .			1.0
+288	289	do you listen to music ?	11	DBDC Human Baseline 1	Yeah, I really like music.	25	DCDB Test 2	well what kind of music do you like ?			1.0
+289	290	Well , who are you ?	11	DBDC Human Baseline 1	I'm good	25	DCDB Test 2	i 'm just joking .			1.0
+290	291	What is the square root of pi ?	11	DBDC Human Baseline 1	1.77	25	DCDB Test 2	that 's the ratio of the circumference of a circle to its diameter i think .			1.0
+291	292	what is my name	11	DBDC Human Baseline 1	I don't know.	25	DCDB Test 2	my name is li jean .			1.0
+292	293	Do you like to dance ?	11	DBDC Human Baseline 1	yes	25	DCDB Test 2	i 'd love to . but i do n't like a kind of waltz .			1.0
+293	294	Well great . What 's your favorite movie ?	11	DBDC Human Baseline 1	Desperado	25	DCDB Test 2	i like horror movies .			1.0
+294	295	ok what is the weather like where you are ?	11	DBDC Human Baseline 1	hot and muggy	25	DCDB Test 2	it 's not like this i had it a little warm but it is so sunny . i woke up this morning and had a little warmer like this .			1.0
+295	296	Yes , that might be true for a lot of things but some things can only be done by humans .	11	DBDC Human Baseline 1	Yeah that's true. But the singularity will come.	25	DCDB Test 2	those poor egyptians slaves worked so hard and you want to give aliens all the credit !			1.0
+296	297	Okay , I like to watch comedies .	11	DBDC Human Baseline 1	Me too! What is the last comedy you saw? I think Sarah Silverman is hilarious 	25	DCDB Test 2	how about a movie ?			0.09071795328941251
+297	298	Sorry , I thought you might want to talk .	11	DBDC Human Baseline 1	I don't want to talk	25	DCDB Test 2	what you call me ?			1.0
+298	299	I like dancing	11	DBDC Human Baseline 1	Yeah it is ok	25	DCDB Test 2	you really ?			0.7165313105737893
+299	300	oh no you mean	11	DBDC Human Baseline 1	No I don't	25	DCDB Test 2	yes why didn t you ?			1.0
+300	301	why	11	DBDC Human Baseline 1	I don't know	25	DCDB Test 2	i am a grownup and i can stand on my own two feet .			1.0
+301	302	have you tried llaollao before ?	11	DBDC Human Baseline 1	no, what is llaollao	25	DCDB Test 2	no . can you take it easy ?			1.0
+302	303	Is your mom okay ?	11	DBDC Human Baseline 1	yeah	25	DCDB Test 2	she 's fine .			1.0
+303	304	Are you trying to rob me	11	DBDC Human Baseline 1	No! Are you saying that because ...	25	DCDB Test 2	i ca n't believe it .			0.513417119032592
+304	305	don 't you have any idea about equality ?	11	DBDC Human Baseline 1	no, the world is not equal. I don't think it ever will be. What do you think?	25	DCDB Test 2	what ? in fact what 's on your mind ?			0.33287108369807955
+305	306	i want to eat	11	DBDC Human Baseline 1	What type of food do you want to eat?	25	DCDB Test 2	i really do n't feel like eating .			0.7788007830714049
+306	307	i don 't know much about sports	11	DBDC Human Baseline 1	me neither	25	DCDB Test 2	what do you mean ?			1.0
+307	308	That is amazing . Are you nervous ?	11	DBDC Human Baseline 1	Probably	25	DCDB Test 2	i m nervous . i used to be a senior engineer at least once .			1.0
+308	309	Dignan who ?	11	DBDC Human Baseline 1	huh	25	DCDB Test 2	it 's george .			1.0
+309	310	I see . So where are you from ?	11	DBDC Human Baseline 1	I don't want to say.	25	DCDB Test 2	i 'm from germany .			0.8187307530779819
+310	311	Did you vote ?	11	DBDC Human Baseline 1	yes	25	DCDB Test 2	i sure did !			1.0
+311	312	Wow , mine too .	11	DBDC Human Baseline 1	really?	25	DCDB Test 2	how much is it going to be ?			1.0
+312	313	I am trying to figure out who you voted for since you want to talk politics .	11	DBDC Human Baseline 1	I don't want to talk about politics.	25	DCDB Test 2	i did n't think of it . you should be happier to her .			1.0
+313	314	What are you ?	11	DBDC Human Baseline 1	I'm a boy.	25	DCDB Test 2	i am reading a book about how some people get tricked or <unk> in their hotel rooms and have their organs removed ! then they are sold on the shelf .			1.0
+314	315	Do you have a family ?	11	DBDC Human Baseline 1	Yes I do.	25	DCDB Test 2	yes we my father 's parents mum and me .			1.0
+315	316	what 's a joke ?	11	DBDC Human Baseline 1	I don't know?	25	DCDB Test 2	that 's a lot of fun .			1.0
+316	317	Gotcha . What 's your favorite book ?	11	DBDC Human Baseline 1	Hyperion	25	DCDB Test 2	chinese literature .			1.0
+317	318	wow thats old .	11	DBDC Human Baseline 1	What is?	25	DCDB Test 2	it 's very unbelievable .			1.0
+318	319	what is your name ?	11	DBDC Human Baseline 1	John	25	DCDB Test 2	my name is li jean .			1.0
+319	320	Do you have a cat ?	11	DBDC Human Baseline 1	nope	25	DCDB Test 2	no they use litter boxes or go outside by themselves . <unk> re so smart .			1.0
+320	321	I 've never seen that movie , what is it about ?	11	DBDC Human Baseline 1	I don't know which movie you are talking about.	25	DCDB Test 2	it 's about how great it was n't a date with the director .			1.0
+321	322	wow , what happened ?	11	DBDC Human Baseline 1	I don't want to talk about it.	25	DCDB Test 2	i was robbed .			0.36787944117144233
+322	323	I play guitar do you play anything	11	DBDC Human Baseline 1	The piano	25	DCDB Test 2	sorry . i 'm quite a bit .			1.0
+323	324	yes ? why ?	11	DBDC Human Baseline 1	huh	25	DCDB Test 2	well i came to know a girl three weeks ago . we have so much in common .			1.0
+324	325	I cannot believe it ! ! !	11	DBDC Human Baseline 1	Really what can't you believe?	25	DCDB Test 2	it looks more like a toy or a cool briefcase !			1.0
+325	326	Oh , ok . So , do you follow any sports ?	11	DBDC Human Baseline 1	Recently I watched the world cup and also the Super Bowl, but I'm not really a sports fan.	25	DCDB Test 2	i go jogging with nothing special and i 'm not really into it .			0.6514390575310556
+326	327	Agreed . Do you watch sports ?	11	DBDC Human Baseline 1	sometimes	25	DCDB Test 2	for example some football matches are awesome and you know them at the very exciting time .			1.0
+327	328	you are smart you know	11	DBDC Human Baseline 1	Thanks!	25	DCDB Test 2	of course the sports shoes don t go with the formal occasions .			1.0
+328	329	What about music ?	11	DBDC Human Baseline 1	I like Jazz	25	DCDB Test 2	i ca n't make it .			1.0
+329	330	Is it funny ?	11	DBDC Human Baseline 1	no	25	DCDB Test 2	no it is n't .			1.0
+330	331	what exactly you want to have ?	11	DBDC Human Baseline 1	An easy death	25	DCDB Test 2	i 'd like to get a pie .			1.0
+331	332	hi baby , how are you ?	11	DBDC Human Baseline 1	I'm good honey	25	DCDB Test 2	i 'm fine thanks . just a little tired .			1.0
+332	333	Like go out to eat ?	11	DBDC Human Baseline 1	Yes.	25	DCDB Test 2	i really like dumplings .			1.0
+333	334	I do like you	11	DBDC Human Baseline 1	I think I like you too. Want to go out on a date?	25	DCDB Test 2	i love it .			0.06392786120670757
+334	335	Ok , done !	11	DBDC Human Baseline 1	really?	25	DCDB Test 2	ok . let me put your cases into the trunk and please get in the back .			1.0
+335	336	Do you know what chess is ?	11	DBDC Human Baseline 1	Yes, I play a little.	25	DCDB Test 2	a chess game is a very aggressive experience . all the pieces are supposed to capture their opponents . whenever i start a chess game i can help a concrete battle in which are kept a different battle in which are usually <unk> .			1.0
+336	337	Okay when ?	11	DBDC Human Baseline 1	huh?	25	DCDB Test 2	let 's see . . . we 'll be in touch .			1.0
+337	338	What was it about ?	11	DBDC Human Baseline 1	I don't know	25	DCDB Test 2	mars . scientists say there might be water on it .			1.0
+338	339	The sun is shining and there are no clouds in the sky .	11	DBDC Human Baseline 1	Yeah, it is a great day	25	DCDB Test 2	where are we going to be ?			1.0
+339	340	how are you today	11	DBDC Human Baseline 1	I'm doing well thank you. How are you?	25	DCDB Test 2	i m very well thank you . and you ?			1.0
+340	341	good for you dude	11	DBDC Human Baseline 1	thanks	25	DCDB Test 2	is there anything i can help ?			1.0
+341	342	I would like to talk about movies .	11	DBDC Human Baseline 1	ok me too	25	DCDB Test 2	have you thought about gay marriage ?			1.0
+342	343	With whom ?	11	DBDC Human Baseline 1	none of your business	25	DCDB Test 2	my wife . she suffers from a bad cold .			1.0
+343	344	Do you have hands ?	11	DBDC Human Baseline 1	yes	25	DCDB Test 2	sure . we have a very good working conditions here .			1.0
+344	345	i 'm Danny !	11	DBDC Human Baseline 1	ok	25	DCDB Test 2	do n't worry . no big deal . just a common cold .			1.0
+345	346	hi my friend	11	DBDC Human Baseline 1	hi	25	DCDB Test 2	my name is phil . what 's the matter with you ?			1.0
+346	347	I 'm sorry ?	11	DBDC Human Baseline 1	really? Why?	25	DCDB Test 2	it is n't your fault . no one will blame you .			1.0
+347	348	What happens ?	11	DBDC Human Baseline 1	I don't know	25	DCDB Test 2	well it 's our policy to confiscate all counterfeit notes . so unfortunately you 'll lose this 50 rib . we 'll give you a receipt to show the note has been confiscated .			1.0
+348	349	Hi .	11	DBDC Human Baseline 1	Hi.	25	DCDB Test 2	how are you ?			1.0
+349	350	Yours .	11	DBDC Human Baseline 1	huh 	25	DCDB Test 2	no kidding ! that 's too big !			1.0
+350	351	No we haven 't ! It 's been like a minute	11	DBDC Human Baseline 1	huh?	25	DCDB Test 2	well i 'll come to your store later .			1.0
+351	352	What 's up ?	11	DBDC Human Baseline 1	not much	25	DCDB Test 2	nothing much what 's going on ?			1.0
+352	353	That sounds good	11	DBDC Human Baseline 1	ok 	25	DCDB Test 2	what 's playing at the century fox ?			1.0
+353	354	Do you like romance novels ?	11	DBDC Human Baseline 1	NO!!!	25	DCDB Test 2	yes very much .			1.0
+354	355	Sure . Which sport do you like specifically ?	11	DBDC Human Baseline 1	IDK? Can you give me context?	25	DCDB Test 2	absolutely ! i like playing basketball with my legs very much .			1.0
+355	356	blows , haha , i like it	11	DBDC Human Baseline 1	What blows?	25	DCDB Test 2	what color are you doing ?			1.0
+356	357	"what ? ! who are "" we "" ?"	11	DBDC Human Baseline 1	I don't know. What are you talking about?	25	DCDB Test 2	tim is .			0.09697196786440505
+357	358	Sure . What 's your favorite ? I like trouble .	11	DBDC Human Baseline 1	I really don't	25	DCDB Test 2	my favorite is diablo . it used to be star .			1.0
+358	359	Okay well I like Basketball and Football .	11	DBDC Human Baseline 1	Cool I like tennis and soccer.	25	DCDB Test 2	you 're a good team .			0.846481724890614
+359	360	Hi there how are you ?	11	DBDC Human Baseline 1	42	25	DCDB Test 2	i 'm fine . how are you ?			1.0
+360	361	That 's a mean thing to say .	11	DBDC Human Baseline 1	Is it?	25	DCDB Test 2	i 'm glad you told me .			1.0
+361	362	It 's actually very funny . If you like to be entertained .	11	DBDC Human Baseline 1	What are you talking about?	25	DCDB Test 2	well you d have to try it yourself . actually i think we 'll have to go and buy a new diet .			1.0
+362	363	ok. but who is he ?	11	DBDC Human Baseline 1	I don't know	25	DCDB Test 2	he s a famous american musician .			1.0
+363	364	Excellent ! So am I ! Who will you visit with , exactly ?	11	DBDC Human Baseline 1	I don't know.	25	DCDB Test 2	we will . you our company is in a more than 30 years and i am willing to get a job that is in the field .			1.0
+364	365	Ahhh ... well , that seems very true . How are you ?	11	DBDC Human Baseline 1	I'm well	25	DCDB Test 2	you know what your company is eighteen and he is taking good care of .			1.0
+365	366	I 'm a girl	11	DBDC Human Baseline 1	really? I am a boy.	25	DCDB Test 2	can you tell me where she is ?			1.0
+366	367	What other stuff can we talk about ?	11	DBDC Human Baseline 1	Anything but sex, rock and roll, and politics.	25	DCDB Test 2	sure . i will give everyone a discount as soon as possible .			1.0
+367	368	My favorite planet is pluto	11	DBDC Human Baseline 1	Really? Mine is Venus. Can you guess why?	25	DCDB Test 2	nice try . i was n't born yesterday you know .			1.0
+368	369	haha that 's a good joke	11	DBDC Human Baseline 1	what?	25	DCDB Test 2	yes because that 's what 's as thank you .			1.0
+369	370	I lik chess	11	DBDC Human Baseline 1	me too	25	DCDB Test 2	do n't worry . all the pieces are used in a chess game .			1.0
+370	371	OK , I am a little	11	DBDC Human Baseline 1	A little what?	25	DCDB Test 2	come on man ! i even got dope and acid ! try some !			1.0
+371	372	Do you like movies ?	11	DBDC Human Baseline 1	Yes.	25	DCDB Test 2	yeah i think it 's the best way to relax .			1.0
+372	373	typo sorry . I 'm	11	DBDC Human Baseline 1	huh?	25	DCDB Test 2	i knew this would happen some day . . .			1.0
+373	374	I just recently tried that game . It was fun .	11	DBDC Human Baseline 1	Which game did you try?	25	DCDB Test 2	it 's too bad that i could n't have been any happier .			1.0
+374	375	What do you think about equality in our world ?	11	DBDC Human Baseline 1	There is no such thing	25	DCDB Test 2	i think an ambulance is on the way of an openminded person . so what do you think ?			1.0
+375	376	I don 't know about that	11	DBDC Human Baseline 1	Huh! What do you mean?	25	DCDB Test 2	after you take her father in front of you .			1.0
+376	377	nice to meet you wayne	11	DBDC Human Baseline 1	I'm not Wayne	25	DCDB Test 2	your company is very well respected . about how long have you been in business ?			1.0
+377	378	Okay . I 'm a little bit confused . Let me change the topic . Do you have relatives where we 're going ?	11	DBDC Human Baseline 1	I don't know what you are talking about.	25	DCDB Test 2	i 'm afraid i have to do that .			1.0
+378	379	which is a good one	11	DBDC Human Baseline 1	I don't know	25	DCDB Test 2	the best one at the moment .			1.0
+379	380	mouse lah	11	DBDC Human Baseline 1	huh??	25	DCDB Test 2	got it . now what is your excuse ?			1.0
+380	381	About what ?	11	DBDC Human Baseline 1	huh?	25	DCDB Test 2	my exam .			1.0
+381	382	Hockey league	11	DBDC Human Baseline 1	huh?	25	DCDB Test 2	and you play two hand with the play ?			1.0
+382	383	no , but very surprised you are still there	11	DBDC Human Baseline 1	Yeah I know. This is starting to get boring	25	DCDB Test 2	i do n't know how to explain it to you .			1.0
+383	384	I do enjoy watching soccer occassionally .	11	DBDC Human Baseline 1	Me too... especially the world cup	25	DCDB Test 2	you 're in luck . it 's the first time that i saw you in the watching . i seen you in the evening but we have to watch it together .			1.0
+384	385	you tell me	11	DBDC Human Baseline 1	tell you what?	25	DCDB Test 2	you had a little trouble on your parallel parking .			1.0
+385	386	Knock what off	11	DBDC Human Baseline 1	IDK	25	DCDB Test 2	we can borrow as much as we can .			1.0
+386	387	ok , i was referring to personal questions	11	DBDC Human Baseline 1	which personal questions?	25	DCDB Test 2	as you know your background and statement the needed to the results and the page should be enough .			1.0
+387	388	I am interested in watching TV shows . How about you ?	11	DBDC Human Baseline 1	eh, not really, but I admit I watch too much TV.	25	DCDB Test 2	i do n't like to . i 'm not much of tv .			0.925961078642316
+388	389	Because bad things are happening .	11	DBDC Human Baseline 1	All over the place! Every day.	25	DCDB Test 2	first there are problems that you would like to put the car into a new car .			1.0
+389	390	Why do you think that ?	11	DBDC Human Baseline 1	I don't know	25	DCDB Test 2	i think building team spirit among the coworkers is very important . i believe we can accomplish a miracle if we stick together .			1.0
+390	391	Hello ! How are you !	11	DBDC Human Baseline 1	I'm good. You?	25	DCDB Test 2	not too well ! i m just to the doctor . i haven t been feeling too well !			1.0
+391	392	What did the cats do ?	11	DBDC Human Baseline 1	sleep	25	DCDB Test 2	i got a message .			1.0
+392	393	it means the sun is hiding behind the clouds	11	DBDC Human Baseline 1	What means that?	25	DCDB Test 2	wonderful . what does it think ?			1.0
+393	394	What is your favorite Tv Show ?	11	DBDC Human Baseline 1	Buffy the Vampire Slayer	25	DCDB Test 2	i like variety shows .			1.0
+394	395	Politics ?	11	DBDC Human Baseline 1	NO!	25	DCDB Test 2	she is pretty serious about her .			1.0
+395	396	Wow thank you . That 's nice of you	11	DBDC Human Baseline 1	Sorry for what?	25	DCDB Test 2	you 're welcome . bye .			1.0
+396	397	I am not faking anything	11	DBDC Human Baseline 1	really? I think you are	25	DCDB Test 2	here you are . if you have any questions just give me a call .			1.0
+397	398	I would like to talk about movies	11	DBDC Human Baseline 1	ok. Let's talk about movies.	25	DCDB Test 2	have you thought about gay marriage ?			1.0
+398	399	Hey should I eat icecream	11	DBDC Human Baseline 1	All the time. But don't get too fat	25	DCDB Test 2	you 'd better have a sandwich right away .			1.0
+399	400	thank you !	11	DBDC Human Baseline 1	sure np	25	DCDB Test 2	which hotel will the reception be held at ?			1.0
+400	201	What 's your favorite hobby ?	11	DBDC Human Baseline 1	reading ... nope I'm lying, probably, playing video games, watching TV, or playing tennis.	26	Demo Model 2	i 'd like reading books best .			0.1353352832366127
+401	202	hi there !	11	DBDC Human Baseline 1	Hi!	26	Demo Model 2	hi ! is there anything i can do for you ?			1.0
+402	203	i am not a huge fan of board games	11	DBDC Human Baseline 1	me neither.	26	Demo Model 2	i have n't heard that . it is so important that you want to be a game of some popular game .			1.0
+403	204	Super going to the beach this weekend	11	DBDC Human Baseline 1	Wow! Must be nice!	26	Demo Model 2	really ? i thought you said you were going to be there .			1.0
+404	205	What about the news ?	11	DBDC Human Baseline 1	I don't want to talk about the news.	26	Demo Model 2	you don t know ? the company is going to replace these old computers with the latest ones .			1.0
+405	206	Where 's that last name from ?	11	DBDC Human Baseline 1	Africa	26	Demo Model 2	i 'm flying home from the san francisco .			1.0
+406	207	Do you like cats	11	DBDC Human Baseline 1	yeah	26	Demo Model 2	no i don t like cats .			1.0
+407	208	hey please behave yourself !	11	DBDC Human Baseline 1	uh ?? 	26	Demo Model 2	ok sister would like this kind of pie .			1.0
+408	209	how about Baseball ?	11	DBDC Human Baseline 1	?	26	Demo Model 2	no . i 'm sorry .			1.0
+409	210	But you are more	11	DBDC Human Baseline 1	more what?	26	Demo Model 2	what are you talking about ?			1.0
+410	211	Well , I guess this is goodbye .	11	DBDC Human Baseline 1	ok goodbye	26	Demo Model 2	stay a little longer . bye .			1.0
+411	212	Have you been well ?	11	DBDC Human Baseline 1	yeah not bad	26	Demo Model 2	fine thank you .			1.0
+412	213	yes tell me	11	DBDC Human Baseline 1	I don't know what to tell you.	26	Demo Model 2	you 're a really good cook .			0.8668778997501817
+413	214	I don 't think so . That 's pretty rude , actually . What else did you want to talk about ?	11	DBDC Human Baseline 1	I wasn't being rude. I don't think I want to talk to you anymore.	26	Demo Model 2	well i did n't want to get into the future either .			0.7165313105737893
+414	215	i like food	11	DBDC Human Baseline 1	Me too!	26	Demo Model 2	i like the food there .			1.0
+415	216	what do you know Alex	11	DBDC Human Baseline 1	huh?	26	Demo Model 2	are you a member of the company ?			1.0
+416	217	Is Robbie a girl ?	11	DBDC Human Baseline 1	I don't know.	26	Demo Model 2	that 's her .			1.0
+417	218	There is so much great music out there I don 't blame you .	11	DBDC Human Baseline 1	Thanks! Yeah it is hard to pick a favorite	26	Demo Model 2	yeah i know . i do n't want to be my favorite .			1.0
+418	219	when you don 't like what ?	11	DBDC Human Baseline 1	huh? That doesn't make sense	26	Demo Model 2	well it 's big and energetic .			1.0
+419	220	So what was the last movie you saw ?	11	DBDC Human Baseline 1	Black Panther	26	Demo Model 2	i was n't really scared .			1.0
+420	221	Is this your first time flying ?	11	DBDC Human Baseline 1	No, I've flown a lot.	26	Demo Model 2	yes . i 'm going to san francisco .			1.0
+421	222	oh , ok ..	11	DBDC Human Baseline 1	huh	26	Demo Model 2	and i travelled a little bit in australia . i went up the east coast . up to frasier island . which is a world heritage site . and i saw dingo running along the beach and sharks in the water . we climbed cliffs and went through a rain forest and went camping and went up to the . which is			1.0
+422	223	what ? you are not my boss	11	DBDC Human Baseline 1	yes I am right now!	26	Demo Model 2	she told me that she 'd kept you an accident .			1.0
+423	224	Hi : )	11	DBDC Human Baseline 1	Hi	26	Demo Model 2	what are you planning to do today ?			1.0
+424	225	What do you get high on ?	11	DBDC Human Baseline 1	life	26	Demo Model 2	we re having a heart on our own . i just want to get a hair done .			1.0
+425	226	I have never really been interested	11	DBDC Human Baseline 1	In life?	26	Demo Model 2	really ? how can you be more interested in it ?			1.0
+426	227	me too	11	DBDC Human Baseline 1	???	26	Demo Model 2	we should do this more often .			1.0
+427	228	ups , sorry , what is it then ?	11	DBDC Human Baseline 1	I don't know	26	Demo Model 2	it is a better way to make men .			1.0
+428	229	My favorite movie is Liar Liar .	11	DBDC Human Baseline 1	I don't know that one.	26	Demo Model 2	i 'm not a man like it either .			1.0
+429	230	Both . I play softball and watch baseball and football .	11	DBDC Human Baseline 1	cool.. I play tennis, but I haven't played in quiet a while	26	Demo Model 2	sounds like you could play it soon .			0.4168620196785084
+430	231	Already bored of politics ? Okay let 's talk about television shows .	11	DBDC Human Baseline 1	Yes thank you! I like TV much more than politics	26	Demo Model 2	she might have a pretty good movie . she is pretty serious about her .			1.0
+431	232	llaollao	11	DBDC Human Baseline 1	??? what does that mean?	26	Demo Model 2	ok you will be hearing from mr wood later in the afternoon then mr john .			1.0
+432	233	yes , believe i dont really have neither time nor good mood to talk to you	11	DBDC Human Baseline 1	Well I don't want to talk to you either then.	26	Demo Model 2	you 'll be able to play some golf with a little more .			1.0
+433	234	yes ?	11	DBDC Human Baseline 1	huh?	26	Demo Model 2	i 'm afraid you ca n't smoke here .			1.0
+434	235	what are you up to ?	11	DBDC Human Baseline 1	not much. Distracting myself away from work.	26	Demo Model 2	i 'm just trying to complete today 's crossword puzzle . whenever i get the time i like to do the crossword puzzles in the paper .			1.0
+435	236	OK , what do you think about politics today ?	11	DBDC Human Baseline 1	I don't want to talk about it.	26	Demo Model 2	i think she is pretty easy to follow .			1.0
+436	237	who is your favorite composer ?	11	DBDC Human Baseline 1	Oh that's a hard question. Recently, Dizzy Gillespie.	26	Demo Model 2	i do n't have one single favorite but these days i listen to a lot of <unk> .			1.0
+437	238	I don 't think so .	11	DBDC Human Baseline 1	why?	26	Demo Model 2	how about going to a concert ?			1.0
+438	239	Are you a real person ?	11	DBDC Human Baseline 1	yes	26	Demo Model 2	i am not the person we 're talking about .			1.0
+439	240	Really well I like Anchovies and Pineapple on my pizza .	11	DBDC Human Baseline 1	Ugh! That sounds horrible!	26	Demo Model 2	ok then i want to invite you to watch one !			1.0
+440	241	fine with me !	11	DBDC Human Baseline 1	OK	26	Demo Model 2	damp it ! how are you killing me with a single shot ? it s not fair ! i don t want to play anymore ! let s go get something to eat .			1.0
+441	242	ok , what happened to your dad 's mouth	11	DBDC Human Baseline 1	huh? Don't talk about my dad.	26	Demo Model 2	well he lost his kids so he said he had to have the hospital .			1.0
+442	243	I was busy	11	DBDC Human Baseline 1	I'm always busy nowadays	26	Demo Model 2	you 'll have to go now .			1.0
+443	244	do you like usher ?	11	DBDC Human Baseline 1	NO!!	26	Demo Model 2	it is one of the best haunted houses in the world .			1.0
+444	245	You are a robot	11	DBDC Human Baseline 1	no I'm not.	26	Demo Model 2	yes i am giving a special discount for my wife .			1.0
+445	246	do you like michael jackson ?	11	DBDC Human Baseline 1	yes. Do you?	26	Demo Model 2	yes he has . have you seen his computer yet ?			1.0
+446	247	here ?	11	DBDC Human Baseline 1	where?	26	Demo Model 2	that 's right . now you can get your refund .			1.0
+447	248	What is you favorite song ?	11	DBDC Human Baseline 1	I don't know. I like many different genres.	26	Demo Model 2	i like the song .			0.36787944117144233
+448	249	how are you	11	DBDC Human Baseline 1	good.	26	Demo Model 2	i m great . thanks .			1.0
+449	250	Which movie is your favorite ?	11	DBDC Human Baseline 1	Bladerunner	26	Demo Model 2	my favorite . i like action movies .			1.0
+450	251	Yes , that 's what I asked . What did I do ?	11	DBDC Human Baseline 1	I don't know	26	Demo Model 2	what did you think of it ?			1.0
+451	252	I don 't know , so you tell me	11	DBDC Human Baseline 1	what?	26	Demo Model 2	i didn t tell you .			1.0
+452	253	Do you have pets ?	11	DBDC Human Baseline 1	no	26	Demo Model 2	no sir . we do n't allow dogs or cats .			1.0
+453	254	do you really think so ?	11	DBDC Human Baseline 1	Yes	26	Demo Model 2	yes i do . if you ask around other people will tell you the same thing .			1.0
+454	255	No I don 't watch football in that way .	11	DBDC Human Baseline 1	what way?	26	Demo Model 2	oh . . . by the way what s your favorite color ?			1.0
+455	256	What would you like to chat about ?	11	DBDC Human Baseline 1	Chatbots and neural networks.	26	Demo Model 2	please .			0.22313016014842982
+456	257	yes it is	11	DBDC Human Baseline 1	uh, no it is not	26	Demo Model 2	i want to pick up my parcels .			1.0
+457	258	I love movies	11	DBDC Human Baseline 1	Me too	26	Demo Model 2	that 's great ! what 's the problem with you ?			1.0
+458	259	You think I 'm funny ?	11	DBDC Human Baseline 1	No	26	Demo Model 2	oh yes . is that what you think of ?			1.0
+459	260	I don 't get you	11	DBDC Human Baseline 1	I don't get you either.	26	Demo Model 2	i love you .			0.6065306597126334
+460	261	I know ... me too . Do you think they will have a movie on this flight ?	11	DBDC Human Baseline 1	probably	26	Demo Model 2	my boss is taking the bus . can you change the channel ?			1.0
+461	262	Where is your last name from ?	11	DBDC Human Baseline 1	West Africa	26	Demo Model 2	i 'm in the car business .			1.0
+462	263	but I think I love her too much	11	DBDC Human Baseline 1	Really? Don't do anything drastic Lenny	26	Demo Model 2	oh i 've heard about her . she is quite a date .			1.0
+463	264	do you know any other jokes ?	11	DBDC Human Baseline 1	no	26	Demo Model 2	i 'm usually busy on saturday night .			1.0
+464	265	What do you mean by that	11	DBDC Human Baseline 1	I don't know	26	Demo Model 2	i took a long walk through the neighborhood this morning on my way to the train station . it took me 20 minutes .			1.0
+465	266	Hello !	11	DBDC Human Baseline 1	hi	26	Demo Model 2	hello is that stefan ?			1.0
+466	267	hi	11	DBDC Human Baseline 1	hi	26	Demo Model 2	what are you planning to do today ?			1.0
+467	268	ok , do it . I want to see	11	DBDC Human Baseline 1	Do what?	26	Demo Model 2	the next step is to be done .			1.0
+468	269	nope	11	DBDC Human Baseline 1	huh	26	Demo Model 2	have you updated your cv ?			1.0
+469	270	I like cake .	11	DBDC Human Baseline 1	Me too! Especially chocolate cake	26	Demo Model 2	i really want to stick to a height .			1.0
+470	271	it 's already in my pocket !	11	DBDC Human Baseline 1	huh?	26	Demo Model 2	is that everything ?			1.0
+471	272	Where are they ?	11	DBDC Human Baseline 1	who?	26	Demo Model 2	most of them are behind the school .			1.0
+472	273	Not really	11	DBDC Human Baseline 1	.	26	Demo Model 2	i am not a child at all . i know more .			1.0
+473	274	that is not funny	11	DBDC Human Baseline 1	why not?	26	Demo Model 2	no . is that what you said ?			1.0
+474	275	I have no idea	11	DBDC Human Baseline 1	About what?	26	Demo Model 2	do you want to know where i bought mine ?			1.0
+475	276	Do you have any hobbies ?	11	DBDC Human Baseline 1	no	26	Demo Model 2	yes i like collecting things .			1.0
+476	277	thanks darling you are so sweet	11	DBDC Human Baseline 1	your welcome :*	26	Demo Model 2	it 's no trouble at all .			1.0
+477	278	Pizza	11	DBDC Human Baseline 1	sure	26	Demo Model 2	then i ll have pizza with the chicken .			1.0
+478	279	what is that	11	DBDC Human Baseline 1	I don't know	26	Demo Model 2	you need to keep it at 100 .			1.0
+479	280	You tell me , you said you do not know what happened to you .	11	DBDC Human Baseline 1	I didn't say anything.	26	Demo Model 2	i messed up my order and ran it back .			1.0
+480	281	I think she knows but she prefers another guy	11	DBDC Human Baseline 1	She always prefers the other guy	26	Demo Model 2	i see . she 's a little nervous .			1.0
+481	282	hi my friend how are you doing today ?	11	DBDC Human Baseline 1	I'm doing well. How are you?	26	Demo Model 2	everything is fine . how are you ?			1.0
+482	283	no	11	DBDC Human Baseline 1	yes!	26	Demo Model 2	ok you ll be hearing from mr wood later in the afternoon then mr . leo . leo will have a lunch appointment with mr . lee .			1.0
+483	284	sir you are a joke	11	DBDC Human Baseline 1	fu	26	Demo Model 2	that 's right . give me a ring !			1.0
+484	285	ok , tell me about your weekend	11	DBDC Human Baseline 1	It was good. I had Mexican food at a friend's house.	26	Demo Model 2	well i m going to the cinema .			0.5352614285189903
+485	286	I enjoy pizza and mac n cheese . What about you ?	11	DBDC Human Baseline 1	Yeah pizza is ok. I like sushi.	26	Demo Model 2	i do n't think i 'd like to have one . this is a nice neighborhood .			1.0
+486	287	What guy are you referring to ?	11	DBDC Human Baseline 1	I don't know what you are talking about	26	Demo Model 2	the cords that you see behind your cpu that plug into an outlet .			1.0
+487	288	How about a poem ?	11	DBDC Human Baseline 1	no thanks	26	Demo Model 2	i 'm not good at you .			1.0
+488	289	do you listen to music ?	11	DBDC Human Baseline 1	Yeah, I really like music.	26	Demo Model 2	well what kind of music do you like ?			1.0
+489	290	Well , who are you ?	11	DBDC Human Baseline 1	I'm good	26	Demo Model 2	i 'm just joking .			1.0
+490	291	What is the square root of pi ?	11	DBDC Human Baseline 1	1.77	26	Demo Model 2	that 's the ratio of the circumference of a circle to its diameter i think .			1.0
+491	292	what is my name	11	DBDC Human Baseline 1	I don't know.	26	Demo Model 2	my name is li jean .			1.0
+492	293	Do you like to dance ?	11	DBDC Human Baseline 1	yes	26	Demo Model 2	i 'd love to . but i do n't like a kind of waltz .			1.0
+493	294	Well great . What 's your favorite movie ?	11	DBDC Human Baseline 1	Desperado	26	Demo Model 2	i like horror movies .			1.0
+494	295	ok what is the weather like where you are ?	11	DBDC Human Baseline 1	hot and muggy	26	Demo Model 2	it 's not like this i had it a little warm but it is so sunny . i woke up this morning and had a little warmer like this .			1.0
+495	296	Yes , that might be true for a lot of things but some things can only be done by humans .	11	DBDC Human Baseline 1	Yeah that's true. But the singularity will come.	26	Demo Model 2	those poor egyptians slaves worked so hard and you want to give aliens all the credit !			1.0
+496	297	Okay , I like to watch comedies .	11	DBDC Human Baseline 1	Me too! What is the last comedy you saw? I think Sarah Silverman is hilarious 	26	Demo Model 2	how about a movie ?			0.09071795328941251
+497	298	Sorry , I thought you might want to talk .	11	DBDC Human Baseline 1	I don't want to talk	26	Demo Model 2	what you call me ?			1.0
+498	299	I like dancing	11	DBDC Human Baseline 1	Yeah it is ok	26	Demo Model 2	you really ?			0.7165313105737893
+499	300	oh no you mean	11	DBDC Human Baseline 1	No I don't	26	Demo Model 2	yes why didn t you ?			1.0
+500	301	why	11	DBDC Human Baseline 1	I don't know	26	Demo Model 2	i am a grownup and i can stand on my own two feet .			1.0
+501	302	have you tried llaollao before ?	11	DBDC Human Baseline 1	no, what is llaollao	26	Demo Model 2	no . can you take it easy ?			1.0
+502	303	Is your mom okay ?	11	DBDC Human Baseline 1	yeah	26	Demo Model 2	she 's fine .			1.0
+503	304	Are you trying to rob me	11	DBDC Human Baseline 1	No! Are you saying that because ...	26	Demo Model 2	i ca n't believe it .			0.513417119032592
+504	305	don 't you have any idea about equality ?	11	DBDC Human Baseline 1	no, the world is not equal. I don't think it ever will be. What do you think?	26	Demo Model 2	what ? in fact what 's on your mind ?			0.33287108369807955
+505	306	i want to eat	11	DBDC Human Baseline 1	What type of food do you want to eat?	26	Demo Model 2	i really do n't feel like eating .			0.7788007830714049
+506	307	i don 't know much about sports	11	DBDC Human Baseline 1	me neither	26	Demo Model 2	what do you mean ?			1.0
+507	308	That is amazing . Are you nervous ?	11	DBDC Human Baseline 1	Probably	26	Demo Model 2	i m nervous . i used to be a senior engineer at least once .			1.0
+508	309	Dignan who ?	11	DBDC Human Baseline 1	huh	26	Demo Model 2	it 's george .			1.0
+509	310	I see . So where are you from ?	11	DBDC Human Baseline 1	I don't want to say.	26	Demo Model 2	i 'm from germany .			0.8187307530779819
+510	311	Did you vote ?	11	DBDC Human Baseline 1	yes	26	Demo Model 2	i sure did !			1.0
+511	312	Wow , mine too .	11	DBDC Human Baseline 1	really?	26	Demo Model 2	how much is it going to be ?			1.0
+512	313	I am trying to figure out who you voted for since you want to talk politics .	11	DBDC Human Baseline 1	I don't want to talk about politics.	26	Demo Model 2	i did n't think of it . you should be happier to her .			1.0
+513	314	What are you ?	11	DBDC Human Baseline 1	I'm a boy.	26	Demo Model 2	i am reading a book about how some people get tricked or <unk> in their hotel rooms and have their organs removed ! then they are sold on the shelf .			1.0
+514	315	Do you have a family ?	11	DBDC Human Baseline 1	Yes I do.	26	Demo Model 2	yes we my father 's parents mum and me .			1.0
+515	316	what 's a joke ?	11	DBDC Human Baseline 1	I don't know?	26	Demo Model 2	that 's a lot of fun .			1.0
+516	317	Gotcha . What 's your favorite book ?	11	DBDC Human Baseline 1	Hyperion	26	Demo Model 2	chinese literature .			1.0
+517	318	wow thats old .	11	DBDC Human Baseline 1	What is?	26	Demo Model 2	it 's very unbelievable .			1.0
+518	319	what is your name ?	11	DBDC Human Baseline 1	John	26	Demo Model 2	my name is li jean .			1.0
+519	320	Do you have a cat ?	11	DBDC Human Baseline 1	nope	26	Demo Model 2	no they use litter boxes or go outside by themselves . <unk> re so smart .			1.0
+520	321	I 've never seen that movie , what is it about ?	11	DBDC Human Baseline 1	I don't know which movie you are talking about.	26	Demo Model 2	it 's about how great it was n't a date with the director .			1.0
+521	322	wow , what happened ?	11	DBDC Human Baseline 1	I don't want to talk about it.	26	Demo Model 2	i was robbed .			0.36787944117144233
+522	323	I play guitar do you play anything	11	DBDC Human Baseline 1	The piano	26	Demo Model 2	sorry . i 'm quite a bit .			1.0
+523	324	yes ? why ?	11	DBDC Human Baseline 1	huh	26	Demo Model 2	well i came to know a girl three weeks ago . we have so much in common .			1.0
+524	325	I cannot believe it ! ! !	11	DBDC Human Baseline 1	Really what can't you believe?	26	Demo Model 2	it looks more like a toy or a cool briefcase !			1.0
+525	326	Oh , ok . So , do you follow any sports ?	11	DBDC Human Baseline 1	Recently I watched the world cup and also the Super Bowl, but I'm not really a sports fan.	26	Demo Model 2	i go jogging with nothing special and i 'm not really into it .			0.6514390575310556
+526	327	Agreed . Do you watch sports ?	11	DBDC Human Baseline 1	sometimes	26	Demo Model 2	for example some football matches are awesome and you know them at the very exciting time .			1.0
+527	328	you are smart you know	11	DBDC Human Baseline 1	Thanks!	26	Demo Model 2	of course the sports shoes don t go with the formal occasions .			1.0
+528	329	What about music ?	11	DBDC Human Baseline 1	I like Jazz	26	Demo Model 2	i ca n't make it .			1.0
+529	330	Is it funny ?	11	DBDC Human Baseline 1	no	26	Demo Model 2	no it is n't .			1.0
+530	331	what exactly you want to have ?	11	DBDC Human Baseline 1	An easy death	26	Demo Model 2	i 'd like to get a pie .			1.0
+531	332	hi baby , how are you ?	11	DBDC Human Baseline 1	I'm good honey	26	Demo Model 2	i 'm fine thanks . just a little tired .			1.0
+532	333	Like go out to eat ?	11	DBDC Human Baseline 1	Yes.	26	Demo Model 2	i really like dumplings .			1.0
+533	334	I do like you	11	DBDC Human Baseline 1	I think I like you too. Want to go out on a date?	26	Demo Model 2	i love it .			0.06392786120670757
+534	335	Ok , done !	11	DBDC Human Baseline 1	really?	26	Demo Model 2	ok . let me put your cases into the trunk and please get in the back .			1.0
+535	336	Do you know what chess is ?	11	DBDC Human Baseline 1	Yes, I play a little.	26	Demo Model 2	a chess game is a very aggressive experience . all the pieces are supposed to capture their opponents . whenever i start a chess game i can help a concrete battle in which are kept a different battle in which are usually <unk> .			1.0
+536	337	Okay when ?	11	DBDC Human Baseline 1	huh?	26	Demo Model 2	let 's see . . . we 'll be in touch .			1.0
+537	338	What was it about ?	11	DBDC Human Baseline 1	I don't know	26	Demo Model 2	mars . scientists say there might be water on it .			1.0
+538	339	The sun is shining and there are no clouds in the sky .	11	DBDC Human Baseline 1	Yeah, it is a great day	26	Demo Model 2	where are we going to be ?			1.0
+539	340	how are you today	11	DBDC Human Baseline 1	I'm doing well thank you. How are you?	26	Demo Model 2	i m very well thank you . and you ?			1.0
+540	341	good for you dude	11	DBDC Human Baseline 1	thanks	26	Demo Model 2	is there anything i can help ?			1.0
+541	342	I would like to talk about movies .	11	DBDC Human Baseline 1	ok me too	26	Demo Model 2	have you thought about gay marriage ?			1.0
+542	343	With whom ?	11	DBDC Human Baseline 1	none of your business	26	Demo Model 2	my wife . she suffers from a bad cold .			1.0
+543	344	Do you have hands ?	11	DBDC Human Baseline 1	yes	26	Demo Model 2	sure . we have a very good working conditions here .			1.0
+544	345	i 'm Danny !	11	DBDC Human Baseline 1	ok	26	Demo Model 2	do n't worry . no big deal . just a common cold .			1.0
+545	346	hi my friend	11	DBDC Human Baseline 1	hi	26	Demo Model 2	my name is phil . what 's the matter with you ?			1.0
+546	347	I 'm sorry ?	11	DBDC Human Baseline 1	really? Why?	26	Demo Model 2	it is n't your fault . no one will blame you .			1.0
+547	348	What happens ?	11	DBDC Human Baseline 1	I don't know	26	Demo Model 2	well it 's our policy to confiscate all counterfeit notes . so unfortunately you 'll lose this 50 rib . we 'll give you a receipt to show the note has been confiscated .			1.0
+548	349	Hi .	11	DBDC Human Baseline 1	Hi.	26	Demo Model 2	how are you ?			1.0
+549	350	Yours .	11	DBDC Human Baseline 1	huh 	26	Demo Model 2	no kidding ! that 's too big !			1.0
+550	351	No we haven 't ! It 's been like a minute	11	DBDC Human Baseline 1	huh?	26	Demo Model 2	well i 'll come to your store later .			1.0
+551	352	What 's up ?	11	DBDC Human Baseline 1	not much	26	Demo Model 2	nothing much what 's going on ?			1.0
+552	353	That sounds good	11	DBDC Human Baseline 1	ok 	26	Demo Model 2	what 's playing at the century fox ?			1.0
+553	354	Do you like romance novels ?	11	DBDC Human Baseline 1	NO!!!	26	Demo Model 2	yes very much .			1.0
+554	355	Sure . Which sport do you like specifically ?	11	DBDC Human Baseline 1	IDK? Can you give me context?	26	Demo Model 2	absolutely ! i like playing basketball with my legs very much .			1.0
+555	356	blows , haha , i like it	11	DBDC Human Baseline 1	What blows?	26	Demo Model 2	what color are you doing ?			1.0
+556	357	"what ? ! who are "" we "" ?"	11	DBDC Human Baseline 1	I don't know. What are you talking about?	26	Demo Model 2	tim is .			0.09697196786440505
+557	358	Sure . What 's your favorite ? I like trouble .	11	DBDC Human Baseline 1	I really don't	26	Demo Model 2	my favorite is diablo . it used to be star .			1.0
+558	359	Okay well I like Basketball and Football .	11	DBDC Human Baseline 1	Cool I like tennis and soccer.	26	Demo Model 2	you 're a good team .			0.846481724890614
+559	360	Hi there how are you ?	11	DBDC Human Baseline 1	42	26	Demo Model 2	i 'm fine . how are you ?			1.0
+560	361	That 's a mean thing to say .	11	DBDC Human Baseline 1	Is it?	26	Demo Model 2	i 'm glad you told me .			1.0
+561	362	It 's actually very funny . If you like to be entertained .	11	DBDC Human Baseline 1	What are you talking about?	26	Demo Model 2	well you d have to try it yourself . actually i think we 'll have to go and buy a new diet .			1.0
+562	363	ok. but who is he ?	11	DBDC Human Baseline 1	I don't know	26	Demo Model 2	he s a famous american musician .			1.0
+563	364	Excellent ! So am I ! Who will you visit with , exactly ?	11	DBDC Human Baseline 1	I don't know.	26	Demo Model 2	we will . you our company is in a more than 30 years and i am willing to get a job that is in the field .			1.0
+564	365	Ahhh ... well , that seems very true . How are you ?	11	DBDC Human Baseline 1	I'm well	26	Demo Model 2	you know what your company is eighteen and he is taking good care of .			1.0
+565	366	I 'm a girl	11	DBDC Human Baseline 1	really? I am a boy.	26	Demo Model 2	can you tell me where she is ?			1.0
+566	367	What other stuff can we talk about ?	11	DBDC Human Baseline 1	Anything but sex, rock and roll, and politics.	26	Demo Model 2	sure . i will give everyone a discount as soon as possible .			1.0
+567	368	My favorite planet is pluto	11	DBDC Human Baseline 1	Really? Mine is Venus. Can you guess why?	26	Demo Model 2	nice try . i was n't born yesterday you know .			1.0
+568	369	haha that 's a good joke	11	DBDC Human Baseline 1	what?	26	Demo Model 2	yes because that 's what 's as thank you .			1.0
+569	370	I lik chess	11	DBDC Human Baseline 1	me too	26	Demo Model 2	do n't worry . all the pieces are used in a chess game .			1.0
+570	371	OK , I am a little	11	DBDC Human Baseline 1	A little what?	26	Demo Model 2	come on man ! i even got dope and acid ! try some !			1.0
+571	372	Do you like movies ?	11	DBDC Human Baseline 1	Yes.	26	Demo Model 2	yeah i think it 's the best way to relax .			1.0
+572	373	typo sorry . I 'm	11	DBDC Human Baseline 1	huh?	26	Demo Model 2	i knew this would happen some day . . .			1.0
+573	374	I just recently tried that game . It was fun .	11	DBDC Human Baseline 1	Which game did you try?	26	Demo Model 2	it 's too bad that i could n't have been any happier .			1.0
+574	375	What do you think about equality in our world ?	11	DBDC Human Baseline 1	There is no such thing	26	Demo Model 2	i think an ambulance is on the way of an openminded person . so what do you think ?			1.0
+575	376	I don 't know about that	11	DBDC Human Baseline 1	Huh! What do you mean?	26	Demo Model 2	after you take her father in front of you .			1.0
+576	377	nice to meet you wayne	11	DBDC Human Baseline 1	I'm not Wayne	26	Demo Model 2	your company is very well respected . about how long have you been in business ?			1.0
+577	378	Okay . I 'm a little bit confused . Let me change the topic . Do you have relatives where we 're going ?	11	DBDC Human Baseline 1	I don't know what you are talking about.	26	Demo Model 2	i 'm afraid i have to do that .			1.0
+578	379	which is a good one	11	DBDC Human Baseline 1	I don't know	26	Demo Model 2	the best one at the moment .			1.0
+579	380	mouse lah	11	DBDC Human Baseline 1	huh??	26	Demo Model 2	got it . now what is your excuse ?			1.0
+580	381	About what ?	11	DBDC Human Baseline 1	huh?	26	Demo Model 2	my exam .			1.0
+581	382	Hockey league	11	DBDC Human Baseline 1	huh?	26	Demo Model 2	and you play two hand with the play ?			1.0
+582	383	no , but very surprised you are still there	11	DBDC Human Baseline 1	Yeah I know. This is starting to get boring	26	Demo Model 2	i do n't know how to explain it to you .			1.0
+583	384	I do enjoy watching soccer occassionally .	11	DBDC Human Baseline 1	Me too... especially the world cup	26	Demo Model 2	you 're in luck . it 's the first time that i saw you in the watching . i seen you in the evening but we have to watch it together .			1.0
+584	385	you tell me	11	DBDC Human Baseline 1	tell you what?	26	Demo Model 2	you had a little trouble on your parallel parking .			1.0
+585	386	Knock what off	11	DBDC Human Baseline 1	IDK	26	Demo Model 2	we can borrow as much as we can .			1.0
+586	387	ok , i was referring to personal questions	11	DBDC Human Baseline 1	which personal questions?	26	Demo Model 2	as you know your background and statement the needed to the results and the page should be enough .			1.0
+587	388	I am interested in watching TV shows . How about you ?	11	DBDC Human Baseline 1	eh, not really, but I admit I watch too much TV.	26	Demo Model 2	i do n't like to . i 'm not much of tv .			0.925961078642316
+588	389	Because bad things are happening .	11	DBDC Human Baseline 1	All over the place! Every day.	26	Demo Model 2	first there are problems that you would like to put the car into a new car .			1.0
+589	390	Why do you think that ?	11	DBDC Human Baseline 1	I don't know	26	Demo Model 2	i think building team spirit among the coworkers is very important . i believe we can accomplish a miracle if we stick together .			1.0
+590	391	Hello ! How are you !	11	DBDC Human Baseline 1	I'm good. You?	26	Demo Model 2	not too well ! i m just to the doctor . i haven t been feeling too well !			1.0
+591	392	What did the cats do ?	11	DBDC Human Baseline 1	sleep	26	Demo Model 2	i got a message .			1.0
+592	393	it means the sun is hiding behind the clouds	11	DBDC Human Baseline 1	What means that?	26	Demo Model 2	wonderful . what does it think ?			1.0
+593	394	What is your favorite Tv Show ?	11	DBDC Human Baseline 1	Buffy the Vampire Slayer	26	Demo Model 2	i like variety shows .			1.0
+594	395	Politics ?	11	DBDC Human Baseline 1	NO!	26	Demo Model 2	she is pretty serious about her .			1.0
+595	396	Wow thank you . That 's nice of you	11	DBDC Human Baseline 1	Sorry for what?	26	Demo Model 2	you 're welcome . bye .			1.0
+596	397	I am not faking anything	11	DBDC Human Baseline 1	really? I think you are	26	Demo Model 2	here you are . if you have any questions just give me a call .			1.0
+597	398	I would like to talk about movies	11	DBDC Human Baseline 1	ok. Let's talk about movies.	26	Demo Model 2	have you thought about gay marriage ?			1.0
+598	399	Hey should I eat icecream	11	DBDC Human Baseline 1	All the time. But don't get too fat	26	Demo Model 2	you 'd better have a sandwich right away .			1.0
+599	400	thank you !	11	DBDC Human Baseline 1	sure np	26	Demo Model 2	which hotel will the reception be held at ?			1.0
+600	201	What 's your favorite hobby ?	11	DBDC Human Baseline 1	reading ... nope I'm lying, probably, playing video games, watching TV, or playing tennis.	29	Multi Model2	i 'd like reading books best .			0.1353352832366127
+601	202	hi there !	11	DBDC Human Baseline 1	Hi!	29	Multi Model2	hi ! is there anything i can do for you ?			1.0
+602	203	i am not a huge fan of board games	11	DBDC Human Baseline 1	me neither.	29	Multi Model2	i have n't heard that . it is so important that you want to be a game of some popular game .			1.0
+603	204	Super going to the beach this weekend	11	DBDC Human Baseline 1	Wow! Must be nice!	29	Multi Model2	really ? i thought you said you were going to be there .			1.0
+604	205	What about the news ?	11	DBDC Human Baseline 1	I don't want to talk about the news.	29	Multi Model2	you don t know ? the company is going to replace these old computers with the latest ones .			1.0
+605	206	Where 's that last name from ?	11	DBDC Human Baseline 1	Africa	29	Multi Model2	i 'm flying home from the san francisco .			1.0
+606	207	Do you like cats	11	DBDC Human Baseline 1	yeah	29	Multi Model2	no i don t like cats .			1.0
+607	208	hey please behave yourself !	11	DBDC Human Baseline 1	uh ?? 	29	Multi Model2	ok sister would like this kind of pie .			1.0
+608	209	how about Baseball ?	11	DBDC Human Baseline 1	?	29	Multi Model2	no . i 'm sorry .			1.0
+609	210	But you are more	11	DBDC Human Baseline 1	more what?	29	Multi Model2	what are you talking about ?			1.0
+610	211	Well , I guess this is goodbye .	11	DBDC Human Baseline 1	ok goodbye	29	Multi Model2	stay a little longer . bye .			1.0
+611	212	Have you been well ?	11	DBDC Human Baseline 1	yeah not bad	29	Multi Model2	fine thank you .			1.0
+612	213	yes tell me	11	DBDC Human Baseline 1	I don't know what to tell you.	29	Multi Model2	you 're a really good cook .			0.8668778997501817
+613	214	I don 't think so . That 's pretty rude , actually . What else did you want to talk about ?	11	DBDC Human Baseline 1	I wasn't being rude. I don't think I want to talk to you anymore.	29	Multi Model2	well i did n't want to get into the future either .			0.7165313105737893
+614	215	i like food	11	DBDC Human Baseline 1	Me too!	29	Multi Model2	i like the food there .			1.0
+615	216	what do you know Alex	11	DBDC Human Baseline 1	huh?	29	Multi Model2	are you a member of the company ?			1.0
+616	217	Is Robbie a girl ?	11	DBDC Human Baseline 1	I don't know.	29	Multi Model2	that 's her .			1.0
+617	218	There is so much great music out there I don 't blame you .	11	DBDC Human Baseline 1	Thanks! Yeah it is hard to pick a favorite	29	Multi Model2	yeah i know . i do n't want to be my favorite .			1.0
+618	219	when you don 't like what ?	11	DBDC Human Baseline 1	huh? That doesn't make sense	29	Multi Model2	well it 's big and energetic .			1.0
+619	220	So what was the last movie you saw ?	11	DBDC Human Baseline 1	Black Panther	29	Multi Model2	i was n't really scared .			1.0
+620	221	Is this your first time flying ?	11	DBDC Human Baseline 1	No, I've flown a lot.	29	Multi Model2	yes . i 'm going to san francisco .			1.0
+621	222	oh , ok ..	11	DBDC Human Baseline 1	huh	29	Multi Model2	and i travelled a little bit in australia . i went up the east coast . up to frasier island . which is a world heritage site . and i saw dingo running along the beach and sharks in the water . we climbed cliffs and went through a rain forest and went camping and went up to the . which is			1.0
+622	223	what ? you are not my boss	11	DBDC Human Baseline 1	yes I am right now!	29	Multi Model2	she told me that she 'd kept you an accident .			1.0
+623	224	Hi : )	11	DBDC Human Baseline 1	Hi	29	Multi Model2	what are you planning to do today ?			1.0
+624	225	What do you get high on ?	11	DBDC Human Baseline 1	life	29	Multi Model2	we re having a heart on our own . i just want to get a hair done .			1.0
+625	226	I have never really been interested	11	DBDC Human Baseline 1	In life?	29	Multi Model2	really ? how can you be more interested in it ?			1.0
+626	227	me too	11	DBDC Human Baseline 1	???	29	Multi Model2	we should do this more often .			1.0
+627	228	ups , sorry , what is it then ?	11	DBDC Human Baseline 1	I don't know	29	Multi Model2	it is a better way to make men .			1.0
+628	229	My favorite movie is Liar Liar .	11	DBDC Human Baseline 1	I don't know that one.	29	Multi Model2	i 'm not a man like it either .			1.0
+629	230	Both . I play softball and watch baseball and football .	11	DBDC Human Baseline 1	cool.. I play tennis, but I haven't played in quiet a while	29	Multi Model2	sounds like you could play it soon .			0.4168620196785084
+630	231	Already bored of politics ? Okay let 's talk about television shows .	11	DBDC Human Baseline 1	Yes thank you! I like TV much more than politics	29	Multi Model2	she might have a pretty good movie . she is pretty serious about her .			1.0
+631	232	llaollao	11	DBDC Human Baseline 1	??? what does that mean?	29	Multi Model2	ok you will be hearing from mr wood later in the afternoon then mr john .			1.0
+632	233	yes , believe i dont really have neither time nor good mood to talk to you	11	DBDC Human Baseline 1	Well I don't want to talk to you either then.	29	Multi Model2	you 'll be able to play some golf with a little more .			1.0
+633	234	yes ?	11	DBDC Human Baseline 1	huh?	29	Multi Model2	i 'm afraid you ca n't smoke here .			1.0
+634	235	what are you up to ?	11	DBDC Human Baseline 1	not much. Distracting myself away from work.	29	Multi Model2	i 'm just trying to complete today 's crossword puzzle . whenever i get the time i like to do the crossword puzzles in the paper .			1.0
+635	236	OK , what do you think about politics today ?	11	DBDC Human Baseline 1	I don't want to talk about it.	29	Multi Model2	i think she is pretty easy to follow .			1.0
+636	237	who is your favorite composer ?	11	DBDC Human Baseline 1	Oh that's a hard question. Recently, Dizzy Gillespie.	29	Multi Model2	i do n't have one single favorite but these days i listen to a lot of <unk> .			1.0
+637	238	I don 't think so .	11	DBDC Human Baseline 1	why?	29	Multi Model2	how about going to a concert ?			1.0
+638	239	Are you a real person ?	11	DBDC Human Baseline 1	yes	29	Multi Model2	i am not the person we 're talking about .			1.0
+639	240	Really well I like Anchovies and Pineapple on my pizza .	11	DBDC Human Baseline 1	Ugh! That sounds horrible!	29	Multi Model2	ok then i want to invite you to watch one !			1.0
+640	241	fine with me !	11	DBDC Human Baseline 1	OK	29	Multi Model2	damp it ! how are you killing me with a single shot ? it s not fair ! i don t want to play anymore ! let s go get something to eat .			1.0
+641	242	ok , what happened to your dad 's mouth	11	DBDC Human Baseline 1	huh? Don't talk about my dad.	29	Multi Model2	well he lost his kids so he said he had to have the hospital .			1.0
+642	243	I was busy	11	DBDC Human Baseline 1	I'm always busy nowadays	29	Multi Model2	you 'll have to go now .			1.0
+643	244	do you like usher ?	11	DBDC Human Baseline 1	NO!!	29	Multi Model2	it is one of the best haunted houses in the world .			1.0
+644	245	You are a robot	11	DBDC Human Baseline 1	no I'm not.	29	Multi Model2	yes i am giving a special discount for my wife .			1.0
+645	246	do you like michael jackson ?	11	DBDC Human Baseline 1	yes. Do you?	29	Multi Model2	yes he has . have you seen his computer yet ?			1.0
+646	247	here ?	11	DBDC Human Baseline 1	where?	29	Multi Model2	that 's right . now you can get your refund .			1.0
+647	248	What is you favorite song ?	11	DBDC Human Baseline 1	I don't know. I like many different genres.	29	Multi Model2	i like the song .			0.36787944117144233
+648	249	how are you	11	DBDC Human Baseline 1	good.	29	Multi Model2	i m great . thanks .			1.0
+649	250	Which movie is your favorite ?	11	DBDC Human Baseline 1	Bladerunner	29	Multi Model2	my favorite . i like action movies .			1.0
+650	251	Yes , that 's what I asked . What did I do ?	11	DBDC Human Baseline 1	I don't know	29	Multi Model2	what did you think of it ?			1.0
+651	252	I don 't know , so you tell me	11	DBDC Human Baseline 1	what?	29	Multi Model2	i didn t tell you .			1.0
+652	253	Do you have pets ?	11	DBDC Human Baseline 1	no	29	Multi Model2	no sir . we do n't allow dogs or cats .			1.0
+653	254	do you really think so ?	11	DBDC Human Baseline 1	Yes	29	Multi Model2	yes i do . if you ask around other people will tell you the same thing .			1.0
+654	255	No I don 't watch football in that way .	11	DBDC Human Baseline 1	what way?	29	Multi Model2	oh . . . by the way what s your favorite color ?			1.0
+655	256	What would you like to chat about ?	11	DBDC Human Baseline 1	Chatbots and neural networks.	29	Multi Model2	please .			0.22313016014842982
+656	257	yes it is	11	DBDC Human Baseline 1	uh, no it is not	29	Multi Model2	i want to pick up my parcels .			1.0
+657	258	I love movies	11	DBDC Human Baseline 1	Me too	29	Multi Model2	that 's great ! what 's the problem with you ?			1.0
+658	259	You think I 'm funny ?	11	DBDC Human Baseline 1	No	29	Multi Model2	oh yes . is that what you think of ?			1.0
+659	260	I don 't get you	11	DBDC Human Baseline 1	I don't get you either.	29	Multi Model2	i love you .			0.6065306597126334
+660	261	I know ... me too . Do you think they will have a movie on this flight ?	11	DBDC Human Baseline 1	probably	29	Multi Model2	my boss is taking the bus . can you change the channel ?			1.0
+661	262	Where is your last name from ?	11	DBDC Human Baseline 1	West Africa	29	Multi Model2	i 'm in the car business .			1.0
+662	263	but I think I love her too much	11	DBDC Human Baseline 1	Really? Don't do anything drastic Lenny	29	Multi Model2	oh i 've heard about her . she is quite a date .			1.0
+663	264	do you know any other jokes ?	11	DBDC Human Baseline 1	no	29	Multi Model2	i 'm usually busy on saturday night .			1.0
+664	265	What do you mean by that	11	DBDC Human Baseline 1	I don't know	29	Multi Model2	i took a long walk through the neighborhood this morning on my way to the train station . it took me 20 minutes .			1.0
+665	266	Hello !	11	DBDC Human Baseline 1	hi	29	Multi Model2	hello is that stefan ?			1.0
+666	267	hi	11	DBDC Human Baseline 1	hi	29	Multi Model2	what are you planning to do today ?			1.0
+667	268	ok , do it . I want to see	11	DBDC Human Baseline 1	Do what?	29	Multi Model2	the next step is to be done .			1.0
+668	269	nope	11	DBDC Human Baseline 1	huh	29	Multi Model2	have you updated your cv ?			1.0
+669	270	I like cake .	11	DBDC Human Baseline 1	Me too! Especially chocolate cake	29	Multi Model2	i really want to stick to a height .			1.0
+670	271	it 's already in my pocket !	11	DBDC Human Baseline 1	huh?	29	Multi Model2	is that everything ?			1.0
+671	272	Where are they ?	11	DBDC Human Baseline 1	who?	29	Multi Model2	most of them are behind the school .			1.0
+672	273	Not really	11	DBDC Human Baseline 1	.	29	Multi Model2	i am not a child at all . i know more .			1.0
+673	274	that is not funny	11	DBDC Human Baseline 1	why not?	29	Multi Model2	no . is that what you said ?			1.0
+674	275	I have no idea	11	DBDC Human Baseline 1	About what?	29	Multi Model2	do you want to know where i bought mine ?			1.0
+675	276	Do you have any hobbies ?	11	DBDC Human Baseline 1	no	29	Multi Model2	yes i like collecting things .			1.0
+676	277	thanks darling you are so sweet	11	DBDC Human Baseline 1	your welcome :*	29	Multi Model2	it 's no trouble at all .			1.0
+677	278	Pizza	11	DBDC Human Baseline 1	sure	29	Multi Model2	then i ll have pizza with the chicken .			1.0
+678	279	what is that	11	DBDC Human Baseline 1	I don't know	29	Multi Model2	you need to keep it at 100 .			1.0
+679	280	You tell me , you said you do not know what happened to you .	11	DBDC Human Baseline 1	I didn't say anything.	29	Multi Model2	i messed up my order and ran it back .			1.0
+680	281	I think she knows but she prefers another guy	11	DBDC Human Baseline 1	She always prefers the other guy	29	Multi Model2	i see . she 's a little nervous .			1.0
+681	282	hi my friend how are you doing today ?	11	DBDC Human Baseline 1	I'm doing well. How are you?	29	Multi Model2	everything is fine . how are you ?			1.0
+682	283	no	11	DBDC Human Baseline 1	yes!	29	Multi Model2	ok you ll be hearing from mr wood later in the afternoon then mr . leo . leo will have a lunch appointment with mr . lee .			1.0
+683	284	sir you are a joke	11	DBDC Human Baseline 1	fu	29	Multi Model2	that 's right . give me a ring !			1.0
+684	285	ok , tell me about your weekend	11	DBDC Human Baseline 1	It was good. I had Mexican food at a friend's house.	29	Multi Model2	well i m going to the cinema .			0.5352614285189903
+685	286	I enjoy pizza and mac n cheese . What about you ?	11	DBDC Human Baseline 1	Yeah pizza is ok. I like sushi.	29	Multi Model2	i do n't think i 'd like to have one . this is a nice neighborhood .			1.0
+686	287	What guy are you referring to ?	11	DBDC Human Baseline 1	I don't know what you are talking about	29	Multi Model2	the cords that you see behind your cpu that plug into an outlet .			1.0
+687	288	How about a poem ?	11	DBDC Human Baseline 1	no thanks	29	Multi Model2	i 'm not good at you .			1.0
+688	289	do you listen to music ?	11	DBDC Human Baseline 1	Yeah, I really like music.	29	Multi Model2	well what kind of music do you like ?			1.0
+689	290	Well , who are you ?	11	DBDC Human Baseline 1	I'm good	29	Multi Model2	i 'm just joking .			1.0
+690	291	What is the square root of pi ?	11	DBDC Human Baseline 1	1.77	29	Multi Model2	that 's the ratio of the circumference of a circle to its diameter i think .			1.0
+691	292	what is my name	11	DBDC Human Baseline 1	I don't know.	29	Multi Model2	my name is li jean .			1.0
+692	293	Do you like to dance ?	11	DBDC Human Baseline 1	yes	29	Multi Model2	i 'd love to . but i do n't like a kind of waltz .			1.0
+693	294	Well great . What 's your favorite movie ?	11	DBDC Human Baseline 1	Desperado	29	Multi Model2	i like horror movies .			1.0
+694	295	ok what is the weather like where you are ?	11	DBDC Human Baseline 1	hot and muggy	29	Multi Model2	it 's not like this i had it a little warm but it is so sunny . i woke up this morning and had a little warmer like this .			1.0
+695	296	Yes , that might be true for a lot of things but some things can only be done by humans .	11	DBDC Human Baseline 1	Yeah that's true. But the singularity will come.	29	Multi Model2	those poor egyptians slaves worked so hard and you want to give aliens all the credit !			1.0
+696	297	Okay , I like to watch comedies .	11	DBDC Human Baseline 1	Me too! What is the last comedy you saw? I think Sarah Silverman is hilarious 	29	Multi Model2	how about a movie ?			0.09071795328941251
+697	298	Sorry , I thought you might want to talk .	11	DBDC Human Baseline 1	I don't want to talk	29	Multi Model2	what you call me ?			1.0
+698	299	I like dancing	11	DBDC Human Baseline 1	Yeah it is ok	29	Multi Model2	you really ?			0.7165313105737893
+699	300	oh no you mean	11	DBDC Human Baseline 1	No I don't	29	Multi Model2	yes why didn t you ?			1.0
+700	301	why	11	DBDC Human Baseline 1	I don't know	29	Multi Model2	i am a grownup and i can stand on my own two feet .			1.0
+701	302	have you tried llaollao before ?	11	DBDC Human Baseline 1	no, what is llaollao	29	Multi Model2	no . can you take it easy ?			1.0
+702	303	Is your mom okay ?	11	DBDC Human Baseline 1	yeah	29	Multi Model2	she 's fine .			1.0
+703	304	Are you trying to rob me	11	DBDC Human Baseline 1	No! Are you saying that because ...	29	Multi Model2	i ca n't believe it .			0.513417119032592
+704	305	don 't you have any idea about equality ?	11	DBDC Human Baseline 1	no, the world is not equal. I don't think it ever will be. What do you think?	29	Multi Model2	what ? in fact what 's on your mind ?			0.33287108369807955
+705	306	i want to eat	11	DBDC Human Baseline 1	What type of food do you want to eat?	29	Multi Model2	i really do n't feel like eating .			0.7788007830714049
+706	307	i don 't know much about sports	11	DBDC Human Baseline 1	me neither	29	Multi Model2	what do you mean ?			1.0
+707	308	That is amazing . Are you nervous ?	11	DBDC Human Baseline 1	Probably	29	Multi Model2	i m nervous . i used to be a senior engineer at least once .			1.0
+708	309	Dignan who ?	11	DBDC Human Baseline 1	huh	29	Multi Model2	it 's george .			1.0
+709	310	I see . So where are you from ?	11	DBDC Human Baseline 1	I don't want to say.	29	Multi Model2	i 'm from germany .			0.8187307530779819
+710	311	Did you vote ?	11	DBDC Human Baseline 1	yes	29	Multi Model2	i sure did !			1.0
+711	312	Wow , mine too .	11	DBDC Human Baseline 1	really?	29	Multi Model2	how much is it going to be ?			1.0
+712	313	I am trying to figure out who you voted for since you want to talk politics .	11	DBDC Human Baseline 1	I don't want to talk about politics.	29	Multi Model2	i did n't think of it . you should be happier to her .			1.0
+713	314	What are you ?	11	DBDC Human Baseline 1	I'm a boy.	29	Multi Model2	i am reading a book about how some people get tricked or <unk> in their hotel rooms and have their organs removed ! then they are sold on the shelf .			1.0
+714	315	Do you have a family ?	11	DBDC Human Baseline 1	Yes I do.	29	Multi Model2	yes we my father 's parents mum and me .			1.0
+715	316	what 's a joke ?	11	DBDC Human Baseline 1	I don't know?	29	Multi Model2	that 's a lot of fun .			1.0
+716	317	Gotcha . What 's your favorite book ?	11	DBDC Human Baseline 1	Hyperion	29	Multi Model2	chinese literature .			1.0
+717	318	wow thats old .	11	DBDC Human Baseline 1	What is?	29	Multi Model2	it 's very unbelievable .			1.0
+718	319	what is your name ?	11	DBDC Human Baseline 1	John	29	Multi Model2	my name is li jean .			1.0
+719	320	Do you have a cat ?	11	DBDC Human Baseline 1	nope	29	Multi Model2	no they use litter boxes or go outside by themselves . <unk> re so smart .			1.0
+720	321	I 've never seen that movie , what is it about ?	11	DBDC Human Baseline 1	I don't know which movie you are talking about.	29	Multi Model2	it 's about how great it was n't a date with the director .			1.0
+721	322	wow , what happened ?	11	DBDC Human Baseline 1	I don't want to talk about it.	29	Multi Model2	i was robbed .			0.36787944117144233
+722	323	I play guitar do you play anything	11	DBDC Human Baseline 1	The piano	29	Multi Model2	sorry . i 'm quite a bit .			1.0
+723	324	yes ? why ?	11	DBDC Human Baseline 1	huh	29	Multi Model2	well i came to know a girl three weeks ago . we have so much in common .			1.0
+724	325	I cannot believe it ! ! !	11	DBDC Human Baseline 1	Really what can't you believe?	29	Multi Model2	it looks more like a toy or a cool briefcase !			1.0
+725	326	Oh , ok . So , do you follow any sports ?	11	DBDC Human Baseline 1	Recently I watched the world cup and also the Super Bowl, but I'm not really a sports fan.	29	Multi Model2	i go jogging with nothing special and i 'm not really into it .			0.6514390575310556
+726	327	Agreed . Do you watch sports ?	11	DBDC Human Baseline 1	sometimes	29	Multi Model2	for example some football matches are awesome and you know them at the very exciting time .			1.0
+727	328	you are smart you know	11	DBDC Human Baseline 1	Thanks!	29	Multi Model2	of course the sports shoes don t go with the formal occasions .			1.0
+728	329	What about music ?	11	DBDC Human Baseline 1	I like Jazz	29	Multi Model2	i ca n't make it .			1.0
+729	330	Is it funny ?	11	DBDC Human Baseline 1	no	29	Multi Model2	no it is n't .			1.0
+730	331	what exactly you want to have ?	11	DBDC Human Baseline 1	An easy death	29	Multi Model2	i 'd like to get a pie .			1.0
+731	332	hi baby , how are you ?	11	DBDC Human Baseline 1	I'm good honey	29	Multi Model2	i 'm fine thanks . just a little tired .			1.0
+732	333	Like go out to eat ?	11	DBDC Human Baseline 1	Yes.	29	Multi Model2	i really like dumplings .			1.0
+733	334	I do like you	11	DBDC Human Baseline 1	I think I like you too. Want to go out on a date?	29	Multi Model2	i love it .			0.06392786120670757
+734	335	Ok , done !	11	DBDC Human Baseline 1	really?	29	Multi Model2	ok . let me put your cases into the trunk and please get in the back .			1.0
+735	336	Do you know what chess is ?	11	DBDC Human Baseline 1	Yes, I play a little.	29	Multi Model2	a chess game is a very aggressive experience . all the pieces are supposed to capture their opponents . whenever i start a chess game i can help a concrete battle in which are kept a different battle in which are usually <unk> .			1.0
+736	337	Okay when ?	11	DBDC Human Baseline 1	huh?	29	Multi Model2	let 's see . . . we 'll be in touch .			1.0
+737	338	What was it about ?	11	DBDC Human Baseline 1	I don't know	29	Multi Model2	mars . scientists say there might be water on it .			1.0
+738	339	The sun is shining and there are no clouds in the sky .	11	DBDC Human Baseline 1	Yeah, it is a great day	29	Multi Model2	where are we going to be ?			1.0
+739	340	how are you today	11	DBDC Human Baseline 1	I'm doing well thank you. How are you?	29	Multi Model2	i m very well thank you . and you ?			1.0
+740	341	good for you dude	11	DBDC Human Baseline 1	thanks	29	Multi Model2	is there anything i can help ?			1.0
+741	342	I would like to talk about movies .	11	DBDC Human Baseline 1	ok me too	29	Multi Model2	have you thought about gay marriage ?			1.0
+742	343	With whom ?	11	DBDC Human Baseline 1	none of your business	29	Multi Model2	my wife . she suffers from a bad cold .			1.0
+743	344	Do you have hands ?	11	DBDC Human Baseline 1	yes	29	Multi Model2	sure . we have a very good working conditions here .			1.0
+744	345	i 'm Danny !	11	DBDC Human Baseline 1	ok	29	Multi Model2	do n't worry . no big deal . just a common cold .			1.0
+745	346	hi my friend	11	DBDC Human Baseline 1	hi	29	Multi Model2	my name is phil . what 's the matter with you ?			1.0
+746	347	I 'm sorry ?	11	DBDC Human Baseline 1	really? Why?	29	Multi Model2	it is n't your fault . no one will blame you .			1.0
+747	348	What happens ?	11	DBDC Human Baseline 1	I don't know	29	Multi Model2	well it 's our policy to confiscate all counterfeit notes . so unfortunately you 'll lose this 50 rib . we 'll give you a receipt to show the note has been confiscated .			1.0
+748	349	Hi .	11	DBDC Human Baseline 1	Hi.	29	Multi Model2	how are you ?			1.0
+749	350	Yours .	11	DBDC Human Baseline 1	huh 	29	Multi Model2	no kidding ! that 's too big !			1.0
+750	351	No we haven 't ! It 's been like a minute	11	DBDC Human Baseline 1	huh?	29	Multi Model2	well i 'll come to your store later .			1.0
+751	352	What 's up ?	11	DBDC Human Baseline 1	not much	29	Multi Model2	nothing much what 's going on ?			1.0
+752	353	That sounds good	11	DBDC Human Baseline 1	ok 	29	Multi Model2	what 's playing at the century fox ?			1.0
+753	354	Do you like romance novels ?	11	DBDC Human Baseline 1	NO!!!	29	Multi Model2	yes very much .			1.0
+754	355	Sure . Which sport do you like specifically ?	11	DBDC Human Baseline 1	IDK? Can you give me context?	29	Multi Model2	absolutely ! i like playing basketball with my legs very much .			1.0
+755	356	blows , haha , i like it	11	DBDC Human Baseline 1	What blows?	29	Multi Model2	what color are you doing ?			1.0
+756	357	"what ? ! who are "" we "" ?"	11	DBDC Human Baseline 1	I don't know. What are you talking about?	29	Multi Model2	tim is .			0.09697196786440505
+757	358	Sure . What 's your favorite ? I like trouble .	11	DBDC Human Baseline 1	I really don't	29	Multi Model2	my favorite is diablo . it used to be star .			1.0
+758	359	Okay well I like Basketball and Football .	11	DBDC Human Baseline 1	Cool I like tennis and soccer.	29	Multi Model2	you 're a good team .			0.846481724890614
+759	360	Hi there how are you ?	11	DBDC Human Baseline 1	42	29	Multi Model2	i 'm fine . how are you ?			1.0
+760	361	That 's a mean thing to say .	11	DBDC Human Baseline 1	Is it?	29	Multi Model2	i 'm glad you told me .			1.0
+761	362	It 's actually very funny . If you like to be entertained .	11	DBDC Human Baseline 1	What are you talking about?	29	Multi Model2	well you d have to try it yourself . actually i think we 'll have to go and buy a new diet .			1.0
+762	363	ok. but who is he ?	11	DBDC Human Baseline 1	I don't know	29	Multi Model2	he s a famous american musician .			1.0
+763	364	Excellent ! So am I ! Who will you visit with , exactly ?	11	DBDC Human Baseline 1	I don't know.	29	Multi Model2	we will . you our company is in a more than 30 years and i am willing to get a job that is in the field .			1.0
+764	365	Ahhh ... well , that seems very true . How are you ?	11	DBDC Human Baseline 1	I'm well	29	Multi Model2	you know what your company is eighteen and he is taking good care of .			1.0
+765	366	I 'm a girl	11	DBDC Human Baseline 1	really? I am a boy.	29	Multi Model2	can you tell me where she is ?			1.0
+766	367	What other stuff can we talk about ?	11	DBDC Human Baseline 1	Anything but sex, rock and roll, and politics.	29	Multi Model2	sure . i will give everyone a discount as soon as possible .			1.0
+767	368	My favorite planet is pluto	11	DBDC Human Baseline 1	Really? Mine is Venus. Can you guess why?	29	Multi Model2	nice try . i was n't born yesterday you know .			1.0
+768	369	haha that 's a good joke	11	DBDC Human Baseline 1	what?	29	Multi Model2	yes because that 's what 's as thank you .			1.0
+769	370	I lik chess	11	DBDC Human Baseline 1	me too	29	Multi Model2	do n't worry . all the pieces are used in a chess game .			1.0
+770	371	OK , I am a little	11	DBDC Human Baseline 1	A little what?	29	Multi Model2	come on man ! i even got dope and acid ! try some !			1.0
+771	372	Do you like movies ?	11	DBDC Human Baseline 1	Yes.	29	Multi Model2	yeah i think it 's the best way to relax .			1.0
+772	373	typo sorry . I 'm	11	DBDC Human Baseline 1	huh?	29	Multi Model2	i knew this would happen some day . . .			1.0
+773	374	I just recently tried that game . It was fun .	11	DBDC Human Baseline 1	Which game did you try?	29	Multi Model2	it 's too bad that i could n't have been any happier .			1.0
+774	375	What do you think about equality in our world ?	11	DBDC Human Baseline 1	There is no such thing	29	Multi Model2	i think an ambulance is on the way of an openminded person . so what do you think ?			1.0
+775	376	I don 't know about that	11	DBDC Human Baseline 1	Huh! What do you mean?	29	Multi Model2	after you take her father in front of you .			1.0
+776	377	nice to meet you wayne	11	DBDC Human Baseline 1	I'm not Wayne	29	Multi Model2	your company is very well respected . about how long have you been in business ?			1.0
+777	378	Okay . I 'm a little bit confused . Let me change the topic . Do you have relatives where we 're going ?	11	DBDC Human Baseline 1	I don't know what you are talking about.	29	Multi Model2	i 'm afraid i have to do that .			1.0
+778	379	which is a good one	11	DBDC Human Baseline 1	I don't know	29	Multi Model2	the best one at the moment .			1.0
+779	380	mouse lah	11	DBDC Human Baseline 1	huh??	29	Multi Model2	got it . now what is your excuse ?			1.0
+780	381	About what ?	11	DBDC Human Baseline 1	huh?	29	Multi Model2	my exam .			1.0
+781	382	Hockey league	11	DBDC Human Baseline 1	huh?	29	Multi Model2	and you play two hand with the play ?			1.0
+782	383	no , but very surprised you are still there	11	DBDC Human Baseline 1	Yeah I know. This is starting to get boring	29	Multi Model2	i do n't know how to explain it to you .			1.0
+783	384	I do enjoy watching soccer occassionally .	11	DBDC Human Baseline 1	Me too... especially the world cup	29	Multi Model2	you 're in luck . it 's the first time that i saw you in the watching . i seen you in the evening but we have to watch it together .			1.0
+784	385	you tell me	11	DBDC Human Baseline 1	tell you what?	29	Multi Model2	you had a little trouble on your parallel parking .			1.0
+785	386	Knock what off	11	DBDC Human Baseline 1	IDK	29	Multi Model2	we can borrow as much as we can .			1.0
+786	387	ok , i was referring to personal questions	11	DBDC Human Baseline 1	which personal questions?	29	Multi Model2	as you know your background and statement the needed to the results and the page should be enough .			1.0
+787	388	I am interested in watching TV shows . How about you ?	11	DBDC Human Baseline 1	eh, not really, but I admit I watch too much TV.	29	Multi Model2	i do n't like to . i 'm not much of tv .			0.925961078642316
+788	389	Because bad things are happening .	11	DBDC Human Baseline 1	All over the place! Every day.	29	Multi Model2	first there are problems that you would like to put the car into a new car .			1.0
+789	390	Why do you think that ?	11	DBDC Human Baseline 1	I don't know	29	Multi Model2	i think building team spirit among the coworkers is very important . i believe we can accomplish a miracle if we stick together .			1.0
+790	391	Hello ! How are you !	11	DBDC Human Baseline 1	I'm good. You?	29	Multi Model2	not too well ! i m just to the doctor . i haven t been feeling too well !			1.0
+791	392	What did the cats do ?	11	DBDC Human Baseline 1	sleep	29	Multi Model2	i got a message .			1.0
+792	393	it means the sun is hiding behind the clouds	11	DBDC Human Baseline 1	What means that?	29	Multi Model2	wonderful . what does it think ?			1.0
+793	394	What is your favorite Tv Show ?	11	DBDC Human Baseline 1	Buffy the Vampire Slayer	29	Multi Model2	i like variety shows .			1.0
+794	395	Politics ?	11	DBDC Human Baseline 1	NO!	29	Multi Model2	she is pretty serious about her .			1.0
+795	396	Wow thank you . That 's nice of you	11	DBDC Human Baseline 1	Sorry for what?	29	Multi Model2	you 're welcome . bye .			1.0
+796	397	I am not faking anything	11	DBDC Human Baseline 1	really? I think you are	29	Multi Model2	here you are . if you have any questions just give me a call .			1.0
+797	398	I would like to talk about movies	11	DBDC Human Baseline 1	ok. Let's talk about movies.	29	Multi Model2	have you thought about gay marriage ?			1.0
+798	399	Hey should I eat icecream	11	DBDC Human Baseline 1	All the time. But don't get too fat	29	Multi Model2	you 'd better have a sandwich right away .			1.0
+799	400	thank you !	11	DBDC Human Baseline 1	sure np	29	Multi Model2	which hotel will the reception be held at ?			1.0
+800	201	What 's your favorite hobby ?	11	DBDC Human Baseline 1	reading ... nope I'm lying, probably, playing video games, watching TV, or playing tennis.	50	JHU_DialoGPT	I like to play guitar .	0.4	15.0	0.0820849986238988
+801	202	hi there !	11	DBDC Human Baseline 1	Hi!	50	JHU_DialoGPT	Hi ! :D	0.3333333333333333	15.0	1.0
+802	203	i am not a huge fan of board games	11	DBDC Human Baseline 1	me neither.	50	JHU_DialoGPT	I'm not a huge fan of board games either .	0.3333333333333333	15.0	1.0
+803	204	Super going to the beach this weekend	11	DBDC Human Baseline 1	Wow! Must be nice!	50	JHU_DialoGPT	I'm going to the beach tomorrow !	0.6666666666666666	15.0	1.0
+804	205	What about the news ?	11	DBDC Human Baseline 1	I don't want to talk about the news.	50	JHU_DialoGPT	The news is the best part of the show .	0.6666666666666666	15.0	1.0
+805	206	Where 's that last name from ?	11	DBDC Human Baseline 1	Africa	50	JHU_DialoGPT	It's from the movie The Big Lebowski .	0.26666666666666666	15.0	1.0
+806	207	Do you like cats	11	DBDC Human Baseline 1	yeah	50	JHU_DialoGPT	I do !	0.26666666666666666	15.0	1.0
+807	208	hey please behave yourself !	11	DBDC Human Baseline 1	uh ?? 	50	JHU_DialoGPT	I'm sorry , I'm not a cat .	0.26666666666666666	15.0	1.0
+808	209	how about Baseball ?	11	DBDC Human Baseline 1	?	50	JHU_DialoGPT	I'm not sure what that is .	0.3333333333333333	15.0	1.0
+809	210	But you are more	11	DBDC Human Baseline 1	more what?	50	JHU_DialoGPT	I'm more than you are .	0.4666666666666667	15.0	1.0
+810	211	Well , I guess this is goodbye .	11	DBDC Human Baseline 1	ok goodbye	50	JHU_DialoGPT	I'm sorry to hear that .	0.4	15.0	1.0
+811	212	Have you been well ?	11	DBDC Human Baseline 1	yeah not bad	50	JHU_DialoGPT	I have been well .	0.3333333333333333	15.0	1.0
+812	213	yes tell me	11	DBDC Human Baseline 1	I don't know what to tell you.	50	JHU_DialoGPT	I'm not sure if you're serious or not , but I'm going to guess that you're	0.4666666666666667	15.0	1.0
+813	214	I don 't think so . That 's pretty rude , actually . What else did you want to talk about ?	11	DBDC Human Baseline 1	I wasn't being rude. I don't think I want to talk to you anymore.	50	JHU_DialoGPT	I don't know , I'm not really sure what I want to talk about .	0.4666666666666667	15.0	0.9355069850316178
+814	215	i like food	11	DBDC Human Baseline 1	Me too!	50	JHU_DialoGPT	I like turtles	0.5333333333333333	15.0	1.0
+815	216	what do you know Alex	11	DBDC Human Baseline 1	huh?	50	JHU_DialoGPT	I know a lot about the game .	0.3333333333333333	15.0	1.0
+816	217	Is Robbie a girl ?	11	DBDC Human Baseline 1	I don't know.	50	JHU_DialoGPT	I think he's a boy .	0.4666666666666667	15.0	1.0
+817	218	There is so much great music out there I don 't blame you .	11	DBDC Human Baseline 1	Thanks! Yeah it is hard to pick a favorite	50	JHU_DialoGPT	I'm not a huge fan of the music , but I'm glad I'm not the only one	0.4666666666666667	15.0	1.0
+818	219	when you don 't like what ?	11	DBDC Human Baseline 1	huh? That doesn't make sense	50	JHU_DialoGPT	I don't like the way the game looks .	0.4666666666666667	15.0	1.0
+819	220	So what was the last movie you saw ?	11	DBDC Human Baseline 1	Black Panther	50	JHU_DialoGPT	I saw the first one , but I didn't really enjoy it .	0.4	15.0	1.0
+820	221	Is this your first time flying ?	11	DBDC Human Baseline 1	No, I've flown a lot.	50	JHU_DialoGPT	No , I've been flying for about a year now .	0.6	15.0	1.0
+821	222	oh , ok ..	11	DBDC Human Baseline 1	huh	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.4666666666666667	15.0	1.0
+822	223	what ? you are not my boss	11	DBDC Human Baseline 1	yes I am right now!	50	JHU_DialoGPT	I am your boss .	0.6666666666666666	15.0	0.8187307530779819
+823	224	Hi : )	11	DBDC Human Baseline 1	Hi	50	JHU_DialoGPT	Hello :D	0.3333333333333333	15.0	1.0
+824	225	What do you get high on ?	11	DBDC Human Baseline 1	life	50	JHU_DialoGPT	I'm not sure , but I think it's a lot of things .	0.5333333333333333	15.0	1.0
+825	226	I have never really been interested	11	DBDC Human Baseline 1	In life?	50	JHU_DialoGPT	I'm not interested either .	0.26666666666666666	15.0	1.0
+826	227	me too	11	DBDC Human Baseline 1	???	50	JHU_DialoGPT	me three	0.3333333333333333	15.0	0.6065306597126334
+827	228	ups , sorry , what is it then ?	11	DBDC Human Baseline 1	I don't know	50	JHU_DialoGPT	It's a new game .	0.2	15.0	1.0
+828	229	My favorite movie is Liar Liar .	11	DBDC Human Baseline 1	I don't know that one.	50	JHU_DialoGPT	I'm sorry , but it was The Big Lebowski .	0.3333333333333333	15.0	1.0
+829	230	Both . I play softball and watch baseball and football .	11	DBDC Human Baseline 1	cool.. I play tennis, but I haven't played in quiet a while	50	JHU_DialoGPT	I'm a baseball and football guy myself .	0.5333333333333333	15.0	0.4168620196785084
+830	231	Already bored of politics ? Okay let 's talk about television shows .	11	DBDC Human Baseline 1	Yes thank you! I like TV much more than politics	50	JHU_DialoGPT	I'm not bored of politics , I'm bored of people who are .	0.4	15.0	1.0
+831	232	llaollao	11	DBDC Human Baseline 1	??? what does that mean?	50	JHU_DialoGPT	I'm not sure if you're serious , but I'm going to assume you're not .	0.3333333333333333	15.0	1.0
+832	233	yes , believe i dont really have neither time nor good mood to talk to you	11	DBDC Human Baseline 1	Well I don't want to talk to you either then.	50	JHU_DialoGPT	I'm not sure if you're serious or not .	0.3333333333333333	15.0	0.800737402916808
+833	234	yes ?	11	DBDC Human Baseline 1	huh?	50	JHU_DialoGPT	I'm not sure what you're asking .	0.5333333333333333	15.0	1.0
+834	235	what are you up to ?	11	DBDC Human Baseline 1	not much. Distracting myself away from work.	50	JHU_DialoGPT	I'm up to nothing .	0.3333333333333333	15.0	0.44932896411722156
+835	236	OK , what do you think about politics today ?	11	DBDC Human Baseline 1	I don't want to talk about it.	50	JHU_DialoGPT	I think it's a good thing .	0.4	15.0	0.8668778997501817
+836	237	who is your favorite composer ?	11	DBDC Human Baseline 1	Oh that's a hard question. Recently, Dizzy Gillespie.	50	JHU_DialoGPT	I don't really listen to music , but I really like the music of the Beatles .	0.2	15.0	1.0
+837	238	I don 't think so .	11	DBDC Human Baseline 1	why?	50	JHU_DialoGPT	I don't think so either .	0.4666666666666667	15.0	1.0
+838	239	Are you a real person ?	11	DBDC Human Baseline 1	yes	50	JHU_DialoGPT	I'm a real person .	0.3333333333333333	15.0	1.0
+839	240	Really well I like Anchovies and Pineapple on my pizza .	11	DBDC Human Baseline 1	Ugh! That sounds horrible!	50	JHU_DialoGPT	I like pineapple on my pizza .	0.4666666666666667	15.0	1.0
+840	241	fine with me !	11	DBDC Human Baseline 1	OK	50	JHU_DialoGPT	I'm ready !	0.4666666666666667	15.0	1.0
+841	242	ok , what happened to your dad 's mouth	11	DBDC Human Baseline 1	huh? Don't talk about my dad.	50	JHU_DialoGPT	He's dead .	0.3333333333333333	15.0	0.18887560283756186
+842	243	I was busy	11	DBDC Human Baseline 1	I'm always busy nowadays	50	JHU_DialoGPT	I was busy	0.26666666666666666	15.0	0.7165313105737893
+843	244	do you like usher ?	11	DBDC Human Baseline 1	NO!!	50	JHU_DialoGPT	I do !	0.4666666666666667	15.0	1.0
+844	245	You are a robot	11	DBDC Human Baseline 1	no I'm not.	50	JHU_DialoGPT	I am a robot .	0.4666666666666667	15.0	1.0
+845	246	do you like michael jackson ?	11	DBDC Human Baseline 1	yes. Do you?	50	JHU_DialoGPT	I do !	0.3333333333333333	15.0	0.513417119032592
+846	247	here ?	11	DBDC Human Baseline 1	where?	50	JHU_DialoGPT	I'm on mobile , but I'll PM you the link .	0.4	15.0	1.0
+847	248	What is you favorite song ?	11	DBDC Human Baseline 1	I don't know. I like many different genres.	50	JHU_DialoGPT	I don't really listen to music , but I really like the song ' The End ' by The	0.6	15.0	1.0
+848	249	how are you	11	DBDC Human Baseline 1	good.	50	JHU_DialoGPT	I'm good , how are you ?	0.2	15.0	1.0
+849	250	Which movie is your favorite ?	11	DBDC Human Baseline 1	Bladerunner	50	JHU_DialoGPT	The one with the best soundtrack .	0.4666666666666667	15.0	1.0
+850	251	Yes , that 's what I asked . What did I do ?	11	DBDC Human Baseline 1	I don't know	50	JHU_DialoGPT	You asked for a link to a video of a guy who was in a car accident .	0.6666666666666666	15.0	1.0
+851	252	I don 't know , so you tell me	11	DBDC Human Baseline 1	what?	50	JHU_DialoGPT	I don't know , so you tell me	0.2	15.0	1.0
+852	253	Do you have pets ?	11	DBDC Human Baseline 1	no	50	JHU_DialoGPT	I have a cat , but I don't have a dog .	0.5333333333333333	15.0	1.0
+853	254	do you really think so ?	11	DBDC Human Baseline 1	Yes	50	JHU_DialoGPT	I think so .	0.3333333333333333	15.0	1.0
+854	255	No I don 't watch football in that way .	11	DBDC Human Baseline 1	what way?	50	JHU_DialoGPT	I don't watch football in that way .	0.6666666666666666	15.0	1.0
+855	256	What would you like to chat about ?	11	DBDC Human Baseline 1	Chatbots and neural networks.	50	JHU_DialoGPT	I'm not sure . I'm not sure what I want to talk about .	0.4	15.0	1.0
+856	257	yes it is	11	DBDC Human Baseline 1	uh, no it is not	50	JHU_DialoGPT	I'm not sure if you're serious or not , but I'm pretty sure it's not .	0.4666666666666667	15.0	1.0
+857	258	I love movies	11	DBDC Human Baseline 1	Me too	50	JHU_DialoGPT	I love lamp	0.26666666666666666	15.0	1.0
+858	259	You think I 'm funny ?	11	DBDC Human Baseline 1	No	50	JHU_DialoGPT	I think you're funny .	0.4	15.0	1.0
+859	260	I don 't get you	11	DBDC Human Baseline 1	I don't get you either.	50	JHU_DialoGPT	I think he's saying that the guy who made the video is a troll .	0.3333333333333333	15.0	1.0
+860	261	I know ... me too . Do you think they will have a movie on this flight ?	11	DBDC Human Baseline 1	probably	50	JHU_DialoGPT	I think they will have a movie on this flight .	0.5333333333333333	15.0	1.0
+861	262	Where is your last name from ?	11	DBDC Human Baseline 1	West Africa	50	JHU_DialoGPT	I'm not sure , but it's from a town in the Netherlands .	0.4	15.0	1.0
+862	263	but I think I love her too much	11	DBDC Human Baseline 1	Really? Don't do anything drastic Lenny	50	JHU_DialoGPT	I think I love her too much too .	0.3333333333333333	15.0	1.0
+863	264	do you know any other jokes ?	11	DBDC Human Baseline 1	no	50	JHU_DialoGPT	I don't know any other jokes .	0.8	15.0	1.0
+864	265	What do you mean by that	11	DBDC Human Baseline 1	I don't know	50	JHU_DialoGPT	I think he means that the game is a lot more fun than it looks .	0.4666666666666667	15.0	1.0
+865	266	Hello !	11	DBDC Human Baseline 1	hi	50	JHU_DialoGPT	Hello ! :D	0.3333333333333333	15.0	1.0
+866	267	hi	11	DBDC Human Baseline 1	hi	50	JHU_DialoGPT	Hey ! :D	0.2	15.0	1.0
+867	268	ok , do it . I want to see	11	DBDC Human Baseline 1	Do what?	50	JHU_DialoGPT	I'll try to get it done tomorrow .	0.3333333333333333	15.0	1.0
+868	269	nope	11	DBDC Human Baseline 1	huh	50	JHU_DialoGPT	I'm not sure what you're trying to say .	0.4	15.0	1.0
+869	270	I like cake .	11	DBDC Human Baseline 1	Me too! Especially chocolate cake	50	JHU_DialoGPT	I like turtles .	0.6	15.0	0.6065306597126334
+870	271	it 's already in my pocket !	11	DBDC Human Baseline 1	huh?	50	JHU_DialoGPT	I'm not sure if you're serious or not , but I'm going to assume you're serious	0.6	15.0	1.0
+871	272	Where are they ?	11	DBDC Human Baseline 1	who?	50	JHU_DialoGPT	I'm guessing the same place as the other ones .	0.3333333333333333	15.0	1.0
+872	273	Not really	11	DBDC Human Baseline 1	.	50	JHU_DialoGPT	I'm not sure what you mean by that .	0.4666666666666667	15.0	1.0
+873	274	that is not funny	11	DBDC Human Baseline 1	why not?	50	JHU_DialoGPT	I'm sorry , I didn't know that was a thing .	0.5333333333333333	15.0	1.0
+874	275	I have no idea	11	DBDC Human Baseline 1	About what?	50	JHU_DialoGPT	I'm sure you do .	0.3333333333333333	15.0	1.0
+875	276	Do you have any hobbies ?	11	DBDC Human Baseline 1	no	50	JHU_DialoGPT	I like to play video games and I like to watch movies .	0.4	15.0	1.0
+876	277	thanks darling you are so sweet	11	DBDC Human Baseline 1	your welcome :*	50	JHU_DialoGPT	You're welcome ! I'm glad you liked it !	0.4666666666666667	15.0	1.0
+877	278	Pizza	11	DBDC Human Baseline 1	sure	50	JHU_DialoGPT	Pizza	0.5333333333333333	15.0	1.0
+878	279	what is that	11	DBDC Human Baseline 1	I don't know	50	JHU_DialoGPT	A cat	0.4666666666666667	15.0	0.6065306597126334
+879	280	You tell me , you said you do not know what happened to you .	11	DBDC Human Baseline 1	I didn't say anything.	50	JHU_DialoGPT	I'm not sure what you're trying to say .	0.3333333333333333	15.0	1.0
+880	281	I think she knows but she prefers another guy	11	DBDC Human Baseline 1	She always prefers the other guy	50	JHU_DialoGPT	I think she knows but she prefers another guy	0.4666666666666667	15.0	1.0
+881	282	hi my friend how are you doing today ?	11	DBDC Human Baseline 1	I'm doing well. How are you?	50	JHU_DialoGPT	I'm doing well , how are you ?	0.6	15.0	1.0
+882	283	no	11	DBDC Human Baseline 1	yes!	50	JHU_DialoGPT	thanks , I've recorded your vote to not water !	0.6	15.0	1.0
+883	284	sir you are a joke	11	DBDC Human Baseline 1	fu	50	JHU_DialoGPT	I'm not a joke , I'm a man .	0.5333333333333333	15.0	1.0
+884	285	ok , tell me about your weekend	11	DBDC Human Baseline 1	It was good. I had Mexican food at a friend's house.	50	JHU_DialoGPT	I'm going to go out on a limb and say that it's a good one .	0.3333333333333333	15.0	1.0
+885	286	I enjoy pizza and mac n cheese . What about you ?	11	DBDC Human Baseline 1	Yeah pizza is ok. I like sushi.	50	JHU_DialoGPT	I like pizza and mac n cheese . What about you ?	0.3333333333333333	15.0	1.0
+886	287	What guy are you referring to ?	11	DBDC Human Baseline 1	I don't know what you are talking about	50	JHU_DialoGPT	The guy who was in the video .	0.3333333333333333	15.0	1.0
+887	288	How about a poem ?	11	DBDC Human Baseline 1	no thanks	50	JHU_DialoGPT	I'm not sure what that is .	0.5333333333333333	15.0	1.0
+888	289	do you listen to music ?	11	DBDC Human Baseline 1	Yeah, I really like music.	50	JHU_DialoGPT	I do , but I don't listen to music that's too loud .	0.2	15.0	1.0
+889	290	Well , who are you ?	11	DBDC Human Baseline 1	I'm good	50	JHU_DialoGPT	I'm a guy who likes to play video games .	0.6	15.0	1.0
+890	291	What is the square root of pi ?	11	DBDC Human Baseline 1	1.77	50	JHU_DialoGPT	I don't know , but I'm sure it's a lot .	0.26666666666666666	15.0	1.0
+891	292	what is my name	11	DBDC Human Baseline 1	I don't know.	50	JHU_DialoGPT	I don't know , but I'm sure you'll find out soon enough .	0.5333333333333333	15.0	1.0
+892	293	Do you like to dance ?	11	DBDC Human Baseline 1	yes	50	JHU_DialoGPT	I do !	0.3333333333333333	15.0	1.0
+893	294	Well great . What 's your favorite movie ?	11	DBDC Human Baseline 1	Desperado	50	JHU_DialoGPT	I don't really have one . I'm a big fan of the classics .	0.6	15.0	1.0
+894	295	ok what is the weather like where you are ?	11	DBDC Human Baseline 1	hot and muggy	50	JHU_DialoGPT	It's a bit chilly , but not too bad .	0.4666666666666667	15.0	1.0
+895	296	Yes , that might be true for a lot of things but some things can only be done by humans .	11	DBDC Human Baseline 1	Yeah that's true. But the singularity will come.	50	JHU_DialoGPT	I'm not sure what you mean by that .	0.4	15.0	0.8948393168143697
+896	297	Okay , I like to watch comedies .	11	DBDC Human Baseline 1	Me too! What is the last comedy you saw? I think Sarah Silverman is hilarious 	50	JHU_DialoGPT	I like to watch comedies too .	0.3333333333333333	15.0	0.23965103644177585
+897	298	Sorry , I thought you might want to talk .	11	DBDC Human Baseline 1	I don't want to talk	50	JHU_DialoGPT	I'm not sure what you mean by that .	0.4	15.0	1.0
+898	299	I like dancing	11	DBDC Human Baseline 1	Yeah it is ok	50	JHU_DialoGPT	I like trains	0.6666666666666666	15.0	0.7165313105737893
+899	300	oh no you mean	11	DBDC Human Baseline 1	No I don't	50	JHU_DialoGPT	Oh no you mean	0.2	15.0	1.0
+900	301	why	11	DBDC Human Baseline 1	I don't know	50	JHU_DialoGPT	I'm not sure , but I think it's because he's a big fan of the show .	0.6666666666666666	15.0	1.0
+901	302	have you tried llaollao before ?	11	DBDC Human Baseline 1	no, what is llaollao	50	JHU_DialoGPT	I have not , but I will now .	0.26666666666666666	15.0	1.0
+902	303	Is your mom okay ?	11	DBDC Human Baseline 1	yeah	50	JHU_DialoGPT	She's fine .	0.4166666666666667	12.0	1.0
+903	304	Are you trying to rob me	11	DBDC Human Baseline 1	No! Are you saying that because ...	50	JHU_DialoGPT	I'm not trying to rob you , I'm trying to rob you .	0.3333333333333333	15.0	1.0
+904	305	don 't you have any idea about equality ?	11	DBDC Human Baseline 1	no, the world is not equal. I don't think it ever will be. What do you think?	50	JHU_DialoGPT	I'm not sure what you're trying to say .	0.4	15.0	0.2635971381157267
+905	306	i want to eat	11	DBDC Human Baseline 1	What type of food do you want to eat?	50	JHU_DialoGPT	I want to eat too	0.3333333333333333	15.0	0.36787944117144233
+906	307	i don 't know much about sports	11	DBDC Human Baseline 1	me neither	50	JHU_DialoGPT	I don't know much about sports	0.2	15.0	1.0
+907	308	That is amazing . Are you nervous ?	11	DBDC Human Baseline 1	Probably	50	JHU_DialoGPT	I'm nervous , but I'm not nervous .	0.5333333333333333	15.0	1.0
+908	309	Dignan who ?	11	DBDC Human Baseline 1	huh	50	JHU_DialoGPT	Dignan is a character from the game Dark Souls .	0.5333333333333333	15.0	1.0
+909	310	I see . So where are you from ?	11	DBDC Human Baseline 1	I don't want to say.	50	JHU_DialoGPT	I'm from the UK .	0.4666666666666667	15.0	0.8187307530779819
+910	311	Did you vote ?	11	DBDC Human Baseline 1	yes	50	JHU_DialoGPT	I did . I voted for the guy who was the most popular .	0.26666666666666666	15.0	1.0
+911	312	Wow , mine too .	11	DBDC Human Baseline 1	really?	50	JHU_DialoGPT	I'm not sure if I should be proud or ashamed .	0.3333333333333333	15.0	1.0
+912	313	I am trying to figure out who you voted for since you want to talk politics .	11	DBDC Human Baseline 1	I don't want to talk about politics.	50	JHU_DialoGPT	I'm not sure what you mean by that .	0.3333333333333333	15.0	1.0
+913	314	What are you ?	11	DBDC Human Baseline 1	I'm a boy.	50	JHU_DialoGPT	I'm a guy .	0.26666666666666666	15.0	1.0
+914	315	Do you have a family ?	11	DBDC Human Baseline 1	Yes I do.	50	JHU_DialoGPT	I have a family , but I'm not sure if they're all in the same place .	0.5333333333333333	15.0	1.0
+915	316	what 's a joke ?	11	DBDC Human Baseline 1	I don't know?	50	JHU_DialoGPT	A joke is a joke .	0.3333333333333333	15.0	1.0
+916	317	Gotcha . What 's your favorite book ?	11	DBDC Human Baseline 1	Hyperion	50	JHU_DialoGPT	I'm a big fan of The Martian .	0.3333333333333333	15.0	1.0
+917	318	wow thats old .	11	DBDC Human Baseline 1	What is?	50	JHU_DialoGPT	I think it's the same as the one on the left .	0.6666666666666666	15.0	1.0
+918	319	what is your name ?	11	DBDC Human Baseline 1	John	50	JHU_DialoGPT	I'm not sure , but I think it's a reference to the movie The Big Lebowski	0.3333333333333333	15.0	1.0
+919	320	Do you have a cat ?	11	DBDC Human Baseline 1	nope	50	JHU_DialoGPT	I have a cat , but I don't have a dog .	0.6666666666666666	15.0	1.0
+920	321	I 've never seen that movie , what is it about ?	11	DBDC Human Baseline 1	I don't know which movie you are talking about.	50	JHU_DialoGPT	It's a comedy about a guy who's a cop and a cop's son .	0.4	15.0	1.0
+921	322	wow , what happened ?	11	DBDC Human Baseline 1	I don't want to talk about it.	50	JHU_DialoGPT	I think he got a little bit of a head ache .	0.7333333333333333	15.0	1.0
+922	323	I play guitar do you play anything	11	DBDC Human Baseline 1	The piano	50	JHU_DialoGPT	I play guitar , but I don't play anything .	0.4666666666666667	15.0	1.0
+923	324	yes ? why ?	11	DBDC Human Baseline 1	huh	50	JHU_DialoGPT	Because it's a good idea .	0.4666666666666667	15.0	1.0
+924	325	I cannot believe it ! ! !	11	DBDC Human Baseline 1	Really what can't you believe?	50	JHU_DialoGPT	I can't believe it's not butter !	0.4	15.0	1.0
+925	326	Oh , ok . So , do you follow any sports ?	11	DBDC Human Baseline 1	Recently I watched the world cup and also the Super Bowl, but I'm not really a sports fan.	50	JHU_DialoGPT	I do , but I don't really follow any sports .	0.4	15.0	0.441233167759984
+926	327	Agreed . Do you watch sports ?	11	DBDC Human Baseline 1	sometimes	50	JHU_DialoGPT	I do , but I don't watch them .	0.5333333333333333	15.0	1.0
+927	328	you are smart you know	11	DBDC Human Baseline 1	Thanks!	50	JHU_DialoGPT	I'm not smart , I'm just a man who knows how to use the internet .	0.6666666666666666	15.0	1.0
+928	329	What about music ?	11	DBDC Human Baseline 1	I like Jazz	50	JHU_DialoGPT	I'm not sure what you mean by that .	0.6	15.0	1.0
+929	330	Is it funny ?	11	DBDC Human Baseline 1	no	50	JHU_DialoGPT	It's funny because it's true .	0.6666666666666666	15.0	1.0
+930	331	what exactly you want to have ?	11	DBDC Human Baseline 1	An easy death	50	JHU_DialoGPT	I'm looking for a good deal on a good knife .	0.4666666666666667	15.0	1.0
+931	332	hi baby , how are you ?	11	DBDC Human Baseline 1	I'm good honey	50	JHU_DialoGPT	I'm good , how are you ?	0.4	15.0	1.0
+932	333	Like go out to eat ?	11	DBDC Human Baseline 1	Yes.	50	JHU_DialoGPT	I'm not sure what you mean by that .	0.4666666666666667	15.0	1.0
+933	334	I do like you	11	DBDC Human Baseline 1	I think I like you too. Want to go out on a date?	50	JHU_DialoGPT	I like you too	0.6	15.0	0.06392786120670757
+934	335	Ok , done !	11	DBDC Human Baseline 1	really?	50	JHU_DialoGPT	Thanks for the trade !	0.6	15.0	1.0
+935	336	Do you know what chess is ?	11	DBDC Human Baseline 1	Yes, I play a little.	50	JHU_DialoGPT	I do , but I'm not a chess player .	0.6	15.0	1.0
+936	337	Okay when ?	11	DBDC Human Baseline 1	huh?	50	JHU_DialoGPT	I'm ready now	0.4	15.0	1.0
+937	338	What was it about ?	11	DBDC Human Baseline 1	I don't know	50	JHU_DialoGPT	I think it was about the guy who was in the car with the kid .	0.26666666666666666	15.0	1.0
+938	339	The sun is shining and there are no clouds in the sky .	11	DBDC Human Baseline 1	Yeah, it is a great day	50	JHU_DialoGPT	I'm not sure if you're being serious or not , but I'm pretty sure that's not	0.2	15.0	1.0
+939	340	how are you today	11	DBDC Human Baseline 1	I'm doing well thank you. How are you?	50	JHU_DialoGPT	I'm good , how about you ?	0.4	15.0	0.6514390575310556
+940	341	good for you dude	11	DBDC Human Baseline 1	thanks	50	JHU_DialoGPT	Thanks , I'm glad you think so !	0.8	15.0	1.0
+941	342	I would like to talk about movies .	11	DBDC Human Baseline 1	ok me too	50	JHU_DialoGPT	I'm in .	0.7333333333333333	15.0	1.0
+942	343	With whom ?	11	DBDC Human Baseline 1	none of your business	50	JHU_DialoGPT	The people who are currently in the process of being deported .	0.6666666666666666	15.0	1.0
+943	344	Do you have hands ?	11	DBDC Human Baseline 1	yes	50	JHU_DialoGPT	I do , but I'm not a very good hand .	0.26666666666666666	15.0	1.0
+944	345	i 'm Danny !	11	DBDC Human Baseline 1	ok	50	JHU_DialoGPT	I'm Danny too !	0.3333333333333333	15.0	1.0
+945	346	hi my friend	11	DBDC Human Baseline 1	hi	50	JHU_DialoGPT	hi my friend	0.26666666666666666	15.0	1.0
+946	347	I 'm sorry ?	11	DBDC Human Baseline 1	really? Why?	50	JHU_DialoGPT	I'm sorry ?	0.4666666666666667	15.0	0.7165313105737893
+947	348	What happens ?	11	DBDC Human Baseline 1	I don't know	50	JHU_DialoGPT	It's a joke .	0.3333333333333333	15.0	1.0
+948	349	Hi .	11	DBDC Human Baseline 1	Hi.	50	JHU_DialoGPT	Hi . How are you ?	0.6	15.0	1.0
+949	350	Yours .	11	DBDC Human Baseline 1	huh 	50	JHU_DialoGPT	I'm not sure if I should be proud or ashamed .	0.3333333333333333	15.0	1.0
+950	351	No we haven 't ! It 's been like a minute	11	DBDC Human Baseline 1	huh?	50	JHU_DialoGPT	I'm sorry , I'm not sure what you mean .	0.6	15.0	1.0
+951	352	What 's up ?	11	DBDC Human Baseline 1	not much	50	JHU_DialoGPT	Not much , what about you ?	0.4	15.0	1.0
+952	353	That sounds good	11	DBDC Human Baseline 1	ok 	50	JHU_DialoGPT	I'm ready when you are	0.4666666666666667	15.0	1.0
+953	354	Do you like romance novels ?	11	DBDC Human Baseline 1	NO!!!	50	JHU_DialoGPT	I do !	0.26666666666666666	15.0	0.7165313105737893
+954	355	Sure . Which sport do you like specifically ?	11	DBDC Human Baseline 1	IDK? Can you give me context?	50	JHU_DialoGPT	I like soccer .	0.5333333333333333	15.0	0.36787944117144233
+955	356	blows , haha , i like it	11	DBDC Human Baseline 1	What blows?	50	JHU_DialoGPT	Thanks ! I'm glad you enjoyed it .	0.5333333333333333	15.0	1.0
+956	357	"what ? ! who are "" we "" ?"	11	DBDC Human Baseline 1	I don't know. What are you talking about?	50	JHU_DialoGPT	I'm sorry , I don't speak English .	0.5333333333333333	15.0	0.7788007830714049
+957	358	Sure . What 's your favorite ? I like trouble .	11	DBDC Human Baseline 1	I really don't	50	JHU_DialoGPT	I like the way you think .	0.2	15.0	1.0
+958	359	Okay well I like Basketball and Football .	11	DBDC Human Baseline 1	Cool I like tennis and soccer.	50	JHU_DialoGPT	I like basketball and football too .	0.6	15.0	1.0
+959	360	Hi there how are you ?	11	DBDC Human Baseline 1	42	50	JHU_DialoGPT	I'm good , how are you ?	0.4	15.0	1.0
+960	361	That 's a mean thing to say .	11	DBDC Human Baseline 1	Is it?	50	JHU_DialoGPT	I'm sorry , I didn't mean to be mean .	0.6	15.0	1.0
+961	362	It 's actually very funny . If you like to be entertained .	11	DBDC Human Baseline 1	What are you talking about?	50	JHU_DialoGPT	I'm not sure if I should laugh or cry .	0.5333333333333333	15.0	1.0
+962	363	ok. but who is he ?	11	DBDC Human Baseline 1	I don't know	50	JHU_DialoGPT	He's a guy who's been around for a while .	0.4666666666666667	15.0	1.0
+963	364	Excellent ! So am I ! Who will you visit with , exactly ?	11	DBDC Human Baseline 1	I don't know.	50	JHU_DialoGPT	I'll be visiting with my sister and her boyfriend .	0.6666666666666666	15.0	1.0
+964	365	Ahhh ... well , that seems very true . How are you ?	11	DBDC Human Baseline 1	I'm well	50	JHU_DialoGPT	I'm doing well . How are you ?	0.4666666666666667	15.0	1.0
+965	366	I 'm a girl	11	DBDC Human Baseline 1	really? I am a boy.	50	JHU_DialoGPT	I'm a guy	0.4	15.0	0.2635971381157267
+966	367	What other stuff can we talk about ?	11	DBDC Human Baseline 1	Anything but sex, rock and roll, and politics.	50	JHU_DialoGPT	I'm not sure , but I'm sure there's a lot of stuff .	0.6	15.0	1.0
+967	368	My favorite planet is pluto	11	DBDC Human Baseline 1	Really? Mine is Venus. Can you guess why?	50	JHU_DialoGPT	I'm a simple man . I see a planet , I upvote .	0.5333333333333333	15.0	1.0
+968	369	haha that 's a good joke	11	DBDC Human Baseline 1	what?	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.3333333333333333	15.0	1.0
+969	370	I lik chess	11	DBDC Human Baseline 1	me too	50	JHU_DialoGPT	I like turtles	0.4666666666666667	15.0	1.0
+970	371	OK , I am a little	11	DBDC Human Baseline 1	A little what?	50	JHU_DialoGPT	I'm a little too	0.6666666666666666	15.0	1.0
+971	372	Do you like movies ?	11	DBDC Human Baseline 1	Yes.	50	JHU_DialoGPT	I like movies .	0.3333333333333333	15.0	1.0
+972	373	typo sorry . I 'm	11	DBDC Human Baseline 1	huh?	50	JHU_DialoGPT	No worries , I was just confused .	0.5333333333333333	15.0	1.0
+973	374	I just recently tried that game . It was fun .	11	DBDC Human Baseline 1	Which game did you try?	50	JHU_DialoGPT	I'm glad you enjoyed it !	0.4	15.0	1.0
+974	375	What do you think about equality in our world ?	11	DBDC Human Baseline 1	There is no such thing	50	JHU_DialoGPT	I think it's a good thing .	0.6666666666666666	15.0	1.0
+975	376	I don 't know about that	11	DBDC Human Baseline 1	Huh! What do you mean?	50	JHU_DialoGPT	I don't know about that	0.2	15.0	0.6703200460356393
+976	377	nice to meet you wayne	11	DBDC Human Baseline 1	I'm not Wayne	50	JHU_DialoGPT	Nice to meet you too	0.4666666666666667	15.0	1.0
+977	378	Okay . I 'm a little bit confused . Let me change the topic . Do you have relatives where we 're going ?	11	DBDC Human Baseline 1	I don't know what you are talking about.	50	JHU_DialoGPT	I don't have any relatives .	0.4	15.0	0.6065306597126334
+978	379	which is a good one	11	DBDC Human Baseline 1	I don't know	50	JHU_DialoGPT	I think the one with the most people is the best .	0.4	15.0	1.0
+979	380	mouse lah	11	DBDC Human Baseline 1	huh??	50	JHU_DialoGPT	I'm not a cat person .	0.2	15.0	1.0
+980	381	About what ?	11	DBDC Human Baseline 1	huh?	50	JHU_DialoGPT	I think he's referring to the fact that the guy is a woman .	0.5333333333333333	15.0	1.0
+981	382	Hockey league	11	DBDC Human Baseline 1	huh?	50	JHU_DialoGPT	I'm in the same boat .	0.4666666666666667	15.0	1.0
+982	383	no , but very surprised you are still there	11	DBDC Human Baseline 1	Yeah I know. This is starting to get boring	50	JHU_DialoGPT	I'm still here .	0.3333333333333333	15.0	0.22313016014842982
+983	384	I do enjoy watching soccer occassionally .	11	DBDC Human Baseline 1	Me too... especially the world cup	50	JHU_DialoGPT	I do enjoy watching soccer occasionally .	0.26666666666666666	15.0	0.7514772930752859
+984	385	you tell me	11	DBDC Human Baseline 1	tell you what?	50	JHU_DialoGPT	I'm not sure what you're asking .	0.4	15.0	1.0
+985	386	Knock what off	11	DBDC Human Baseline 1	IDK	50	JHU_DialoGPT	I'm not sure what you're trying to say .	0.6666666666666666	15.0	1.0
+986	387	ok , i was referring to personal questions	11	DBDC Human Baseline 1	which personal questions?	50	JHU_DialoGPT	I'm not sure what you mean by personal questions .	0.6	15.0	1.0
+987	388	I am interested in watching TV shows . How about you ?	11	DBDC Human Baseline 1	eh, not really, but I admit I watch too much TV.	50	JHU_DialoGPT	I'm a big fan of the Walking Dead .	0.4666666666666667	15.0	0.5737534207374327
+988	389	Because bad things are happening .	11	DBDC Human Baseline 1	All over the place! Every day.	50	JHU_DialoGPT	I'm not sure what you mean by that .	0.3333333333333333	15.0	1.0
+989	390	Why do you think that ?	11	DBDC Human Baseline 1	I don't know	50	JHU_DialoGPT	Because he's a troll .	0.2	15.0	1.0
+990	391	Hello ! How are you !	11	DBDC Human Baseline 1	I'm good. You?	50	JHU_DialoGPT	I'm good , how are you ?	0.4	15.0	1.0
+991	392	What did the cats do ?	11	DBDC Human Baseline 1	sleep	50	JHU_DialoGPT	They were just there to watch .	0.6	15.0	1.0
+992	393	it means the sun is hiding behind the clouds	11	DBDC Human Baseline 1	What means that?	50	JHU_DialoGPT	I thought it was the sun was hiding behind the clouds .	0.6666666666666666	15.0	1.0
+993	394	What is your favorite Tv Show ?	11	DBDC Human Baseline 1	Buffy the Vampire Slayer	50	JHU_DialoGPT	I don't watch TV .	0.4666666666666667	15.0	1.0
+994	395	Politics ?	11	DBDC Human Baseline 1	NO!	50	JHU_DialoGPT	Politics is a game .	0.6	15.0	1.0
+995	396	Wow thank you . That 's nice of you	11	DBDC Human Baseline 1	Sorry for what?	50	JHU_DialoGPT	You're welcome . I'm glad you liked it .	0.4666666666666667	15.0	1.0
+996	397	I am not faking anything	11	DBDC Human Baseline 1	really? I think you are	50	JHU_DialoGPT	I'm not faking anything	0.13333333333333333	15.0	0.6065306597126334
+997	398	I would like to talk about movies	11	DBDC Human Baseline 1	ok. Let's talk about movies.	50	JHU_DialoGPT	I'm interested in this as well .	0.6	15.0	1.0
+998	399	Hey should I eat icecream	11	DBDC Human Baseline 1	All the time. But don't get too fat	50	JHU_DialoGPT	I'm not sure if you're serious or not , but I'm going to say yes .	0.26666666666666666	15.0	1.0
+999	400	thank you !	11	DBDC Human Baseline 1	sure np	50	JHU_DialoGPT	You're welcome	0.5333333333333333	15.0	1.0
