@@ -96,8 +96,16 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
     elif modelname == 'roberta_ft':
         p, r, score = bert_score.score(cands=cand_list, refs=ref_list, lang='en', verbose=True, model_type='../Chatbot_evaluation/models/roberta_ft', num_layers=10)
     elif modelname == 'bleu':
-        bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand_list, ref_list)]
-        score = [x['bp'] for x in bs]
+        if ref == 'multi_avg' or ref == 'multi_max':
+            # ref
+            ref_list = data['ref'].astype(str).to_list()
+            bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand_list, ref_list)]
+            ref_score = [x['bp'] for x in bs]
+            # context_last
+            ref_list = data['context'].apply(lambda x: str(x).split('\n')[-1]).to_list()
+
+            bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand_list, ref_list)]
+            context_score = [x['bp'] for x in bs]
     elif modelname == 'bleurt':
         preds = model.compute(predictions=cand_list, references=ref_list)
         score = preds['scores']
@@ -105,7 +113,7 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
         raise ValueError("Model not listed")
 
     # add scores to dataframe
-    if ref == 'multi_avg' or ref == 'multi_max':
+    if modelname == 'prism' and (ref == 'multi_avg' or ref == 'multi_max'):
         data['ref_score'] = ref_score
         data['context_score'] = context_score
         data['empty_score'] = empty_score
@@ -113,6 +121,14 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
             data['score'] = data[['ref_score', 'context_score', 'empty_score']].mean(axis=1)
         elif ref == 'multi_max':
             data['score'] = data[['ref_score', 'context_score', 'empty_score']].max(axis=1)
+    elif modelname == 'bleu' and (ref == 'multi_avg' or ref == 'multi_max'):
+        data['ref_score'] = ref_score
+        data['context_score'] = context_score
+        if ref == 'multi_avg':
+            data['score'] = data[['ref_score', 'context_score']].mean(axis=1)
+        elif ref == 'multi_max':
+            data['score'] = data[['ref_score', 'context_score']].max(axis=1)
+
     else:
         data['score'] = score
     # write scores to output

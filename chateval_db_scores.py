@@ -90,14 +90,22 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
     elif modelname == 'roberta_ft':
         p, r, score = bert_score.score(cands=cand_list, refs=ref_list, lang='en', verbose=True, model_type='../Chatbot_evaluation/models/roberta_ft', num_layers=10)
     elif modelname == 'bleu':
-        bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand_list, ref_list)]
-        score = [x['bp'] for x in bs]
+        if ref == 'multi_avg' or ref == 'multi_max':
+            # ref
+            ref_list = data['reference_text'].astype(str).to_list()
+            bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand_list, ref_list)]
+            ref_score = [x['bp'] for x in bs]
+            # context_last
+            ref_list = data['prompt_text'].apply(lambda x: str(x).split('\n')[-1]).to_list()
+
+            bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand_list, ref_list)]
+            context_score = [x['bp'] for x in bs]
     elif modelname == 'bleurt':
         preds = model.compute(predictions=cand_list, references=ref_list)
         score = preds['scores']
     
     # add scores to dataframe
-    if ref == 'multi_avg' or ref == 'multi_max':
+    if modelname == 'prism' and (ref == 'multi_avg' or ref == 'multi_max'):
         data['ref_score'] = ref_score
         data['context_score'] = context_score
         data['empty_score'] = empty_score
@@ -105,6 +113,13 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
             data['score'] = data[['ref_score', 'context_score', 'empty_score']].mean(axis=1)
         elif ref == 'multi_max':
             data['score'] = data[['ref_score', 'context_score', 'empty_score']].max(axis=1)
+    elif modelname == 'bleu' and (ref == 'multi_avg' or ref == 'multi_max'):
+        data['ref_score'] = ref_score
+        data['context_score'] = context_score
+        if ref == 'multi_avg':
+            data['score'] = data[['ref_score', 'context_score']].mean(axis=1)
+        elif ref == 'multi_max':
+            data['score'] = data[['ref_score', 'context_score']].max(axis=1)
     else:
         data['score'] = score
 
@@ -113,7 +128,7 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
         data.to_csv(outputdir, sep='\t')
     return data
 
-def plot_correlation(scores, plotdir, ref):
+def plot_correlation(scores, plotdir, ref, modelname):
     """
     plots correlation between human annotation and evaluation scores
     
@@ -145,12 +160,19 @@ def plot_correlation(scores, plotdir, ref):
     plt.close()
     
     # for multi ref PRISM, also compare to single ref scores
-    if ref == 'multi_avg' or ref == 'multi_max':
+    if modelname == 'prism' and (ref == 'multi_avg' or ref == 'multi_max'):
         for col in ['ref_score', 'context_score', 'empty_score']:
             # compute correlation
             slope, intercept, r_value, p_value, std_err = stats.linregress(evaluation_scores, scores[col])
             print(col)
             print('$R=${0}\n p={1}'.format(str(round(r_value,6)), str(round(p_value,6))))
+    elif modelname == 'bleu' and (ref == 'multi_avg' or ref == 'multi_max'):
+        for col in ['ref_score', 'context_score']:
+            # compute correlation
+            slope, intercept, r_value, p_value, std_err = stats.linregress(evaluation_scores, scores[col])
+            print(col)
+            print('$R=${0}\n p={1}'.format(str(round(r_value,6)), str(round(p_value,6))))
+
 
 def main():
     print("Entered main...")
@@ -164,7 +186,7 @@ def main():
     scores = get_scores(modelname=options.model, datadir=options.datadir, outputdir=options.outputdir, ref=options.ref)
     if options.plotdir is not None:
         print('Getting correlations...')
-        median_annotations = plot_correlation(scores=scores, plotdir=options.plotdir, ref=options.ref)
+        median_annotations = plot_correlation(scores=scores, plotdir=options.plotdir, ref=options.ref, modelname=options.model)
 
 if __name__ == '__main__':
     main()
