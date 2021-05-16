@@ -162,7 +162,7 @@ def plot_correlation(scores, plotdir, heatmapdir=None):
 
     # construct correlation plot
     plt.figure()
-    fig, ax = plt.subplots(3,3, figsize=(12,12))
+    fig, ax = plt.subplots(3,4, figsize=(12,12))
     ax = ax.flatten()
     for i,quality in enumerate(human_annotations):
         # compute correlation

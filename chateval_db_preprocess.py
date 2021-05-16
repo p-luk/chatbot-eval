@@ -91,8 +91,8 @@ def get_chateval_data(dataset, outputdir):
       Model.model_id=ModelResponse.model_id and 
       EvaluationDataset.evalset_id = ModelResponse.evaluationdataset_id and 
       EvaluationDataset.name=\"{evalset}\" and
-      is_baseline>2""",
-      con=db)
+      (is_baseline>2 or is_baseline=0)""",      
+    con=db)
     #HACK: this is to fix the issue of duplicate insertions into the DB
     contexts = contexts[contexts.prompt_id.isin(model_responses.prompt_id.unique())]
     evaluations = pd.read_sql(f"""
