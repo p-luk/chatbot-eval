@@ -1,0 +1,401 @@
+	prompt_id	prompt_text	ref_id	reference_name	reference_text	model_id	model_name	candidate_text	win_ratio	counts	score
+0	4001	 I don't think it will rain for quite some time.	112	ESL 3 Human Baseline	Maybe we can do a rain dance and summon rain.	5	CakeChat	no you ' ll not !	0.1111111111111111	18	0.7777415
+1	4002	 I mean, are you going to get buried or cremated?	112	ESL 3 Human Baseline	My wife and I will be cremated.	5	CakeChat	i ' m not sure . . . still haven ' t got mine . . .	0.05555555555555555	18	0.76585215
+2	4003	 She said they were imported chocolates.	112	ESL 3 Human Baseline	What does that mean?	5	CakeChat	i ' m not sure if it ' s a compliment or a friend but now that you mention it , my heart is beating up	0.2222222222222222	18	0.78335685
+3	4004	 I'm having trouble starting my search.	112	ESL 3 Human Baseline	I would try driving around the neighborhood, and looking for any signs that say RENT.	5	CakeChat	i ' m not sure my mom would buy me a card	0.2222222222222222	18	0.84102744
+4	4005	 Hello, Mrs. Smith. I've done a preliminary check of the property.	112	ESL 3 Human Baseline	That's great! What did you find?	5	CakeChat	i was just thinking about that . . .	0.4444444444444444	18	0.7786027
+5	4006	 The storyline sounds interesting, too.	112	ESL 3 Human Baseline	Do you want to go watch it now?	5	CakeChat	i ' m hoping for more than one episode .	0.5	18	0.8017718
+6	4007	 It looks like blood.	112	ESL 3 Human Baseline	I think my nose was bleeding.	5	CakeChat	it ' s a shame	0.4444444444444444	18	0.82705164
+7	4008	 What kind of dog do you have?	112	ESL 3 Human Baseline	I have a little poodle.	5	CakeChat	i don ' t have a dog . . .	0.16666666666666666	18	0.83844674
+8	4009	 Well, people can't drink until they're 21.	112	ESL 3 Human Baseline	That's so they'll have time to make the right decision.	5	CakeChat	you ' re a little late but i ' m the best ever	0.2777777777777778	18	0.7914864
+9	4010	 What's the problem?	112	ESL 3 Human Baseline	I went hiking in the mountains last week.	5	CakeChat	what do you mean ?	0.2777777777777778	18	0.8586175
+10	4011	 I'll teach you one.	112	ESL 3 Human Baseline	Okay. What will you teach me?	5	CakeChat	i ' ve never seen a one on the other side of the world . . .	0.2222222222222222	18	0.8181432
+11	4012	 All I get is a black screen.	112	ESL 3 Human Baseline	What's the matter?	5	CakeChat	i ' m not sure what you ' re talking about but the new ones are more expensive than regular , they ' re all in the same boat	0.2222222222222222	18	0.81648237
+12	4013	 Where are you from?	112	ESL 3 Human Baseline	I'm from the inner city.	5	CakeChat	i ' m from america	0.1111111111111111	18	0.81824255
+13	4014	 You should go to bed.	112	ESL 3 Human Baseline	I will as soon as I finish this article.	5	CakeChat	i ' m not home now . . .	0.3333333333333333	18	0.79480135
+14	4015	 I'm sorry to hear that.	112	ESL 3 Human Baseline	I feel so stupid. What's wrong with me?	5	CakeChat	it ' s ok i ' ll just do my job	0.6111111111111112	18	0.79423755
+15	4016	 I'm having an interview tomorrow morning. I'm very nervous.	112	ESL 3 Human Baseline	That's great! Why are you nervous though?	5	CakeChat	what ' s your schedule for tomorrow ?	0.5	18	0.8373403
+16	4017	 What would you like?	112	ESL 3 Human Baseline	I know! Let's go down to the Farmer's Market.	5	CakeChat	you could just take a picture of me and him	0.1111111111111111	18	0.8019407
+17	4018	 Have you worn it yet?	112	ESL 3 Human Baseline	No, I have to accessorize it first!	5	CakeChat	no i don ' t , i ' m not going to get my hair cut .	0.2222222222222222	18	0.79969376
+18	4019	 Okay, how can I help you?	112	ESL 3 Human Baseline	Well, I was wondering if you could hook me up at the place you work.	5	CakeChat	you know what i was talking about ?	0.2222222222222222	18	0.79971814
+19	4020	 Then why haven't we seen any?	112	ESL 3 Human Baseline	They are probably hiding.	5	CakeChat	i don ' t know lol	0.5	18	0.75736696
+20	4021	 I like being able to look outside.	112	ESL 3 Human Baseline	You walk along the streets all the time.	5	CakeChat	i ' m not sure if it ' s a compliment or not .	0.2222222222222222	18	0.8206834
+21	4022	 The fruit is not of good quality, either.	112	ESL 3 Human Baseline	You're right; these apples are bruised.	5	CakeChat	i can ' t believe you still haven ' t seen it !	0.1111111111111111	18	0.77732927
+22	4023	 It's not comfortable.	112	ESL 3 Human Baseline	It seems fine to me.	5	CakeChat	i know . it ' s a tough job .	0.16666666666666666	18	0.8671479
+23	4024	 You can help me.	112	ESL 3 Human Baseline	Why me?	5	CakeChat	what do you mean ?	0.3888888888888889	18	0.8055474
+24	4025	 I accidentally cut myself.	112	ESL 3 Human Baseline	Is it very deep?	5	CakeChat	i ' m gonna have to read that one .	0.16666666666666666	18	0.817099
+25	4026	 When did you get divorced?	112	ESL 3 Human Baseline	I got divorced two years ago.	5	CakeChat	the last time i saw it was you	0.2222222222222222	18	0.79314613
+26	4027	 Cigarettes, of course.	112	ESL 3 Human Baseline	How can he do that?	5	CakeChat	i ' ll make sure to remember this tweet .	0.16666666666666666	18	0.7902953
+27	4028	 It's raining cats and dogs out there.	112	ESL 3 Human Baseline	More like lions and wolves!	5	CakeChat	oh no ! what ' s up ?	0.3333333333333333	18	0.7777025
+28	4029	 I just wanted to call you and thank you for the lovely time last Friday.	112	ESL 3 Human Baseline	I'm glad you liked the movie.	5	CakeChat	that ' s what i thought !	0.3888888888888889	18	0.7821063
+29	4030	 I love all their songs.	112	ESL 3 Human Baseline	I don't know which one I like the best.	5	CakeChat	i still think that ' s the one . . .	0.2222222222222222	18	0.8147422
+30	4031	 There is smoke coming up from the house!	112	ESL 3 Human Baseline	Did you call 911?	5	CakeChat	i ' m not sure if you ' re going to say that , but i ' m a bit concerned about the way the world gets , and the fact is that they are taking it out already	0.2777777777777778	18	0.7840699
+31	4032	 I've never seen snow. What is it like?	112	ESL 3 Human Baseline	Sometimes it's white, fluffy, and looks like clouds.	5	CakeChat	it ' s not a lot of snow here , but i ' m still looking at the news .	0.3888888888888889	18	0.8322473
+32	4033	 It's six years old.	112	ESL 3 Human Baseline	That's pretty old.	5	CakeChat	i ' ll have to look through that	0.3333333333333333	18	0.77674204
+33	4034	 It doesn't matter, but it is against the law.	112	ESL 3 Human Baseline	No one will see me do it.	5	CakeChat	the point of this tweet is that the people who are paid to vote for the first amendment . . .	0.2222222222222222	18	0.80673105
+34	4035	 Which bus should I take first?	112	ESL 3 Human Baseline	You'll need to take the 260 on Atlantic all the way to Garvey.	5	CakeChat	i don ' t know what you ' re talking about .	0.1111111111111111	18	0.7728123
+35	4036	 I would if I had the money.	112	ESL 3 Human Baseline	Why is it so slow?	5	CakeChat	i ' m sorry , but you can ' t do that to me .	0.16666666666666666	18	0.785936
+36	4037	 Did you look in the mirror?	112	ESL 3 Human Baseline	No, but I can feel a sharp pain when my tongue touches my molars.	5	CakeChat	yeah i did	0.4444444444444444	18	0.7982036
+37	4038	 What do you listen to?	112	ESL 3 Human Baseline	Mostly talk radio.	5	CakeChat	i heard you say that to be honest but it ' s a song and a girl	0.05555555555555555	18	0.78393364
+38	4039	 I'm really hungry. What are my choices?	112	ESL 3 Human Baseline	There should be a menu in your room.	5	CakeChat	i ' m not sure if you ' re serious but it looks like a good way to start a new diet . you should get a job or eat and go for a walk . don ' t	0.1111111111111111	18	0.8179865
+39	4040	 Are you kidding me? Step over here.	112	ESL 3 Human Baseline	You're right. The floor to this apartment is badly damaged.	5	CakeChat	when did you start using your hair ?	0.16666666666666666	18	0.77932435
+40	4041	 Me too! I would never take Speech 101 if I didn't need it.	112	ESL 3 Human Baseline	Yeah, I hate public speaking.	5	CakeChat	i ' m so sorry	0.5555555555555556	18	0.7431882
+41	4042	 What do you suggest?	112	ESL 3 Human Baseline	Well, is your husband into sports?	5	CakeChat	i ' m about to do the same thing	0.4444444444444444	18	0.77241373
+42	4043	 I got a ticket downtown for $140.	112	ESL 3 Human Baseline	Were you speeding?	5	CakeChat	i was thinking about that too . . .	0.1111111111111111	18	0.7933951
+43	4044	 He said a doctor helped him with a personal problem.	112	ESL 3 Human Baseline	He said he wasn’t using drugs.	5	CakeChat	i ' m guessing you ' re not talking about the same thing ?	0.2222222222222222	18	0.7777231
+44	4045	 $200 for a parking ticket?	112	ESL 3 Human Baseline	Well, it looks like this is your third parking ticket.	5	CakeChat	i ' m going to buy you a ticket for that .	0.2777777777777778	18	0.8043595
+45	4046	 I think it's an old people's smell.	112	ESL 3 Human Baseline	Really?	5	CakeChat	i ' m not talking about the day in my life , you just don ' t understand what ' s happening	0.16666666666666666	18	0.79667103
+46	4047	 How many schools did you apply to?	112	ESL 3 Human Baseline	I applied to six.	5	CakeChat	i got all new and had a few .	0.16666666666666666	18	0.8011511
+47	4048	 I can't seem to land an interview.	112	ESL 3 Human Baseline	Have you applied to many places?	5	CakeChat	i ' ll be there !	0.3333333333333333	18	0.7960269
+48	4049	 I don't think we are going to make it.	112	ESL 3 Human Baseline	You are right. There it goes.	5	CakeChat	they don ' t need to know what you ' re talking about	0.3333333333333333	18	0.8226693
+49	4050	 Thank you. How long have you been living here?	112	ESL 3 Human Baseline	It's going to be my tenth year next month.	5	CakeChat	now i am not a huge fan of this	0.05555555555555555	18	0.79480505
+50	4051	 Did you hear about the pilot?	112	ESL 3 Human Baseline	The one that stole a small plane?	5	CakeChat	i don ' t recall .	0.3333333333333333	18	0.7773304
+51	4052	 Then why are your marks in science so low?	112	ESL 3 Human Baseline	I don't understand science, that's all.	5	CakeChat	i don ' t have to do anything . . .	0.05555555555555555	18	0.7983646
+52	4053	 Swim classes are embarrassing.	112	ESL 3 Human Baseline	I suppose I can teach you.	5	CakeChat	i ' m not even sure you were going to say that . . .	0.05555555555555555	18	0.78771067
+53	4054	 Are you here for our workshop today?	112	ESL 3 Human Baseline	Yes, as a matter of fact, I am.	5	CakeChat	no i was going to not go with you .	0.16666666666666666	18	0.8184658
+54	4055	 Because I watch the other players.	112	ESL 3 Human Baseline	What do you mean?	5	CakeChat	yeah i was gonna say that ' s what you do	0.3333333333333333	18	0.811002
+55	4056	 What college do you go to?	112	ESL 3 Human Baseline	I go to Pasadena City College.	5	CakeChat	i ' m not .		18	0.7846231
+56	4057	 $200 for a parking ticket?	112	ESL 3 Human Baseline	Well, it looks like this is your third parking ticket.	5	CakeChat	i ' m not sure if we ' re going to be able to afford that . . .	0.4444444444444444	18	0.7669064
+57	4058	 No, it came in the mail yesterday.	112	ESL 3 Human Baseline	So, will you be coming to the party?	5	CakeChat	oh my god . . .	0.2222222222222222	18	0.7336585
+58	4059	 Yes, you certainly can.	112	ESL 3 Human Baseline	How do I file a claim?	5	CakeChat	i ' m not gonna ever be in the same boat as you , so it ' s only a matter of time , if i don ' t get my license . . .	0.16666666666666666	18	0.78668797
+59	4060	 Oh, no. I must've gotten off the bus too early.	112	ESL 3 Human Baseline	Don't worry. We all make mistakes.	5	CakeChat	i thought you were talking about the bus driver	0.5555555555555556	18	0.815092
+60	4061	 I think I have a fever.	112	ESL 3 Human Baseline	That's terrible! Does your head hurt?	5	CakeChat	you should get a new one	0.05555555555555555	18	0.8365199
+61	4062	 You can ask as many as you want.	112	ESL 3 Human Baseline	I just need to know where to change buses.	5	CakeChat	you don ' t know what i ' m talking about ?	0.1111111111111111	18	0.78501284
+62	4063	 I bought my favorite artists' albums today.	112	ESL 3 Human Baseline	You must really like their music.	5	CakeChat	i can ' t wait ! ! !	0.16666666666666666	18	0.77367365
+63	4064	 Me too! I would never take Speech 101 if I didn't need it.	112	ESL 3 Human Baseline	Yeah, I hate public speaking.	5	CakeChat	i ' m not sure if you ' re being sarcastic or not . . .	0.3333333333333333	18	0.79407644
+64	4065	 How did you get it?	112	ESL 3 Human Baseline	I don't know. Maybe it was from a shopping cart.	5	CakeChat	"""i was going to say """" my dad """" but he said """" no """""""	0.2222222222222222	18	0.7858712
+65	4066	 So what do I do now?	112	ESL 3 Human Baseline	The negative amount is how much you owe the bank.	5	CakeChat	i ' ll take you to a private school .	0.2777777777777778	18	0.79179823
+66	4067	 Thank you, but I don't think there's much you can do.	112	ESL 3 Human Baseline	Don't be so pessimistic. I'll help you unlock that door.	5	CakeChat	lol you ' re not even a busy person . . .	0.1111111111111111	18	0.8304575
+67	4068	 Why do you hate to go outside?	112	ESL 3 Human Baseline	I meet too many jerks.	5	CakeChat	i ' m not sure how many times you tweeted this .	0.16666666666666666	18	0.7940095
+68	4069	 Are they going to clean the ice?	112	ESL 3 Human Baseline	It looks like this is some kind of sport event.	5	CakeChat	they ' re all in the same boat as me . . .	0.16666666666666666	18	0.7822378
+69	4070	 They hope they will go to heaven.	112	ESL 3 Human Baseline	They probably will.	5	CakeChat	you ' re not the only one	0.2777777777777778	18	0.778591
+70	4071	 I think I do. How much was it again?	112	ESL 3 Human Baseline	It was a total of $1,000.	5	CakeChat	i don ' t know , but the prices are the price of £ 50	0.3333333333333333	18	0.8225551
+71	4072	 That's no fun!	112	ESL 3 Human Baseline	They're fine, and I can still get them wet.	5	CakeChat	it ' s not a big deal , i ' m just asking if you ' re gonna be able to do anything	0.5	18	0.7887662
+72	4073	 You failed to stop at the stop sign.	112	ESL 3 Human Baseline	I'm sorry, officer. I didn't see the stop sign.	5	CakeChat	you wish	0.05555555555555555	18	0.73243123
+73	4074	 I think I'll make a sandwich.	112	ESL 3 Human Baseline	What kind?	5	CakeChat	i hope the answer is yes	0.2777777777777778	18	0.82332176
+74	4075	 That's great! I'm good, but I feel a little sick.	112	ESL 3 Human Baseline	That's not good. I heard there is a flu going around.	5	CakeChat	i ' ve been trying to get up for a while and haven ' t got my phone back yet	0.2222222222222222	18	0.8010297
+75	4076	 How will we know we're getting a good deal though?	112	ESL 3 Human Baseline	If we use a site like Expedia or Priceline, we can find something within our budget.	5	CakeChat	i ' m not sure if they ' re gonna have to be a bit of a deal with the team or what . . .	0.3333333333333333	18	0.8091718
+76	4077	 I'm tired of eating frozen food!	112	ESL 3 Human Baseline	It's not frozen once you heat it up.	5	CakeChat	i ' m coming to the game tomorrow .	0.3888888888888889	18	0.8255068
+77	4078	 You've never even seen it on television?	112	ESL 3 Human Baseline	I don't own a television set.	5	CakeChat	i did .	0.2222222222222222	18	0.799775
+78	4079	 Did you forget your key inside your apartment?	112	ESL 3 Human Baseline	No. I think I lost it somewhere in the city.	5	CakeChat	i am . . .	0.2222222222222222	18	0.7473302
+79	4080	 I sprinkled salt and pepper on the food before I tasted it.	112	ESL 3 Human Baseline	What's the matter with that?	5	CakeChat	you don ' t even like me anymore	0.2222222222222222	18	0.7767779
+80	4081	 No, I'm afraid I don't know.	112	ESL 3 Human Baseline	An apple a day keeps the doctor away!	5	CakeChat	i ' m not sure if you ' re talking about the same thing but it was a joke , your a very popular person .	0.2777777777777778	18	0.834715
+81	4082	 Thank you. How long have you been living here?	112	ESL 3 Human Baseline	It's going to be my tenth year next month.	5	CakeChat	i ' m here now !	0.2222222222222222	18	0.8151617
+82	4083	 I thought school was hard.	112	ESL 3 Human Baseline	Me, too. I couldn't wait to graduate.	5	CakeChat	i ' m not even sure if it ' s a thing or not , but you are .	0.16666666666666666	18	0.8154257
+83	4084	 I would like to buy a new sweater.	112	ESL 3 Human Baseline	Didn't you just buy one last week?	5	CakeChat	you should .	0.4444444444444444	18	0.83152676
+84	4085	 I wasn't paying attention.	112	ESL 3 Human Baseline	We don't have enough money for a new car.	5	CakeChat	i ' m going to be at your house in 5 minutes and have a feeling you ' re gonna get it .	0.2222222222222222	18	0.7974557
+85	4086	 I am driving at the speed limit!	112	ESL 3 Human Baseline	Everyone drives fast in this town.	5	CakeChat	my car is broken .	0.05555555555555555	18	0.862467
+86	4087	 You're holding the knife wrong.	112	ESL 3 Human Baseline	What do you mean?	5	CakeChat	i ' m not even home !	0.2222222222222222	18	0.8031859
+87	4088	 May I ask why?	112	ESL 3 Human Baseline	I really like the food and the environment here.	5	CakeChat	i don ' t know if that ' s a thing , but my mom is a little girl .	0.1111111111111111	18	0.7572159
+88	4089	 You went to the gym?	112	ESL 3 Human Baseline	It's more than just a gym.	5	CakeChat	no i was just about to go	0.1111111111111111	18	0.7713382
+89	4090	 He said that he didn't know you were playing.	112	ESL 3 Human Baseline	Well, he should've known once he felt the snowball.	5	CakeChat	"""he has to call me a """" boy """" , and i ' m not sure if it ' s true ."""		18	0.82987434
+90	4091	 Thanks. Mine broke two weeks ago.	112	ESL 3 Human Baseline	Didn't you put in a office supply request?	5	CakeChat	i ' ve never watched the game	0.2222222222222222	18	0.76844
+91	4092	 I know, but it's so hard getting accustomed to a new school.	112	ESL 3 Human Baseline	That's a terrible reason not to transfer.	5	CakeChat	i ' m not sure how long it would take to be that way	0.3333333333333333	18	0.800969
+92	4093	 Did the previous tenant maintain the apartment well?	112	ESL 3 Human Baseline	For the most part, yes. A few repairs had to be made.	5	CakeChat	😂 😂 i will !	0.1111111111111111	18	0.7295547
+93	4094	 How do you register?	112	ESL 3 Human Baseline	If you are a U.S. citizen, 18 years or older, you can fill out a form.	5	CakeChat	you can ' t say that , but it ' s a joke .	0.3888888888888889	18	0.79176044
+94	4095	 The hotel's concierge will be happy to find you tickets to a local theater production.	112	ESL 3 Human Baseline	I'm not really a theater person.	5	CakeChat	i ' m going to have to wait until next friday	0.2777777777777778	18	0.76949215
+95	4096	 All the apartments are equipped with them. It's an essential safety feature.	112	ESL 3 Human Baseline	How do you check if they're working?	5	CakeChat	it ' s a lot of work .	0.16666666666666666	18	0.83972716
+96	4097	 Well, last time it was a little too long.	112	ESL 3 Human Baseline	I see what you mean. How about a bob cut?	5	CakeChat	just the fact that i ' m already in the same state as you	0.16666666666666666	18	0.76394504
+97	4098	 Did you tell her about school?	112	ESL 3 Human Baseline	I told her that school is fun.	5	CakeChat	no , she ' s not my teacher .	0.2222222222222222	18	0.82185763
+98	4099	 I don't know.	112	ESL 3 Human Baseline	When did you lose it?	5	CakeChat	i ' ve never seen a video of you saying that though !	0.2222222222222222	18	0.8168013
+99	4100	 It's a little more money, but I think it's a great fit for you.	112	ESL 3 Human Baseline	As long as I can afford it.	5	CakeChat	i ' m sure you can get one .	0.3333333333333333	18	0.8237639
+100	4101	 I wish they'd cost nickels instead of quarters.	112	ESL 3 Human Baseline	I think that would lose the arcade a lot of money.	5	CakeChat	i ' m sure you were thinking about getting the same treatment from the last one	0.2777777777777778	18	0.79601175
+101	4102	 I wanted some information about the public transportation that is available in the city.	112	ESL 3 Human Baseline	I could provide you with some. What would you like to know?	5	CakeChat	i don ' t think you ' re going to do this	0.1111111111111111	18	0.7802659
+102	4103	 Can I make some lemonade to drink?	112	ESL 3 Human Baseline	Sure! That'd be great.	5	CakeChat	( i ' m coming to your house in the morning , not sure if you ' re going to say that ! )	0.05555555555555555	18	0.7836402
+103	4104	 Which would you prefer?	112	ESL 3 Human Baseline	What do you mean?	5	CakeChat	why do you say that ?	0.2777777777777778	18	0.83220804
+104	4105	 I think they just like giving people tickets.	112	ESL 3 Human Baseline	People should just learn to follow the rules.	5	CakeChat	i ' m going to go with my friends and they ' ll be in a hurry	0.4444444444444444	18	0.8137953
+105	4106	 How far away is that?	112	ESL 3 Human Baseline	I think we'll be there in half an hour.	5	CakeChat	like 2 hours	0.5555555555555556	18	0.76408273
+106	4107	 We have a wide selection right here.	112	ESL 3 Human Baseline	I don't see what I want here.	5	CakeChat	the way your team set up the game is a gift . . . i ' m on my way home from the airport .	0.16666666666666666	18	0.81918764
+107	4108	 About how long will it take you to call this number?	112	ESL 3 Human Baseline	About one hour.	5	CakeChat	i ' m not home yet	0.2777777777777778	18	0.7720262
+108	4109	 It's called Tumblr. It's a blog site.	112	ESL 3 Human Baseline	Is blogging different from Facebook?	5	CakeChat	i was thinking about this earlier but it ' s not a good idea ! !	0.2222222222222222	18	0.81158453
+109	4110	 What is that exactly?	112	ESL 3 Human Baseline	It's an expression to refer to the observation that many college freshmen gain weight.	5	CakeChat	yes it is	0.1111111111111111	18	0.80777735
+110	4111	 Is there a charge for me to use it?	112	ESL 3 Human Baseline	No, it's free to all of our guests.	5	CakeChat	what do you mean ?	0.3888888888888889	18	0.8040364
+111	4112	 My friends said the hot dogs are really great.	112	ESL 3 Human Baseline	The line is always really long.	5	CakeChat	oh my god , i ' m sorry .	0.16666666666666666	18	0.7732668
+112	4113	 I already put one in!	112	ESL 3 Human Baseline	Yes, and you owe me another.	5	CakeChat	i ' m sorry but it was that new you were talking about . . .	0.2777777777777778	18	0.7854978
+113	4114	 Yes. It's on every afternoon.	112	ESL 3 Human Baseline	What's so good about it?	5	CakeChat	no . . . i don ' t have one . . .	0.16666666666666666	18	0.81544065
+114	4115	 Well, maybe they're just very busy.	112	ESL 3 Human Baseline	I don't know, dear. I was watching our waiter.	5	CakeChat	i ' m not sure if they ' re going to be a little bit of the same but it ' s a sign that we are coming together soon !	0.16666666666666666	18	0.81460917
+115	4116	 How about this table?	112	ESL 3 Human Baseline	No, it's too close to the front door.	5	CakeChat	we need to get this fixed , too !	0.4444444444444444	18	0.80341583
+116	4117	 I'd rather explore the city on my own.	112	ESL 3 Human Baseline	In that case I can give you a map that highlights some of the best things to see.	5	CakeChat	i ' m in .	0.3888888888888889	18	0.8029853
+117	4118	 I already bought a card, but I want to give him a present, too.	112	ESL 3 Human Baseline	What does your father like to do?	5	CakeChat	let me know when you do .	0.3333333333333333	18	0.81447095
+118	4119	 I was thinking a basic board.	112	ESL 3 Human Baseline	There are many different kinds.	5	CakeChat	you have to be in the middle of the beach and the first week is the only time	0.2222222222222222	18	0.8043784
+119	4120	 It's a racing bike. I bought it so I could be in the triathlon.	112	ESL 3 Human Baseline	Wow! I hear triathlons are difficult!	5	CakeChat	well i don ' t know what you ' re saying about your car . . .	0.2777777777777778	18	0.80470973
+120	4121	 It puts me to sleep.	112	ESL 3 Human Baseline	Tell me about it.	5	CakeChat	i ' m not going to be able to sleep tonight	0.1111111111111111	18	0.8375512
+121	4122	 A bilingual dictionary would be nice.	112	ESL 3 Human Baseline	Well, there are many printed dictionaries.	5	CakeChat	okay	0.3333333333333333	18	0.7669504
+122	4123	 It's supposed to be unlucky.	112	ESL 3 Human Baseline	You're supposed to stay home all day.	5	CakeChat	i was just thinking about this !	0.7777777777777778	18	0.7757707
+123	4124	 It's an eight-hour drive.	112	ESL 3 Human Baseline	I know. Let's go.	5	CakeChat	"""i used to be at the airport when my mom came back from school and she was like """" oh , that ' s not what you want . . . """""""	0.16666666666666666	18	0.7854866
+124	4125	 My date with Dorothy is at 12 p.m.	112	ESL 3 Human Baseline	You have dates with both of them?	5	CakeChat	i was just about to say that .	0.1111111111111111	18	0.7709033
+125	4126	 That's a good idea.	112	ESL 3 Human Baseline	Do you want me to wake you in an hour?	5	CakeChat	"""what do you mean by """" """" """" """" """" """" """" """" """" """" """" """" """" """" """" """" """" """" """" """" """" """""""	0.05555555555555555	18	0.73519844
+126	4127	 Do I need a prescription for those?	112	ESL 3 Human Baseline	No. You just pick whichever brand your prefer and pay for it at the register.	5	CakeChat	no , they ' re not going to be like you .	0.1111111111111111	18	0.81127465
+127	4128	 It's always nice to meet extra tenants of the apartment.	112	ESL 3 Human Baseline	How do you like the apartment so far?	5	CakeChat	i know	0.4444444444444444	18	0.75461054
+128	4129	 I need to use the database on your computer.	112	ESL 3 Human Baseline	Well, I need something from you before I can allow you to do that.	5	CakeChat	you can ' t !	0.3333333333333333	18	0.79097825
+129	4130	 I was sitting in the airport bar and I lost track of time.	112	ESL 3 Human Baseline	Well, that's not really our fault.	5	CakeChat	i was so close to that !	0.3333333333333333	18	0.81670296
+130	4131	 They say not to leave anything valuable in your cars at night.	112	ESL 3 Human Baseline	Sometimes I leave my purse in the car.	5	CakeChat	i ' m sorry , but you can ' t blame me for what ?	0.4444444444444444	18	0.77034336
+131	4132	 You always pay. I'll do it this time.	112	ESL 3 Human Baseline	I'm the guy, so I am supposed to pay.	5	CakeChat	you don ' t know me	0.16666666666666666	18	0.78363734
+132	4133	 Are you replacing your shingles?	112	ESL 3 Human Baseline	Yes I am. The roof has been leaking in the rain.	5	CakeChat	yes my mom was like this	0.2222222222222222	18	0.7736092
+133	4134	 Can you tell me where I can catch them?	112	ESL 3 Human Baseline	Down the street the 260 bus picks you up and takes you to Los Angeles.	5	CakeChat	you could do it !	0.2777777777777778	18	0.8255929
+134	4135	 She loves the color pink.	112	ESL 3 Human Baseline	I can make her a bouquet with pink roses.	5	CakeChat	oh my god yes . . .	0.2777777777777778	18	0.7582855
+135	4136	 I'm getting married.	112	ESL 3 Human Baseline	You should be happy, not worried.	5	CakeChat	you can ' t say that !	0.3333333333333333	18	0.8097841
+136	4137	 I'm looking. There's nothing to eat.	112	ESL 3 Human Baseline	Are you sure?	5	CakeChat	but i ' m a virgin and it ' s not just you	0.1111111111111111	18	0.81735843
+137	4138	 It's practically falling apart.	112	ESL 3 Human Baseline	Did some kind of accident cause this?	5	CakeChat	i ' ve got a lot of people here	0.2222222222222222	18	0.81041664
+138	4139	 The light is on.	112	ESL 3 Human Baseline	Open the book.	5	CakeChat	i ' m sorry the love . . . is that the answer to your question ?	0.1111111111111111	18	0.7963161
+139	4140	 But it's due tomorrow!	112	ESL 3 Human Baseline	I thought it was due next week.	5	CakeChat	i ' m not sure if we should be able to do it again ? !	0.2222222222222222	18	0.80972755
+140	4141	 What is really going on?	112	ESL 3 Human Baseline	Honestly, I'm scared of getting into an accident.	5	CakeChat	i heard you had a chance to speak to him	0.05555555555555555	18	0.7738998
+141	4142	 Just adjust the strap so it doesn't bother you.	112	ESL 3 Human Baseline	The sun makes it too hot.	5	CakeChat	lol i ' m not sure what that means . . .	0.3333333333333333	18	0.80030125
+142	4143	 It was my first time voting in an election.	112	ESL 3 Human Baseline	Oh wow! Congratulations, but why is that so exciting for you?	5	CakeChat	i am not a fan , but if you are , why do u think that ?	0.5	18	0.7977184
+143	4144	 What's wrong with meatloaf?	112	ESL 3 Human Baseline	I got food poisoning when I ordered meatloaf here.	5	CakeChat	ya you should have just been listening to your old one on the other side of the room	0.2222222222222222	18	0.7515527
+144	4145	 What seems to be the problem?	112	ESL 3 Human Baseline	The delivery was scheduled to arrive over an hour ago.	5	CakeChat	i ' m not sure if you were talking about the same thing or not . . .	0.2222222222222222	18	0.77566165
+145	4146	 I was on a plane.	112	ESL 3 Human Baseline	So?	5	CakeChat	i was just about to say that , but you weren ' t my friend ! !	0.1111111111111111	18	0.81197083
+146	4147	 I don't have a savings account.	112	ESL 3 Human Baseline	Then it will be from your checking account.	5	CakeChat	i ' m not sure you could be wrong . . .	0.3333333333333333	18	0.83159184
+147	4148	 Thank you. That's very helpful of you.	112	ESL 3 Human Baseline	You're welcome. What kind of an apartment are you looking for?	5	CakeChat	i ' m not sure if you were talking about the show	0.1111111111111111	18	0.79044217
+148	4149	 I'm actually not in the office right now.	112	ESL 3 Human Baseline	You aren't? Well, why not? Is everything okay?	5	CakeChat	i ' m sorry . . .	0.2777777777777778	18	0.7839742
+149	4150	 Wait! What are you doing?	112	ESL 3 Human Baseline	Throwing these bags into the trash can. Why do you seem concerned?	5	CakeChat	i ' ll be back in a bit .	0.4444444444444444	18	0.7688223
+150	4151	 How do you hang all the picture frames?	112	ESL 3 Human Baseline	I just hang them on the wall.	5	CakeChat	i don ' t know what you ' re talking about but it ' s a lot of work	0.2777777777777778	18	0.7805788
+151	4152	 Oh, stop lying. I've gained a little weight.	112	ESL 3 Human Baseline	We all have gained some weight.	5	CakeChat	i ' m not going to be able to go back to school tomorrow . . .	0.2777777777777778	18	0.82044566
+152	4153	 Is that why you're training so hard?	112	ESL 3 Human Baseline	Yes. I want to be in shape for tryouts.	5	CakeChat	i ' m not sure if it ' s just me or the other one .	0.2222222222222222	18	0.8099486
+153	4154	 Yup. We cleared escrow. It's officially ours now.	112	ESL 3 Human Baseline	I don't know what to say.	5	CakeChat	i ' m down	0.5	18	0.8007823
+154	4155	 Where are you from?	112	ESL 3 Human Baseline	I am from Japan.	5	CakeChat	i am from england	0.1111111111111111	18	0.83360183
+155	4156	 Did you ever take an IQ test?	112	ESL 3 Human Baseline	No, I never did. All I know is that I got A's and B's in school.	5	CakeChat	no i didn ' t .	0.2777777777777778	18	0.7850863
+156	4157	 A long time ago, flying used to be okay.	112	ESL 3 Human Baseline	Now it's like riding a bus.	5	CakeChat	if you think about it , i ' m here .	0.16666666666666666	18	0.77425283
+157	4158	 Didn't you get the pamphlet?	112	ESL 3 Human Baseline	I must have forgotten about it.	5	CakeChat	yes , i did .	0.5	18	0.81048256
+158	4159	 It's just one minor issue I have to bring up with you.	112	ESL 3 Human Baseline	Don't tell me. I think I know what it is.	5	CakeChat	i ' m sorry but you ' ve got to be kidding me	0.3333333333333333	18	0.79492414
+159	4160	 Okay, let's sit down.	112	ESL 3 Human Baseline	Check out the silverware.	5	CakeChat	i ' m here if you need to talk	0.3333333333333333	18	0.7776949
+160	4161	 What should I do to make it less plain?	112	ESL 3 Human Baseline	Decorate it. That's what I did.	5	CakeChat	i ' m not sure if they ' re allowed to be a restaurant or the same thing	0.05555555555555555	18	0.7962924
+161	4162	 I broke it a week ago.	112	ESL 3 Human Baseline	How did that happen?	5	CakeChat	i ' m sorry , , . . . you ' re a little late to that ! !	0.2777777777777778	18	0.79223084
+162	4163	 I didn't know we needed it.	112	ESL 3 Human Baseline	Please go get your ID, and get in line again.	5	CakeChat	you ' re not a dad , but i ' ll see how it is !	0.16666666666666666	18	0.80879575
+163	4164	 Well, Obama was our first black president. Now we have our first woman.	112	ESL 3 Human Baseline	You think gender matters that much?	5	CakeChat	no , we ' re not , i ' m a failure .	0.2222222222222222	18	0.8131981
+164	4165	 I've been working with the company for 10 years.	112	ESL 3 Human Baseline	Yes, and I appreciate your dedication.	5	CakeChat	oh god no ! ! !	0.1111111111111111	18	0.74594873
+165	4166	 If you show it to the driver, your ticket costs less.	112	ESL 3 Human Baseline	That is very helpful to students!	5	CakeChat	i ' m not sure if you ' re talking about the one with the same thing	0.1111111111111111	18	0.8031824
+166	4167	 It seems there's so much nearby.	112	ESL 3 Human Baseline	Like what, baby?	5	CakeChat	i ' m not sure if you ' re joking or not .	0.4444444444444444	18	0.79387677
+167	4168	 I bumped into her on the street.	112	ESL 3 Human Baseline	What a coincidence.	5	CakeChat	i ' m so sorry for the late reply	0.3888888888888889	18	0.7892384
+168	4169	 I can tell you're lying.	112	ESL 3 Human Baseline	Fine! The truth is, I never put my seatbelt on.	5	CakeChat	yeah	0.5	18	0.7650279
+169	4170	 I got out of my car.	112	ESL 3 Human Baseline	That's it?	5	CakeChat	no you didn ' t	0.3333333333333333	18	0.755933
+170	4171	 They're in a different world.	112	ESL 3 Human Baseline	I saw a painting of a jar that was full of pencils.	5	CakeChat	they have a couple of things to do	0.2222222222222222	18	0.8163698
+171	4172	 Technically he did, but he has conditions.	112	ESL 3 Human Baseline	Okay, what are they?	5	CakeChat	i ' m always here for you .	0.05555555555555555	18	0.806122
+172	4173	 What were you doing?	112	ESL 3 Human Baseline	I was scratching my nose.	5	CakeChat	i ' ve been in the house for a while now though	0.2222222222222222	18	0.7792768
+173	4174	 I don't like to eat leftovers.	112	ESL 3 Human Baseline	I'm glad to hear there's something you don't like to eat.	5	CakeChat	i ' m not going to be able to get this now		18	0.83030814
+174	4175	 But birds can fly.	112	ESL 3 Human Baseline	Well, cats can climb.	5	CakeChat	yes . but it ' s a shame .	0.16666666666666666	18	0.83059615
+175	4176	 Laundry is such a hassle!	112	ESL 3 Human Baseline	Pack the laundry bags and let's go to the Laundromat.	5	CakeChat	i ' m not sure about the 1st one but it ' s a little weird . . .	0.1111111111111111	18	0.7907052
+176	4177	 I have a class at 7 a.m.	112	ESL 3 Human Baseline	That's tough! My earliest class is at 9 a.m.	5	CakeChat	do you still want to go ?	0.4444444444444444	18	0.8001916
+177	4178	 Do you know where I can purchase a bus pass?	112	ESL 3 Human Baseline	Yes I do. There are several places where you can purchase them.	5	CakeChat	you can go to the airport but get your train back . i don ' t think they are .	0.2222222222222222	18	0.8229245
+178	4179	 What does endorse mean?	112	ESL 3 Human Baseline	It means you need to sign the back of the check.	5	CakeChat	i know , but what does your tweet mean ?	0.1111111111111111	18	0.8793511
+179	4180	 Because of all the earthquakes and fires.	112	ESL 3 Human Baseline	But big earthquakes happen only once in a while.	5	CakeChat	where are you	0.4444444444444444	18	0.7565167
+180	4181	 It's a little more money, but I think it's a great fit for you.	112	ESL 3 Human Baseline	As long as I can afford it.	5	CakeChat	i don ' t think you understand . . .	0.1111111111111111	18	0.8142842
+181	4182	 What kind of card do I need?	112	ESL 3 Human Baseline	It's a card I can provide you with.	5	CakeChat	oh god . . .	0.2777777777777778	18	0.72229075
+182	4183	 Yes, it starts at 7 p.m.	112	ESL 3 Human Baseline	Can we get tickets?	5	CakeChat	i ' m not even sure how much you ' re thinking about that . . .	0.16666666666666666	18	0.7904146
+183	4184	 Everyone in school has one.	112	ESL 3 Human Baseline	They must be rich then.	5	CakeChat	me too . . .	0.3333333333333333	18	0.7448061
+184	4185	 I don't know how to use chopsticks.	112	ESL 3 Human Baseline	That's too bad.	5	CakeChat	you can ' t have a hot stomach ?		18	0.8306005
+185	4186	 Sure, my name is Willie Foster.	112	ESL 3 Human Baseline	Mr. Foster, your doctor is Dr. Edwards?	5	CakeChat	i ' m not a fan of that	0.2222222222222222	18	0.76641315
+186	4187	 Did he say what time?	112	ESL 3 Human Baseline	Yes. He said he'd be here at 9 o'clock.	5	CakeChat	"""no , he said """" yes """""""	0.4444444444444444	18	0.79476833
+187	4188	 I switched from pasta to potatoes.	112	ESL 3 Human Baseline	Why did you do that?	5	CakeChat	i ' m coming over to eat the food now and you ' re not going	0.1111111111111111	18	0.8075915
+188	4189	 Three pounds just this month.	112	ESL 3 Human Baseline	Do you know why?	5	CakeChat	you ' re not in the same boat as me	0.3333333333333333	18	0.7488233
+189	4190	 You won't mind if I have something then?	112	ESL 3 Human Baseline	Of course not.	5	CakeChat	what do you mean ?	0.3888888888888889	18	0.788256
+190	4191	 Will you go out with me?	112	ESL 3 Human Baseline	No, I apologize.	5	CakeChat	i ' m not sure . . .	0.2777777777777778	18	0.76665086
+191	4192	 I know I need a science class.	112	ESL 3 Human Baseline	I would take biology with Mr. Green.	5	CakeChat	i just saw this and thought it was a joke . . .	0.1111111111111111	18	0.8243677
+192	4193	 I hate flying though, and I really need something to take the edge off.	112	ESL 3 Human Baseline	I'm sorry we don't serve anything until after take-off.	5	CakeChat	when you get to that place . . .	0.2777777777777778	18	0.7945844
+193	4194	 Maybe I'll start taking snacks to work.	112	ESL 3 Human Baseline	You can store them in the cafeteria fridge.	5	CakeChat	you can ' t get past the first time ?	0.1111111111111111	18	0.78862417
+194	4195	 I bought an air conditioner, but it doesn't help at night.	112	ESL 3 Human Baseline	I heard it's bad to leave it on at night.	5	CakeChat	that ' s what i thought	0.4444444444444444	18	0.80867755
+195	4196	 But then you grow beautiful flowers.	112	ESL 3 Human Baseline	Plastic flowers don't die, and they are also beautiful.	5	CakeChat	i ' m sorry but you ' re a little rude too .	0.05555555555555555	18	0.81865853
+196	4197	 I actually have a few complaints.	112	ESL 3 Human Baseline	Please tell me what went wrong.	5	CakeChat	same	0.16666666666666666	18	0.7365466
+197	4198	 They say they need time away from children.	112	ESL 3 Human Baseline	We're not children anymore!	5	CakeChat	i ' m not sure if you ' re talking about the same thing	0.2777777777777778	18	0.7838664
+198	4199	 This is a library, so you have to shut up.	112	ESL 3 Human Baseline	I didn't know laughing was a crime.	5	CakeChat	i ' m a big man , why are you awake ?	0.2222222222222222	18	0.8332825
+199	4200	 That's a great idea.	112	ESL 3 Human Baseline	Yes, all the markets just started offering wipes to shoppers.	5	CakeChat	i ' m sure you would .	0.2222222222222222	18	0.8203302
+200	4001	 I don't think it will rain for quite some time.	112	ESL 3 Human Baseline	Maybe we can do a rain dance and summon rain.	50	JHU_DialoGPT	I don't think it will rain for quite some time.	0.2777777777777778	18	1.0000001
+201	4002	 I mean, are you going to get buried or cremated?	112	ESL 3 Human Baseline	My wife and I will be cremated.	50	JHU_DialoGPT	I mean , are you going to get buried or cremated ?	0.2222222222222222	18	0.9982288
+202	4003	 She said they were imported chocolates.	112	ESL 3 Human Baseline	What does that mean?	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.2777777777777778	18	0.8018007
+203	4004	 I'm having trouble starting my search.	112	ESL 3 Human Baseline	I would try driving around the neighborhood, and looking for any signs that say RENT.	50	JHU_DialoGPT	I'm having trouble finding a place to live .	0.16666666666666666	18	0.90788954
+204	4005	 Hello, Mrs. Smith. I've done a preliminary check of the property.	112	ESL 3 Human Baseline	That's great! What did you find?	50	JHU_DialoGPT	Hello , Mrs.Smith.I've done a preliminary check of the property.	0.1111111111111111	18	0.98174745
+205	4006	 The storyline sounds interesting, too.	112	ESL 3 Human Baseline	Do you want to go watch it now?	50	JHU_DialoGPT	The plot is interesting , too .	0.5555555555555556	18	0.9684693
+206	4007	 It looks like blood.	112	ESL 3 Human Baseline	I think my nose was bleeding.	50	JHU_DialoGPT	It's blood .	0.2777777777777778	18	0.9290537
+207	4008	 What kind of dog do you have?	112	ESL 3 Human Baseline	I have a little poodle.	50	JHU_DialoGPT	A dog .	0.2222222222222222	18	0.82545835
+208	4009	 Well, people can't drink until they're 21.	112	ESL 3 Human Baseline	That's so they'll have time to make the right decision.	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.16666666666666666	18	0.80805427
+209	4010	 What's the problem?	112	ESL 3 Human Baseline	I went hiking in the mountains last week.	50	JHU_DialoGPT	I'm not sure .	0.4444444444444444	18	0.82415986
+210	4011	 I'll teach you one.	112	ESL 3 Human Baseline	Okay. What will you teach me?	50	JHU_DialoGPT	I'll teach you one .	0.1111111111111111	18	0.98508936
+211	4012	 All I get is a black screen.	112	ESL 3 Human Baseline	What's the matter?	50	JHU_DialoGPT	I get a black screen .	0.2222222222222222	18	0.95
+212	4013	 Where are you from?	112	ESL 3 Human Baseline	I'm from the inner city.	50	JHU_DialoGPT	I'm from the UK .	0.05555555555555555	18	0.8506679
+213	4014	 You should go to bed.	112	ESL 3 Human Baseline	I will as soon as I finish this article.	50	JHU_DialoGPT	I'm not sleeping .	0.2222222222222222	18	0.8582233
+214	4015	 I'm sorry to hear that.	112	ESL 3 Human Baseline	I feel so stupid. What's wrong with me?	50	JHU_DialoGPT	I'm sorry to hear that.	0.05555555555555555	18	0.99999994
+215	4016	 I'm having an interview tomorrow morning. I'm very nervous.	112	ESL 3 Human Baseline	That's great! Why are you nervous though?	50	JHU_DialoGPT	I'm having an interview tomorrow morning.I'm very nervous.	0.05555555555555555	18	0.9891082
+216	4017	 What would you like?	112	ESL 3 Human Baseline	I know! Let's go down to the Farmer's Market.	50	JHU_DialoGPT	I'm not sure . I'm not hungry .	0.3333333333333333	18	0.81814927
+217	4018	 Have you worn it yet?	112	ESL 3 Human Baseline	No, I have to accessorize it first!	50	JHU_DialoGPT	I have not !	0.5	18	0.8224412
+218	4019	 Okay, how can I help you?	112	ESL 3 Human Baseline	Well, I was wondering if you could hook me up at the place you work.	50	JHU_DialoGPT	I'm not sure , I'm not sure what you're looking for .	0.4444444444444444	18	0.80542743
+219	4020	 Then why haven't we seen any?	112	ESL 3 Human Baseline	They are probably hiding.	50	JHU_DialoGPT	Because they're not real .	0.2222222222222222	18	0.8240125
+220	4021	 I like being able to look outside.	112	ESL 3 Human Baseline	You walk along the streets all the time.	50	JHU_DialoGPT	I like being able to look outside .	0.2777777777777778	18	0.9997131
+221	4022	 The fruit is not of good quality, either.	112	ESL 3 Human Baseline	You're right; these apples are bruised.	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.2777777777777778	18	0.8201104
+222	4023	 It's not comfortable.	112	ESL 3 Human Baseline	It seems fine to me.	50	JHU_DialoGPT	It's not comfortable .	0.2222222222222222	18	0.9958613
+223	4024	 You can help me.	112	ESL 3 Human Baseline	Why me?	50	JHU_DialoGPT	I can help you .	0.5	18	0.94134283
+224	4025	 I accidentally cut myself.	112	ESL 3 Human Baseline	Is it very deep?	50	JHU_DialoGPT	I accidentally cut myself .	0.16666666666666666	18	0.99669313
+225	4026	 When did you get divorced?	112	ESL 3 Human Baseline	I got divorced two years ago.	50	JHU_DialoGPT	I'm not sure . I think it was a while ago .	0.16666666666666666	18	0.7712777
+226	4027	 Cigarettes, of course.	112	ESL 3 Human Baseline	How can he do that?	50	JHU_DialoGPT	I'm sorry , I don't speak Japanese .	0.1111111111111111	18	0.8073114
+227	4028	 It's raining cats and dogs out there.	112	ESL 3 Human Baseline	More like lions and wolves!	50	JHU_DialoGPT	It's raining cats and dogs out there.	0.05555555555555555	18	1.0
+228	4029	 I just wanted to call you and thank you for the lovely time last Friday.	112	ESL 3 Human Baseline	I'm glad you liked the movie.	50	JHU_DialoGPT	I just wanted to call you and thank you for the lovely time last Friday.	0.2222222222222222	18	1.0
+229	4030	 I love all their songs.	112	ESL 3 Human Baseline	I don't know which one I like the best.	50	JHU_DialoGPT	I love all their songs .	0.2777777777777778	18	0.99967647
+230	4031	 There is smoke coming up from the house!	112	ESL 3 Human Baseline	Did you call 911?	50	JHU_DialoGPT	There is smoke coming up from the house !	0.2222222222222222	18	0.9963554
+231	4032	 I've never seen snow. What is it like?	112	ESL 3 Human Baseline	Sometimes it's white, fluffy, and looks like clouds.	50	JHU_DialoGPT	I've never seen snow.What is it like ?	0.16666666666666666	18	0.98347974
+232	4033	 It's six years old.	112	ESL 3 Human Baseline	That's pretty old.	50	JHU_DialoGPT	It's six years old.jpg	0.1111111111111111	18	0.967203
+233	4034	 It doesn't matter, but it is against the law.	112	ESL 3 Human Baseline	No one will see me do it.	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.2777777777777778	18	0.81752676
+234	4035	 Which bus should I take first?	112	ESL 3 Human Baseline	You'll need to take the 260 on Atlantic all the way to Garvey.	50	JHU_DialoGPT	The one that's not a bus .	0.05555555555555555	18	0.787564
+235	4036	 I would if I had the money.	112	ESL 3 Human Baseline	Why is it so slow?	50	JHU_DialoGPT	I would if I had the money .	0.16666666666666666	18	0.99949515
+236	4037	 Did you look in the mirror?	112	ESL 3 Human Baseline	No, but I can feel a sharp pain when my tongue touches my molars.	50	JHU_DialoGPT	I did . I did .	0.1111111111111111	18	0.8059295
+237	4038	 What do you listen to?	112	ESL 3 Human Baseline	Mostly talk radio.	50	JHU_DialoGPT	I listen to music .	0.2777777777777778	18	0.8863291
+238	4039	 I'm really hungry. What are my choices?	112	ESL 3 Human Baseline	There should be a menu in your room.	50	JHU_DialoGPT	I'm really hungry.What are my choices ?	0.2222222222222222	18	0.9956581
+239	4040	 Are you kidding me? Step over here.	112	ESL 3 Human Baseline	You're right. The floor to this apartment is badly damaged.	50	JHU_DialoGPT	I'm not sure if you're kidding me or not .	0.2777777777777778	18	0.8425719
+240	4041	 Me too! I would never take Speech 101 if I didn't need it.	112	ESL 3 Human Baseline	Yeah, I hate public speaking.	50	JHU_DialoGPT	Me three !	0.05555555555555555	18	0.79717404
+241	4042	 What do you suggest?	112	ESL 3 Human Baseline	Well, is your husband into sports?	50	JHU_DialoGPT	I'm not sure . I'm not sure what to get for the man who has everything ...	0.6666666666666666	18	0.80913216
+242	4043	 I got a ticket downtown for $140.	112	ESL 3 Human Baseline	Were you speeding?	50	JHU_DialoGPT	I got a ticket downtown forroximately 140.	0.2777777777777778	18	0.9718801
+243	4044	 He said a doctor helped him with a personal problem.	112	ESL 3 Human Baseline	He said he wasn’t using drugs.	50	JHU_DialoGPT	He said a doctor helped him with a personal problem.	0.2777777777777778	18	1.0
+244	4045	 $200 for a parking ticket?	112	ESL 3 Human Baseline	Well, it looks like this is your third parking ticket.	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.2222222222222222	18	0.7617056
+245	4046	 I think it's an old people's smell.	112	ESL 3 Human Baseline	Really?	50	JHU_DialoGPT	I think it's an old people's smell .	0.16666666666666666	18	0.99975145
+246	4047	 How many schools did you apply to?	112	ESL 3 Human Baseline	I applied to six.	50	JHU_DialoGPT	I applied to all of them .	0.4444444444444444	18	0.8528899
+247	4048	 I can't seem to land an interview.	112	ESL 3 Human Baseline	Have you applied to many places?	50	JHU_DialoGPT	I can't seem to land an interview.	0.1111111111111111	18	0.99999994
+248	4049	 I don't think we are going to make it.	112	ESL 3 Human Baseline	You are right. There it goes.	50	JHU_DialoGPT	I don't think we are going to make it .	0.2777777777777778	18	0.99961364
+249	4050	 Thank you. How long have you been living here?	112	ESL 3 Human Baseline	It's going to be my tenth year next month.	50	JHU_DialoGPT	I've been here for about a year now .	0.4444444444444444	18	0.8666992
+250	4051	 Did you hear about the pilot?	112	ESL 3 Human Baseline	The one that stole a small plane?	50	JHU_DialoGPT	Did you hear about the pilot ?	0.05555555555555555	18	0.99407315
+251	4052	 Then why are your marks in science so low?	112	ESL 3 Human Baseline	I don't understand science, that's all.	50	JHU_DialoGPT	Because I'm not a scientist .	0.3888888888888889	18	0.8223227
+252	4053	 Swim classes are embarrassing.	112	ESL 3 Human Baseline	I suppose I can teach you.	50	JHU_DialoGPT	I'm sorry , I'm not a swim instructor .	0.3888888888888889	18	0.8294075
+253	4054	 Are you here for our workshop today?	112	ESL 3 Human Baseline	Yes, as a matter of fact, I am.	50	JHU_DialoGPT	I am here for our workshop today .	0.3333333333333333	18	0.946096
+254	4055	 Because I watch the other players.	112	ESL 3 Human Baseline	What do you mean?	50	JHU_DialoGPT	I'm a good card player.	0.2777777777777778	18	0.86603165
+255	4056	 What college do you go to?	112	ESL 3 Human Baseline	I go to Pasadena City College.	50	JHU_DialoGPT	I go to a college in the US .	0.5	18	0.8726072
+256	4057	 $200 for a parking ticket?	112	ESL 3 Human Baseline	Well, it looks like this is your third parking ticket.	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.05555555555555555	18	0.7617056
+257	4058	 No, it came in the mail yesterday.	112	ESL 3 Human Baseline	So, will you be coming to the party?	50	JHU_DialoGPT	I'm calling because I got the invitation to your party in the mail.	0.2222222222222222	18	0.8572333
+258	4059	 Yes, you certainly can.	112	ESL 3 Human Baseline	How do I file a claim?	50	JHU_DialoGPT	I'm sorry , I'm not sure what you mean .	0.3333333333333333	18	0.7940227
+259	4060	 Oh, no. I must've gotten off the bus too early.	112	ESL 3 Human Baseline	Don't worry. We all make mistakes.	50	JHU_DialoGPT	Oh , no , I must've gotten off the bus too early.	0.16666666666666666	18	0.9846546
+260	4061	 I think I have a fever.	112	ESL 3 Human Baseline	That's terrible! Does your head hurt?	50	JHU_DialoGPT	I think I have a fever .		18	0.99752337
+261	4062	 You can ask as many as you want.	112	ESL 3 Human Baseline	I just need to know where to change buses.	50	JHU_DialoGPT	I'm sorry , I'm not sure what you mean .	0.2222222222222222	18	0.790989
+262	4063	 I bought my favorite artists' albums today.	112	ESL 3 Human Baseline	You must really like their music.	50	JHU_DialoGPT	I bought my favorite artists ' albums today.	0.3333333333333333	18	0.9943957
+263	4064	 Me too! I would never take Speech 101 if I didn't need it.	112	ESL 3 Human Baseline	Yeah, I hate public speaking.	50	JHU_DialoGPT	Me three !	0.1111111111111111	18	0.79717404
+264	4065	 How did you get it?	112	ESL 3 Human Baseline	I don't know. Maybe it was from a shopping cart.	50	JHU_DialoGPT	I got it from a friend .	0.3888888888888889	18	0.8580299
+265	4066	 So what do I do now?	112	ESL 3 Human Baseline	The negative amount is how much you owe the bank.	50	JHU_DialoGPT	You can't do anything .	0.5555555555555556	18	0.83749
+266	4067	 Thank you, but I don't think there's much you can do.	112	ESL 3 Human Baseline	Don't be so pessimistic. I'll help you unlock that door.	50	JHU_DialoGPT	I'm sorry , but I don't think there's much you can do.	0.2777777777777778	18	0.95928407
+267	4068	 Why do you hate to go outside?	112	ESL 3 Human Baseline	I meet too many jerks.	50	JHU_DialoGPT	I hate to go outside .	0.05555555555555555	18	0.9197088
+268	4069	 Are they going to clean the ice?	112	ESL 3 Human Baseline	It looks like this is some kind of sport event.	50	JHU_DialoGPT	I think they're going to clean the ice .	0.4444444444444444	18	0.93699795
+269	4070	 They hope they will go to heaven.	112	ESL 3 Human Baseline	They probably will.	50	JHU_DialoGPT	They hope they will go to heaven.		18	0.9999999
+270	4071	 I think I do. How much was it again?	112	ESL 3 Human Baseline	It was a total of $1,000.	50	JHU_DialoGPT	I think I do.How much was it again ?		18	0.98332554
+271	4072	 That's no fun!	112	ESL 3 Human Baseline	They're fine, and I can still get them wet.	50	JHU_DialoGPT	That's no fun !	0.16666666666666666	18	0.9910753
+272	4073	 You failed to stop at the stop sign.	112	ESL 3 Human Baseline	I'm sorry, officer. I didn't see the stop sign.	50	JHU_DialoGPT	You failed to stop at the stop sign.	0.3888888888888889	18	1.0
+273	4074	 I think I'll make a sandwich.	112	ESL 3 Human Baseline	What kind?	50	JHU_DialoGPT	I think I'll make a sandwich.	0.16666666666666666	18	0.99999994
+274	4075	 That's great! I'm good, but I feel a little sick.	112	ESL 3 Human Baseline	That's not good. I heard there is a flu going around.	50	JHU_DialoGPT	I'm glad you're feeling better !	0.2222222222222222	18	0.8491832
+275	4076	 How will we know we're getting a good deal though?	112	ESL 3 Human Baseline	If we use a site like Expedia or Priceline, we can find something within our budget.	50	JHU_DialoGPT	I'm not sure , but I'm sure you'll find out .	0.2222222222222222	18	0.80181456
+276	4077	 I'm tired of eating frozen food!	112	ESL 3 Human Baseline	It's not frozen once you heat it up.	50	JHU_DialoGPT	I'm tired of eating frozen food !	0.1111111111111111	18	0.99697566
+277	4078	 You've never even seen it on television?	112	ESL 3 Human Baseline	I don't own a television set.	50	JHU_DialoGPT	I've never even seen it on television ?	0.16666666666666666	18	0.97857296
+278	4079	 Did you forget your key inside your apartment?	112	ESL 3 Human Baseline	No. I think I lost it somewhere in the city.	50	JHU_DialoGPT	I did . I'm not sure why I didn't think of that .	0.5	18	0.79287416
+279	4080	 I sprinkled salt and pepper on the food before I tasted it.	112	ESL 3 Human Baseline	What's the matter with that?	50	JHU_DialoGPT	I sprinkled salt and pepper on the food before I tasted it.	0.2222222222222222	18	1.0
+280	4081	 No, I'm afraid I don't know.	112	ESL 3 Human Baseline	An apple a day keeps the doctor away!	50	JHU_DialoGPT	I'm afraid I don't know .	0.16666666666666666	18	0.970965
+281	4082	 Thank you. How long have you been living here?	112	ESL 3 Human Baseline	It's going to be my tenth year next month.	50	JHU_DialoGPT	I've been here for about a year now .	0.5	18	0.8666992
+282	4083	 I thought school was hard.	112	ESL 3 Human Baseline	Me, too. I couldn't wait to graduate.	50	JHU_DialoGPT	I thought school was hard.	0.2222222222222222	18	1.0
+283	4084	 I would like to buy a new sweater.	112	ESL 3 Human Baseline	Didn't you just buy one last week?	50	JHU_DialoGPT	I would like to buy a new sweater .	0.16666666666666666	18	0.9997107
+284	4085	 I wasn't paying attention.	112	ESL 3 Human Baseline	We don't have enough money for a new car.	50	JHU_DialoGPT	I was paying attention .	0.16666666666666666	18	0.9621406
+285	4086	 I am driving at the speed limit!	112	ESL 3 Human Baseline	Everyone drives fast in this town.	50	JHU_DialoGPT	I am driving at the speed limit !		15	0.9973393
+286	4087	 You're holding the knife wrong.	112	ESL 3 Human Baseline	What do you mean?	50	JHU_DialoGPT	You're holding the knife wrong .	0.05555555555555555	18	0.9981432
+287	4088	 May I ask why?	112	ESL 3 Human Baseline	I really like the food and the environment here.	50	JHU_DialoGPT	May I ask why ?	0.2222222222222222	18	0.98998386
+288	4089	 You went to the gym?	112	ESL 3 Human Baseline	It's more than just a gym.	50	JHU_DialoGPT	I did !	0.4444444444444444	18	0.7914472
+289	4090	 He said that he didn't know you were playing.	112	ESL 3 Human Baseline	Well, he should've known once he felt the snowball.	50	JHU_DialoGPT	He said that he didn't know you were playing .	0.1111111111111111	18	0.9998561
+290	4091	 Thanks. Mine broke two weeks ago.	112	ESL 3 Human Baseline	Didn't you put in a office supply request?	50	JHU_DialoGPT	I'm sorry .	0.4444444444444444	18	0.7876756
+291	4092	 I know, but it's so hard getting accustomed to a new school.	112	ESL 3 Human Baseline	That's a terrible reason not to transfer.	50	JHU_DialoGPT	I'm sorry .	0.3333333333333333	18	0.8086579
+292	4093	 Did the previous tenant maintain the apartment well?	112	ESL 3 Human Baseline	For the most part, yes. A few repairs had to be made.	50	JHU_DialoGPT	Absolutely , let me accompany youWhoever is asking the question .	0.2222222222222222	18	0.77005935
+293	4094	 How do you register?	112	ESL 3 Human Baseline	If you are a U.S. citizen, 18 years or older, you can fill out a form.	50	JHU_DialoGPT	How do you register ?	0.05555555555555555	18	0.9851618
+294	4095	 The hotel's concierge will be happy to find you tickets to a local theater production.	112	ESL 3 Human Baseline	I'm not really a theater person.	50	JHU_DialoGPT	I'm sorry , but the hotel's concierge will be happy to find you tickets to a	0.1111111111111111	18	0.9245975
+295	4096	 All the apartments are equipped with them. It's an essential safety feature.	112	ESL 3 Human Baseline	How do you check if they're working?	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.16666666666666666	18	0.79931086
+296	4097	 Well, last time it was a little too long.	112	ESL 3 Human Baseline	I see what you mean. How about a bob cut?	50	JHU_DialoGPT	I'm sorry , I'm not a native speaker .	0.16666666666666666	18	0.8102408
+297	4098	 Did you tell her about school?	112	ESL 3 Human Baseline	I told her that school is fun.	50	JHU_DialoGPT	Yes , I did . She told me about school .	0.2222222222222222	18	0.89256227
+298	4099	 I don't know.	112	ESL 3 Human Baseline	When did you lose it?	50	JHU_DialoGPT	I don't know .	0.1111111111111111	18	0.9958036
+299	4100	 It's a little more money, but I think it's a great fit for you.	112	ESL 3 Human Baseline	As long as I can afford it.	50	JHU_DialoGPT	I'm not sure if you're being sarcastic or not .	0.16666666666666666	18	0.8243919
+300	4101	 I wish they'd cost nickels instead of quarters.	112	ESL 3 Human Baseline	I think that would lose the arcade a lot of money.	50	JHU_DialoGPT	I wish they'd cost nickels instead of quarters.	0.1111111111111111	18	0.9999998
+301	4102	 I wanted some information about the public transportation that is available in the city.	112	ESL 3 Human Baseline	I could provide you with some. What would you like to know?	50	JHU_DialoGPT	I'm sorry , I don't know what you're talking about .	0.16666666666666666	18	0.7984828
+302	4103	 Can I make some lemonade to drink?	112	ESL 3 Human Baseline	Sure! That'd be great.	50	JHU_DialoGPT	I'm making some lemonade to drink .	0.16666666666666666	18	0.9407213
+303	4104	 Which would you prefer?	112	ESL 3 Human Baseline	What do you mean?	50	JHU_DialoGPT	Which would you prefer ?	0.16666666666666666	18	0.9907219
+304	4105	 I think they just like giving people tickets.	112	ESL 3 Human Baseline	People should just learn to follow the rules.	50	JHU_DialoGPT	I think they just like giving people tickets .	0.1111111111111111	18	0.9996479
+305	4106	 How far away is that?	112	ESL 3 Human Baseline	I think we'll be there in half an hour.	50	JHU_DialoGPT	How far away is that ?	0.05555555555555555	18	0.9927155
+306	4107	 We have a wide selection right here.	112	ESL 3 Human Baseline	I don't see what I want here.	50	JHU_DialoGPT	I'm looking for a convertible ...	0.3888888888888889	18	0.83873284
+307	4108	 About how long will it take you to call this number?	112	ESL 3 Human Baseline	About one hour.	50	JHU_DialoGPT	I'm sorry , I'm not sure what you're trying to say .	0.3333333333333333	18	0.7864557
+308	4109	 It's called Tumblr. It's a blog site.	112	ESL 3 Human Baseline	Is blogging different from Facebook?	50	JHU_DialoGPT	I'm not sure what you're trying to say .	0.1111111111111111	18	0.8189117
+309	4110	 What is that exactly?	112	ESL 3 Human Baseline	It's an expression to refer to the observation that many college freshmen gain weight.	50	JHU_DialoGPT	It's a thing .	0.5555555555555556	18	0.81984943
+310	4111	 Is there a charge for me to use it?	112	ESL 3 Human Baseline	No, it's free to all of our guests.	50	JHU_DialoGPT	Yes , there is a charge for you to use it .	0.6666666666666666	18	0.9296773
+311	4112	 My friends said the hot dogs are really great.	112	ESL 3 Human Baseline	The line is always really long.	50	JHU_DialoGPT	My friends said the hot dogs are really great.	0.1111111111111111	18	1.0
+312	4113	 I already put one in!	112	ESL 3 Human Baseline	Yes, and you owe me another.	50	JHU_DialoGPT	I already put one in !	0.1111111111111111	18	0.99274147
+313	4114	 Yes. It's on every afternoon.	112	ESL 3 Human Baseline	What's so good about it?	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.5	18	0.81310916
+314	4115	 Well, maybe they're just very busy.	112	ESL 3 Human Baseline	I don't know, dear. I was watching our waiter.	50	JHU_DialoGPT	I'm not sure if you're being sarcastic or not .	0.16666666666666666	18	0.84131294
+315	4116	 How about this table?	112	ESL 3 Human Baseline	No, it's too close to the front door.	50	JHU_DialoGPT	How about this table ?	0.2222222222222222	18	0.9836007
+316	4117	 I'd rather explore the city on my own.	112	ESL 3 Human Baseline	In that case I can give you a map that highlights some of the best things to see.	50	JHU_DialoGPT	I'd rather explore the city on my own.and then go to the hotel .	0.3888888888888889	18	0.9539027
+317	4118	 I already bought a card, but I want to give him a present, too.	112	ESL 3 Human Baseline	What does your father like to do?	50	JHU_DialoGPT	I already bought a card , but I want to give him a present , too.	0.1111111111111111	18	0.9985814
+318	4119	 I was thinking a basic board.	112	ESL 3 Human Baseline	There are many different kinds.	50	JHU_DialoGPT	I was thinking a basic board .		18	0.9993316
+319	4120	 It's a racing bike. I bought it so I could be in the triathlon.	112	ESL 3 Human Baseline	Wow! I hear triathlons are difficult!	50	JHU_DialoGPT	I'm a racing bike . I bought it so I could be in the triathlon.	0.1111111111111111	18	0.97008485
+320	4121	 It puts me to sleep.	112	ESL 3 Human Baseline	Tell me about it.	50	JHU_DialoGPT	I'm sorry , I don't speak Japanese .	0.05555555555555555	18	0.8088015
+321	4122	 A bilingual dictionary would be nice.	112	ESL 3 Human Baseline	Well, there are many printed dictionaries.	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.1111111111111111	18	0.8009179
+322	4123	 It's supposed to be unlucky.	112	ESL 3 Human Baseline	You're supposed to stay home all day.	50	JHU_DialoGPT	It's supposed to be unlucky.jpg	0.05555555555555555	18	0.9714056
+323	4124	 It's an eight-hour drive.	112	ESL 3 Human Baseline	I know. Let's go.	50	JHU_DialoGPT	I'm not sure if you're being sarcastic or not .	0.2222222222222222	18	0.8049081
+324	4125	 My date with Dorothy is at 12 p.m.	112	ESL 3 Human Baseline	You have dates with both of them?	50	JHU_DialoGPT	I'm sorry , but I don't think you're allowed to date Dorothy .	0.16666666666666666	18	0.8061703
+325	4126	 That's a good idea.	112	ESL 3 Human Baseline	Do you want me to wake you in an hour?	50	JHU_DialoGPT	That's a good idea .	0.05555555555555555	18	0.9974494
+326	4127	 Do I need a prescription for those?	112	ESL 3 Human Baseline	No. You just pick whichever brand your prefer and pay for it at the register.	50	JHU_DialoGPT	I'm not sure . I'm not a doctor .	0.2777777777777778	18	0.83409846
+327	4128	 It's always nice to meet extra tenants of the apartment.	112	ESL 3 Human Baseline	How do you like the apartment so far?	50	JHU_DialoGPT	I'm not sure if you're being sarcastic or not .	0.16666666666666666	18	0.80376023
+328	4129	 I need to use the database on your computer.	112	ESL 3 Human Baseline	Well, I need something from you before I can allow you to do that.	50	JHU_DialoGPT	Okay , I'll help you .	0.5	18	0.8359523
+329	4130	 I was sitting in the airport bar and I lost track of time.	112	ESL 3 Human Baseline	Well, that's not really our fault.	50	JHU_DialoGPT	I was sitting in the airport bar and I lost track of time.avi	0.05555555555555555	18	0.99010587
+330	4131	 They say not to leave anything valuable in your cars at night.	112	ESL 3 Human Baseline	Sometimes I leave my purse in the car.	50	JHU_DialoGPT	I'm not sure what that means .	0.3333333333333333	18	0.8006049
+331	4132	 You always pay. I'll do it this time.	112	ESL 3 Human Baseline	I'm the guy, so I am supposed to pay.	50	JHU_DialoGPT	You always pay.I'll do it this time.		18	0.98868203
+332	4133	 Are you replacing your shingles?	112	ESL 3 Human Baseline	Yes I am. The roof has been leaking in the rain.	50	JHU_DialoGPT	I'm replacing my shingles .	0.3888888888888889	18	0.94958854
+333	4134	 Can you tell me where I can catch them?	112	ESL 3 Human Baseline	Down the street the 260 bus picks you up and takes you to Los Angeles.	50	JHU_DialoGPT	I can't , but I can tell you where to find them .	0.5	18	0.8559413
+334	4135	 She loves the color pink.	112	ESL 3 Human Baseline	I can make her a bouquet with pink roses.	50	JHU_DialoGPT	I'm sorry , but I'm not going to be able to do that .	0.1111111111111111	18	0.804281
+335	4136	 I'm getting married.	112	ESL 3 Human Baseline	You should be happy, not worried.	50	JHU_DialoGPT	I'm getting married.	0.1111111111111111	18	0.9999999
+336	4137	 I'm looking. There's nothing to eat.	112	ESL 3 Human Baseline	Are you sure?	50	JHU_DialoGPT	I'm looking.There ' s nothing to eat.	0.2222222222222222	18	0.9609244
+337	4138	 It's practically falling apart.	112	ESL 3 Human Baseline	Did some kind of accident cause this?	50	JHU_DialoGPT	I'm sorry to hear that . How bad is it ?	0.2222222222222222	18	0.7961027
+338	4139	 The light is on.	112	ESL 3 Human Baseline	Open the book.	50	JHU_DialoGPT	The light is on .	0.16666666666666666	18	0.9964224
+339	4140	 But it's due tomorrow!	112	ESL 3 Human Baseline	I thought it was due next week.	50	JHU_DialoGPT	I'm not sure if I should be proud or ashamed that I got that reference .	0.1111111111111111	18	0.78330165
+340	4141	 What is really going on?	112	ESL 3 Human Baseline	Honestly, I'm scared of getting into an accident.	50	JHU_DialoGPT	I'm not sure .	0.2777777777777778	18	0.8007719
+341	4142	 Just adjust the strap so it doesn't bother you.	112	ESL 3 Human Baseline	The sun makes it too hot.	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.1111111111111111	18	0.81983113
+342	4143	 It was my first time voting in an election.	112	ESL 3 Human Baseline	Oh wow! Congratulations, but why is that so exciting for you?	50	JHU_DialoGPT	I'm sorry , I'm not sure what you're trying to say .		18	0.8039677
+343	4144	 What's wrong with meatloaf?	112	ESL 3 Human Baseline	I got food poisoning when I ordered meatloaf here.	50	JHU_DialoGPT	It's not meatloaf .	0.2222222222222222	18	0.8900563
+344	4145	 What seems to be the problem?	112	ESL 3 Human Baseline	The delivery was scheduled to arrive over an hour ago.	50	JHU_DialoGPT	I'm not sure what you're asking .	0.2777777777777778	18	0.8007099
+345	4146	 I was on a plane.	112	ESL 3 Human Baseline	So?	50	JHU_DialoGPT	I was on a plane.jpg	0.16666666666666666	18	0.97112614
+346	4147	 I don't have a savings account.	112	ESL 3 Human Baseline	Then it will be from your checking account.	50	JHU_DialoGPT	I don't have a savings account .	0.05555555555555555	18	0.99951446
+347	4148	 Thank you. That's very helpful of you.	112	ESL 3 Human Baseline	You're welcome. What kind of an apartment are you looking for?	50	JHU_DialoGPT	Thank you . That's very helpful of you .	0.1111111111111111	18	0.98591906
+348	4149	 I'm actually not in the office right now.	112	ESL 3 Human Baseline	You aren't? Well, why not? Is everything okay?	50	JHU_DialoGPT	I'm actually not in the office right now.I'm actually not in the office right now.	0.1111111111111111	18	0.9506433
+349	4150	 Wait! What are you doing?	112	ESL 3 Human Baseline	Throwing these bags into the trash can. Why do you seem concerned?	50	JHU_DialoGPT	I'm going to go ahead and say that I'm going to go ahead and say that I'm	0.1111111111111111	18	0.7317806
+350	4151	 How do you hang all the picture frames?	112	ESL 3 Human Baseline	I just hang them on the wall.	50	JHU_DialoGPT	I have a picture frame that I hang on my wall .	0.2222222222222222	18	0.8489798
+351	4152	 Oh, stop lying. I've gained a little weight.	112	ESL 3 Human Baseline	We all have gained some weight.	50	JHU_DialoGPT	I'm not lying .	0.5555555555555556	18	0.86517596
+352	4153	 Is that why you're training so hard?	112	ESL 3 Human Baseline	Yes. I want to be in shape for tryouts.	50	JHU_DialoGPT	Is that why you're training so hard ?		18	0.9970162
+353	4154	 Yup. We cleared escrow. It's officially ours now.	112	ESL 3 Human Baseline	I don't know what to say.	50	JHU_DialoGPT	I'm sorry , but I'm not going to be able to move in until tomorrow .	0.16666666666666666	18	0.81618696
+354	4155	 Where are you from?	112	ESL 3 Human Baseline	I am from Japan.	50	JHU_DialoGPT	I am from the United States .	0.1111111111111111	18	0.8468155
+355	4156	 Did you ever take an IQ test?	112	ESL 3 Human Baseline	No, I never did. All I know is that I got A's and B's in school.	50	JHU_DialoGPT	I did . I got a 100 .	0.3888888888888889	18	0.8253132
+356	4157	 A long time ago, flying used to be okay.	112	ESL 3 Human Baseline	Now it's like riding a bus.	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.16666666666666666	18	0.78766406
+357	4158	 Didn't you get the pamphlet?	112	ESL 3 Human Baseline	I must have forgotten about it.	50	JHU_DialoGPT	I did , but I didn't get the pamphlet .	0.2222222222222222	18	0.89187866
+358	4159	 It's just one minor issue I have to bring up with you.	112	ESL 3 Human Baseline	Don't tell me. I think I know what it is.	50	JHU_DialoGPT	I'm sorry to knock on your door at this late hour.	0.05555555555555555	18	0.82430667
+359	4160	 Okay, let's sit down.	112	ESL 3 Human Baseline	Check out the silverware.	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.3888888888888889	18	0.7827544
+360	4161	 What should I do to make it less plain?	112	ESL 3 Human Baseline	Decorate it. That's what I did.	50	JHU_DialoGPT	I don't know , I'm not a car guy .	0.3333333333333333	18	0.7825973
+361	4162	 I broke it a week ago.	112	ESL 3 Human Baseline	How did that happen?	50	JHU_DialoGPT	I broke it a week ago .	0.16666666666666666	18	0.9992023
+362	4163	 I didn't know we needed it.	112	ESL 3 Human Baseline	Please go get your ID, and get in line again.	50	JHU_DialoGPT	I didn't know we needed it.jpg	0.16666666666666666	18	0.97982633
+363	4164	 Well, Obama was our first black president. Now we have our first woman.	112	ESL 3 Human Baseline	You think gender matters that much?	50	JHU_DialoGPT	I'm not sure if you're being serious or not .	0.3888888888888889	18	0.78205127
+364	4165	 I've been working with the company for 10 years.	112	ESL 3 Human Baseline	Yes, and I appreciate your dedication.	50	JHU_DialoGPT	I've been working with the company for 10 years.		18	0.9999999
+365	4166	 If you show it to the driver, your ticket costs less.	112	ESL 3 Human Baseline	That is very helpful to students!	50	JHU_DialoGPT	I'm not sure what you're getting at .	0.4444444444444444	18	0.81551206
+366	4167	 It seems there's so much nearby.	112	ESL 3 Human Baseline	Like what, baby?	50	JHU_DialoGPT	I'm not sure if you're being sarcastic or not .	0.2777777777777778	18	0.8022187
+367	4168	 I bumped into her on the street.	112	ESL 3 Human Baseline	What a coincidence.	50	JHU_DialoGPT	I bumped into her on the street.she bumped into me.she bumped into me.she bumped	0.05555555555555555	18	0.9291968
+368	4169	 I can tell you're lying.	112	ESL 3 Human Baseline	Fine! The truth is, I never put my seatbelt on.	50	JHU_DialoGPT	I can tell you're lying.jpg	0.1111111111111111	18	0.9607477
+369	4170	 I got out of my car.	112	ESL 3 Human Baseline	That's it?	50	JHU_DialoGPT	I got out of my car .	0.1111111111111111	18	0.9993664
+370	4171	 They're in a different world.	112	ESL 3 Human Baseline	I saw a painting of a jar that was full of pencils.	50	JHU_DialoGPT	They're in a different world.	0.16666666666666666	18	0.99999976
+371	4172	 Technically he did, but he has conditions.	112	ESL 3 Human Baseline	Okay, what are they?	50	JHU_DialoGPT	I'm not sure what you're trying to say .	0.16666666666666666	18	0.8092062
+372	4173	 What were you doing?	112	ESL 3 Human Baseline	I was scratching my nose.	50	JHU_DialoGPT	I was doing something .	0.16666666666666666	18	0.86755353
+373	4174	 I don't like to eat leftovers.	112	ESL 3 Human Baseline	I'm glad to hear there's something you don't like to eat.	50	JHU_DialoGPT	I don't like to eat leftovers .	0.2777777777777778	18	0.99960893
+374	4175	 But birds can fly.	112	ESL 3 Human Baseline	Well, cats can climb.	50	JHU_DialoGPT	But can they fly ?	0.16666666666666666	18	0.90464735
+375	4176	 Laundry is such a hassle!	112	ESL 3 Human Baseline	Pack the laundry bags and let's go to the Laundromat.	50	JHU_DialoGPT	I'm so glad I'm not the only one who thought that .	0.4444444444444444	18	0.7932421
+376	4177	 I have a class at 7 a.m.	112	ESL 3 Human Baseline	That's tough! My earliest class is at 9 a.m.	50	JHU_DialoGPT	I have a class at 7 a.m.	0.2777777777777778	18	1.0
+377	4178	 Do you know where I can purchase a bus pass?	112	ESL 3 Human Baseline	Yes I do. There are several places where you can purchase them.	50	JHU_DialoGPT	I'm not sure . I'm not sure where you can buy a bus pass .	0.4444444444444444	18	0.903388
+378	4179	 What does endorse mean?	112	ESL 3 Human Baseline	It means you need to sign the back of the check.	50	JHU_DialoGPT	What does endorse mean ?	0.2777777777777778	18	0.9923513
+379	4180	 Because of all the earthquakes and fires.	112	ESL 3 Human Baseline	But big earthquakes happen only once in a while.	50	JHU_DialoGPT	And the drought .	0.6111111111111112	18	0.8809716
+380	4181	 It's a little more money, but I think it's a great fit for you.	112	ESL 3 Human Baseline	As long as I can afford it.	50	JHU_DialoGPT	I'm not sure if you're being sarcastic or not .	0.2222222222222222	18	0.8243919
+381	4182	 What kind of card do I need?	112	ESL 3 Human Baseline	It's a card I can provide you with.	50	JHU_DialoGPT	A card that says , I'm a bus driver .	0.2222222222222222	18	0.82858413
+382	4183	 Yes, it starts at 7 p.m.	112	ESL 3 Human Baseline	Can we get tickets?	50	JHU_DialoGPT	I'm going to the game .	0.5555555555555556	18	0.830766
+383	4184	 Everyone in school has one.	112	ESL 3 Human Baseline	They must be rich then.	50	JHU_DialoGPT	I have one .	0.16666666666666666	18	0.8635893
+384	4185	 I don't know how to use chopsticks.	112	ESL 3 Human Baseline	That's too bad.	50	JHU_DialoGPT	I don't know how to use chopsticks.	0.1111111111111111	18	1.0
+385	4186	 Sure, my name is Willie Foster.	112	ESL 3 Human Baseline	Mr. Foster, your doctor is Dr. Edwards?	50	JHU_DialoGPT	I'm calling to see if the results of some tests I took are in ?	0.16666666666666666	18	0.75961363
+386	4187	 Did he say what time?	112	ESL 3 Human Baseline	Yes. He said he'd be here at 9 o'clock.	50	JHU_DialoGPT	He said he'd come over tomorrow .	0.2777777777777778	18	0.8260494
+387	4188	 I switched from pasta to potatoes.	112	ESL 3 Human Baseline	Why did you do that?	50	JHU_DialoGPT	I switched from potatoes to pasta .	0.1111111111111111	18	0.9924891
+388	4189	 Three pounds just this month.	112	ESL 3 Human Baseline	Do you know why?	50	JHU_DialoGPT	I'm not sure if you're serious or not .	0.05555555555555555	18	0.7689588
+389	4190	 You won't mind if I have something then?	112	ESL 3 Human Baseline	Of course not.	50	JHU_DialoGPT	I'm not sure what you're trying to say .	0.16666666666666666	18	0.81257784
+390	4191	 Will you go out with me?	112	ESL 3 Human Baseline	No, I apologize.	50	JHU_DialoGPT	I will !	0.1111111111111111	18	0.8246723
+391	4192	 I know I need a science class.	112	ESL 3 Human Baseline	I would take biology with Mr. Green.	50	JHU_DialoGPT	I know I need a science class .	0.16666666666666666	18	0.9995351
+392	4193	 I hate flying though, and I really need something to take the edge off.	112	ESL 3 Human Baseline	I'm sorry we don't serve anything until after take-off.	50	JHU_DialoGPT	I hate flying though , and I really need something to take the edge off.	0.1111111111111111	18	0.9996104
+393	4194	 Maybe I'll start taking snacks to work.	112	ESL 3 Human Baseline	You can store them in the cafeteria fridge.	50	JHU_DialoGPT	Maybe I'll start taking snacks to work.	0.2222222222222222	18	0.99999994
+394	4195	 I bought an air conditioner, but it doesn't help at night.	112	ESL 3 Human Baseline	I heard it's bad to leave it on at night.	50	JHU_DialoGPT	I bought an air conditioner , but it doesn't help at night.	0.16666666666666666	18	0.9997422
+395	4196	 But then you grow beautiful flowers.	112	ESL 3 Human Baseline	Plastic flowers don't die, and they are also beautiful.	50	JHU_DialoGPT	But then you have to pay for it .	0.16666666666666666	18	0.88885796
+396	4197	 I actually have a few complaints.	112	ESL 3 Human Baseline	Please tell me what went wrong.	50	JHU_DialoGPT	I have a few complaints .	0.05555555555555555	18	0.97926277
+397	4198	 They say they need time away from children.	112	ESL 3 Human Baseline	We're not children anymore!	50	JHU_DialoGPT	They say they need time away from children.	0.05555555555555555	18	0.9999997
+398	4199	 This is a library, so you have to shut up.	112	ESL 3 Human Baseline	I didn't know laughing was a crime.	50	JHU_DialoGPT	This is a library , so you have to shut up.This is a library , so you have	0.16666666666666666	18	0.9371151
+399	4200	 That's a great idea.	112	ESL 3 Human Baseline	Yes, all the markets just started offering wipes to shoppers.	50	JHU_DialoGPT	That's a great idea .	0.16666666666666666	18	0.997435

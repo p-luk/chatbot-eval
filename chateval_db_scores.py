@@ -41,8 +41,8 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
     ref -- optional string denoting reference string. either 'ref' or 'empty'
     """
     # check ref argument validity
-    if ref not in ['ref', 'context_last', 'empty', 'multi_avg', 'multi_max']:
-        raise ValueError("ref must be 'ref' or 'context_last' or 'empty' or 'multi_avg' or 'multi_max.")
+    if ref not in ['ref', 'context_last', 'empty', 'multi_avg', 'multi_max', 'multi']:
+        raise ValueError("ref must be 'ref' or 'context_last' or 'empty' or 'multi_avg' or 'multi_max' or 'multi'.")
     if modelname not in __models__:
         raise ValueError("model not listed")
     # get scores
@@ -86,20 +86,20 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
         else:
             score = [model.score([c], [r]) for c, r in zip(cand_list, ref_list)]
     elif modelname == 'bert_score':
-        p, r, score = bert_score.score(cands=cand_list, refs=ref_ist, lang='en', verbose=True)
+        p, r, score = bert_score.score(cands=cand_list, refs=ref_list, lang='en', verbose=True)
     elif modelname == 'roberta_ft':
         p, r, score = bert_score.score(cands=cand_list, refs=ref_list, lang='en', verbose=True, model_type='../Chatbot_evaluation/models/roberta_ft', num_layers=10)
     elif modelname == 'bleu':
-        if ref == 'multi_avg' or ref == 'multi_max':
+        if ref == 'multi':
             # ref
             ref_list = data['reference_text'].astype(str).to_list()
-            bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand_list, ref_list)]
-            ref_score = [x['bp'] for x in bs]
             # context_last
-            ref_list = data['prompt_text'].apply(lambda x: str(x).split('\n')[-1]).to_list()
+            context_list = data['prompt_text'].apply(lambda x: str(x).split('\n')[-1]).to_list()
 
+            bs = [model.compute(predictions=[cand], references=[[ref, ctx]]) for cand, ref, ctx in zip(cand_list, ref_list, context_list)]
+        else:
             bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand_list, ref_list)]
-            context_score = [x['bp'] for x in bs]
+        score = [x['bp'] for x in bs]
     elif modelname == 'bleurt':
         preds = model.compute(predictions=cand_list, references=ref_list)
         score = preds['scores']
@@ -113,13 +113,6 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
             data['score'] = data[['ref_score', 'context_score', 'empty_score']].mean(axis=1)
         elif ref == 'multi_max':
             data['score'] = data[['ref_score', 'context_score', 'empty_score']].max(axis=1)
-    elif modelname == 'bleu' and (ref == 'multi_avg' or ref == 'multi_max'):
-        data['ref_score'] = ref_score
-        data['context_score'] = context_score
-        if ref == 'multi_avg':
-            data['score'] = data[['ref_score', 'context_score']].mean(axis=1)
-        elif ref == 'multi_max':
-            data['score'] = data[['ref_score', 'context_score']].max(axis=1)
     else:
         data['score'] = score
 
@@ -162,12 +155,6 @@ def plot_correlation(scores, plotdir, ref, modelname):
     # for multi ref PRISM, also compare to single ref scores
     if modelname == 'prism' and (ref == 'multi_avg' or ref == 'multi_max'):
         for col in ['ref_score', 'context_score', 'empty_score']:
-            # compute correlation
-            slope, intercept, r_value, p_value, std_err = stats.linregress(evaluation_scores, scores[col])
-            print(col)
-            print('$R=${0}\n p={1}'.format(str(round(r_value,6)), str(round(p_value,6))))
-    elif modelname == 'bleu' and (ref == 'multi_avg' or ref == 'multi_max'):
-        for col in ['ref_score', 'context_score']:
             # compute correlation
             slope, intercept, r_value, p_value, std_err = stats.linregress(evaluation_scores, scores[col])
             print(col)

@@ -152,8 +152,6 @@ def main():
         json_preprocess_static_data(url=options.url, outputdir=options.outputdir)
     elif options.dataset == 'fed_referenced':
         json_preprocess_fed_referenced_data(url=options.url, outputdir=options.outputdir)
-    elif options.dataset == 'fed_unreferenced':
-        json_preprocess_fed_unreferenced_data(url=options.url, outputdir=options.outputdir)
 
 if __name__ == '__main__':
     main()

@@ -118,6 +118,8 @@ def get_chateval_data(dataset, outputdir):
             eval_metrics_df = pd.concat([eval_metrics_df, df])
         else:
             eval_metrics_df = df
+    if dataset == 'ESL 3-turn':
+        eval_metrics_df['prompt_text'] = eval_metrics_df['prompt_text'].apply(lambda x: x.split('\n')[-1][2:])
     # write to TSV
     if outputdir is not None:
         eval_metrics_df.to_csv(outputdir, sep='\t')
