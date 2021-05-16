@@ -4,7 +4,7 @@
  yeah , sadly , disney ( which owns the american rights to the films ) does n't tend to promote them very much . i think they 're worried they 'll cut into their  home grown  market . anyway , dunno if you even like animated movies , but they 're worth checking out . 
  i do n't watch them very often . apparently there was a showing of the recent film in a park in d.c . that 's one u.s . city i have n't been to 
  sadly , i have n't been to dc either , although i 've always wanted to visit there . apparently there 's a lot of interesting going down this summer . they 're having a crab feast at the navy - marine corps stadium . they 'll have 100 gallons of crab soup ! can you imagine that much soup ?"	from left , emma baker , daniel saperstein and taylor mulitz of flasher will perform this summer 's final fort reno concert . ( jared soares for the washington post ) monday , july 30 25th birthday celebration at national postal museum : celebrate 25 years of this institution devoted to the long history of the u.s . postal service with daytime festivities that include cupcakes , birthday postcards , a photo booth and a special scavenger hunt with prizes . 11 a.m. to 2 p.m. free . tuesday , july 31  the color purple  at kennedy center : the tony award - winning musical revival , based on the pulitzer prize - winning alice walker novel of the same name , features jazz , ragtime , gospel and blues with a story about an african american woman named celie surviving poverty in the south during the 1930s . through aug . 26 . $ 69-$149 . ask a harry potter scholar at southeast neighborhood library : come to this talk from tolanda henderson , a librarian from george washington university , who has used the j.k . rowling book series as a text in academia . commune with other muggles who prove that it 's not just kids and young adults who obsess about the boy who lived . 7 p.m. free . wednesday , aug . 1 rico nasty at the fillmore silver spring : two summers ago , rico nasty was a teenage loudmouth from the maryland suburbs , generating buzz on youtube for spitting surly , rainbow - tinted rhymes . now , after signing a deal with atlantic records , the 21-year - old singer is on her way to becoming one of the brightest voices in rap music .	i recently met a girl who lives in that area , and she said the nightlife is worth visiting for . it sounds like many of the events feature jazz music . do you listen to jazz very often ?	"i think it 's interesting that peter gabriel has been in the us , he is a great performer .
-"	Argmax Decoding	[1, 0, 1]	[3, 3, 3]	[1, 1, 1]	[3, 2, 2]	[0, 0, 0]	[4, 3, 3]	0.81223476
+"	Argmax Decoding	[1, 0, 1]	[3, 3, 3]	[1, 1, 1]	[3, 2, 2]	[0, 0, 0]	[4, 3, 3]	0.8122347
 1	"so , i 'm reading the latest film from studio ghibli is out the tale of princess kaguya . dunno if you 're familiar with them , but studio ghibli has made a lot of great animated films , like spirited away , and princess mononoke 
  i do n't think i have heard of them . i have heard that one of the directors recently passed away , and his last film was nominated for an academy award 
  yeah , sadly , disney ( which owns the american rights to the films ) does n't tend to promote them very much . i think they 're worried they 'll cut into their  home grown  market . anyway , dunno if you even like animated movies , but they 're worth checking out . 
@@ -43,7 +43,7 @@
  oh i see , i guess i m confusing him with a player of the team , what was his name i think it was khalil mack , and i do follow some games what about you ? 
  football is one of my favorite sports and i follow all 32 teams . khalil mack was traded to the bears by john gruden for some picks . they definitely felt his absence . i do n't know why they did n't just resign him . 
  maybe he demanded a high salary ? what is your favorite nfl team ?"	the raiders sacked goff only once , on a play during which bruce irvin forced a fumble . other than that , the oakland defense could put almost no pressure on goff . the absence of mack , the former nfl defensive player of the year , was glaring . in the first half sunday night , mack had a sack , a forced fumble , a fumble recovery , an interception and a touchdown on defense . he and the bears could not sustain that , and they succumbed to the second - half exploits of packers quarterback aaron rodgers . but mack reinforced what a game - changing , difference - making player he is . he left little doubt that he is worth the six - year , $ 141 million contract given to him by the bears , making him the league 's highest - paid defensive player . [ the nfl teams that have serious reasons to worry , versus the ones that do n't ] mack , while still with the raiders , had been holding out , seeking such a deal . the raiders did n't want to give it to him . they have a $ 125 million quarterback in carr . they have a $ 100 million coach in gruden . they drew the line at handing out another mammoth deal , not wanting to further strain their budget or push the boundaries of the salary cap . they regarded the king 's ransom of draft picks put forth by the bears , including a pair of first - rounders , as an offer they could n't refuse . in truth , they could have refused it .	i like the giants best , you ? . he did demand a high salary . he 's the highest paid defensive player in the nfl . i guess the raiders tied up too much money in carr and gruden .	"i think he 's a great player . i think he 's a great player .
-"	Nucleus Decoding (p = 0.3)	[1, 1, 1]	[2, 3, 2]	[2, 1, 2]	[2, 1, 2]	[0, 0, 0]	[3, 2, 1]	0.8285862
+"	Nucleus Decoding (p = 0.3)	[1, 1, 1]	[2, 3, 2]	[2, 1, 2]	[2, 1, 2]	[0, 0, 0]	[3, 2, 1]	0.82858634
 7	"i think that jon gruden is a sensible loss for the team , 
  what do you mean by sensible loss ? i think john gruden is a huge mistake for the team . 
  well i think his a good player , hard to replace , that s what i meant or at least in the raiders team his become an important piece for the coach 
@@ -66,7 +66,7 @@
  john gruden is an nfl head coach . he 's not a player . the 33 - 13 loss to the rams was just the beginning of a miserable season . are you familiar with the nfl ? 
  oh i see , i guess i m confusing him with a player of the team , what was his name i think it was khalil mack , and i do follow some games what about you ? 
  football is one of my favorite sports and i follow all 32 teams . khalil mack was traded to the bears by john gruden for some picks . they definitely felt his absence . i do n't know why they did n't just resign him . 
- maybe he demanded a high salary ? what is your favorite nfl team ?"	the raiders sacked goff only once , on a play during which bruce irvin forced a fumble . other than that , the oakland defense could put almost no pressure on goff . the absence of mack , the former nfl defensive player of the year , was glaring . in the first half sunday night , mack had a sack , a forced fumble , a fumble recovery , an interception and a touchdown on defense . he and the bears could not sustain that , and they succumbed to the second - half exploits of packers quarterback aaron rodgers . but mack reinforced what a game - changing , difference - making player he is . he left little doubt that he is worth the six - year , $ 141 million contract given to him by the bears , making him the league 's highest - paid defensive player . [ the nfl teams that have serious reasons to worry , versus the ones that do n't ] mack , while still with the raiders , had been holding out , seeking such a deal . the raiders did n't want to give it to him . they have a $ 125 million quarterback in carr . they have a $ 100 million coach in gruden . they drew the line at handing out another mammoth deal , not wanting to further strain their budget or push the boundaries of the salary cap . they regarded the king 's ransom of draft picks put forth by the bears , including a pair of first - rounders , as an offer they could n't refuse . in truth , they could have refused it .	i like the giants best , you ? . he did demand a high salary . he 's the highest paid defensive player in the nfl . i guess the raiders tied up too much money in carr and gruden .	it 's hard to pick a specific team . i guess i would have to say the raiders .	New Human Generated	[1, 1, 1]	[3, 3, 2]	[3, 3, 2]	[3, 3, 2]	[1, 0, 0]	[5, 4, 2]	0.82203954
+ maybe he demanded a high salary ? what is your favorite nfl team ?"	the raiders sacked goff only once , on a play during which bruce irvin forced a fumble . other than that , the oakland defense could put almost no pressure on goff . the absence of mack , the former nfl defensive player of the year , was glaring . in the first half sunday night , mack had a sack , a forced fumble , a fumble recovery , an interception and a touchdown on defense . he and the bears could not sustain that , and they succumbed to the second - half exploits of packers quarterback aaron rodgers . but mack reinforced what a game - changing , difference - making player he is . he left little doubt that he is worth the six - year , $ 141 million contract given to him by the bears , making him the league 's highest - paid defensive player . [ the nfl teams that have serious reasons to worry , versus the ones that do n't ] mack , while still with the raiders , had been holding out , seeking such a deal . the raiders did n't want to give it to him . they have a $ 125 million quarterback in carr . they have a $ 100 million coach in gruden . they drew the line at handing out another mammoth deal , not wanting to further strain their budget or push the boundaries of the salary cap . they regarded the king 's ransom of draft picks put forth by the bears , including a pair of first - rounders , as an offer they could n't refuse . in truth , they could have refused it .	i like the giants best , you ? . he did demand a high salary . he 's the highest paid defensive player in the nfl . i guess the raiders tied up too much money in carr and gruden .	it 's hard to pick a specific team . i guess i would have to say the raiders .	New Human Generated	[1, 1, 1]	[3, 3, 2]	[3, 3, 2]	[3, 3, 2]	[1, 0, 0]	[5, 4, 2]	0.8220394
 10	"hello 
  hi . the nfl seems to be at the end of its days . 
  that 's what people seem to be saying everywhere , but i do n't know . they have gotten through scandals and issues before . i 'm not counting them out yet . 
@@ -159,7 +159,7 @@
  some guy found $ 3 million dollars of baseball cards from the 1900s . i wonder what he did with the money . 
  yeah . that 's an amazing find . i heard they had been hidden since the 40s . 
  thanks , grandpa ! i bet grandpa wishes he had cashed them in before he cashed out ."	_nofact	well , but time probably added to the value , no ? i wonder if the grandson found a honus wagner . is n't that the super valuable one ? in the 90s i think wayne gretzky bought one as an investment .	"i bet he was a great player . nice chat
-"	Argmax Decoding	[0, 0, 1]	[2, 1, 2]	[1, 1, 2]	[1, 1, 2]	[1, 1, 1]	[2, 1, 2]	0.79396874
+"	Argmax Decoding	[0, 0, 1]	[2, 1, 2]	[1, 1, 2]	[1, 1, 2]	[1, 1, 1]	[2, 1, 2]	0.7939687
 16	"hi there , how 's it going ? 
  it 's going great ! which do you prefer , football or baseball ? 
  oh i guess baseball . although i do n't have time to see many games anymore . 
@@ -178,7 +178,7 @@
  some guy found $ 3 million dollars of baseball cards from the 1900s . i wonder what he did with the money . 
  yeah . that 's an amazing find . i heard they had been hidden since the 40s . 
  thanks , grandpa ! i bet grandpa wishes he had cashed them in before he cashed out ."	_nofact	well , but time probably added to the value , no ? i wonder if the grandson found a honus wagner . is n't that the super valuable one ? in the 90s i think wayne gretzky bought one as an investment .	"i wonder if he was a fan of his music ?
-"	Nucleus Decoding (p = 0.3)	[0, 0, 1]	[3, 1, 3]	[1, 1, 1]	[1, 1, 2]	[1, 1, 1]	[1, 1, 2]	0.8159307
+"	Nucleus Decoding (p = 0.3)	[0, 0, 1]	[3, 1, 3]	[1, 1, 1]	[1, 1, 2]	[1, 1, 1]	[1, 1, 2]	0.8159306
 17	"hi there , how 's it going ? 
  it 's going great ! which do you prefer , football or baseball ? 
  oh i guess baseball . although i do n't have time to see many games anymore . 
@@ -597,7 +597,7 @@
 "	Nucleus Decoding (p = 0.5)	[1, 0, 1]	[2, 1, 2]	[3, 2, 2]	[3, 2, 3]	[1, 1, 1]	[4, 2, 3]	0.9226124
 43	"hi , do you know much about the internet ? 
  i know a lot about different sites and some website design , how about you ?"	the 3 horizontal line menu on apps and websites is called a hamburger button .	i do too . did you know the 3 horizontal line menu on apps and websites is called the hamburger button ?	"yeah , i have heard that before . do you know what the hamburger button is ?
-"	Nucleus Decoding (p = 0.7)	[0, 0, 0]	[2, 1, 2]	[2, 2, 2]	[2, 2, 2]	[0, 1, 0]	[3, 3, 2]	0.8774329
+"	Nucleus Decoding (p = 0.7)	[0, 0, 0]	[2, 1, 2]	[2, 2, 2]	[2, 2, 2]	[0, 1, 0]	[3, 3, 2]	0.87743294
 44	"hi , do you know much about the internet ? 
  i know a lot about different sites and some website design , how about you ?"	the 3 horizontal line menu on apps and websites is called a hamburger button .	i do too . did you know the 3 horizontal line menu on apps and websites is called the hamburger button ?	i do n't know much , but i learned recently that the 3 horizontal line menu on websites is called the hamburger button .	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.9183606
 45	"do you still use a landline ? 
@@ -667,7 +667,7 @@
  i do not watch her , so i can not judge . it is one of the few areas where free market economics still reigns . so , if they feel she 's worth it , then it 's not my place to judge . but that type of draw opens up other markets . for example , carol burnett was the first celeb on sesame street . 
  it was the 70s , she was the star at that time , it makes sense . i wonder if youtube will have a lasting impact on the star system or this youtubers thing is just a phase . 
  it is definitely here to stay if not expanding . in the early days , you needed a good freestanding camera to make a good video . today , most cell phones have a good enough camera to make a youtube videos . some high end phones can shoot videos almost indistinguishable from freestanding cameras ."	pixar studio has a secret room that is visited often by celebrities	so in your opinion there will be more  homegrown  celebrities and less hollywood stars ? you could be right , hollywood seems less and less connected to its public .	"what 's their first thing about the celebrities ?
-"	Nucleus Decoding (p = 0.7)	[0, 0, 0]	[1, 1, 1]	[1, 1, 1]	[1, 2, 1]	[0, 0, 0]	[1, 1, 1]	0.7837717
+"	Nucleus Decoding (p = 0.7)	[0, 0, 0]	[1, 1, 1]	[1, 1, 1]	[1, 2, 1]	[0, 0, 0]	[1, 1, 1]	0.78377163
 49	"do you still use a landline ? 
  no . in my opinion , the landline is going extinct . growing up my grandparents had a multi - party line . my parents had a landline . i killed the landline once cellular was cost effective . now cellphones are small computers that do so much more than landlines . 
  yeah , an iphone has more computing power than a mainframe of the 60s . but data still travels best in cables . 
@@ -686,10 +686,10 @@
  it is definitely here to stay if not expanding . in the early days , you needed a good freestanding camera to make a good video . today , most cell phones have a good enough camera to make a youtube videos . some high end phones can shoot videos almost indistinguishable from freestanding cameras ."	pixar studio has a secret room that is visited often by celebrities	so in your opinion there will be more  homegrown  celebrities and less hollywood stars ? you could be right , hollywood seems less and less connected to its public .	lowering the entry barrier is always a good thing . do you like pixar ? i 've heard they have a secret room in their studio that is often visited by celebrities .	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.7904181
 50	"hello , how are you this evening ? do you like sports ? 
  i m great , and yeah i do like to watch sports , basketball , hockey , soccer and even swimming , what about you ?"	_nofact	i like sports , football , hockey , soccer i also find swimming interesting as well .	"i do n't really know much about sports . i do like to watch the olympics and i have been swimming in the summer olympics .
-"	Argmax Decoding	[1, 0, 0]	[2, 2, 2]	[3, 3, 3]	[3, 2, 2]	[1, 1, 1]	[5, 3, 2]	0.83081365
+"	Argmax Decoding	[1, 0, 0]	[2, 2, 2]	[3, 3, 3]	[3, 2, 2]	[1, 1, 1]	[5, 3, 2]	0.8308136
 51	"hello , how are you this evening ? do you like sports ? 
  i m great , and yeah i do like to watch sports , basketball , hockey , soccer and even swimming , what about you ?"	_nofact	i like sports , football , hockey , soccer i also find swimming interesting as well .	"i have never swam competitively , but i did n't have it . i do like it though .
-"	Nucleus Decoding (p = 0.3)	[1, 0, 0]	[2, 1, 1]	[3, 2, 2]	[2, 1, 2]	[1, 1, 1]	[4, 2, 2]	0.8225014
+"	Nucleus Decoding (p = 0.3)	[1, 0, 0]	[2, 1, 1]	[3, 2, 2]	[2, 1, 2]	[1, 1, 1]	[4, 2, 2]	0.8225015
 52	"hello , how are you this evening ? do you like sports ? 
  i m great , and yeah i do like to watch sports , basketball , hockey , soccer and even swimming , what about you ?"	_nofact	i like sports , football , hockey , soccer i also find swimming interesting as well .	"i do not but i am more into swimming myself . i do n't like sports , but i do know there are some really boring swimming competitions
 "	Nucleus Decoding (p = 0.5)	[1, 0, 0]	[3, 1, 1]	[3, 2, 2]	[3, 1, 2]	[1, 1, 1]	[5, 2, 1]	0.8346542
@@ -697,7 +697,7 @@
  i m great , and yeah i do like to watch sports , basketball , hockey , soccer and even swimming , what about you ?"	_nofact	i like sports , football , hockey , soccer i also find swimming interesting as well .	"yes . i think that 's why i live in the usa . i 've seen some swimming around the world where i live .
 "	Nucleus Decoding (p = 0.7)	[1, 0, 0]	[2, 1, 1]	[2, 2, 1]	[1, 1, 2]	[1, 1, 1]	[4, 2, 1]	0.79596853
 54	"hello , how are you this evening ? do you like sports ? 
- i m great , and yeah i do like to watch sports , basketball , hockey , soccer and even swimming , what about you ?"	_nofact	i like sports , football , hockey , soccer i also find swimming interesting as well .	i like hockey and soccer . what teams do you support ?	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.87108684
+ i m great , and yeah i do like to watch sports , basketball , hockey , soccer and even swimming , what about you ?"	_nofact	i like sports , football , hockey , soccer i also find swimming interesting as well .	i like hockey and soccer . what teams do you support ?	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.87108696
 55	"do you like fish ? 
  i do , tasty animals , do you ? 
  fish is practically a vegetable . they are the food that my food eats . 
@@ -724,7 +724,7 @@
  buffet is my favorite kind of restaurant so yea , did you hear about that breed of jellyfish , the one that is immortal ! 
  i did not . i wonder what it does all day with its unending life . must get kinda boring . who does it talk to ? what celebrities does it follow ? 
  i agree , must be a really boring life , still , interesting species might be worthwhile to study them"	84 per cent of genes known to be associated with human diseases have counterparts in the zebrafish	true . they might hold the secret to immortality for us . that would indeed be a long boring life for most people .	"that is true . 84 % of genes associated with human diseases have counterparts in the zebrafish .
-"	Nucleus Decoding (p = 0.5)	[1, 1, 1]	[3, 3, 2]	[2, 2, 2]	[3, 2, 1]	[1, 1, 1]	[4, 3, 3]	0.8136459
+"	Nucleus Decoding (p = 0.5)	[1, 1, 1]	[3, 3, 2]	[2, 2, 2]	[3, 2, 1]	[1, 1, 1]	[4, 3, 3]	0.81364596
 58	"do you like fish ? 
  i do , tasty animals , do you ? 
  fish is practically a vegetable . they are the food that my food eats . 
@@ -761,7 +761,7 @@
  hello , they must have accomplished to people 's satisfactions . 
  i guess so . you know , in different countries a president has different roles and functions . 
  i bet they do . the first president was named president banana in zimbabwe ."	until 1805 in the us , the runner up in a presidential election automatically became the vice president	i wonder what his role was ? our country has an interesting history . i mean , up until 1805 a president 's competition became his vice president . imagine how that would be now !	"yes . i did n't know that . do you know how the vp used to be elected ?
-"	Nucleus Decoding (p = 0.7)	[1, 0, 1]	[3, 3, 3]	[3, 1, 2]	[2, 2, 3]	[0, 0, 1]	[4, 2, 4]	0.80384606
+"	Nucleus Decoding (p = 0.7)	[1, 0, 1]	[3, 3, 3]	[3, 1, 2]	[2, 2, 3]	[0, 0, 1]	[4, 2, 4]	0.8038461
 64	"hi . i heard an interesting fact recently . did you know that the three richest presidents ever were washington , jefferson , and jfk ? 
  hello , they must have accomplished to people 's satisfactions . 
  i guess so . you know , in different countries a president has different roles and functions . 
@@ -848,12 +848,12 @@
 70	did you read about the 6 foot 10 inch tall tennis player ?	_nofact	no i did n't . where 's he from ?	"i did not . i do know that it is the most valuable sport in the world .
 "	Argmax Decoding	[1, 0, 1]	[3, 2, 3]	[3, 2, 2]	[3, 2, 2]	[1, 1, 1]	[4, 2, 5]	0.8263078
 71	did you read about the 6 foot 10 inch tall tennis player ?	_nofact	no i did n't . where 's he from ?	"i have not . i have not . what is it about ?
-"	Nucleus Decoding (p = 0.3)	[1, 0, 1]	[2, 2, 2]	[3, 1, 2]	[2, 1, 2]	[1, 1, 1]	[3, 1, 3]	0.8561121
+"	Nucleus Decoding (p = 0.3)	[1, 0, 1]	[2, 2, 2]	[3, 1, 2]	[2, 1, 2]	[1, 1, 1]	[3, 1, 3]	0.85611206
 72	did you read about the 6 foot 10 inch tall tennis player ?	_nofact	no i did n't . where 's he from ?	"i had no idea . i guess that 's the best way to learn the sport .
-"	Nucleus Decoding (p = 0.5)	[1, 0, 0]	[2, 1, 2]	[2, 1, 2]	[2, 1, 2]	[1, 1, 1]	[3, 1, 2]	0.8233989
+"	Nucleus Decoding (p = 0.5)	[1, 0, 0]	[2, 1, 2]	[2, 1, 2]	[2, 1, 2]	[1, 1, 1]	[3, 1, 2]	0.8233988
 73	did you read about the 6 foot 10 inch tall tennis player ?	_nofact	no i did n't . where 's he from ?	"i 've never tried one of the longest tennis matches . what do you think of the granny shot in tennis ?
-"	Nucleus Decoding (p = 0.7)	[1, 0, 0]	[2, 1, 2]	[3, 1, 2]	[2, 2, 2]	[1, 1, 1]	[4, 1, 3]	0.81750166
-74	did you read about the 6 foot 10 inch tall tennis player ?	_nofact	no i did n't . where 's he from ?	no i did n't . they must have a giant reach . probably does n't even need to run for the ball !	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 2, 3]	[1, 1, 1]	[5, 5, 5]	0.8680619
+"	Nucleus Decoding (p = 0.7)	[1, 0, 0]	[2, 1, 2]	[3, 1, 2]	[2, 2, 2]	[1, 1, 1]	[4, 1, 3]	0.8175018
+74	did you read about the 6 foot 10 inch tall tennis player ?	_nofact	no i did n't . where 's he from ?	no i did n't . they must have a giant reach . probably does n't even need to run for the ball !	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 2, 3]	[1, 1, 1]	[5, 5, 5]	0.86806196
 75	"morning ! are you a comedy fan ? 
  morning ! yes , some of it . have you watched anything good recently ? 
  kung fu hustle . ever seen it ? it 's hilarious . 
@@ -882,7 +882,7 @@
  morning ! yes , some of it . have you watched anything good recently ? 
  kung fu hustle . ever seen it ? it 's hilarious . 
  i have n't ! what is it about ? does it have bruce lee in it ? 
- no , it 's much more recent . steven chow directed it . bill murray loved it too ."	bill murray thinks kung fu hustle is  the supreme achievement of the modern age in terms of comedy  .	huh , i 'm not into bill murray . so i wonder why he likes it .	"yeah bill murray called it "" the supreme achievement of the modern age in terms of comedy "" "	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.8126957
+ no , it 's much more recent . steven chow directed it . bill murray loved it too ."	bill murray thinks kung fu hustle is  the supreme achievement of the modern age in terms of comedy  .	huh , i 'm not into bill murray . so i wonder why he likes it .	"yeah bill murray called it "" the supreme achievement of the modern age in terms of comedy "" "	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.81269574
 80	"good morning - i love baseball and ca n't wait for spring training to start ! 
  hello there ! i am the same , my team had one of the best seasons they have ever had so i 'm excited as well ! 
  who 's your team ? my team , the diamondbacks had an epic collapse last season and are in a mini - rebuild this season ... 
@@ -981,7 +981,7 @@
  i have no idea . i 'm sure that someone has video of it . do you enjoy the music of the foo fighters 
  oh yes , i love them . i love the video of all the drummers and other instruments playing at the same time . people came from all over the world to be in that . 
  they are pretty amazing . they performed a concert so loud that it showed up on new zealand 's seismic monitors !"	in 2002 a creed concert was so bad that four concert goers filed a lawsuit against the band	yes , i heard that . that band has alot of talent .	"do you like creed ?
-"	Nucleus Decoding (p = 0.7)	[1, 1, 1]	[3, 3, 1]	[1, 1, 1]	[2, 2, 2]	[0, 0, 0]	[3, 2, 1]	0.8010921
+"	Nucleus Decoding (p = 0.7)	[1, 1, 1]	[3, 3, 1]	[1, 1, 1]	[2, 2, 2]	[0, 0, 0]	[3, 2, 1]	0.80109197
 89	"hello , how are you today ? do you like to go to concerts ? 
  not as much as i used to but i do . 
  yeah , same here ! creed gave a concert so bad there were lawsuits against the band . 
@@ -1084,11 +1084,11 @@
  i 've never played fantasy football , but i wonder if kellan moore is a good contender in that since he 's a lefty 
  there is talent and luck in fantasy football . i am sure that moore has had some good games and some poor ones . alex smith took so many ap tests in high school that entered college as a junior . 
  he 's pretty smart . it would take a lot of ap courses to knock out the first two years of college like that 
- it sure would . of course , qbs need to be somewhat smart . baker mayfield who won the heisman at oklahoma university almost quite football to go into competitive gaming . he could beat the entire team in halo 3 ."	superbowl winning quarterback , brad johnson , is the only quarterback in nfl history to throw a touchdown pass ... to himself .	i wonder if most of those guys were good at halo . there was a qb in the nfl named brad johnson , and he 's the only one who has thrown a touchdown pass to himself	qbs are often very smart . brad johnson is the only qb in history to throw a touchdown pass to himself ! imagine the brains it takes to pull that off .	New Human Generated	[1, 1, 1]	[3, 3, 2]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 4]	0.87639076
+ it sure would . of course , qbs need to be somewhat smart . baker mayfield who won the heisman at oklahoma university almost quite football to go into competitive gaming . he could beat the entire team in halo 3 ."	superbowl winning quarterback , brad johnson , is the only quarterback in nfl history to throw a touchdown pass ... to himself .	i wonder if most of those guys were good at halo . there was a qb in the nfl named brad johnson , and he 's the only one who has thrown a touchdown pass to himself	qbs are often very smart . brad johnson is the only qb in history to throw a touchdown pass to himself ! imagine the brains it takes to pull that off .	New Human Generated	[1, 1, 1]	[3, 3, 2]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 4]	0.8763909
 95	"hi , how are you today ? staying warm ? 
  trying just watching some netflix .. kyle kinane is hilarious .. one of my favorite comedies . 
  he is funny i know ! lol"	kyle kinane will stretch out his two or three jokes at the 9:30 club on thursday . ( ap ) kyle kinane knows he does n't have all the answers . in fact , he does n't really have any of them . if he did , he would n't be in stand - up comedy .  i do n't like listening to comedians tell me how the world works ,  kinane says .  if you knew how the world works , you 'd be a stockbroker , or you 'd be a banker or a ceo . comedians are comedians because they 're not good at other things .  that 's why the gruff - voiced comic 's sets are anchored by anecdotes about the mundane that play as delightfully absurd . when kinane did tackle politically relevant material in his set for the netflix series  the standups  earlier this year , it came in a farcical bit about how ku klux klan members surely partake in cuisine from the cultures they oppress .  there 's no way that kkk members are only eating eastern european - based foods ,  he jokes . on thursday , the 41-year - old comedian and voice - over artist brings his act to d.c . 9:30 club , 815 v st . nw ; thu . , 7 p.m. , $ 25 .	he has a special on netflix and kind of drives into political issue . he also does stand up in a washington dc club .	"i do n't know . i do n't know if i would like to visit the kinane pool .
-"	Argmax Decoding	[1, 1, 0]	[1, 2, 1]	[1, 1, 1]	[2, 2, 1]	[0, 0, 0]	[2, 2, 1]	0.7947383
+"	Argmax Decoding	[1, 1, 0]	[1, 2, 1]	[1, 1, 1]	[2, 2, 1]	[0, 0, 0]	[2, 2, 1]	0.79473835
 96	"hi , how are you today ? staying warm ? 
  trying just watching some netflix .. kyle kinane is hilarious .. one of my favorite comedies . 
  he is funny i know ! lol"	kyle kinane will stretch out his two or three jokes at the 9:30 club on thursday . ( ap ) kyle kinane knows he does n't have all the answers . in fact , he does n't really have any of them . if he did , he would n't be in stand - up comedy .  i do n't like listening to comedians tell me how the world works ,  kinane says .  if you knew how the world works , you 'd be a stockbroker , or you 'd be a banker or a ceo . comedians are comedians because they 're not good at other things .  that 's why the gruff - voiced comic 's sets are anchored by anecdotes about the mundane that play as delightfully absurd . when kinane did tackle politically relevant material in his set for the netflix series  the standups  earlier this year , it came in a farcical bit about how ku klux klan members surely partake in cuisine from the cultures they oppress .  there 's no way that kkk members are only eating eastern european - based foods ,  he jokes . on thursday , the 41-year - old comedian and voice - over artist brings his act to d.c . 9:30 club , 815 v st . nw ; thu . , 7 p.m. , $ 25 .	he has a special on netflix and kind of drives into political issue . he also does stand up in a washington dc club .	"i do n't know if i 've ever heard of him .
@@ -1096,7 +1096,7 @@
 97	"hi , how are you today ? staying warm ? 
  trying just watching some netflix .. kyle kinane is hilarious .. one of my favorite comedies . 
  he is funny i know ! lol"	kyle kinane will stretch out his two or three jokes at the 9:30 club on thursday . ( ap ) kyle kinane knows he does n't have all the answers . in fact , he does n't really have any of them . if he did , he would n't be in stand - up comedy .  i do n't like listening to comedians tell me how the world works ,  kinane says .  if you knew how the world works , you 'd be a stockbroker , or you 'd be a banker or a ceo . comedians are comedians because they 're not good at other things .  that 's why the gruff - voiced comic 's sets are anchored by anecdotes about the mundane that play as delightfully absurd . when kinane did tackle politically relevant material in his set for the netflix series  the standups  earlier this year , it came in a farcical bit about how ku klux klan members surely partake in cuisine from the cultures they oppress .  there 's no way that kkk members are only eating eastern european - based foods ,  he jokes . on thursday , the 41-year - old comedian and voice - over artist brings his act to d.c . 9:30 club , 815 v st . nw ; thu . , 7 p.m. , $ 25 .	he has a special on netflix and kind of drives into political issue . he also does stand up in a washington dc club .	"lol , that 's funny ! i love kinane .
-"	Nucleus Decoding (p = 0.5)	[1, 0, 1]	[3, 3, 1]	[1, 3, 3]	[2, 2, 1]	[0, 0, 0]	[2, 2, 2]	0.7878204
+"	Nucleus Decoding (p = 0.5)	[1, 0, 1]	[3, 3, 1]	[1, 3, 3]	[2, 2, 1]	[0, 0, 0]	[2, 2, 2]	0.78782046
 98	"hi , how are you today ? staying warm ? 
  trying just watching some netflix .. kyle kinane is hilarious .. one of my favorite comedies . 
  he is funny i know ! lol"	kyle kinane will stretch out his two or three jokes at the 9:30 club on thursday . ( ap ) kyle kinane knows he does n't have all the answers . in fact , he does n't really have any of them . if he did , he would n't be in stand - up comedy .  i do n't like listening to comedians tell me how the world works ,  kinane says .  if you knew how the world works , you 'd be a stockbroker , or you 'd be a banker or a ceo . comedians are comedians because they 're not good at other things .  that 's why the gruff - voiced comic 's sets are anchored by anecdotes about the mundane that play as delightfully absurd . when kinane did tackle politically relevant material in his set for the netflix series  the standups  earlier this year , it came in a farcical bit about how ku klux klan members surely partake in cuisine from the cultures they oppress .  there 's no way that kkk members are only eating eastern european - based foods ,  he jokes . on thursday , the 41-year - old comedian and voice - over artist brings his act to d.c . 9:30 club , 815 v st . nw ; thu . , 7 p.m. , $ 25 .	he has a special on netflix and kind of drives into political issue . he also does stand up in a washington dc club .	"i think he is . he is so funny .
@@ -1169,7 +1169,7 @@
  has he been injured ? i think they are all over paid personally . i mean they make millions of dollars . 
  for sure , he had to acl injuries so he is definitely injury prone . you know who is better , reggie miller ! 
  i 'm not familiar with him . does he play for the bucks too ?"	reggie miller , nba hall of famer , could n't escape his older sister cheryl 's shadow while in high school . on january 26 , 1982 , he scored a career high 40 points . he tried bragging about it on the car ride home , only to find out cheryl scored 105 points and broken 8 national records !	he was a player in 1990s . he had a famous sister who played basketball named cheryl	"i 'm not sure . i know reggie miller was a great player but his sister was always better than him .
-"	Nucleus Decoding (p = 0.3)	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 2, 2]	[1, 1, 1]	[5, 3, 4]	0.84783536
+"	Nucleus Decoding (p = 0.3)	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 2, 2]	[1, 1, 1]	[5, 3, 4]	0.8478353
 107	"hi do you watch espn ? 
  hi . yes i do sometimes . they cover some nba games . 
  yes , i am a huge bucks fan . did you see what nick friedell said about the bucks and jabari parker > 
@@ -1191,7 +1191,7 @@
  has he been injured ? i think they are all over paid personally . i mean they make millions of dollars . 
  for sure , he had to acl injuries so he is definitely injury prone . you know who is better , reggie miller ! 
  i 'm not familiar with him . does he play for the bucks too ?"	reggie miller , nba hall of famer , could n't escape his older sister cheryl 's shadow while in high school . on january 26 , 1982 , he scored a career high 40 points . he tried bragging about it on the car ride home , only to find out cheryl scored 105 points and broken 8 national records !	he was a player in 1990s . he had a famous sister who played basketball named cheryl	"well , it 's really impressive , and the nba only produced one in canada .
-"	Nucleus Decoding (p = 0.7)	[0, 1, 0]	[2, 2, 1]	[1, 2, 1]	[1, 2, 1]	[0, 0, 0]	[1, 2, 1]	0.8119917
+"	Nucleus Decoding (p = 0.7)	[0, 1, 0]	[2, 2, 1]	[1, 2, 1]	[1, 2, 1]	[0, 0, 0]	[1, 2, 1]	0.81199163
 109	"hi do you watch espn ? 
  hi . yes i do sometimes . they cover some nba games . 
  yes , i am a huge bucks fan . did you see what nick friedell said about the bucks and jabari parker > 
@@ -1244,7 +1244,7 @@
  no , i did n't see that . i wonder when it will be released ? 
  i 'm not really sure . maybe it will be as good as the original . lebron has a good character about him though . he raised $ 6 million for charity by televising  the decision .  
  he is a really good person , i know he has donated a ton of money back to ohio ."	judge judy makes $ 123,000 per episode , making her the highest paid celebrity only after lebron james .	yeah he has . he 's the highest paid celebrity right now , but judge judy is right on is coattails .	"i think he is a great player . he is the highest paid celebrity right ?
-"	Argmax Decoding	[1, 1, 1]	[3, 3, 2]	[3, 2, 2]	[3, 2, 3]	[1, 0, 1]	[5, 3, 2]	0.8425274
+"	Argmax Decoding	[1, 1, 1]	[3, 3, 2]	[3, 2, 2]	[3, 2, 3]	[1, 0, 1]	[5, 3, 2]	0.84252733
 116	"do you like watching the n.b.a . ? 
  i do like to watch , my favorite team actually has the best record in the league right now , how about you ? 
  so you 're a bucks fan ? how about giannis antetokounmpo ! he 's such a great player ! 
@@ -1282,7 +1282,7 @@
  no , i did n't see that . i wonder when it will be released ? 
  i 'm not really sure . maybe it will be as good as the original . lebron has a good character about him though . he raised $ 6 million for charity by televising  the decision .  
  he is a really good person , i know he has donated a ton of money back to ohio ."	judge judy makes $ 123,000 per episode , making her the highest paid celebrity only after lebron james .	yeah he has . he 's the highest paid celebrity right now , but judge judy is right on is coattails .	"yeah , he 's definitely not in the money . judge judy makes $ 123,000 per episode .
-"	Nucleus Decoding (p = 0.5)	[0, 1, 0]	[1, 3, 2]	[2, 3, 2]	[3, 3, 2]	[1, 1, 1]	[3, 4, 2]	0.8484345
+"	Nucleus Decoding (p = 0.5)	[0, 1, 0]	[1, 3, 2]	[2, 3, 2]	[3, 3, 2]	[1, 1, 1]	[3, 4, 2]	0.8484346
 118	"do you like watching the n.b.a . ? 
  i do like to watch , my favorite team actually has the best record in the league right now , how about you ? 
  so you 're a bucks fan ? how about giannis antetokounmpo ! he 's such a great player ! 
@@ -1364,7 +1364,7 @@
  that 's surprising , it seems like the focus on athletes is n't about school but rather heavy emphasis on sports so to see him go on to get his master 's degree , is very surprising to me . 
  i agree but some are both jocks and academics . i wonder if brady was ? i do admire him he 's seen hard times like to 41 - 33 loss to the eagles . 
  i definitely think that his leadership and tenacity and the so called  patriot way  can really shape people and lead them to their championships but his wife makes more than double brady 's salary ! i thought she was retired !"	bill belichick is the winningest coach in nfl postseason football with 21 wins . 20 with the new england patriots and 1 with the cleveland browns .	what doe she do ? i wonder if she makes more the belichick ? he 's the winningest coach in the nfl for the postseason .	"i 'm sure he is . he is the winningest coach in the nfl postseason with 21 wins
-"	Nucleus Decoding (p = 0.5)	[1, 0, 0]	[3, 2, 3]	[1, 1, 2]	[1, 2, 2]	[0, 0, 0]	[2, 2, 3]	0.87939405
+"	Nucleus Decoding (p = 0.5)	[1, 0, 0]	[3, 2, 3]	[1, 1, 2]	[1, 2, 2]	[0, 0, 0]	[2, 2, 3]	0.879394
 123	"i know brady can occasionally blow it but he did n't for me . i 'm a chiefs fan ... 
  even as a chiefs fan , do you think that tom brady is the greatest quarterback of all time , has he is commonly referred to . 
  he 's one of the best for sure . i go back to johnny unitas as a kid so that 's a tough call . all kinds of variables like kellan moore being left - handed . 
@@ -1413,7 +1413,7 @@
  i do n't know , i think i would rather have president banana from zimbabwe put out some tunes instead . 
  what nickname has trump earned ? ? until 1805 , the runner - up in a presidential election became vp . i think this system should be reinstated . the entertainment factor would be tremendous for a public starved for diversion . there 's not much getting done in government anyway . seems like a missed opportunity for some laugh 's 
  they may not appear to get anything done but they do own 86 % of the land of nevada , so they obviously did something right , haha ."	86 % of the land in nevada is owned by the us government	my question is , what are they doing with it all ? is that where all the bodies are buried ?	"i think that is a good idea . i wonder if it 's true in the us .
-"	Nucleus Decoding (p = 0.3)	[1, 0, 0]	[3, 1, 1]	[1, 1, 1]	[1, 1, 1]	[0, 0, 0]	[2, 1, 1]	0.79913825
+"	Nucleus Decoding (p = 0.3)	[1, 0, 0]	[3, 1, 1]	[1, 1, 1]	[1, 1, 1]	[0, 0, 0]	[2, 1, 1]	0.7991382
 127	"the white house is at 1600 pennsylvania avenue in washington d.c . and has been there since 1800 and i have never been . have you ? 
  i 've never been , though i want to go.the white house seems behind the curve technologically . w. had solar panels put back on the white house . reagan had them taken off . i wonder why clinton did n’t put them back on . floppy disks ? i wonder if they have laser printers yet . or mice . 
  well other countries apparently like it as well as there are copies in france and ireland apparently . 
@@ -1451,11 +1451,11 @@
 "	Nucleus Decoding (p = 0.5)	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[2, 3, 2]	[0, 0, 0]	[3, 5, 4]	0.8284546
 133	do you like football ?	the university of iowa 's locker room for visiting football teams is completely painted pink	i love it . do you know what color is the u of iowa visitor locker room ?	"i like some of the football , what about you ?
 "	Nucleus Decoding (p = 0.7)	[1, 1, 1]	[2, 2, 3]	[3, 3, 3]	[2, 3, 2]	[0, 0, 0]	[2, 4, 4]	0.8314445
-134	do you like football ?	the university of iowa 's locker room for visiting football teams is completely painted pink	i love it . do you know what color is the u of iowa visitor locker room ?	i like the mind games aspect of it . did you know the university of iowa painted the visiting team 's locker room entirely pink 	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.9010568
+134	do you like football ?	the university of iowa 's locker room for visiting football teams is completely painted pink	i love it . do you know what color is the u of iowa visitor locker room ?	i like the mind games aspect of it . did you know the university of iowa painted the visiting team 's locker room entirely pink 	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.90105695
 135	"good afternoon , hope your day is going well ! 
  i hope yours is going well , too . baseball is generally played with a bat and ball . 
  baseball is my favorite sport out of the big four - az diamondbacks are my team"	baseball managers wear uniforms because they are technically able to play for their teams if the need arises	apparently baseball managers are technically allowed to play for their teams !	"i like the red sox . i was a big fan of the philadelphia phillies .
-"	Argmax Decoding	[1, 1, 1]	[3, 3, 2]	[3, 3, 3]	[2, 3, 2]	[0, 0, 0]	[4, 4, 3]	0.7789805
+"	Argmax Decoding	[1, 1, 1]	[3, 3, 2]	[3, 3, 3]	[2, 3, 2]	[0, 0, 0]	[4, 4, 3]	0.77898043
 136	"good afternoon , hope your day is going well ! 
  i hope yours is going well , too . baseball is generally played with a bat and ball . 
  baseball is my favorite sport out of the big four - az diamondbacks are my team"	baseball managers wear uniforms because they are technically able to play for their teams if the need arises	apparently baseball managers are technically allowed to play for their teams !	"i like the yankees , they are a great team . i think it 's cool that the managers wear uniforms because they can actually play for their team if needed .
@@ -1463,7 +1463,7 @@
 137	"good afternoon , hope your day is going well ! 
  i hope yours is going well , too . baseball is generally played with a bat and ball . 
  baseball is my favorite sport out of the big four - az diamondbacks are my team"	baseball managers wear uniforms because they are technically able to play for their teams if the need arises	apparently baseball managers are technically allowed to play for their teams !	"i am a fan of the cincinnati bengals .
-"	Nucleus Decoding (p = 0.5)	[1, 1, 1]	[3, 3, 2]	[3, 3, 3]	[2, 3, 2]	[0, 0, 0]	[4, 4, 2]	0.79511863
+"	Nucleus Decoding (p = 0.5)	[1, 1, 1]	[3, 3, 2]	[3, 3, 3]	[2, 3, 2]	[0, 0, 0]	[4, 4, 2]	0.7951186
 138	"good afternoon , hope your day is going well ! 
  i hope yours is going well , too . baseball is generally played with a bat and ball . 
  baseball is my favorite sport out of the big four - az diamondbacks are my team"	baseball managers wear uniforms because they are technically able to play for their teams if the need arises	apparently baseball managers are technically allowed to play for their teams !	"i would love to go to wrigley field . i would n't be able to go to a baseball game in my car , i could stay _unk to one of the cars .
@@ -1477,7 +1477,7 @@
  i 'm a new england patriots fan and huge fan of tom brady how about you ? 
  nice i am a vikings fan , not doing so hot as of late . i also like the university of iowa hawkeyes , did you know they paint their opponents locker room pink ? 
  no i did n't know this . did you know that in the 60 's top bowlers made twice as much as the top football players ?"	- that the highest score ever in a football game occurred in 1916 when georgia tech defeated cumberland 222 - 0	that is crazy to think , i wonder what the difference in salary is now , probably substantial	"that is crazy , i wonder how much bowlers made back in the 60 's ?
-"	Argmax Decoding	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[2, 3, 3]	[0, 0, 0]	[4, 4, 4]	0.8586528
+"	Argmax Decoding	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[2, 3, 3]	[0, 0, 0]	[4, 4, 4]	0.8586527
 141	"are you a fan of football ? 
  i 'm a huge football fan . how about yourself ? 
  i love football both college and nfl , do you have a favorite nfl team of the 32 ? 
@@ -1491,7 +1491,7 @@
  i 'm a new england patriots fan and huge fan of tom brady how about you ? 
  nice i am a vikings fan , not doing so hot as of late . i also like the university of iowa hawkeyes , did you know they paint their opponents locker room pink ? 
  no i did n't know this . did you know that in the 60 's top bowlers made twice as much as the top football players ?"	- that the highest score ever in a football game occurred in 1916 when georgia tech defeated cumberland 222 - 0	that is crazy to think , i wonder what the difference in salary is now , probably substantial	"i did n't know that ! do you know what the highest score in college football was ?
-"	Nucleus Decoding (p = 0.5)	[1, 1, 0]	[3, 3, 1]	[2, 3, 2]	[2, 3, 2]	[0, 1, 0]	[3, 4, 2]	0.7990953
+"	Nucleus Decoding (p = 0.5)	[1, 1, 0]	[3, 3, 1]	[2, 3, 2]	[2, 3, 2]	[0, 1, 0]	[3, 4, 2]	0.79909533
 143	"are you a fan of football ? 
  i 'm a huge football fan . how about yourself ? 
  i love football both college and nfl , do you have a favorite nfl team of the 32 ? 
@@ -1504,7 +1504,7 @@
  i love football both college and nfl , do you have a favorite nfl team of the 32 ? 
  i 'm a new england patriots fan and huge fan of tom brady how about you ? 
  nice i am a vikings fan , not doing so hot as of late . i also like the university of iowa hawkeyes , did you know they paint their opponents locker room pink ? 
- no i did n't know this . did you know that in the 60 's top bowlers made twice as much as the top football players ?"	- that the highest score ever in a football game occurred in 1916 when georgia tech defeated cumberland 222 - 0	that is crazy to think , i wonder what the difference in salary is now , probably substantial	wow that 's unbeliavable . maybe football was n't as exciting back then . i heard the most one-sided game ever was in 1916 when georgia tech beat cumberland 222 - 0 . those cumberland players should try their hand at bowling .	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.7759635
+ no i did n't know this . did you know that in the 60 's top bowlers made twice as much as the top football players ?"	- that the highest score ever in a football game occurred in 1916 when georgia tech defeated cumberland 222 - 0	that is crazy to think , i wonder what the difference in salary is now , probably substantial	wow that 's unbeliavable . maybe football was n't as exciting back then . i heard the most one-sided game ever was in 1916 when georgia tech beat cumberland 222 - 0 . those cumberland players should try their hand at bowling .	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.77596337
 145	"hello ! are you a fan of country music ? 
  hi ! yes , but do you agree that people should refer to country music as also hillbilly music ? 
  lol no . that 's funny . george strait and jeff bezos are cousins . that 's something i never knew before . 
@@ -1513,7 +1513,7 @@
  i 'm not sure either . i do n't recall any african american artists in country music . do you know what the fender stratocaster is ? 
  i remember charley pride . he might be one . ... and yes ! it 's a guitar . i think a lot jazz and some blues musicians use it . 
  oh ! fender , i see that now ! thanks for clarifying ! do you play any instruments ?"	u2 opened for themselves at a few shows in 1987 . they were introduced as  the dalton brothers from galveston , texas ,  and they played country music while disguised in wigs and costumes .	i used to play guitar . i have n't played in years though and was n't good . i had a gibson sg the kind that angus young from ac / dc plays .	"i do n't know much about u2 . i do know that u2 opened for themselves in 1987 .
-"	Argmax Decoding	[1, 1, 0]	[3, 2, 2]	[1, 1, 1]	[3, 2, 1]	[1, 1, 0]	[3, 3, 2]	0.81817496
+"	Argmax Decoding	[1, 1, 0]	[3, 2, 2]	[1, 1, 1]	[3, 2, 1]	[1, 1, 0]	[3, 3, 2]	0.8181749
 146	"hello ! are you a fan of country music ? 
  hi ! yes , but do you agree that people should refer to country music as also hillbilly music ? 
  lol no . that 's funny . george strait and jeff bezos are cousins . that 's something i never knew before . 
@@ -1649,7 +1649,7 @@
  that would be a beautiful sight . off topic but how do you feel about sharks ? 
  i 'm for em ! 
  they are very interesting . did you know that they do n't have rib cages ?"	_nofact	really ? i think they are all cariledge , no ?	"i 'm not sure . i 'm sure they were really strong .
-"	Argmax Decoding	[1, 1, 1]	[3, 2, 2]	[3, 3, 2]	[2, 2, 1]	[1, 1, 1]	[3, 3, 3]	0.8163462
+"	Argmax Decoding	[1, 1, 1]	[3, 2, 2]	[3, 3, 2]	[2, 2, 1]	[1, 1, 1]	[3, 3, 3]	0.8163463
 156	"hi , how are you ? 
  i am good , thank you . i enjoy travel . do you ? 
  i do but i am a worrying traveler . where is the best place you have been to ? 
@@ -1683,7 +1683,7 @@
  that would be a beautiful sight . off topic but how do you feel about sharks ? 
  i 'm for em ! 
  they are very interesting . did you know that they do n't have rib cages ?"	_nofact	really ? i think they are all cariledge , no ?	"i did n't know that !
-"	Nucleus Decoding (p = 0.5)	[1, 1, 1]	[2, 2, 3]	[2, 3, 2]	[1, 2, 1]	[1, 1, 1]	[2, 2, 3]	0.76455224
+"	Nucleus Decoding (p = 0.5)	[1, 1, 1]	[2, 2, 3]	[2, 3, 2]	[1, 2, 1]	[1, 1, 1]	[2, 2, 3]	0.76455235
 158	"hi , how are you ? 
  i am good , thank you . i enjoy travel . do you ? 
  i do but i am a worrying traveler . where is the best place you have been to ? 
@@ -1842,7 +1842,7 @@
  i did not . i thought it would have been more sophisticated than that . there is a website where you can listen to thousands of episodes of classic radio dramas for free 
  wow . i hope no one hiccups on the radio . do you know why we hiccup ? 
  i do not , why do we hiccup ?"	- hiccups are a holdover from early evolution when early land animals had both gills and lungs .	it is from our evolution when land animals had both gills and lungs	"yeah i think it is because it was from the old days of a fire hazard .
-"	Nucleus Decoding (p = 0.3)	[0, 1, 1]	[3, 3, 2]	[3, 1, 2]	[2, 1, 2]	[0, 0, 0]	[2, 1, 3]	0.8230632
+"	Nucleus Decoding (p = 0.3)	[0, 1, 1]	[3, 3, 2]	[3, 1, 2]	[2, 1, 2]	[0, 0, 0]	[2, 1, 3]	0.82306325
 167	"hi , how are you ? 
  i am well . i am learning about animals and how many there are on our planet . do you know how many ? 
  i have no idea but would love to know . 
@@ -1858,7 +1858,7 @@
  i did not . i thought it would have been more sophisticated than that . there is a website where you can listen to thousands of episodes of classic radio dramas for free 
  wow . i hope no one hiccups on the radio . do you know why we hiccup ? 
  i do not , why do we hiccup ?"	- hiccups are a holdover from early evolution when early land animals had both gills and lungs .	it is from our evolution when land animals had both gills and lungs	"i have no idea . it was from early evolution . i think about the same thing .
-"	Nucleus Decoding (p = 0.5)	[0, 0, 0]	[2, 2, 2]	[2, 1, 2]	[3, 1, 1]	[1, 0, 0]	[3, 1, 2]	0.81366384
+"	Nucleus Decoding (p = 0.5)	[0, 0, 0]	[2, 2, 2]	[2, 1, 2]	[3, 1, 1]	[1, 0, 0]	[3, 1, 2]	0.81366396
 168	"hi , how are you ? 
  i am well . i am learning about animals and how many there are on our planet . do you know how many ? 
  i have no idea but would love to know . 
@@ -2097,7 +2097,7 @@
  i know it is much larger but i do n't think it has any solidity to it so that 's interesting . another science fact is that when earth was formed a day was only 5.5 hours long . 
  i did n't know that . i wonder why . there is a place on earth where there is less gravity than the rest of the planet . it is the hudson bay region of canada . 
  i wonder how much affect that has ? is it enough to change weights in any way ? i wonder . i do also know that we are running out of helium and will essentially be out of the gas by the end of the 21st century ."	new google employees are called ' nooglers ' and are given a propeller beanie cap to wear on their first friday .	really , i hope that is ok for us ? i 'm also a big tech guy , how about you ? did you know new google employees are called  nooglers  .	"i 'm not sure . i wonder if the employees who wear propeller cap is called nooglers ?
-"	Nucleus Decoding (p = 0.3)	[1, 0, 1]	[2, 1, 1]	[2, 1, 1]	[2, 2, 1]	[1, 1, 0]	[3, 2, 1]	0.84009045
+"	Nucleus Decoding (p = 0.3)	[1, 0, 1]	[2, 1, 1]	[2, 1, 1]	[2, 2, 1]	[1, 1, 0]	[3, 2, 1]	0.8400904
 187	"did you see crazy rich asians ? 
  no i have n't . i heard it was good . 
  i have not yet either but i am aware of it 's cultural impact . it was made from a novel . apparently it is a very good romantic comedy . 
@@ -2115,7 +2115,7 @@
  i know it is much larger but i do n't think it has any solidity to it so that 's interesting . another science fact is that when earth was formed a day was only 5.5 hours long . 
  i did n't know that . i wonder why . there is a place on earth where there is less gravity than the rest of the planet . it is the hudson bay region of canada . 
  i wonder how much affect that has ? is it enough to change weights in any way ? i wonder . i do also know that we are running out of helium and will essentially be out of the gas by the end of the 21st century ."	new google employees are called ' nooglers ' and are given a propeller beanie cap to wear on their first friday .	really , i hope that is ok for us ? i 'm also a big tech guy , how about you ? did you know new google employees are called  nooglers  .	"i do n't know . i would like to know what the new employees are called .
-"	Nucleus Decoding (p = 0.5)	[0, 1, 0]	[1, 3, 1]	[2, 1, 1]	[1, 1, 1]	[0, 0, 0]	[1, 2, 1]	0.8225975
+"	Nucleus Decoding (p = 0.5)	[0, 1, 0]	[1, 3, 1]	[2, 1, 1]	[1, 1, 1]	[0, 0, 0]	[1, 2, 1]	0.82259744
 188	"did you see crazy rich asians ? 
  no i have n't . i heard it was good . 
  i have not yet either but i am aware of it 's cultural impact . it was made from a novel . apparently it is a very good romantic comedy . 
@@ -2170,7 +2170,7 @@
  yeah have you watched breaking bad ? well the actor that played saul is one of the new voices 
  oh okay ! say , i heard that the director did one of the voices too . i think he did edna mode . 
  yeah he did , its interesting how he picked the cast for the movie"	13 years before the movie  incredibles ii  came out , there was a sequel to the first incredibles that exists in a video game form , and is called  the incredibles : rise of the underminer  .	agreed . i think it 's interesting too that the video game sequel came out before the movie did .	"i think it was a great movie , i think it was a great movie , i liked it a lot more than the movie , you should watch it again
-"	Argmax Decoding	[1, 0, 0]	[2, 1, 1]	[3, 2, 2]	[2, 1, 2]	[0, 0, 0]	[3, 1, 3]	0.8266159
+"	Argmax Decoding	[1, 0, 0]	[2, 1, 1]	[3, 2, 2]	[2, 1, 2]	[0, 0, 0]	[3, 1, 3]	0.8266158
 191	"d.c . area and all of its attractive locations , sure would be nice to visit it 
  i totally agree with you . i would love to go to the national museum of natural history . 
  i would love to go there too , i hear the building is just awesome 
@@ -2190,7 +2190,7 @@
  yeah have you watched breaking bad ? well the actor that played saul is one of the new voices 
  oh okay ! say , i heard that the director did one of the voices too . i think he did edna mode . 
  yeah he did , its interesting how he picked the cast for the movie"	13 years before the movie  incredibles ii  came out , there was a sequel to the first incredibles that exists in a video game form , and is called  the incredibles : rise of the underminer  .	agreed . i think it 's interesting too that the video game sequel came out before the movie did .	"i think it was a great movie , it was a great movie , the first incredibles was based on a video game called incredibles , the incredibles , the sequel , i think that was a great movie
-"	Nucleus Decoding (p = 0.3)	[0, 0, 0]	[2, 1, 1]	[3, 2, 2]	[3, 2, 3]	[0, 1, 0]	[2, 3, 2]	0.84842294
+"	Nucleus Decoding (p = 0.3)	[0, 0, 0]	[2, 1, 1]	[3, 2, 2]	[3, 2, 3]	[0, 1, 0]	[2, 3, 2]	0.8484229
 192	"d.c . area and all of its attractive locations , sure would be nice to visit it 
  i totally agree with you . i would love to go to the national museum of natural history . 
  i would love to go there too , i hear the building is just awesome 
@@ -2210,7 +2210,7 @@
  yeah have you watched breaking bad ? well the actor that played saul is one of the new voices 
  oh okay ! say , i heard that the director did one of the voices too . i think he did edna mode . 
  yeah he did , its interesting how he picked the cast for the movie"	13 years before the movie  incredibles ii  came out , there was a sequel to the first incredibles that exists in a video game form , and is called  the incredibles : rise of the underminer  .	agreed . i think it 's interesting too that the video game sequel came out before the movie did .	"yes , he was , and was also in the movie 13 years before the movie came out , i think it was pretty good .
-"	Nucleus Decoding (p = 0.5)	[0, 0, 0]	[2, 1, 2]	[2, 1, 2]	[1, 1, 2]	[0, 0, 0]	[1, 1, 2]	0.8574105
+"	Nucleus Decoding (p = 0.5)	[0, 0, 0]	[2, 1, 2]	[2, 1, 2]	[1, 1, 2]	[0, 0, 0]	[1, 1, 2]	0.85741055
 193	"d.c . area and all of its attractive locations , sure would be nice to visit it 
  i totally agree with you . i would love to go to the national museum of natural history . 
  i would love to go there too , i hear the building is just awesome 
@@ -2230,7 +2230,7 @@
  yeah have you watched breaking bad ? well the actor that played saul is one of the new voices 
  oh okay ! say , i heard that the director did one of the voices too . i think he did edna mode . 
  yeah he did , its interesting how he picked the cast for the movie"	13 years before the movie  incredibles ii  came out , there was a sequel to the first incredibles that exists in a video game form , and is called  the incredibles : rise of the underminer  .	agreed . i think it 's interesting too that the video game sequel came out before the movie did .	"yeah , he was the perfect director for the movie . i guess he was in the movie as a kid
-"	Nucleus Decoding (p = 0.7)	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[2, 3, 2]	[0, 0, 0]	[3, 4, 3]	0.8370779
+"	Nucleus Decoding (p = 0.7)	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[2, 3, 2]	[0, 0, 0]	[3, 4, 3]	0.83707803
 194	"d.c . area and all of its attractive locations , sure would be nice to visit it 
  i totally agree with you . i would love to go to the national museum of natural history . 
  i would love to go there too , i hear the building is just awesome 
@@ -2249,7 +2249,7 @@
  i 'm not familiar with the cast of the second one . are they big name actors / actresses ? 
  yeah have you watched breaking bad ? well the actor that played saul is one of the new voices 
  oh okay ! say , i heard that the director did one of the voices too . i think he did edna mode . 
- yeah he did , its interesting how he picked the cast for the movie"	13 years before the movie  incredibles ii  came out , there was a sequel to the first incredibles that exists in a video game form , and is called  the incredibles : rise of the underminer  .	agreed . i think it 's interesting too that the video game sequel came out before the movie did .	having more big name actors must always help with marketing ! did you know that they already came out with an incredibles sequel 13 years ago , though it was a video game .	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.840019
+ yeah he did , its interesting how he picked the cast for the movie"	13 years before the movie  incredibles ii  came out , there was a sequel to the first incredibles that exists in a video game form , and is called  the incredibles : rise of the underminer  .	agreed . i think it 's interesting too that the video game sequel came out before the movie did .	having more big name actors must always help with marketing ! did you know that they already came out with an incredibles sequel 13 years ago , though it was a video game .	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.8400189
 195	"hello , do you like swimming ? 
  hi there ! i do ! i love watching the olympic events . how about you ? 
  same here . i do not swim that much but i occasionally go to the pool every once and a while . i also enjoy watching swimming in the olympics ; 
@@ -2261,13 +2261,13 @@
  same here . i do not swim that much but i occasionally go to the pool every once and a while . i also enjoy watching swimming in the olympics ; 
  did you know cornell students are actually required to pass a basic swim test before they can graduate ? 
  i think that that is a good idea ! native americans also introduced the british to the front crawl ."	native americans introduced the front crawl swimming stroke to the west when they beat the british who only used the breaststroke .	yeah because they were faster at swimming . the brits only knew how to use the breaststroke .	"i think that was the right idea . i think it was great that native americans did that to the british who only used the breaststroke .
-"	Nucleus Decoding (p = 0.3)	[1, 0, 1]	[2, 2, 2]	[3, 2, 3]	[3, 2, 3]	[1, 1, 1]	[4, 3, 3]	0.87053293
+"	Nucleus Decoding (p = 0.3)	[1, 0, 1]	[2, 2, 2]	[3, 2, 3]	[3, 2, 3]	[1, 1, 1]	[4, 3, 3]	0.870533
 197	"hello , do you like swimming ? 
  hi there ! i do ! i love watching the olympic events . how about you ? 
  same here . i do not swim that much but i occasionally go to the pool every once and a while . i also enjoy watching swimming in the olympics ; 
  did you know cornell students are actually required to pass a basic swim test before they can graduate ? 
  i think that that is a good idea ! native americans also introduced the british to the front crawl ."	native americans introduced the front crawl swimming stroke to the west when they beat the british who only used the breaststroke .	yeah because they were faster at swimming . the brits only knew how to use the breaststroke .	"that is crazy , i did n't know that . i know that cornell students must pass a basic swimming test in order to test the british who must get the baggage claim .
-"	Nucleus Decoding (p = 0.5)	[0, 0, 0]	[1, 1, 1]	[3, 2, 2]	[2, 2, 1]	[0, 0, 0]	[2, 2, 2]	0.8245691
+"	Nucleus Decoding (p = 0.5)	[0, 0, 0]	[1, 1, 1]	[3, 2, 2]	[2, 2, 1]	[0, 0, 0]	[2, 2, 2]	0.82456905
 198	"hello , do you like swimming ? 
  hi there ! i do ! i love watching the olympic events . how about you ? 
  same here . i do not swim that much but i occasionally go to the pool every once and a while . i also enjoy watching swimming in the olympics ; 
@@ -2278,7 +2278,7 @@
  hi there ! i do ! i love watching the olympic events . how about you ? 
  same here . i do not swim that much but i occasionally go to the pool every once and a while . i also enjoy watching swimming in the olympics ; 
  did you know cornell students are actually required to pass a basic swim test before they can graduate ? 
- i think that that is a good idea ! native americans also introduced the british to the front crawl ."	native americans introduced the front crawl swimming stroke to the west when they beat the british who only used the breaststroke .	yeah because they were faster at swimming . the brits only knew how to use the breaststroke .	yeah and they did it when they beat the british in a race , because the british only knew the breaststroke .	New Human Generated	[1, 1, 1]	[3, 3, 2]	[3, 3, 3]	[3, 3, 2]	[1, 1, 1]	[5, 5, 4]	0.90762496
+ i think that that is a good idea ! native americans also introduced the british to the front crawl ."	native americans introduced the front crawl swimming stroke to the west when they beat the british who only used the breaststroke .	yeah because they were faster at swimming . the brits only knew how to use the breaststroke .	yeah and they did it when they beat the british in a race , because the british only knew the breaststroke .	New Human Generated	[1, 1, 1]	[3, 3, 2]	[3, 3, 3]	[3, 3, 2]	[1, 1, 1]	[5, 5, 4]	0.907625
 200	"every us president with a beard has been a republican , that 's odd . 
  that is odd . so what do you think of trump . 
  i like trump 
@@ -2290,7 +2290,7 @@
  i like trump 
  me too . i think he needs to calm down a little bit sometimes but he is a smart dude . 
  yeah i never liked trump before he was president . i think he 's doing a great job with all that he 's been dealt ."	there has n't been a us president who was n't a republican or a democrat since 1853	trump is a republican . did you know there has nt been a president who was nt a republican or democrat since 1853	"i think that would be a good idea . there has n't been a president who was n't a republican or democrat since 1853 .
-"	Nucleus Decoding (p = 0.3)	[1, 0, 0]	[2, 3, 2]	[3, 1, 3]	[2, 2, 2]	[1, 1, 1]	[3, 3, 3]	0.9224886
+"	Nucleus Decoding (p = 0.3)	[1, 0, 0]	[2, 3, 2]	[3, 1, 3]	[2, 2, 2]	[1, 1, 1]	[3, 3, 3]	0.9224885
 202	"every us president with a beard has been a republican , that 's odd . 
  that is odd . so what do you think of trump . 
  i like trump 
@@ -2339,7 +2339,7 @@
  lol yeah , there s all sorts of cafes like that , i ve been to a meerkat cafe , a bird cafe and a raccoon cafe before . 
  that is really interesting . i would like that . i wish i slept as much as cats . when a cat reaches 15 years old it has usually spent 10 years of its life sleeping . 
  that s a lot of sleeping ! there s is a cat named stubbs in alaska that is a mayor lol"	the town of talkeetna , alaska has had a cat named stubbs as its mayor since 1997 .	i love that . it has been the mayor since 1997 .	"that is a very strange name . i wonder if he ever got a cat named stubbs .
-"	Nucleus Decoding (p = 0.3)	[0, 0, 0]	[2, 2, 1]	[1, 1, 1]	[1, 1, 1]	[1, 0, 1]	[2, 2, 1]	0.8228737
+"	Nucleus Decoding (p = 0.3)	[0, 0, 0]	[2, 2, 1]	[1, 1, 1]	[1, 1, 1]	[1, 0, 1]	[2, 2, 1]	0.82287365
 207	"hello , did you know that more than 80 % of the earths forests have been destroyed ? 
  that is sad . i hope we can reverse that statistic . 
  yeah that is really sad . i recently read that earth will be helium free by the end of the 21st century . 
@@ -2355,7 +2355,7 @@
  lol yeah , there s all sorts of cafes like that , i ve been to a meerkat cafe , a bird cafe and a raccoon cafe before . 
  that is really interesting . i would like that . i wish i slept as much as cats . when a cat reaches 15 years old it has usually spent 10 years of its life sleeping . 
  that s a lot of sleeping ! there s is a cat named stubbs in alaska that is a mayor lol"	the town of talkeetna , alaska has had a cat named stubbs as its mayor since 1997 .	i love that . it has been the mayor since 1997 .	"haha , that is awesome . a cat named stubbs is the mayor in a town in alaska .
-"	Nucleus Decoding (p = 0.5)	[1, 1, 0]	[3, 3, 1]	[1, 2, 2]	[2, 1, 1]	[1, 0, 1]	[2, 2, 1]	0.8330734
+"	Nucleus Decoding (p = 0.5)	[1, 1, 0]	[3, 3, 1]	[1, 2, 2]	[2, 1, 1]	[1, 0, 1]	[2, 2, 1]	0.83307326
 208	"hello , did you know that more than 80 % of the earths forests have been destroyed ? 
  that is sad . i hope we can reverse that statistic . 
  yeah that is really sad . i recently read that earth will be helium free by the end of the 21st century . 
@@ -2371,7 +2371,7 @@
  lol yeah , there s all sorts of cafes like that , i ve been to a meerkat cafe , a bird cafe and a raccoon cafe before . 
  that is really interesting . i would like that . i wish i slept as much as cats . when a cat reaches 15 years old it has usually spent 10 years of its life sleeping . 
  that s a lot of sleeping ! there s is a cat named stubbs in alaska that is a mayor lol"	the town of talkeetna , alaska has had a cat named stubbs as its mayor since 1997 .	i love that . it has been the mayor since 1997 .	"i think that town in alaska is a cat mayor . in alaska
-"	Nucleus Decoding (p = 0.7)	[1, 0, 0]	[3, 1, 1]	[1, 1, 3]	[1, 1, 1]	[1, 0, 1]	[2, 1, 1]	0.8355599
+"	Nucleus Decoding (p = 0.7)	[1, 0, 0]	[3, 1, 1]	[1, 1, 3]	[1, 1, 1]	[1, 0, 1]	[2, 1, 1]	0.83555996
 209	"hello , did you know that more than 80 % of the earths forests have been destroyed ? 
  that is sad . i hope we can reverse that statistic . 
  yeah that is really sad . i recently read that earth will be helium free by the end of the 21st century . 
@@ -2566,7 +2566,7 @@
  yes it is pink but i a not sure why they chose that color 
  i wonder if it is supposed to have some effect on them 
  i wonder too . bowling was more popular than football in the 60s"	in the 1960 's top bowlers made twice as much as top football stars	yes that is why bowlers made way more than them	"i think it was back in the 60s , but i do n't know much about it
-"	Nucleus Decoding (p = 0.3)	[1, 1, 0]	[3, 2, 1]	[1, 1, 2]	[2, 1, 2]	[0, 0, 0]	[2, 2, 2]	0.78756076
+"	Nucleus Decoding (p = 0.3)	[1, 1, 0]	[3, 2, 1]	[1, 1, 2]	[2, 1, 2]	[0, 0, 0]	[2, 2, 2]	0.7875609
 222	"do you like football ? 
  i love it . do you know what color is the u of iowa visitor locker room ? 
  yes it is pink but i a not sure why they chose that color 
@@ -2598,7 +2598,7 @@
  yeah and i wonder if that fact that they have longer careers has anything to do with that 
  that makes sense . the nfl is using tracking chips on the players now . 
  yes they are and they are collecting many stats such as velocity and rotation and others"	former partiots rb benjarvus green - ellis has never fumbled the football in his nfl career .	yeah . do you know who benjarvus green - ellis is ?	"yeah i hope they can use that to make the game safer and also have to do that to make the game safer
-"	Argmax Decoding	[1, 0, 0]	[2, 2, 2]	[3, 2, 3]	[2, 2, 2]	[0, 0, 0]	[3, 2, 3]	0.77829534
+"	Argmax Decoding	[1, 0, 0]	[2, 2, 2]	[3, 2, 3]	[2, 2, 2]	[0, 0, 0]	[3, 2, 3]	0.7782953
 226	"hi there , do you watch the nfl ? 
  i sure do . do you have a favorite team or player ? 
  i sure do . i love the patriot and tom is amazing . do you have one ? 
@@ -2657,7 +2657,7 @@
  yeah i hope so too . did you know engineers make more int heir lifetime ? 
  yeah and i wonder if that fact that they have longer careers has anything to do with that 
  that makes sense . the nfl is using tracking chips on the players now . 
- yes they are and they are collecting many stats such as velocity and rotation and others"	former partiots rb benjarvus green - ellis has never fumbled the football in his nfl career .	yeah . do you know who benjarvus green - ellis is ?	maybe they 'll use it to identify the best players ! benjarvus green - ellis has never fumbled the ball throughout his entire career !	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.8652476
+ yes they are and they are collecting many stats such as velocity and rotation and others"	former partiots rb benjarvus green - ellis has never fumbled the football in his nfl career .	yeah . do you know who benjarvus green - ellis is ?	maybe they 'll use it to identify the best players ! benjarvus green - ellis has never fumbled the ball throughout his entire career !	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.86524767
 230	"have you ever watched house ? 
  i have its actually one of my favorite shows , why do you ask ? 
  because he was once the highest paid actor on tv for a drama , $ 700,000 per episode . 
@@ -2755,7 +2755,7 @@
  are n't most of those books now bestsellers ? i see the point of the event , but maybe it should be renamed to better reflect their current status 
  yes i think you 're right , how often do you go to the library btw ? 
  not very often since most of what i borrow through my library are ebooks and audiobooks . i love that i can access things right on my phone , though i do miss the feel of paper books"	the sacramento public library started a  library of things  earlier this year , allowing patrons to check out , among other things , sewing machines and other items that patrons may find useful , but do n't need to own long - term .	well i do wish that my library were more like the sacramento public library , you can read things like sewing machines from there which seems very useful to me	"i do n't have a kindle , but i have n't been to the library in sacramento .
-"	Nucleus Decoding (p = 0.3)	[1, 0, 1]	[3, 1, 1]	[3, 2, 1]	[2, 1, 1]	[0, 0, 0]	[3, 1, 1]	0.8322393
+"	Nucleus Decoding (p = 0.3)	[1, 0, 1]	[3, 1, 1]	[3, 2, 1]	[2, 1, 1]	[0, 0, 0]	[3, 1, 1]	0.83223945
 237	"hey are you aware of banned books week ? 
  i did n't know it was a thing because i did n't realize that there are any books that are banned . what do you know about it ? 
  i think that it is a reminder of books that have been banned in the past for their controversial content , i remember it during my childhood 
@@ -2803,7 +2803,7 @@
  yah and the president of indonesia has released 3 pop albums while in office 
  is it real ? by the way , are you a fan of taylor swift 
  i was until i knew she removed her music from spotify because  music should not be free"	taylor swift walks backwards to avoid having her photo taken .	did you know that she had to walk backward to avoid having her photo taken	"i agree . i like her a lot more than her husband and she seems like a great artist .
-"	Nucleus Decoding (p = 0.3)	[1, 1, 1]	[3, 3, 2]	[3, 1, 2]	[2, 2, 2]	[0, 0, 0]	[4, 3, 3]	0.7964895
+"	Nucleus Decoding (p = 0.3)	[1, 1, 1]	[3, 3, 2]	[3, 1, 2]	[2, 2, 2]	[0, 0, 0]	[4, 3, 3]	0.79648954
 242	"school shootings are so upsetting . 
  it is an unspeakable act 
  when kids have to question the president about why was a killer able to terrorize their school 
@@ -2864,7 +2864,7 @@
  i have watched the simpsons since i was a kid ; bart himself has only missed one episode this whole time ; amazing ! 
  i know right , seems crazy to have him in almost every one then to forget him completely in that one 
  do you still watch things on traditional tv ?"	_nofact	over the air maybe once or twice a year , i refuse to pay for a cable package to essentially pay them to advertise stuff to me	"i do . i love the simpsons .
-"	Nucleus Decoding (p = 0.3)	[1, 1, 1]	[3, 3, 2]	[3, 3, 3]	[3, 3, 2]	[1, 1, 1]	[5, 5, 4]	0.79070026
+"	Nucleus Decoding (p = 0.3)	[1, 1, 1]	[3, 3, 2]	[3, 3, 3]	[3, 3, 2]	[1, 1, 1]	[5, 5, 4]	0.7907002
 247	"are you a game of thrones fan ? 
  no not really . i do nt have hbo so i do nt watch , you ? 
  i think i have only watch about a few minutes of it ; i do n't get it or like the genre 
@@ -2893,7 +2893,7 @@
  i do nt even know what else they air , i truly do nt watch much tv at all . maybe the simpsons once a while 
  i have watched the simpsons since i was a kid ; bart himself has only missed one episode this whole time ; amazing ! 
  i know right , seems crazy to have him in almost every one then to forget him completely in that one 
- do you still watch things on traditional tv ?"	_nofact	over the air maybe once or twice a year , i refuse to pay for a cable package to essentially pay them to advertise stuff to me	rarely . i usually just use netflix .	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 2]	[1, 1, 1]	[5, 5, 3]	0.8145922
+ do you still watch things on traditional tv ?"	_nofact	over the air maybe once or twice a year , i refuse to pay for a cable package to essentially pay them to advertise stuff to me	rarely . i usually just use netflix .	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 2]	[1, 1, 1]	[5, 5, 3]	0.8145923
 250	"did you know that the sun takes up 99.86 % of the mass of the solar system ? really large , huh ? 
  that is interesting . gigantic . the sun is actually white , only perceived as yellow because of atmospheric scattering 
  never knew that . the sun , though is only 1 billionth the size of the biggest star discovered in our galaxy even though so massive 
@@ -2921,7 +2921,7 @@
  really ? i like books a bunch but like exercise too . reading is a complex brain process decoding symbols into meaning when you think about it . challenging for some . 
  do u speed read ? the world record for speed reading is held by anne jones , with a reading speed of 4,700 words per minute 
  not really , but i 'm pretty fast so maybe ? ? i would n't know how you tell . reading can be an escape for some but different for different people how they see things or do n't see things"	cs lewis and tolkien held  you laugh you lose  competitions when reading terrible poetry	i do audible mostly , i can listen anywhere its so convienent . cs lewis and tolkien held  you laugh you lose  competitions when reading terrible poetry	"i think that is very interesting , i do n't know how they could read that fast either .
-"	Nucleus Decoding (p = 0.3)	[1, 1, 1]	[3, 2, 2]	[3, 2, 3]	[2, 1, 2]	[0, 0, 0]	[4, 2, 3]	0.78640676
+"	Nucleus Decoding (p = 0.3)	[1, 1, 1]	[3, 2, 2]	[3, 2, 3]	[2, 1, 2]	[0, 0, 0]	[4, 2, 3]	0.7864067
 252	"did you know that the sun takes up 99.86 % of the mass of the solar system ? really large , huh ? 
  that is interesting . gigantic . the sun is actually white , only perceived as yellow because of atmospheric scattering 
  never knew that . the sun , though is only 1 billionth the size of the biggest star discovered in our galaxy even though so massive 
@@ -2970,7 +2970,7 @@
 256	"did you know that facebook and twitter work together on some issues ? they are actually competitors . 
  no , i did n't know that . what kind of issues do they work together on ? 
  the baby sitter - rating system broke the social networks ' rules ."	facebook and twitter are taking action against an automated babysitter - rating system reported on last week by the washington post , saying the service broke the social networks ' rules on user surveillance and data privacy.predictim , a california - based start - up , analyzes babysitters ' online histories , including on facebook and twitter , and offers ratings of whether they are at risk of drug abuse , bullying or having a & ldquo;bad attitude.&rdquo ; facebook said it dramatically limited predictim&rsquo;s access to users ' information on instagram and facebook a few weeks ago for violating a ban on developers ' use of personal data to evaluate a person for decisions on hiring or eligibility.facebook spokeswoman katy dormer said the company also launched an investigation earlier this week into predictim&rsquo;s extraction , or & ldquo;scraping,&rdquo ; of personal data . that investigation is ongoing and could include further penalties.twitter spokesman nick pacilio said the site conducted its own investigation earlier this week and revoked predictim&rsquo;s access to important site tools & mdash ; known as application programming interfaces , or apis & mdash ; that would allow the start - up to review and analyze babysitters ' tweets on a massive scale .  we strictly prohibit the use of twitter data and apis for surveillance purposes , including performing background checks,&rdquo ; pacilio said.the crackdown , which was first reported by bbc news , could restrict predictim&rsquo;s ability to analyze babysitters with what it called & ldquo;advanced artificial intelligence&rdquo ; and sell parents the results . the service was heavily criticized for offering unproven and potentially inaccurate results that could affect a babysitter&rsquo;s life.but predictim&rsquo;s executives said tuesday they were undeterred and intend to continue pulling publicly available data from facebook , twitter and instagram . predictim chief executive and co - founder sal parsa said he also believed the social media giants ' reaction was at least partially rooted in a competitive rivalry over personal data use.&ldquo;twitter and facebook are already mining our data .	i think i heard about that now that you mention it . was the about predictim ?	"yes , it 's very sad .
-"	Nucleus Decoding (p = 0.3)	[1, 1, 0]	[3, 1, 1]	[2, 2, 1]	[1, 1, 1]	[0, 0, 0]	[2, 2, 1]	0.7885232
+"	Nucleus Decoding (p = 0.3)	[1, 1, 0]	[3, 1, 1]	[2, 2, 1]	[1, 1, 1]	[0, 0, 0]	[2, 2, 1]	0.78852326
 257	"did you know that facebook and twitter work together on some issues ? they are actually competitors . 
  no , i did n't know that . what kind of issues do they work together on ? 
  the baby sitter - rating system broke the social networks ' rules ."	facebook and twitter are taking action against an automated babysitter - rating system reported on last week by the washington post , saying the service broke the social networks ' rules on user surveillance and data privacy.predictim , a california - based start - up , analyzes babysitters ' online histories , including on facebook and twitter , and offers ratings of whether they are at risk of drug abuse , bullying or having a & ldquo;bad attitude.&rdquo ; facebook said it dramatically limited predictim&rsquo;s access to users ' information on instagram and facebook a few weeks ago for violating a ban on developers ' use of personal data to evaluate a person for decisions on hiring or eligibility.facebook spokeswoman katy dormer said the company also launched an investigation earlier this week into predictim&rsquo;s extraction , or & ldquo;scraping,&rdquo ; of personal data . that investigation is ongoing and could include further penalties.twitter spokesman nick pacilio said the site conducted its own investigation earlier this week and revoked predictim&rsquo;s access to important site tools & mdash ; known as application programming interfaces , or apis & mdash ; that would allow the start - up to review and analyze babysitters ' tweets on a massive scale .  we strictly prohibit the use of twitter data and apis for surveillance purposes , including performing background checks,&rdquo ; pacilio said.the crackdown , which was first reported by bbc news , could restrict predictim&rsquo;s ability to analyze babysitters with what it called & ldquo;advanced artificial intelligence&rdquo ; and sell parents the results . the service was heavily criticized for offering unproven and potentially inaccurate results that could affect a babysitter&rsquo;s life.but predictim&rsquo;s executives said tuesday they were undeterred and intend to continue pulling publicly available data from facebook , twitter and instagram . predictim chief executive and co - founder sal parsa said he also believed the social media giants ' reaction was at least partially rooted in a competitive rivalry over personal data use.&ldquo;twitter and facebook are already mining our data .	i think i heard about that now that you mention it . was the about predictim ?	"yeah , i guess it 's not that easy to do . i think they have a great time with the consumer ratings though .
@@ -2986,7 +2986,7 @@
  yes . i love everything pixar is a part of doing ! 
  the director for the 2nd movie actually used artists who were either likely to quit or get fired from pixar . 
  cool . do you know who wrote that movie ?"	edna mode , the superhero costume designer in the incredibles , is voiced by brad bird , the film 's director . bird voiced edna during storyboarding sessions , after which the production team could n't find an actress who could do the voice better than him .	it was written by brad bird ! he also was the directer and provided the voice for edna mode in the movie .	"i think it was the director of the movie , brad bird , the director of the movie
-"	Argmax Decoding	[1, 1, 1]	[2, 2, 2]	[3, 2, 3]	[3, 2, 2]	[1, 0, 1]	[3, 4, 4]	0.8711159
+"	Argmax Decoding	[1, 1, 1]	[2, 2, 2]	[3, 2, 3]	[3, 2, 2]	[1, 0, 1]	[3, 4, 4]	0.87111586
 261	"good morning ! have you seen the incredibles 2 movie ? 
  yes . i love everything pixar is a part of doing ! 
  the director for the 2nd movie actually used artists who were either likely to quit or get fired from pixar . 
@@ -2996,7 +2996,7 @@
  yes . i love everything pixar is a part of doing ! 
  the director for the 2nd movie actually used artists who were either likely to quit or get fired from pixar . 
  cool . do you know who wrote that movie ?"	edna mode , the superhero costume designer in the incredibles , is voiced by brad bird , the film 's director . bird voiced edna during storyboarding sessions , after which the production team could n't find an actress who could do the voice better than him .	it was written by brad bird ! he also was the directer and provided the voice for edna mode in the movie .	"i think it was the director brad bird , i think it 's the director of the movie
-"	Nucleus Decoding (p = 0.5)	[1, 1, 1]	[2, 2, 1]	[3, 2, 2]	[3, 2, 1]	[1, 0, 1]	[3, 4, 2]	0.8642743
+"	Nucleus Decoding (p = 0.5)	[1, 1, 1]	[2, 2, 1]	[3, 2, 2]	[3, 2, 1]	[1, 0, 1]	[3, 4, 2]	0.86427444
 263	"good morning ! have you seen the incredibles 2 movie ? 
  yes . i love everything pixar is a part of doing ! 
  the director for the 2nd movie actually used artists who were either likely to quit or get fired from pixar . 
@@ -3011,7 +3011,7 @@
 "	Argmax Decoding	[1, 0, 1]	[2, 2, 2]	[2, 1, 2]	[2, 1, 1]	[0, 0, 0]	[3, 1, 2]	0.87010586
 266	"are you a fan of the nfl ? 
  i definitely am . watching the super bowl has become a family tradition . what about you ?"	new orleans saints cheerleaders are forbidden from eating in the same restaurant as any nfl player and if they are already dining at a restaurant and an nfl player comes in after , the cheerleaders are required to leave .	the same i like watching both college and nfl . do you have a favorite team ?	"i like the nfl . i like the nfl .
-"	Nucleus Decoding (p = 0.3)	[1, 1, 1]	[2, 3, 2]	[2, 1, 2]	[2, 1, 1]	[0, 0, 0]	[3, 2, 2]	0.832078
+"	Nucleus Decoding (p = 0.3)	[1, 1, 1]	[2, 3, 2]	[2, 1, 2]	[2, 1, 1]	[0, 0, 0]	[3, 2, 2]	0.83207804
 267	"are you a fan of the nfl ? 
  i definitely am . watching the super bowl has become a family tradition . what about you ?"	new orleans saints cheerleaders are forbidden from eating in the same restaurant as any nfl player and if they are already dining at a restaurant and an nfl player comes in after , the cheerleaders are required to leave .	the same i like watching both college and nfl . do you have a favorite team ?	"yeah , i 'm a fan of the nfl .
 "	Nucleus Decoding (p = 0.5)	[1, 1, 1]	[3, 3, 3]	[3, 1, 2]	[2, 1, 1]	[0, 0, 0]	[4, 2, 3]	0.85558337
@@ -3019,7 +3019,7 @@
  i definitely am . watching the super bowl has become a family tradition . what about you ?"	new orleans saints cheerleaders are forbidden from eating in the same restaurant as any nfl player and if they are already dining at a restaurant and an nfl player comes in after , the cheerleaders are required to leave .	the same i like watching both college and nfl . do you have a favorite team ?	"i 'm a fan , especially during the regular season , usually if it is done . are you a fan of the nfl ?
 "	Nucleus Decoding (p = 0.7)	[1, 0, 1]	[2, 1, 3]	[2, 1, 2]	[2, 1, 2]	[0, 0, 0]	[3, 1, 3]	0.85466796
 269	"are you a fan of the nfl ? 
- i definitely am . watching the super bowl has become a family tradition . what about you ?"	new orleans saints cheerleaders are forbidden from eating in the same restaurant as any nfl player and if they are already dining at a restaurant and an nfl player comes in after , the cheerleaders are required to leave .	the same i like watching both college and nfl . do you have a favorite team ?	i watch a few games here and there . did you know some teams do n't allow cheerleaders to eat in the same restauraunts as nfl players ? they actually have to leave if any nfl players walk in . 	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.82440686
+ i definitely am . watching the super bowl has become a family tradition . what about you ?"	new orleans saints cheerleaders are forbidden from eating in the same restaurant as any nfl player and if they are already dining at a restaurant and an nfl player comes in after , the cheerleaders are required to leave .	the same i like watching both college and nfl . do you have a favorite team ?	i watch a few games here and there . did you know some teams do n't allow cheerleaders to eat in the same restauraunts as nfl players ? they actually have to leave if any nfl players walk in . 	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.8244068
 270	"are you a game of thrones fan ? 
  no not really . i do nt have hbo so i do nt watch , you ? 
  i think i have only watch about a few minutes of it ; i do n't get it or like the genre 
@@ -3043,7 +3043,7 @@
  i think i have only watch about a few minutes of it ; i do n't get it or like the genre 
  i tried to read one of the books and it was crazy to follow , i m more likely to watch documentaries or movies 
  same here . i like hbo for some of the other things they air but not got ."	_nofact	i do nt even know what else they air , i truly do nt watch much tv at all . maybe the simpsons once a while	"i do too , i also really enjoy series , it has been a really successful cast though
-"	Nucleus Decoding (p = 0.7)	[0, 0, 1]	[3, 1, 3]	[2, 2, 3]	[2, 1, 3]	[1, 1, 1]	[3, 2, 5]	0.8087269
+"	Nucleus Decoding (p = 0.7)	[0, 0, 1]	[3, 1, 3]	[2, 2, 3]	[2, 1, 3]	[1, 1, 1]	[3, 2, 5]	0.80872697
 274	"are you a game of thrones fan ? 
  no not really . i do nt have hbo so i do nt watch , you ? 
  i think i have only watch about a few minutes of it ; i do n't get it or like the genre 
@@ -3057,7 +3057,7 @@
 "	Nucleus Decoding (p = 0.3)	[1, 0, 0]	[2, 2, 2]	[3, 2, 1]	[2, 1, 1]	[0, 0, 0]	[3, 1, 1]	0.7955027
 277	"hey , ever use facebook ? 
  i do , it is the primary source of news for 30 % of american adults . do you use facebook your self ?"	burger king had a promotion where if you unfriend 10 people on facebook you get a free whopper .	constantly , unfortunately . i 'd consider burger king 's offer to get a free whopper by unfriending 10 people if i liked burger king .	"i do n't really use facebook , but i do n't use it much anymore .
-"	Nucleus Decoding (p = 0.5)	[1, 0, 0]	[2, 1, 2]	[3, 2, 2]	[2, 1, 1]	[0, 0, 0]	[3, 1, 1]	0.80125266
+"	Nucleus Decoding (p = 0.5)	[1, 0, 0]	[2, 1, 2]	[3, 2, 2]	[2, 1, 1]	[0, 0, 0]	[3, 1, 1]	0.8012526
 278	"hey , ever use facebook ? 
  i do , it is the primary source of news for 30 % of american adults . do you use facebook your self ?"	burger king had a promotion where if you unfriend 10 people on facebook you get a free whopper .	constantly , unfortunately . i 'd consider burger king 's offer to get a free whopper by unfriending 10 people if i liked burger king .	"i have not used it , but i have heard of it before
 "	Nucleus Decoding (p = 0.7)	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[2, 3, 3]	[0, 0, 0]	[4, 4, 5]	0.78710127
@@ -3239,7 +3239,7 @@
  well you should do a children 's book then , because they will buy 1,500 of them instead of just the 1,000 lol 
  children 's books require less writing and more illustrations . it would be worth it for the extra 500 copies though 
  haha i agree with you . do you ever buy stuff from amazon ? do you know why jeff bezos put a clock into a mountain lol"	amazon ceo jeff bezos built a clock into a mountain that should run for 10,000 years .	i buy things from amazon all the time . is n't that the clock that 's supposed to run for 10,000 years	"that is pretty cool . i guess it is supposed to run for 10,000 years , lol .
-"	Nucleus Decoding (p = 0.7)	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[4, 4, 5]	0.86245924
+"	Nucleus Decoding (p = 0.7)	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[4, 4, 5]	0.8624593
 294	"hey are you aware of banned books week ? 
  i did n't know it was a thing because i did n't realize that there are any books that are banned . what do you know about it ? 
  i think that it is a reminder of books that have been banned in the past for their controversial content , i remember it during my childhood 

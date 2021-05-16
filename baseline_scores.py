@@ -106,6 +106,9 @@ def get_scores(modelname, datadir, outputdir=None, ref='ref'):
 
             bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand_list, ref_list)]
             context_score = [x['bp'] for x in bs]
+        else:
+            bs = [model.compute(predictions=[c], references=[[r]]) for c, r in zip(cand_list, ref_list)]
+            score = [x['bp'] for x in bs]
     elif modelname == 'bleurt':
         preds = model.compute(predictions=cand_list, references=ref_list)
         score = preds['scores']

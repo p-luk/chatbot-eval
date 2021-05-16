@@ -178,7 +178,7 @@ your persona: my parents taught me survival skills.
 your persona: i am also a graduate student.
 your persona: i walk dogs for a living.
 your persona: i'm an avid kayaker."	kayaking and reading psychology books	"i like to go fishing . i love to go fishing .
-"	Language Model	[1, 1, 1]	[2, 2, 2]	[3, 3, 3]	[2, 3, 2]	[0, 0, 0]	[3, 3, 3]	0.810582
+"	Language Model	[1, 1, 1]	[2, 2, 2]	[3, 3, 3]	[2, 3, 2]	[0, 0, 0]	[3, 3, 3]	0.81058216
 11	"hi ! how are you ? i just moved from germany to usa , nice place so far !
 that's great , i am a grad student
 do you have any hobbies ? i really love sky diving , rollercoasters and cooking shows !"	"your persona: i enjoy reading journals and guides related to psychology.
@@ -317,7 +317,7 @@ like metallica ? they are definitely cool ."	"your persona: i am studying to be 
 your persona: i am a swim coach at my local pool.
 your persona: my favorite music genre is death metal.
 your persona: my family and i are from india."	i do not want to talk about my pets	"yeah , i definitely like rock more than metal .
-"	KV-MemNN	[1, 1, 1]	[3, 3, 3]	[3, 2, 3]	[3, 2, 3]	[0, 0, 0]	[3, 3, 4]	0.85256577
+"	KV-MemNN	[1, 1, 1]	[3, 3, 3]	[3, 2, 3]	[3, 2, 3]	[0, 0, 0]	[3, 3, 4]	0.8525657
 21	"hello . how are you today ?
 i am a geek , because i love programming study for it now
 i am a construction worker . i do not know much about computers
@@ -390,7 +390,7 @@ your persona: my favorite ice cream flavor is chocolate.
 your persona: i've three children.
 your persona: i'm a plumber.
 your persona: i love going to the park with my three children and my wife."	i love wife and my kids they love chocolate ice cream also	"i like chocolate chip cookies
-"	Seq2Seq	[1, 1, 1]	[3, 3, 3]	[1, 3, 2]	[3, 3, 2]	[0, 0, 0]	[3, 4, 4]	0.88007665
+"	Seq2Seq	[1, 1, 1]	[3, 3, 3]	[1, 3, 2]	[3, 3, 2]	[0, 0, 0]	[3, 4, 4]	0.8800767
 26	"hey . where are you from ? i'm from a farm in wisconsin
 i love ice cream what is your favorite ? mine is chocolate
 mine is mint chocolate chip"	"your persona: my wife and kids are the best.
@@ -497,7 +497,7 @@ you will get it . do not worry . i now work in a nice bookstore ."	"your persona
 your persona: my favourite artist is travis scott.
 your persona: i like playing basketball.
 your persona: i'm currently looking for a job preferably at a restaurant."	i love to read . i'd rack up a big bill working in a bookstore .	"i actually wait tables in a restaurant , you ?
-"	KV-MemNN	[1, 1, 1]	[3, 3, 3]	[1, 2, 2]	[2, 2, 2]	[0, 0, 0]	[2, 3, 2]	0.84408736
+"	KV-MemNN	[1, 1, 1]	[3, 3, 3]	[1, 2, 2]	[2, 2, 2]	[0, 0, 0]	[2, 3, 2]	0.8440874
 33	"hi ! i don't like the color orange .
 hello . i like to shoot hoops , so orange balls are good with me .
 that's amazing . i like dancing on weekends . you ?
@@ -610,7 +610,7 @@ your persona: i enjoy listening to classical music.
 your persona: my favorite color is red.
 your persona: i'm a christian.
 your persona: my sister is a pole dancer."	i never used a loom but will have to try sometime .	"i love to sew and make clothes .
-"	Seq2Seq	[1, 1, 1]	[3, 3, 3]	[2, 3, 3]	[2, 3, 2]	[0, 0, 0]	[4, 5, 4]	0.8924302
+"	Seq2Seq	[1, 1, 1]	[3, 3, 3]	[2, 3, 3]	[2, 3, 2]	[0, 0, 0]	[4, 5, 4]	0.8924301
 42	"hello i am 60 years old
 hi ! i just sat down to listen to some classical music .
 i love classical music as a librarian its my favorite
@@ -650,7 +650,7 @@ your persona: i enjoy listening to classical music.
 your persona: my favorite color is red.
 your persona: i'm a christian.
 your persona: my sister is a pole dancer."	i never used a loom but will have to try sometime .	"cool ! do you celebrate christmas ? as a christian , it's one of my favorite times of the year !
-"	New Human Generated	[1, 1, 1]	[3, 3, 3]	[2, 3, 1]	[3, 3, 2]	[1, 1, 1]	[4, 5, 4]	0.8384
+"	New Human Generated	[1, 1, 1]	[3, 3, 3]	[2, 3, 1]	[3, 3, 2]	[1, 1, 1]	[4, 5, 4]	0.83839995
 44	"i there i'm from pennsylvania . how about you ?
 i'm in ohio . we are almost neighbors .
 i know . do you have any kids ? i am expecting my first child soon .
@@ -682,7 +682,7 @@ your persona: i also study languages.
 your persona: my next language to study is french.
 your persona: i am a musician.
 your persona: one of the languages that i am currently studying is spanish."	so what else do you like to do besides make documentaries ?	"i am not sure . i am a musician .
-"	Seq2Seq	[0, 0, 1]	[1, 2, 2]	[1, 1, 1]	[1, 2, 1]	[0, 1, 1]	[1, 2, 2]	0.8318439
+"	Seq2Seq	[0, 0, 1]	[1, 2, 2]	[1, 1, 1]	[1, 2, 1]	[0, 1, 1]	[1, 2, 2]	0.83184385
 46	"i there i'm from pennsylvania . how about you ?
 i'm in ohio . we are almost neighbors .
 i know . do you have any kids ? i am expecting my first child soon .
@@ -728,7 +728,7 @@ your persona: my favorite colors are red and silver.
 your persona: i'm interested in photography and like taking pictures.
 your persona: my boyfriend and i are moving into an apartment together next week.
 your persona: i'm an elementary school teacher."	your bunny sounds adorable . bunnies are very gentle and quiet animals	"i love the color red . who is your favorite band ?
-"	KV-MemNN	[1, 1, 1]	[3, 3, 2]	[1, 3, 2]	[3, 3, 2]	[1, 1, 1]	[3, 5, 3]	0.838006
+"	KV-MemNN	[1, 1, 1]	[3, 3, 2]	[1, 3, 2]	[3, 3, 2]	[1, 1, 1]	[3, 5, 3]	0.83800584
 49	"hello ! are you interested in adopting a rescued bunny ?
 i love bunnies but i'm busy moving into a new apartment with my boyfriend
 i'd have loved to live with my girlfriend before i went into the navy
@@ -770,7 +770,7 @@ your persona: my favorite colors are red and silver.
 your persona: i'm interested in photography and like taking pictures.
 your persona: my boyfriend and i are moving into an apartment together next week.
 your persona: i'm an elementary school teacher."	your bunny sounds adorable . bunnies are very gentle and quiet animals	"it sounsd great ! maybe i can keep it as a class pet at my elementary school .
-"	New Human Generated	[1, 1, 1]	[3, 3, 2]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 4]	0.8432233
+"	New Human Generated	[1, 1, 1]	[3, 3, 2]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 4]	0.8432232
 52	"hello hope your having a good night tonight ? i know i am .
 that is good ! i am watching football highlights .
 really what teams . and who are you rooting for .
@@ -809,7 +809,7 @@ pets ? what kind dogs cats fish or birds ?"	"your persona: i have a children and
 your persona: i own a house in florida.
 your persona: i enjoy american sports.
 your persona: i am a male."	i've two dogs . what about you ?	"i do not have any pets , but i do like to go fishing .
-"	Language Model	[1, 1, 1]	[3, 3, 3]	[1, 1, 3]	[3, 2, 2]	[0, 0, 0]	[3, 2, 3]	0.8654182
+"	Language Model	[1, 1, 1]	[3, 3, 3]	[1, 1, 3]	[3, 2, 2]	[0, 0, 0]	[3, 2, 3]	0.8654183
 55	"hello hope your having a good night tonight ? i know i am .
 that is good ! i am watching football highlights .
 really what teams . and who are you rooting for .
@@ -1267,7 +1267,7 @@ i like gaming now that i am in the us ."	"your persona: my favorite band is the 
 your persona: i like donuts.
 your persona: i play a lot of call of duty.
 your persona: on weekends i do live action roleplaying events."	oh really ? what kind ? i love fps . my fav is cod .	"i like to go fishing .
-"	Language Model	[1, 1, 1]	[3, 3, 3]	[1, 1, 3]	[3, 2, 2]	[0, 0, 0]	[3, 3, 3]	0.86885285
+"	Language Model	[1, 1, 1]	[3, 3, 3]	[1, 1, 3]	[3, 2, 2]	[0, 0, 0]	[3, 3, 3]	0.8688528
 99	"hi . how is everything going ?
 hi . everything is going well on this end .
 where are you from ? i am originally from somalia .
@@ -1878,7 +1878,7 @@ your persona: when i grow up i want to be a physical therapist.
 your persona: i'm currently in high school.
 your persona: i make straight as in school.
 your persona: i won homecoming queen this year."	haha that's cute haha , what you do for living	"i love to run , i am in high school
-"	Seq2Seq	[1, 1, 1]	[3, 3, 3]	[1, 3, 2]	[3, 3, 2]	[1, 1, 1]	[4, 4, 4]	0.83519715
+"	Seq2Seq	[1, 1, 1]	[3, 3, 3]	[1, 3, 2]	[3, 3, 2]	[1, 1, 1]	[4, 4, 4]	0.8351971
 150	"there'sn'thing i like more than a late night ice cream run
 hey share the cream ! haha
 do you have a flavor preference ? mine is vanilla
@@ -1888,7 +1888,7 @@ your persona: when i grow up i want to be a physical therapist.
 your persona: i'm currently in high school.
 your persona: i make straight as in school.
 your persona: i won homecoming queen this year."	haha that's cute haha , what you do for living	"i like to go to the gym and listen to music .
-"	Language Model	[1, 1, 1]	[3, 3, 3]	[1, 1, 2]	[3, 3, 2]	[0, 0, 0]	[3, 3, 3]	0.8331158
+"	Language Model	[1, 1, 1]	[3, 3, 3]	[1, 1, 2]	[3, 3, 2]	[0, 0, 0]	[3, 3, 3]	0.8331159
 151	"there'sn'thing i like more than a late night ice cream run
 hey share the cream ! haha
 do you have a flavor preference ? mine is vanilla
@@ -1898,7 +1898,7 @@ your persona: when i grow up i want to be a physical therapist.
 your persona: i'm currently in high school.
 your persona: i make straight as in school.
 your persona: i won homecoming queen this year."	haha that's cute haha , what you do for living	"i love cats ! what do you do ? i'm currently in high school and i make straight as !
-"	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.8219448
+"	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 3, 3]	[1, 1, 1]	[5, 5, 5]	0.82194483
 152	"hello , my name is larry . what is your name ?
 my name is jerry . i farm bees for a living . you ?
 well , i'm a chef . i absolutely love cooking . do you have nay hobbies ?
@@ -1976,7 +1976,7 @@ your persona: i have rainbow hair.
 your persona: i spend my time bird watching with my cats.
 your persona: my age is too old to say.
 your persona: the holidays make me depressed."	i am bird watching with my animals	"its been ok . do you like cats ? i have 3 of them .
-"	KV-MemNN	[1, 1, 1]	[3, 2, 3]	[2, 1, 3]	[3, 3, 3]	[1, 1, 1]	[4, 3, 5]	0.8357619
+"	KV-MemNN	[1, 1, 1]	[3, 2, 3]	[2, 1, 3]	[3, 3, 3]	[1, 1, 1]	[4, 3, 5]	0.8357617
 157	"how are you doing today
 hello , how are you today ?
 i'm doing really well
@@ -2150,7 +2150,7 @@ your persona: i drive a 2015 honda civic.
 your persona: i listen to rap music.
 your persona: i produce music for artists.
 your persona: my favourite food is pizza."	right is it not the best ?	"yes ! maybe a treat for my pet charlie as well .
-"	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 2, 3]	[1, 1, 1]	[5, 5, 5]	0.8374106
+"	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 2, 3]	[1, 1, 1]	[5, 5, 5]	0.83741057
 176	"good morning how old are you i am 34
 i am much older than that . my grandchildren are in their thirties
 do you have any pets ? my two dogs are my everything ."	"your persona: i have amazing children and grandchildren.
@@ -2171,7 +2171,7 @@ do you have any pets ? my two dogs are my everything ."	"your persona: i have am
 your persona: i had cancer but its gone now.
 your persona: i do not have a smartphone.
 your persona: i am retired and living the great life."	no pets . i am retired so i love to travel . pets would slow me down	"i do not have any pets , but i do like to go fishing .
-"	Language Model	[1, 1, 1]	[2, 2, 3]	[3, 3, 3]	[3, 2, 3]	[0, 0, 0]	[3, 3, 4]	0.88724023
+"	Language Model	[1, 1, 1]	[2, 2, 3]	[3, 3, 3]	[3, 2, 3]	[0, 0, 0]	[3, 3, 4]	0.8872403
 179	"good morning how old are you i am 34
 i am much older than that . my grandchildren are in their thirties
 do you have any pets ? my two dogs are my everything ."	"your persona: i have amazing children and grandchildren.
@@ -2212,7 +2212,7 @@ i like electricity and electronics . i'm a bartender"	"your persona: my father i
 your persona: i play the violin and the guitar.
 your persona: i love chocolate bars.
 your persona: i speak chinese."	do you speak any languages ? i'm teaching myself chinese	"i am a bartender , i love to play the violin .
-"	Seq2Seq	[1, 1, 1]	[2, 2, 3]	[3, 3, 3]	[3, 2, 3]	[0, 1, 1]	[3, 4, 5]	0.8566377
+"	Seq2Seq	[1, 1, 1]	[2, 2, 3]	[3, 3, 3]	[3, 2, 3]	[0, 1, 1]	[3, 4, 5]	0.85663766
 182	"hi , how are you doing ?
 doing good . just strumming my guitar . how about you ?
 i am fine , i was watching a cooking show , i like those
@@ -2229,7 +2229,7 @@ i like electricity and electronics . i'm a bartender"	"your persona: my father i
 your persona: i play the violin and the guitar.
 your persona: i love chocolate bars.
 your persona: i speak chinese."	do you speak any languages ? i'm teaching myself chinese	"i like to eat too much junk food .
-"	Language Model	[1, 1, 1]	[3, 3, 3]	[1, 1, 2]	[3, 2, 3]	[1, 1, 1]	[3, 2, 5]	0.84105724
+"	Language Model	[1, 1, 1]	[3, 3, 3]	[1, 1, 2]	[3, 2, 3]	[1, 1, 1]	[3, 2, 5]	0.84105736
 183	"hi , how are you doing ?
 doing good . just strumming my guitar . how about you ?
 i am fine , i was watching a cooking show , i like those
@@ -2246,7 +2246,7 @@ i like electricity and electronics . i'm a bartender"	"your persona: my father i
 your persona: i play the violin and the guitar.
 your persona: i love chocolate bars.
 your persona: i speak chinese."	do you speak any languages ? i'm teaching myself chinese	"i wish i could make fancy cocktails ! my secret talent is that i can speak chinese !
-"	New Human Generated	[1, 1, 1]	[3, 2, 3]	[3, 3, 3]	[3, 2, 3]	[1, 1, 1]	[5, 4, 5]	0.8748037
+"	New Human Generated	[1, 1, 1]	[3, 2, 3]	[3, 3, 3]	[3, 2, 3]	[1, 1, 1]	[5, 4, 5]	0.8748036
 184	"good morning . how are you ?
 i'm ok , drinking a lot of coffee , how about you ?
 just relaxing waiting on my wife and three children to get ready .
@@ -2494,7 +2494,7 @@ are you a male or female ? i am a 20 year old male"	"your persona: my boyfriend 
 your persona: i'm interested in photography and like taking pictures.
 your persona: i am an elementary school teacher.
 your persona: i am fluent in english spanish and french."	i am a 44 year old male .	"i'm female . i love photography and i'm always taking pictures .
-"	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 2, 3]	[1, 1, 1]	[5, 4, 5]	0.87296826
+"	New Human Generated	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[3, 2, 3]	[1, 1, 1]	[5, 4, 5]	0.8729683
 200	hi there how are you ?	"your persona: my family has raised horses for a generations.
 your persona: i want to be a lawyer.
 your persona: i was raised on a horse farm.
@@ -2620,7 +2620,7 @@ your persona: i make straight as in school.
 your persona: i won homecoming queen this year.
 your persona: i'm currently in high school.
 your persona: when i grow up i want to be a physical therapist."	yeah that app is really cool !	"are you currently in school ?
-"	KV-MemNN	[1, 1, 1]	[3, 3, 3]	[2, 1, 2]	[2, 2, 2]	[0, 0, 0]	[3, 3, 3]	0.8353579
+"	KV-MemNN	[1, 1, 1]	[3, 3, 3]	[2, 1, 2]	[2, 2, 2]	[0, 0, 0]	[3, 3, 3]	0.835358
 209	"hello ! i don't go anywhere for when i work !
 my goal is to run a k !
 wow ! that's very impressive to me
@@ -2638,7 +2638,7 @@ your persona: i make straight as in school.
 your persona: i won homecoming queen this year.
 your persona: i'm currently in high school.
 your persona: when i grow up i want to be a physical therapist."	yeah that app is really cool !	"i am not sure what that is !
-"	Seq2Seq	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[1, 2, 2]	[0, 0, 0]	[3, 4, 4]	0.8601128
+"	Seq2Seq	[1, 1, 1]	[3, 3, 3]	[3, 3, 3]	[1, 2, 2]	[0, 0, 0]	[3, 4, 4]	0.8601127
 210	"hello ! i don't go anywhere for when i work !
 my goal is to run a k !
 wow ! that's very impressive to me
@@ -2656,7 +2656,7 @@ your persona: i make straight as in school.
 your persona: i won homecoming queen this year.
 your persona: i'm currently in high school.
 your persona: when i grow up i want to be a physical therapist."	yeah that app is really cool !	"i like to go to the gym and listen to music .
-"	Language Model	[1, 1, 1]	[3, 3, 3]	[1, 1, 2]	[3, 2, 3]	[0, 0, 0]	[3, 2, 4]	0.8461966
+"	Language Model	[1, 1, 1]	[3, 3, 3]	[1, 1, 2]	[3, 2, 3]	[0, 0, 0]	[3, 2, 4]	0.84619653
 211	"hello ! i don't go anywhere for when i work !
 my goal is to run a k !
 wow ! that's very impressive to me
@@ -2674,7 +2674,7 @@ your persona: i make straight as in school.
 your persona: i won homecoming queen this year.
 your persona: i'm currently in high school.
 your persona: when i grow up i want to be a physical therapist."	yeah that app is really cool !	"maybe ! i'm also pretty smart , i make straight as in school .
-"	New Human Generated	[1, 1, 1]	[3, 3, 3]	[2, 3, 2]	[3, 3, 3]	[1, 1, 1]	[5, 5, 4]	0.852432
+"	New Human Generated	[1, 1, 1]	[3, 3, 3]	[2, 3, 2]	[3, 3, 3]	[1, 1, 1]	[5, 5, 4]	0.85243195
 212	"hi ! do you have a house in the clouds ?
 no but i'd love to get one
 i do . do you have any superpowers ?
@@ -2696,7 +2696,7 @@ no , i have a pink bike though ."	"your persona: i wear a motorbike helmet to pr
 your persona: my main transportation is my motorbike.
 your persona: i've light skin with big brown eyes.
 your persona: its red with blue stripe so it shiny when i race."	why did you choose pink out of all colors ?	"i like to drive my new truck
-"	Seq2Seq	[1, 1, 1]	[3, 3, 3]	[2, 1, 2]	[3, 2, 2]	[0, 0, 0]	[4, 2, 3]	0.83302176
+"	Seq2Seq	[1, 1, 1]	[3, 3, 3]	[2, 1, 2]	[3, 2, 2]	[0, 0, 0]	[4, 2, 3]	0.8330217
 214	"hi ! do you have a house in the clouds ?
 no but i'd love to get one
 i do . do you have any superpowers ?
@@ -2707,7 +2707,7 @@ no , i have a pink bike though ."	"your persona: i wear a motorbike helmet to pr
 your persona: my main transportation is my motorbike.
 your persona: i've light skin with big brown eyes.
 your persona: its red with blue stripe so it shiny when i race."	why did you choose pink out of all colors ?	"i like the color red . i like red .
-"	Language Model	[1, 1, 1]	[3, 2, 3]	[1, 2, 2]	[2, 2, 2]	[0, 1, 0]	[3, 3, 3]	0.84427124
+"	Language Model	[1, 1, 1]	[3, 2, 3]	[1, 2, 2]	[2, 2, 2]	[0, 1, 0]	[3, 3, 3]	0.8442713
 215	"hi ! do you have a house in the clouds ?
 no but i'd love to get one
 i do . do you have any superpowers ?
@@ -2748,7 +2748,7 @@ i could not stand to live inland , the ocean runs through my veins ."	"your pers
 your persona: i live in alabama.
 your persona: i have three sisters.
 your persona: i like tacos."	yes . i want to go more but no one to stay with 19 dogs .	"i live in alabama . i live in alabama .
-"	Seq2Seq	[1, 1, 1]	[2, 2, 2]	[1, 2, 2]	[3, 2, 2]	[1, 1, 1]	[3, 2, 2]	0.838166
+"	Seq2Seq	[1, 1, 1]	[2, 2, 2]	[1, 2, 2]	[3, 2, 2]	[1, 1, 1]	[3, 2, 2]	0.83816594
 218	"hello , how are you tonight ?
 ok . since alabama , my home team , won saturday night .
 i'm an ohio state fan . do you skate ?
@@ -2990,7 +2990,7 @@ your persona: i don't believe in god.
 your persona: i'm overweight and unhappy.
 your persona: i work at a nursing home.
 your persona: i spend most of my time on facebook when i'm not working."	so , i should be able to lose weight ?	"i am not sure what that means
-"	Seq2Seq	[1, 1, 1]	[3, 3, 3]	[3, 2, 3]	[1, 2, 2]	[0, 0, 0]	[3, 3, 3]	0.83265626
+"	Seq2Seq	[1, 1, 1]	[3, 3, 3]	[3, 2, 3]	[1, 2, 2]	[0, 0, 0]	[3, 3, 3]	0.8326562
 234	"i got a big house with 7 rooms
 nice , majority of my time i am on facebook
 one time i saw a man fly to the moon
